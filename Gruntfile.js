@@ -1,6 +1,8 @@
 module.exports = function (grunt) {
   'use strict';
 
+  let pkg = grunt.file.readJSON('package.json');
+
   grunt.initConfig({
     copy: {
       main: {
@@ -8,6 +10,10 @@ module.exports = function (grunt) {
           {
             src: 'index.html',
             dest: 'dist/index.html'
+          },
+          {
+            src: 'players-guide.html',
+            dest: 'dist/players-guide.html'
           },
           {
             src: 'main.css',
@@ -43,8 +49,8 @@ module.exports = function (grunt) {
         livereload: true
       },
       html: {
-        files: ['index.html'],
-        tasks: ['copy:main']
+        files: ['index.html', 'players-guide.html', 'main.css', 'package.json'],
+        tasks: ['copy:main', 'string-replace']
       },
       assets: {
         files: ['assets/**', '!assets/styles/**'],
@@ -98,6 +104,20 @@ module.exports = function (grunt) {
         clean: true,
         destPrefix: 'dist/vendor/components'
       }
+    },
+
+    'string-replace': {
+      dist: {
+        files: {
+          'dist/': '*.html'
+        },
+        options: {
+          replacements: [{
+            pattern: /{{ VERSION }}/g,
+            replacement: pkg.version
+          }]
+        }
+      }
     }
   });
 
@@ -107,7 +127,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
   grunt.loadNpmTasks('grunt-bowercopy');
+  grunt.loadNpmTasks('grunt-string-replace');
 
-  grunt.registerTask('default', ['copy', 'npmcopy']);
+  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy']);
   grunt.registerTask('run', ['clean', 'default', 'connect', 'watch']);
 };

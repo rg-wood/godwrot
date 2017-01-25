@@ -1,5 +1,5 @@
 {
-  "name": "grisly-eye-doc-style",
+  "name": "threat-vermus",
   "authors": [
     "Ricardo Gladwell <ricardo@gladwell.me>"
   ],
@@ -13,7 +13,9 @@
   ],
   "dependencies": {
     "ink-elements": "^0.0.0",
-    "dnd-stat-block": "^0.3.2",
-    "normalize-css": "^5.0.0"
+    "dnd-stat-block": "^0.3.3",
+    "normalize-css": "^5.0.0",
+    "dnd-char-sheet": "^0.0.0",
+    "microtesia.js": "^0.0.0"
   }
 }

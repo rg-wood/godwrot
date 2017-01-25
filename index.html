@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
-  <title>Title</title>
+  <title>Black Griffin</title>
 
   <link href="main.css" rel="stylesheet" />
   <script src="vendor/webcomponentsjs/webcomponents-lite.min.js" async></script>
@@ -23,7 +23,7 @@
     <ink-doc class="draft">
       <ink-page id="cover">
         <header>
-          <h1>Title</h1>
+          <h1>Black Griffin</h1>
         </header>
 
         <div id="logos">
@@ -34,39 +34,862 @@
 
       <ink-page id="title" class="content">
 
-        <h1>Title</h1>
+        <h1>Black Griffin</h1>
 
         <img src="vendor/grisly-eye-docs-style/assets/images/seperator.svg">
       
-        <h2>Subtitle</h2>
-      
-        <p>Blurb...</p>
+        <h2>A gritty, low-magic campaign</h2>
 
-        <p>Written by R. G. Wood. Art by ...</p>
+        <p>Beneath the streets of Old Dismas an ancient evil stirs. Can a band of misfit mercenaries uncover the dark conspiracy and stop it before civilisation ends.</p>
 
-        <p><em>Version 0.1</em></p>
+        <p><strong>Black Griffin</strong> is a gritty, low-magic campaign for 1st-2nd level characters. This 30 page adventure also includes rules for low-magic characters, new monsters and NPCs and new factions.</p>
+
+        <p>Written by R. G. Wood.</p>
+
+        <p><em>Version {{ VERSION }}</em></p>
 
         <a href="https://grislyeye.com"><img src="https://grislyeye.com/images/full-logo.png" class="logo" style="width: auto;"></a>
 
         <footer class="legal">
-          <p>DUNGEONS &amp; DRAGONS, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.  This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
+          <p>DUNGEONS &amp; DRAGONS, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries. This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
 
-          <p>All other original material in this work is copyright 2016 by Grisly Eye Games and published under the Community Content Agreement for Dungeon Masters Guild. Grisly Eye logo symbol designed by Freepik. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
+          <p>Grisly Eye logo symbol designed by Freepik. All other original material in this work is copyright 2016 by Grisly Eye Games and published under the Community Content Agreement for Dungeon Masters Guild. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
         </footer>
 
       </ink-page>
 
-      <ink-page class="content">
-        <h2>Heading</h2>
+      <ink-page class="content" id="introduction">
 
-        <div class='columns'>
-          <p>Content</p>
+        <h2>Introduction</h2>
+
+        <div class="columns">
+
+          <p>Black Griffin is a gritty, low-magic, setting neutral campaign where the characters are members of a shady mercenary company.</p>
+
+          <p>This book should be accompanied by a copy of the <em>Black Griffon Player's Guide</em> (available for free from <em>Grisly Eye Games</em>) which you can give to your players. It includes the rules for making characters for this campaign, as well as pre-generated characters for fast play.</p>
+
+          <h3>Faction Escalations</h3>
+
+          <p>Black Griffin is a campaign of intrigue and the various factions at play don't sit idly by while the party interfere with their plans. Every so often the text of the adventure will say the party have triggered an <em>escalation</em>. When this happens check an escalation box for the triggered faction. You can also trigger escalations if you judge the party have...[?]</p>
+
+          <p>Escalations can apply a penalty to the party, such as making faction members initially hostile towards them. An escalation can also trigger a <em>faction encounter</em>.</p>
+          
+          <h4>Faction Encounters</h4>
+
+          <p>When you next successfully roll for a random encounter, you can choose to run a faction encounter instead. Run through any triggered faction escalations and play an appropriate one.</p>
+        </div>
+      </ink-page>
+
+      <ink-page class="chapter" id="storm-over-dismas">
+        <h1>Chapter 2: Storm over Dismas</h1>
+      </ink-page>
+
+      <ink-page class="content" id="dismas">
+
+        <h2>Dismas</h2>
+
+        <div class="columns">
+
+          <!-- Renaissance version of the City of Thieves -->
+
+          <p>Ancient Dismas, the City of Thieves, huddles against the cold shores of the Great Western Sea.</p>
+          <!-- grey, stone, oppressive -->
+
+          <p><em><strong>Uneasy Peace.</strong></em> The advance of the Common Army from the North has been halted by a shaky peace treaty. Many whisper his rule is numbered in days.</p>
+
+          <!-- focus on faceless brutality of city watch? night vs day watch? -->
+
+          <p><em><strong>Sectarianism.</strong></em> Currently the city is in turmoil as the followers of the Father and the Mother... Once united, the worshippers of the Father have turned on the much beleaguered sect of the Mother.</p>
+
+          <h3>Random Encounters</h3>
+
+          <p>Due to the hustle of the city, random encounters can occur more frequently. You should roll for every 1-2 hours.</p>
+
+          <table>
+            <caption>Random Dismas Day Encoutners</caption>
+          <thead>
+          <tr>
+          <th>d12 + d8</th>
+          <th>Encounter</th>
+          </tr>
+          </thead>
+
+          <tbody>
+          <tr>
+          <td>2-3</td>
+          <td>?</td>
+          </tr>
+          <tr>
+          <td>4-5</td>
+          <td>?</td>
+          </tr>
+          <tr>
+          <td>6-7</td>
+          <td>?</td>
+          </tr>
+          <tr>
+          <td>8-9</td>
+          <td><strong>Rabble Rouser.</strong> A wild-eyed speaker stands on a soap box, shouting at a bored crowd of onlookers. Roll on the Tirades table below for the subject of their tirade.</td>
+          </tr>
+          <tr>
+          <td>10-11</td>
+          <td><strong>Watch Patrol.</strong> 1d4 <strong>guards</strong>. If the party attack trigger a Proxy Council escalation.</td>
+          </tr>
+          <tr>
+          <td>12-13</td>
+          <td><strong>Press Gang.</strong> 1d4 <strong>thugs</strong> attempt to <q>recruit</q> the players onto their ship, the Daniel Morgan.</td>
+          </tr>
+          <tr>
+          <td>14-15</td>
+          <td>?</td>
+          </tr>
+          <tr>
+          <td>16-17</td>
+          <td>?</td>
+          </tr>
+          <tr>
+          <td>18-19</td>
+          <td>?</td>
+          </tr>
+          <tr>
+          <td>20</td>
+          <td>?</td>
+          </tr>
+          </tbody>
+          </table>
+
+          <table>
+            <caption>Tirades</caption>
+            <thead>
+              <tr>
+                <th class="number">d6</th>
+                <th>Tirade</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="number">1</td>
+                <td>The Peasant King.</td>
+              </tr>
+              <tr>
+                <td class="number">2</td>
+                <td>The Proxy Council.</td>
+              </tr>
+              <tr>
+                <td class="number">3</td>
+                <td>The nobility.</td>
+              </tr>
+              <tr>
+              <tr>
+                <td class="number">5</td>
+                <td>Conspiratorial ramblings about how the Old Empire never ended.</td>
+              </tr>
+              <tr>
+                <td class="number">6</td>
+                <td>Witches are real and are among us!</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>The Proxy Council</h3>
+
+          <p><em>Minor Political Faction (lawful neutral)</em></p>
+
+          <p>While the lords of ladies fight their various wars, the Proxy Council rules in their place. Mandated to keep law and order.</p>
+
+          <p><em><strong>Corruption</strong></em></p>
+
+          <p><em><strong>The City Watch</strong></em></p>
+
+          <p>If the players do any of the following they trigger an escalation:</p>
+
+          <ul>
+            <li>Break the law</li>
+            <li>Consort with known criminals</li>
+          </ul>
+
+          <table>
+            <thead>
+              <tr>
+                <th class="number"></th>
+                <th>Escalation</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td><strong>Suspicious.</strong> City watchmen are initially hostile to the party.</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td><strong>Encounter</strong> A town-crier passes by warning city folk about a gang of criminals matching the party's description.</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td><strong>Encounter</strong> A warrant is out for the party and 1d6 <strong>guards</strong> attempt to arrest them</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td><strong>Wanted.</strong> All law-abiding city inhabitants are initially hostile to the party.</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td class="number"><input type="checkbox"></td>
+                <td><strong>Encounter</strong> 1d6 bounty hunter <strong>bandits</strong> led by a <strong>bandit captain</strong> attempt to kill the players.</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content" id="act1">
+
+        <h2>Act 1: Storm over Dismas</h2>
+
+        <div class="columns">
+          <p>Begin the adventure as follows:</p>
+
+          <!-- The approach to the city -->
+
+          <blockquote>
+            <p>Recently your erstwhile comrade-in-arms, Crawface, deserted with a whole squadron. Your mission is to capture and return him for a bounty of 140 gold pieces. You only get half if he's dead.</p>
+
+            <p>You believe you&#39;ve tracked them to a seedy tavern near the docks, <em>The Five Maids</em>. You watch the tavern from the shadows of a nearby alley under cover of night and a heavy rainstorm. As thunder rolls in the distance, you ponder you first move. What will you do?</p>
+          </blockquote>
+
+          <h3>Scene 1. The Five Maids</h3>
+          <!-- Five Maids -> The Gulls -->
+
+          <p><strong>The Five Maids</strong> is a rough establishment, named after the five fair wenches that serve its watery ale. Here you&#39;ll find hardy sailors, weary old men and other misfits who come for the ask-no-questions atmosphere and cheap drink.</p>
+
+          <p>On the first floor are several small rooms for rent. Covered in sawdust and straw, they can be rented for 1 gp a night as long as you don&#39;t mind sharing a squalid floor with ten other rough sleepers.</p>
+
+          <p>The five maids themselves do everything: serve food and drinks, cook and clean, and throw rowdier elements out if needed.</p>
+
+          <p><em>Big Frey</em> speaks for the five maids and serves behind the counter. This stout, young women has a thick head of unruly red hair and a temper to match.</p>
+
+          <p><strong>The Innkeeper Lies Beneath (Secret)</strong> Whilst most patrons remember <strong>Old Ben</strong>, the innkeeper, they haven&#39;t seen him in a while. That&#39;s because the five maids, sick of his foul temper, murdered him one night and buried his body in the basement. For this reason, they don&#39;t let strangers down to the basement and are apt to change the subject if Old Ben comes up in conversation.</p>
+
+          <p><strong>If the players wait to see what happens</strong> read the following:</p>
+
+          <blockquote>
+          <p>You stand for a while in the cold, wet alleyway. Your boots fill with water and you begin to shiver, but your patience is rewarded. Eventually several figures leave the tavern and move to an alleyway nearby. You instantly recognise several of the party: it is your quarry, the deserters!</p>
+          </blockquote>
+
+          <p>Move to scene 2.</p>
+
+          <p><strong>If the players enter the tavern</strong> read the following:</p>
+
+          <!-- add random drunk encounter as they enter the tavern: someone is getting thrown out -->
+          <blockquote>
+          <p>As you open the double doors you are overwhelmed by the warm stench of unwashed human bodies and stale ale. The tavern is busy tonight and the bawdy music playing is drowned out by the murmurs of the dishevelled and seedy patrons, chatting, gambling and drinking amongst themselves.</p>
+          </blockquote>
+
+          <p>The deserters are spread out across the room amidst the patrons.</p>
+
+          <p><strong>Players must make a passive perception check versus a DC 15 to spot the deserters</strong> amidst the crowd.</p>
+
+          <p><strong>If the first players look out of place</strong> i.e. wealthy, fey (dwarf of elf) etc., <strong>they lose surprise.</strong> Read the following:</p>
+
+          <blockquote>
+          <p>As you step past the bar the inn suddenly falls silent. Heads turn and red-rimmed eyes glare at you. Slowly, the low murmur returns, the bard in the corner continues to play and every turns back to what they were doing.</p>
+          </blockquote>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+        <div class="columns">
+
+          <p>The deserters immediately realise they&#39;ve been found and start to slowly make their way to the exit.</p>
+
+          <p><strong>Allow the players an additional passive perception check versus a DC 10 to spot the deserters</strong> trying to sneak past player character through the crowd.</p>
+
+          <p><strong>If the players ask Big Frey</strong> about a man with a scar on his face <strong>and succeed a Charisma (Intimidation or Persuasion) check versus DC 15</strong> (advantage with a 1 gp or more bribe, disadvantage if the players are out-of-place as above) she will claim Crawface was in earlier and identify one or two deserters in the tavern as being his comrades.</p>
+
+          <p><strong>If the players confront the deserters they attack</strong> while the rest of the deserters try to escape to meet Crawface (scene 2): either through the door or through a window if the player&#39;s block escape. <strong>All non-finesse melee attacks are at disadvantage due to the cramped conditions of the tavern.</strong></p>
+
+          <p><strong>If the player&#39;s do nothing after ten minutes</strong> the deserters sneak through the crowd and organise a surprise attack on the players. <!-- how to time this? --></p>
+
+          <div class="aside">
+            <header>
+              <h4>The Deserters Attack</h4>
+              <p>Medium Encounter (125 XP)</p>
+            </header>
+
+            <dl>
+              <dt>Members:</dt><dd>5 x Deserters</dd>
+              <dt>Tactics:</dt><dd>One tries to engage each PC while the remaining attempt to escape to warn Crawface.</dd>
+              <dt>Special:</dt><dd>Due to the crowded nature of the tavern all non-finesse melee attacks are at a disadvantage</dd>
+            </dl>
+          </div>
+
+          <dnd-stat-block id="deserter" str="11" dex="12" con="12" int="10" wis="10" cha="10">
+            <header>
+              <h1>Deserter</h1>
+              <p>Medium humanoid (human), chaotic evil</p>
+            </header>
+
+            <combat-stats>
+              <dl>
+                <dt>Armor Class</dt><dd>12 (leather armor)</dd>
+                <dt>Hit Points</dt><dd>11 (2d8 + 2)</dd>
+                <dt>Speed</dt><dd>30 ft.</dd>
+              </dl>
+            </combat-stats>
+
+            <attributes>
+              <dl>
+                <dt>STR</dt><dd>7 (-2)</dd>
+                <dt>DEC</dt><dd>16 (+3)</dd>
+                <dt>CON</dt><dd>8 (-1)</dd>
+                <dt>INT</dt><dd>8 (-1)</dd>
+                <dt>WIS</dt><dd>12 (+1)</dd>
+                <dt>CHA</dt><dd>8 (-1)</dd>
+              </dl>
+            </attributes>
+
+            <stats>
+              <dl>
+                <dt>Senses</dt><dd>passive Perception 10</dd>
+                <dt>Languages</dt><dd>Common</dd>
+                <dt>Challenge</dt><dd>1/8 (25 XP)</dd>
+              </dl>
+            </stats>
+
+            <actions>
+              <h2>Actions</h2>
+              <dl>
+                <dt>Longsword.</dt>
+                <dd><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) slashing damage.</dd>
+              </dl>
+              <dl>
+                <dt>Light Crossbow.</dt>
+                <dd><em>Ranged Weapon Attack:</em> +3 to hit, reach 80 ft./320 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.</dd>
+              </dl>
+            </actions>
+
+          </dnd-stat-block>
+
+          <p><strong>If the player&#39;s capture a deserter</strong> they can convince him to lead them to Crawface in  Scene 2 on a successful Intimidation, Persuasion or Deception check (DC 10).</p>
+
+          <p>[MODIFICATION: SPLIT SCENE INTO TWO, CRAWFACE IS WAITING NEARBY, CAUTIOUS PLAYERS CAN WAIT AND FOLLOW TO FIND HIS LOCATION]</p>
+
+          <p>When the players pursue the deserters <strong>go to Scene 2</strong>.</p>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+
+        <div class="columns">
+
+          <h3>Scene 2. The Flashback</h3>
+
+          <h3>Scene 3. The Chase</h3>
+
+          <p>Read the following to the players:</p>
+
+          <blockquote>
+          <p>Outside the storm still rages, and the rain comes down in icy sheets. You spot the deserters running down the alleyway you were hiding in moments ago.</p>
+          </blockquote>
+
+          <p><strong>If the players follow the deserters</strong> they find them meeting with a cloaked figure:</p>
+
+          <blockquote>
+          <p>You spy the deserters approach a cloak figure. In greeting he draws back his hood to reveal a ravaged face: a great scar running through his face. It is Crawface!</p>
+          </blockquote>
+
+          <p><strong>If the players make themselves known to the deserters</strong> Crawface runs off with 6 deserters. Use the rules for urban chases outlined in the <em>Dungeon Master&#39;s Guide</em> on page 252. The deserters have a <strong>40 ft. start</strong> on the player characters.</p>
+
+          <p><strong>After ten rounds of pursuit</strong> Crawface instructs four deserters to stand their ground so the rest can escape. <strong>Two deserters wait around a corner to attack the players with surprise.</strong> They will attempt to block the narrow alleyway and grapple any player characters that try to get past.</p>
+
+          <p>Another <strong>two have climbed onto the roofs of nearby tenements</strong> to shoot bolts at the characters.</p>
+
+          <p>| Protecting the Retreat |
+          | --
+          | <em>Medium Encounter (100 XP)</em>
+          | <strong>Members:</strong> | 4 x Deserters
+          | <strong>Tactics:</strong> | Two deserters attempt to block the players way, the other two climb to the roofs and fire crossbows
+          | <strong>Special:</strong> | Due to the crowded nature of the tavern all non-finesse melee attacks are at a disadvantage</p>
+
+          <p>[TOO BORING - SWITCH TO SKILL CHALLENGE]</p>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+
+        <div class="columns">
+
+          <h3>Scene 4. The Rivals</h3>
+
+          <!-- Player's really want to know her back story -->
+
+          <p><img src="images/alley.png" alt="Alley"></p>
+
+          <p>After the players have dispatched or retreated from the deserters and realise Crawface has escaped again, read the following:</p>
+
+          <blockquote>
+          <p>Suddenly a burst of laughter echoes through the alleyway, followed by a slow clap. You all turn to see a woman sitting daintily off a nearby rooftop - as though she&#39;d been enjoying the whole fight. She is dressed in leather, head-to-foot, with an impressive array knives, ropes and other, mysterious weapons and tools strapped on. Her head is wrapped in a hijab, and only her lined face is visible, showing the wear of a few years.</p>
+          </blockquote>
+
+          <p><strong>If the players ask who she is</strong> she replies:</p>
+
+          <blockquote>
+          <p><q>Who am I?</q> she says, with a slight accent. <q>Someone who could take this bounty from right under your nose, that&#39;s who!</q></p>
+          </blockquote>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+
+        <div class="columns">
+
+          <p><strong>If the players ask what is so funny</strong> she replies:</p>
+
+          <blockquote>
+          <p>What is funny? Why are you running around in the rain chasing after these fools? This is not how things are done in my land. Let me say, there are easier ways to retrieve your bounty.</p>
+          </blockquote>
+
+          <p><strong>If the players ask about her past</strong> she replies:</p>
+
+          <blockquote>
+          <p>Never mind I. More importantly do you know were Crawface will be at dawn?</p>
+          </blockquote>
+
+          <p><strong>What she wants:</strong> Help defeating Crawface and a cut of the bounty.</p>
+
+          <p><strong>What she has:</strong> She stole a note from Crawface which mentions where he&#39;s headed. </p>
+
+          <p><strong>The message reads:</strong></p>
+
+          <blockquote>
+          <p>Meet at Tyrell&#39;s Tree at dawn tomorrow. Do not be late on pain of death. T.</p>
+          </blockquote>
+
+          <p>She appears disdainful of the players. Let the players haggle with her. Intimidation checks are made at a disadvantage due to her Fearless nature.</p>
+
+          <p><strong>If they kill her</strong> they find the message on her body.</p>
+
+          <p>[ONE CREEPY PLAYER SEEMED TO IMMEDIATELY HATE SHE - NO NAME BOTHERED THEM A LOT - REVISE FOR LONG-TERM PLAY. ALSO NAME DID NOT WOKR]</p>
+
+          <p>[REPLACE WITH THE ANTI-ADVENTURERS. OPPOSITES OF EACH CHARACTER]</p>
+
+          <h3>Scene 4. Rendezvous at Tyrell&#39;s Tree</h3>
+
+          <blockquote>
+          <p>Tyrell&#39;s Tree grows in the middle of Baalgard&#39;s market square. A single body swings gently from the bare branches. About it crows peck at the flesh, a grisly breakfast for the birds. It turns out the tree is regularly used for hangings. When you arrive it is early in the morn and the shops, carts and stands huddling nearby are deserted. The storm has abated and all is silent except for the cawing of crows. </p>
+          </blockquote>
+
+          <div class="aside">
+            <h3>Tyrell&#39;s Tree</h3>
+
+            <p>Named after the legendary judge and priest who personally hanged his defendants. The daily hangings a the Tree are popular sport for the city folk who assemble in rowdy droves to cheer as criminals swing from the rope.</p>
+          </div>
+
+          <p><strong>Players may take a short rest before this scene begins.</strong></p>
+
+          <p><strong>Ask the players what their tactic is.</strong> They have plenty of time to prepare so they can be hiding anywhere.</p>
+
+          <p><strong>At dawn:</strong></p>
+
+          <blockquote>
+          <p>You hear the slap of boots on wet cobbles. A familiar cloaked figure approaches, flanked by two tired looking deserters: Crawface and his desperate band.</p>
+          </blockquote>
+
+          <p>| Ambush at the Tree |
+          | --
+          | <em>Hard Encounter (375 XP)</em>
+          | <strong>Members:</strong> | 4 x Deserters, 3 x Thralls, Crawface, Tartius</p>
+
+          <p>Crawface waits beneath the gallows. <strong>If the players do nothing</strong> moments later riders approach.</p>
+
+          <blockquote>
+          <p>Three armoured figures ride up, their leader bearing chains across his breast. His pale companions have the haunted expressions of thralls. You know the sign of your company&#39;s mortal enemies anywhere: these are envoys of the Chain! The nefarious slave army you thought you&#39;d left far west. The leader dismounts and clasps Crawface&#39;s arm in stern but friendly greeting.</p>
+          </blockquote>
+
+          <p><strong>If the players attack Crawface immediately</strong> then wait three rounds and then:</p>
+
+          <blockquote>
+          <p>Three armoured figures ride up, their leader bearing chains across his breast. His pale companions have the haunted expressions of thralls. You know the sign of your company&#39;s mortal enemies anywhere: these are envoys of the Chain! The nefarious slave army you thought you&#39;d left far west. Roaring, the leader dismounts and charges into battle.</p>
+          </blockquote>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+
+        <div class="columns">
+          <p>Tartius orders his thralls to flank a player and hold him. He carries a thread from the Knothic artefact, the <a href="griffin-herald.md">Black Griffin Herald</a>. We will attempt to place the thread in the victim&#39;s mouth and turn him into a Chain thrall.</p>
+
+          <p><strong>If the players attempt to negotiate</strong> with Crawface he will hesitate. He is not adverse to the idea of surrendering at this point.</p>
+
+          <p><strong>If the players search Crawface</strong> they find papers:</p>
+
+        </div>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <h2>Appendix  I: Lair of the Rat King</h2>
+
+        <div class="columns">
+
+          <p>In this mission, the party are asked to find the whereabouts of Vyncent, a Griffon Company spy who was, until recently, providing valuable information.</p>
+
+          <h3>1. The Smuggler's Hideout</h3>
+
+          <blockquote>
+            <p>A bloody trail leads to the shadows at the rear of the room.</p>
+          </blockquote>
+
+          <p>Two vermus spies lie in watch in the shadows.</p>
+
+          <div class="aside">
+            <header>
+              <h4>Vermus Spies</h4>
+              <p>Easy Encounter (100 XP)</p>
+            </header>
+
+            <dl>
+              <dt>Members:</dt><dd>2 x Vermus</dd>
+              <dt>Tactics:</dt><dd>The vermus spies watch the party from the shadows. If they are discovered (passive Perception DC 20 to spot or hear) they run for the hidden tunnel into the sewers. If not, they quietly follow the players until they reach the trapped nest entrance (area 4A) in which case they attempt to push any players who escaped the trap into the pit.</dd>
+            </dl>
+          </div>
+
+          <!-- Needs third exit option? -->
+
+          <h4>Hidden Tunnel</h4>
+
+          <blockquote>
+            <p>Hidden behind some boxes is a rough tunnel from which a putrid smell emanates. The trail of blood leads into its shadowy recesses. The sound of trickling water comes from beyond.</p>
+          </blockquote>
+
+          <h3>2. Dismas' Sewers</h3>
+
+          <blockquote>
+            <p>The first thing that greats you as you enter the sewers is, of course, the foul smell. Sewers smell, you suppose, but to encounter the reality is quite something else.</p>
+
+            <p>Secondly, the darkness consumes you, setting nerves on edge. Thirdly the sound of running water echoes </p>
+          </blockquote>
+
+          <div class="aside">
+            <header>
+              <h4>Sewer Crawling</h4>
+              <p><em>Challenge (level 1-4, easy)</em></p>
+            </header>
+
+            <p><strong>Success (3):</strong> The party track the trail of blood to the Vermus' Nest Entrance (area 4A)</p>
+
+            <p><strong>Failure:</strong> The party become truly lost and must restart the challenge again.</p>
+
+            <p><strong><em>Wisdom (Perception or Survival) DC 10.</em></strong> Each failed check indicates the party taking a wrong turn or getting lost. Roll for a random encounter from the sewer random encounter table.</p>
+          </div>
+
+          <table>
+            <thead>
+              <tr>
+                <th>d12+d8</th>
+                <th>Random Encounter</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>2-5</td>
+                <td>1d4 thieves guild <strong>thugs</strong> committing a crime (roll on the crime table).</td>
+              </tr>
+              <tr>
+                <td>6-9</td>
+                <td>1 corpse with 1d8 gold pieces. Characters coming into contact risk catching sewer plague.</td>
+              </tr>
+              <tr>
+                <td>10-13</td>
+                <td><strong>Ratcatcher</strong>. Thirdlyhe filthy ratcatcher seems a little crazy but is friendly to the party and will offer to help them track down Vyncent. In reality he is in league with the vermus and will try to deliberately lead the characters into the hidden entrance trap in area 4A.</td>
+              </tr>
+              <tr>
+                <td>14-17</td>
+                <td>1d4 <strong>rat swarms</strong> carrying sewer plague.</td>
+              </tr>
+              <tr>
+                <td>18-19</td>
+                <td>1d4 <strong>insect swarms</strong></td>
+              </tr>
+              <tr>
+              <td>20</td>
+              <td>1 <strong>serpentfolk myrmidon</strong> <!-- what is it doing? --></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table>
+            <thead>
+              <tr>
+                <th>1d4</th>
+                <th>Crime</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Smuggling</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Disposing of dead body</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Kidnapping</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Hiding from watchmen patrol</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+      </ink-page>
+
+      <ink-page class="content">
+        <div class="columns">
+
+          <h3>4. Old Spit's Nest</h3>
+
+          <p>Old Spit's nest is the domain of the vermus. Random encounters here are always 1d4 vermus.</p>
+
+          <h4>4A. Nest Entrance</h4>
+
+          <div class="aside">
+            <header>
+              <h4>Hidden Fall</h4>
+              <p>Medium Mechanical Trap (200 XP)</p>
+            </header>
+
+            <p>This section of the sewers is covered in refuse, concealing an open hole covered by weakened boards and a sackcloth blanket. The boards will give way if players step on them.</p>
+
+            <p>A successful DC 15 Wisdom (Perception) check discerns the shape of the blanket where it has been disturbed by vermus coming and going from the nest. A successful DC 15 Intelligence (Investigation) check is necessary to confirm that the trapped section of the floor is actually the cover of a hole.</p>
+
+            <p>When a creature steps on the boards, they break, causing the the intruder to spill into the 20 foot pit below, taking 2d6 bludgeoning damage and landing in area 4B.</p>
+
+          </div>
+
+          <h4>4B. Bottom of the Pit</h4>
+
+          <p>Climbing back up their sheer surface of the hole back to the sewers requires a DC 20 Strength (Athletics). A failed check means the character gets halfway up the wall before losing their grip and falling 10 feet (1d6 bludgeoning damage). Climbing down is easier, only required a DC 10 Strength (Athletics) check.</p>
+          
+          <p>At the bottom of the pit is pool about 1 foot deep filled with brackish, stagnant water, Various tunnels line the bottom of the pit. From within can be heard the distant sounds of scratches and rat-like chittering.</p>
+
+          <h4>4C. Warrens</h4>
+
+          <p>If the party enters warrens via the tunnels in area 4A they start the Warren Crawling challenge.</p>
+
+          <div class="aside">
+            <header>
+              <h4>Warren Crawling</h4>
+              <p><em>Challenge (level 1-4, medium, 200 XP)</em></p>
+            </header>
+
+            <p>The party attempt to sneak through the narrow vermus warrens without attracting attention.</p>
+
+            <p><strong>Success (3): </strong> The party manages to reach one of the side-tunnels in area 4E as yet undetected.</p>
+
+            <p><strong>Failure: </strong> The party end attract the attention of the vermus, are swarmed and dragged to area 4F to be interrogated by Old Spit.</dd>
+
+            <p><strong><em>Dexterity (Sneak) DC 15.</em></strong> The party attempt to sneak through the warrens without attracting the attention of the vermus. Creatures wearing heavy armour roll with disadvantage. On a failure the party are attacked by 1d4 <strong>vermus</strong>. Players must declare single-file marching order, and the DM chooses whether characters at the rear of front of the line are attacked.</p>
+
+            <p><strong><em>Spells.</em></strong> Casting <em>sleep</em> or <em>charm person</em> grants an automatic success as you enchant your way past vermus sentries.</p>
+
+          </div>
+
+          <!-- Needs third exit option to 4F? -->
+
+
+          <h4>4D. Temple Spring</h4>
+
+          <p>The ancient spring was once a Lythic temple. Water trickles down the walls and collect in a ceremonial pool. It is refreshing and drinkable.</p>
+
+          <p>A shrine has been built here, where a crazed vermus wrack and his fanatical followers have hidden away to worship the civilisation of men. At first, they will be in awe of the players and may help them. They will not betray the nest but they may help the party sneak out.</p>
+
+          <p>The party can take a short rest here without triggering a random encounter.</p>
+
+          <div class="aside">
+            <header>
+              <h4>The Choir of Men</h4>
+              <p>Medium Encounter (200 XP)</p>
+            </header>
+
+            <dl>
+              <dt>Members:</dt><dd>1 x Vermus Wrack, 3 x Vermus</dd>
+            </dl>
+          </div>
+        </div>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <div class="columns">
+
+          <h4>4E. The Ancient Door</h4>
+
+          <div class="aside">
+            <header>
+              <h4>Bathhouse Guard</h4>
+              <p>Hard Encounter (300 XP)</p>
+            </header>
+
+            <dl>
+              <dt>Members:</dt><dd>3 x Vermus Skulks</dd>
+              <dt>Tactics:</dt><dd>Three alert but blind skulks stand guard here. They will instantly attack any non-vermus they detect.</dd>
+            </dl>
+          </div>
+
+          <h4>4F. The Bathhouse</h4>
+
+          <div class="aside">
+            <header>
+              <h4>Old Spit's Court</h4>
+              <p>Deadly Encounter (400 XP)</p>
+            </header>
+
+            <dl>
+              <dt>Members:</dt><dd>Old Spit the Rat King, 2 x Vermus Skulks, 4 x Vermus</dd>
+              <dt>Tactics:</dt><dd>The skulks attack directly while the vermus commoners remain near their king to protect him.</dd>
+            </dl>
+          </div>
+
+          <p><strong>Secret: The Lythic Catacombs (passive History DC 15)</strong> The baths appear to be part of the catacombs, the ancient, Lythic city upon which Dismas has been built.</p>
+
+          <div class="aside">
+            <h4>Vyncent's Body</h4>
+            <p>Vyncent carries a <em>bag of holding</em> <!-- too magical? --> containing 5 rubies worth 50 gp each.</p>
+          </div>
+        </div>
+
+      </ink-page>
+
+      <ink-page class="chapter" id="storm-over-dismas">
+        <h1>Appendix 1: Factions</h1>
+      </ink-page>
+
+      <ink-page class="content" id="revelatorium">
+
+        <h2>The Revelatorium</h2>
+
+        <div class="columns">
+          <p><em>Major secret faction (arcane, neutral evil)</em></p>
+
+          <p>Revelatorium are an ancient cabal of wizards who can trace their lineage back in an unbroken line, master to apprentice, to the very first magi.</p>
+
+          <h3>Lyrian Bank</h3>
+
+          <h3>The 45th Legion</h3>
+        </div>
+
+      </ink-page>
+
+      <ink-page class="content" id="templars">
+
+        <h2>The Templars</h2>
+
+        <div class="columns">
+          <p><em>Major secret faction (neutral evil)</em></p>
+
+          <p>Witches, magi, spirits: most sane folk consider them superstitious legends. Fortunately, the templars are crazy enough to still believe these creatures exist, gone into hiding in secret conspiracies. It is the templars ancient mission to hunt down and eradicate all magic in the world, lest it cause the Witch Kings <!-- or devil? --> to return again.</p>
+        </div>
+
+      </ink-page>
+
+      <ink-page class="content" id="unseen-school">
+
+        <!-- needs better name -->
+        <h2>The Unseen School</h2>
+
+        <div class="columns">
+          <p><em>Minor secret faction (neutral evil)</em></p>
+
+          <p>An age of new ideas needs a new magic. This offshoot of the Revelatorium no longer believes in return to the Old Empire.</p>
+        </div>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <h2>Coming Soon</h2>
+
+        <p>If you enjoyed <strong>Black Griffin</strong>, look out for the following monographs from <strong>Grisly Eye Games</strong> coming to the Dungeon Masters Guild soon:</p>
+
+        <div class="columns">
+
+          <h3>?</h3>
+
+          <p>?</p>
+
+          <h3>?</h3>
+
+          <p>?</p>
+
+          <h3>?</h3>
+
+          <p>?</p>
+
+          <h3>?</h3>
+
+          <p>?</p>
+
+        </div>
+
+        <div class="aside columns">
+          <h3>Thanks</h3>
+
+          <p>The layout and style of this monograph was based on the <strong>Dungeon Masters Guild</strong> <em>Adventure Template</em>. The main font is <em>Alegreya</em> by Juan Pablo del Peral which is more elegant and legible than the template default. It is also hosted on Google Webfonts and supports "true" italics and bold. The title font was <em>Andada SC</em>.</p>
+
+          <p>This document was published using HTML, JavaScript and CSS, and composed using open source, web technologies including Node.js, Grunt, NPM, Bower, SASS, Polymer and Yarn. The PDF was generated using Chrome's PDF print preview feature. The monster stat blocks were generated using a web component of my own creation, based on Val Markovic's open source <em>Statblock5e</em>.</p>
+
+          <p>I'd also like to thank our playtesters, including:</p>
+
+          <ul>
+            <li>Alex Loomis</li>
+            <li>Santiago Garcia</li>
+            <li>Guam</li>
+          </ul>
+
+          <p>- R. G. Wood., CEO Grisly Eye Games</p>
         </div>
 
       </ink-page>
     </ink-doc>
 
   </main>
-  
+
 </body>
 </html>

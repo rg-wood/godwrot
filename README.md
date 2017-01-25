@@ -1,6 +1,6 @@
-# Grisly Eye Games Document Template
+# Black Griffon
 
-Static HTML document template for Grisly Eye Games documents.
+Static HTML document for 'Threats: Vermus'.
 
 Requirements:
 

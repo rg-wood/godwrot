@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+  <title>Black Griffin Player's Guide</title>
+
+  <link href="main.css" rel="stylesheet" />
+  <script src="vendor/webcomponentsjs/webcomponents-lite.min.js" async></script>
+  <link rel="import" href="vendor/ink-elements/ink-doc.html">
+  <link rel="import" href="vendor/dnd-char-sheet/dnd-char-sheet.html">
+
+</head>
+
+<body>
+
+  <main>
+
+    <ink-doc class="draft">
+      <ink-page id="cover">
+        <header>
+          <h1>Black Griffin</h1>
+          <h2>Player's Guide</h2>
+        </header>
+
+        <div id="logos">
+          <img src="vendor/grisly-eye-docs-style/assets/images/dmsguild.png" alt="DMs Guild Logo"/>
+          <a href="https://grislyeye.com"><img src="https://grislyeye.com/images/full-logo.png" alt="Grisly Eye Games Logo"></a>
+        </div>
+      </ink-page>
+
+      <ink-page id="title" class="content">
+
+        <h1>Black Griffin</h1>
+
+        <img src="vendor/grisly-eye-docs-style/assets/images/seperator.svg">
+      
+        <h2>Campaign Player's Guide</h2>
+
+        <p>Beneath the streets of Old Baalgard an ancient evil stirs. Can a band of misfit mercenaries uncover the dark conspiracy and stop it before civilisation ends.</p>
+
+        <p><strong>Black Griffin</strong> is a gritty, low-magic campaign for 1st-2nd level characters. This 30 page adventure also includes rules for low-magic characters, new monsters and NPCs and new factions.</p>
+
+        <p>Written by R. G. Wood.</p>
+
+        <p><em>Version {{ VERSION }}</em></p>
+
+        <a href="https://grislyeye.com"><img src="https://grislyeye.com/images/full-logo.png" class="logo" style="width: auto;"></a>
+
+        <footer class="legal">
+          <p>DUNGEONS &amp; DRAGONS, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.  This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
+
+          <p>All other original material in this work is copyright 2016 by Grisly Eye Games and published under the Community Content Agreement for Dungeon Masters Guild. Grisly Eye logo symbol designed by Freepik. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
+        </footer>
+
+      </ink-page>
+
+      <ink-page class="content" id="introduction">
+
+        <h2>Introduction: The Land</h2>
+
+        <div class="columns">
+
+          <p><em>Black Griffon</em> takes place in The Land: a vast, continental mass that is going through a renaissance-like period. The Land is still largely medieval: most of humanity huddles together in villages and towns separated by vast tracts of untamed wilderness.</p>
+
+          <p>Yet, in the midst of this great darkness, a few bastions of civilisation shine, beacons of hope. In the cities, abbeys and courts of men, philosophers, merchants and nobles gather together to discuss new ideas. Ideas that threaten to overturn the old orders and usher in a new age of enlightenment.</p>
+
+          <p><em><strong>Age of War.</strong></em> For many, however, this brave, new age bears a striking resemblance to old ones. New ideas threaten old powers and embolden new ones. The inevitable result is familiar to many: war!</p>
+
+          <p>Religious schisms, new, national borders and old, ethnic tensions divide the people anew. Brother takes arms against brother in cruel battle, made all the worse by new discoveries in explosives and firearms.</p>
+
+          <p>In the midst of this chaos, corruption thrives. While the old authorities are distracted, thieves band together, corrupt officials take bribes and hypocrites and demagogues prosper.</p>
+
+          <p><em><strong>Magic Dwindles.</strong></em> As reason waxes, the Old Ways wane. The gods no longer intervene directly in the affairs of men. The fey, once abundant, are rarely seen as they retreat deeper into their woods and caves.</p>
+
+          <p>As magic fades, superstition takes root. Ruthless inquisitors hunt down the last, few practitioners. Witches and magi alike go into hiding as their brethren are put to the torch. Lines that lasted centuries, from master to apprentice, are broken, their lore lost forever. Circles and covens are smashed, their ancient practices spread to the winds.</p>
+
+          <p><em><strong>Intrigue.</strong></em> </p>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+        <h2 id="players-guide">Black Griffin Characters</h2>
+
+        <div class='columns'>
+
+          <p>You start the campaign as mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, you have been placed on punishment duty as <em>company fetches</em>: bounty hunters charged with capture of deserters for trial.</p>
+
+          <p>With this in mind, when you create your characters you are:</p>
+
+          <ol>
+            <li><strong>Renaissance Men and Women</strong>. You live in a period analogous to the early Renaissance. Magic is waning and strange new ideas spread, causing war and upending the old orders in their wake. You may be trained in the use of <em>firearms</em> (see aside).</li>
+            <li><strong>Mercenaries</strong>. You start with Renown 1 in the <em>Company of the Black Griffon</em> faction (see page 9). Remember to note the faction perks on your character sheet.</li>
+            <li><strong>Low-magic</strong>. You are limited to <em>low-magic</em> character options unless you pick a <em>unique background</em> (see below).</li>
+          </ol>
+
+          <div class="aside">
+            <h4>Factions</h4>
+
+            <p>Black Griffon is a campaign of intrigue and conspiracies. With this in mind, it makes heavy use of the rules for factions on page 21 the <em>Dungeon Master's Guide</em>.</p>
+          </div>
+
+          <h3>Low-Magic Characters</h3>
+
+          <p>Normally, low-magic characters are limited to playing humans and choosing from the following classes:</p>
+
+          <ul>
+            <li>Path of Berserker Barbarian</li>
+            <li>Battle Master <em>or</em> Champion Fighter</li>
+            <li>Thief <em>or</em> Assassin Rogue</li>
+          </ul>
+
+          <div class="aside">
+            <h4>Low-Magic Feats</h4>
+
+            <p>If you're using the optional rules for feats from the <em>Player's Handbook</em>, you may <em>not</em> choose the following feats:</p>
+
+            <ul>
+              <li>Lucky</li>
+              <li>Mage Slayer</li>
+              <li>Magical Initiate</li>
+              <li>Ritual Caster</li>
+            </ul>
+          </div>
+
+          <h4>Unique Backgrounds</h4>
+
+          <p>If you want to play a magical character you can select a unique background at the start of character creation, instead of a normal background. A unique background represents a rare or special origin that might give your character access to magical races or classes (or feats) in a way that is sympathetic to low-magic campaigns.</p>
+
+          <p>Each unique background lists which magical races, classes and feats are available to players who choose them.</p>
+
+          <p>Unique backgrounds have the following limitations:</p>
+
+          <ol>
+
+            <li><strong>Unique.</strong> You may only pick a particular unique background if no one else in your party has chosen it.</li>
+
+            <li><strong>No Feature.</strong> You do not gain a background feature with a unique background.</li>
+
+            <li><strong>Unique Flaw.</strong> In addition to the flaw you would normally choose for your character, you must choose an extra, unique flaw detailed in the description of your unique background.</li>
+
+          </ol>
+
+          <p>Unique backgrounds can be found in <em>Pasts: The Enchanted</em> and <em>Pasts: The Hallowed</em>.</p>
+
+          <div class="aside">
+            <h4>Firearms</h4>
+
+            <p>Renaissance firearms, explosives and firearm proficiencies - as described on page 267 of the <em>Dungeon Master's Guide</em> - are available to some characters.</p>
+
+            <p>Fighters gain the firearms proficiency at 1st level, and they can choose to be equipped with a pistol with 20 bullets where they could choose a crossbow with 20 bolts, or longbow or shortbow with 20 arrows.</p>
+          </div>
+
+          </div>
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+
+        <div style="background-image: url(https://s3.amazonaws.com/files.d20.io/images/20769575/y69OBdrootZyeRUXfYrDlA/med.png?1468075627201); background-repeat: no-repeat; background-size: 80%; width: 100%; height: 100%; opacity: 0.1; position: absolute; background-position: center;"></div>
+
+        <h2>Faction: Company of the Black Griffin</h2>
+
+        <div class="columns">
+
+          <p>The Company of the Black Griffin (often just called &#39;Griffin Company&#39;) is a mercenary army commanded by the ageing Captain Larke. For a century now it has journeyed east, seeking fortune and glory.</p>
+
+          <p><strong><em>Mercenaries, Travellers and Misfits.</em></strong> The main body of the Company is composed of traditional, military forces. Here you will find regiments of cavalry and infantry. Over its century-long journey it has gathered (and lost) troops from lands across the world and it has a fairly cosmopolitan mix of peoples.</p>
+
+          <p>Captain Larke also likes to keep around <q>specialists</q> for... sensitive missions. Amidst the ranks you&#39;ll also find war witches, spies, burglars and other misfits.</p>
+
+          <p><strong><em>United by a Charter.</em></strong> The Company Charter is an ancient document that outlines the bylaws and core mission of the Company, as well as including a lengthy history of its decades-long migration east. Walter the Scribe (and penny-pinching bursar) keeps the Charter updated with it&#39;s current travels. The Charter is a massive collection of notes, torn scraps, scrolls and other miscellany collected over the years, all bound in black leather into a rough tome.</p>
+
+          <p><strong><em>Black Griffin Crest.</em></strong> Members of Griffin Company are known by their crest worn on the shoulder and on shields: a rampant, black griffin on a gold background.</p>
+
+          <h3>Beliefs and Goals</h3>
+
+          <p><strong>For Honour.</strong> Always fight with honour, or at least the appearance of honour (Lawful... ish)</p>
+
+          <p><strong>For Gold.</strong> We fight for a reason and that reason is gold! (Neutral)</p>
+
+          <h3>Missions</h3>
+
+          <p>Typical missions involve:</p>
+
+          <p><strong>Deserters Wanted Dead or Alive</strong> Desertion is the worst crime a mercenary can commit. All company members have a mandate to kill or capture deserters if they find them. Black Griffin commanders will frequently send out small parties of <q>fetches</q> (company bounty hunters) to bring them to justice.</p>
+
+          <p><strong>New Contracts</strong> Contracts are the lifeblood of the company and characters that get clients to sign them are accorded immense respect.</p>
+
+          <p><strong>New Recruits</strong> Hmmmm... actually, recruits are the lifeblood of the company and characters that get new recruits to sign up are accorded immense respect.</p>
+        </div>
+
+        <br/>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Renown</th>
+              <th>Rank</th>
+              <th>Perks</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>0</td>
+              <td>Private</td>
+              <td><strong>Camp Followers.</strong> You have contacts in the seedy underbelly of the camp allowing you to obtain illicit goods and services. When you&#39;re back at a Black Griffin encampment you can purchase fenced or black market goods and other, dubious services.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Corporal</td>
+              <td><strong>Command.</strong> You gain advantage on intimidation checks against Company mercenaries of lower rank.</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Sergeant</td>
+              <td><strong>Guard Retinue.</strong> You are accompanied by a small retinue of four <strong>guard</strong> followers (page 347 of the <em>Monster Manual</em>)  for protection.</td>
+            </tr>
+            <tr>
+              <td>25</td>
+              <td>Lieutenant</td>
+              <td><strong>Veteran Retinue.</strong> Your guard retinue is replaced with two <strong>veteran</strong> followers (page 350 of the <em>Monster Manual</em>).</td>
+            </tr>
+            <tr>
+              <td>50</td>
+              <td>Captain</td>
+              <td>Unknown perk?</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <h2 id="ready-made-pcs">Pre-prepared Characters</h2>
+
+        <div class="columns">
+
+          <p>These ready-made, low-magic characters have been prepared to speed up play:</p>
+
+          <h4 id="bridget-summary">Bridget</h4>
+
+          <p>Bridget was the notorious highwayman known as Red Ruby. Initially something of a folk hero, she was famous for stealing from the rich to (mostly) give to the poor. However fame quickly turned to infamy when she was framed for several bloody murders.</p>
+
+          <p>On the run, she signed on with Griffin Company, her unique skills making her ideal for fetch duty.</p>
+
+          <h4 id="ivor-summary">Ivor the Locksmith</h4>
+
+          <p>Too cunning for his own good, Ivor was expelled from the Locksmiths Guild for turning thief. Since then his life has been one series of misfortunes after another, forcing him into a life and crime, and, finally, landing him on punishment duty as a Griffin Company fetch. Awkward and introverted, Ivor only seems truly animated when talking about his first love: locks!</p>
+
+          <h4 id="jack-summary">"Jack"</h4>
+
+          <p>Handsome and mischievous "Jack" (most likely not his real name) is a fish out of water: an exile from the feywild trapped in a world where elves are just a legend. Cursed to forget his memories of the fey, he has spent many years wandering from town to town as a minstrel, carefully hiding his elf heritage.</p>
+
+          <p>Recently he has tarried with Griffin Company, although Jack's penchant for trouble has landed him on punishment duty as a fetch.</p>
+
+          <h4 id="roche-summary">Ser Roche</h4>
+
+          <p>Roche carries herself with the arrogance and bearing of a knight, but has the heart of a fanatic. In battle she is a ruthless veteran who strikes with righteous anger against her faithless opponents. At camp she is a zealous follower of the gods with no tolerance for those who fail to live up to her exacting standards (which is most people).</p>
+
+          <p>Ser Roche's tactless sermons are failing to find friends so she has been placed on fetch duty so the rest of the camp can have some peace.</p>
+
+        </div>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <dnd-char-sheet id="bridget" str="11" dex="12" con="12" int="10" wis="10" cha="10" itemscope itemtype="http://rgladwell.github.io/dnd-schemas/character.html">
+
+          <header>
+            <h1 itemprop="name">Bridget ("Red Ruby")</h1>
+          </header>
+
+          <section>
+            <dl>
+              <dt>Class</dt><dd itemprop="class">Fighter</dd>
+              <dt>Level</dt><dd itemprop="level">1</dd>
+              <dt>Race</dt><dd itemprop="race">Human</dd>
+              <dt>Background</dt><dd itemprop="background">Criminal</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">Chaotic good</dd>
+            </dl>
+          </section>
+
+          <section>
+            <dl>
+              <dt>Strength</dt><dd itemprop="strength">15</dd>
+              <dt>Dexterity</dt><dd itemprop="dexterity">16</dd>
+              <dt>Constitution</dt><dd itemprop="constitution">13</dd>
+              <dt>Intelligence</dt><dd itemprop="intelligence">9</dd>
+              <dt>Wisdom</dt><dd itemprop="wisdom">11</dd>
+              <dt>Charisma</dt><dd itemprop="charisma">14</dd>
+            </dl>
+          </section>
+
+          <section>
+            <ul>
+              <li itemprop="saving-throws">Strength</li>
+              <li itemprop="saving-throws">Constitution</li>
+            </ul>
+          </section>
+
+          <section>
+            <div>
+              <h2>Skills</h2>
+
+              <ul>
+                <li itemprop="skills">Deception</li>
+                <li itemprop="skills">Intimidation</li>
+                <li itemprop="skills">Perception</li>
+                <li itemprop="skills">Stealth</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Combat Stats</h2>
+
+              <ul>
+                <li itemprop="ac">14</li>
+                <li itemprop="max-hit-points">11</li>
+                <li itemprop="hit-dice">d10</li>
+                <li itemprop="size">Medium</li>
+                <li itemprop="speed">30</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Proficiencies</h2>
+
+              <ul>
+                <li itemprop="other-proficiencies">Common</li>
+                <li itemprop="other-proficiencies">all armor</li>
+                <li itemprop="other-proficiencies">shields</li>
+                <li itemprop="other-proficiencies">simple weapons</li>
+                <li itemprop="other-proficiencies">martial weapons</li>
+                <li itemprop="other-proficiencies">Firearms</li>
+                <li itemprop="other-proficiencies">thieves' tools</li>
+                <li itemprop="other-proficiencies">playing card set</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Equipment</h2>
+
+              <ul>
+                <li itemprop="equipment">Leather armor</li>
+                <li itemprop="equipment">Pistol</li>
+                <li itemprop="equipment">40 bullets</li>
+                <li itemprop="equipment">2 short swords</li>
+                <li itemprop="equipment">2 handaxes</li>
+                <li itemprop="equipment">crowbar</li>
+                <li itemprop="equipment">set of dark common clothes</li>
+                <li itemprop="equipment">hood</li>
+                <li itemprop="equipment">belt containing 15gp</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li itemscope itemprop="attacks"><span itemprop="name">Shortsword</span> <span itemprop="damage">1d6</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">finesse</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Shortsword (offhand)</span> <span itemprop="damage">1d6</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">finesse</data>, <data itemprop="offhand" value="true">offhand</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Pistol</span> <span itemprop="damage">1d10</span> <span itemprop="attackBonus">+2</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">ranged</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Handaxe</span> <span itemprop="damage">1d6</span> <span itemprop="type">slashing</span> (<data itemprop="proficient" value="true">proficient</data>)</li>
+            </ul>
+          </section>
+
+          <section>
+            <div>
+              <h2>Features &amp; Traits</h2>
+
+              <p itemscope itemprop="features"><span itemprop="name">Fighting Style: Archery.</span> <span itemprop="description">You gain a +2 bonus to attack rolls you make with ranged weapons.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Second Wind.</span> <span itemprop="description">You have a limited well of stamina that you can draw on to protect yourself from harm. On our turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Criminal Contact.</span> <span itemprop="description">You have a reliable and trustworthy comtact who acts as yoru liason to a network of other criminals. You know how to get messages to and from your contact, even over great distances.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Camp Followers.</span> <span itemprop="description"> You have contacts in the seedy underbelly of the camp allowing you to obtain illicit goods and services. When you're back at a Black Griffin encampment you can purchase fenced or black market goods and other, dubious services.</span></p>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Personality Traits</h2>
+              <p itemprop="personality-traits">Hot tempered, I blow up at the slightest insult.</p>
+              <p itemprop="personality-traits">I always measure the wealth of everyone I meet, wondering to myself how much I could make to rob them.</p>
+            </div>
+
+            <div>
+              <h2>Ideals</h2>
+              <p itemprop="ideals">Charity. I steal from the rich so that I can give to the poor (plus keep a few coins for myself). (Good-ish)</p>
+            </div>
+
+            <div>
+              <h2>Bonds</h2>
+              <p itemprop="bonds">I was framed for a murder I did not commit and I must redeem my name.</p>
+            </div>
+
+            <div>
+              <h2>Flaws</h2>
+              <p itemprop="flaws">I'm a wanted women with a warrant out for my arrest back home.</p>
+            </div>
+          </section>
+        </dnd-char-sheet>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <dnd-char-sheet id="ivor" str="11" dex="12" con="12" int="10" wis="10" cha="10" itemscope itemtype="http://rgladwell.github.io/dnd-schemas/character.html">
+          <header>
+            <h1 itemprop="name">Ivor the Locksmith</h1>
+          </header>
+
+          <dl>
+            <dt>Class</dt><dd itemprop="class">Rogue</dd>
+            <dt>Level</dt><dd itemprop="level">1</dd>
+            <dt>Race</dt><dd itemprop="race">Human</dd>
+            <dt>Background</dt><dd itemprop="background">Guild Artisan</dd>
+            <dt>Alignment</dt><dd itemprop="alignment">Chaotic neutral</dd>
+          </dl>
+
+          <section>
+            <dl>
+              <dt>Strength</dt><dd itemprop="strength">11</dd>
+              <dt>Dexterity</dt><dd itemprop="dexterity">16</dd>
+              <dt>Constitution</dt><dd itemprop="constitution">14</dd>
+              <dt>Intelligence</dt><dd itemprop="intelligence">13</dd>
+              <dt>Wisdom</dt><dd itemprop="wisdom">15</dd>
+              <dt>Charisma</dt><dd itemprop="charisma">9</dd>
+            </dl>
+          </section>
+
+          <section>
+            <div>
+              <h2>Combat Stats</h2>
+
+              <ul>
+                <li itemprop="ac">14</li>
+                <li itemprop="max-hit-points">9</li>
+                <li itemprop="hit-dice">d8</li>
+                <li itemprop="size">Medium</li>
+                <li itemprop="speed">30</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li itemprop="saving-throws">Dexterity</li>
+              <li itemprop="saving-throws">Intelligence</li>
+            </ul>
+          </section>
+
+          <section>
+            <div>
+              <h2>Proficiencies</h2>
+
+              <ul>
+                <li itemprop="other-proficiencies">Common</li>
+                <li itemprop="other-proficiencies">Light armor</li>
+                <li itemprop="other-proficiencies">Simple weapons</li>
+                <li itemprop="other-proficiencies">Hand crossbows</li>
+                <li itemprop="other-proficiencies">Longswords</li>
+                <li itemprop="other-proficiencies">Rapiers</li>
+                <li itemprop="other-proficiencies">Shortswords</li>
+                <li itemprop="other-proficiencies">Firearms</li>
+                <li itemprop="other-proficiencies">Thieves' Tools</li>
+                <li itemprop="other-proficiencies">Locksmiths' Tools</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Skills</h2>
+
+              <ul>
+                <li itemprop="skills">Deception</li>
+                <li itemprop="skills">Insight</li>
+                <li itemprop="skills">Investigation</li>
+                <li itemprop="skills">Perception</li>
+                <li itemprop="skills">Sleight of Hand</li>
+                <li itemprop="skills">Stealth</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Equipment</h2>
+
+              <ul>
+                <li itemprop="equipment">2 Shortswords</li>
+                <li itemprop="equipment">Burglar's pack</li>
+                <li itemprop="equipment">Leather armor</li>
+                <li itemprop="equipment">2 daggers</li>
+                <li itemprop="equipment">Thieves' Tools</li>
+                <li itemprop="equipment">Locksmiths' Tools</li>
+                <li itemprop="equipment">Traveller's clothes</li>
+                <li itemprop="equipment">Belt pouch containing 15gp</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li itemscope itemprop="attacks"><span itemprop="name">Shortsword</span> <span itemprop="damage">1d6</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">finesse</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Shortsword (offhand)</span> <span itemprop="damage">1d6</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">finesse</data>, <data itemprop="offhand" value="true">offhand</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Dagger</span> <span itemprop="damage">1d4</span> <span itemprop="attackBonus">+2</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">ranged</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Dagger (offhand)</span> <span itemprop="damage">1d4</span> <span itemprop="attackBonus">+2</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">ranged</data>)</li>
+            </ul>
+          </section>
+
+          <section>
+            <div>
+              <h2>Features &amp; Traits</h2>
+
+              <p itemscope itemprop="features"><span itemprop="name">Expertise.</span> <span itemprop="description">Your proficiency bonus is doubled  for any ability check you make that uses <data itemprop="expertise" value="perception">Perception</data> or your thieves' tools.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Sneak Attack.</span> <span itemprop="description">You know how to strike subtly and exploit a foe's distraction. Once per turn you can deal an extra 1d6 damage to one creature you hit if you have advantage on the attack roll. The attack must use a finesse or ranged weapon. You don't need advantage on the attack roll if another enemy of the target is within 5 ft. of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Thieves's Cant.</span> <span itemprop="description">During your rogue training you learned thieves' cant, a secret mix of dialect, jargon and code that allows you to hide messages in seemingly normal conversation. In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Ex-Guild Member.</span> <span itemprop="description">You were an established and respected member of the Locksmith's guild. Your ex-colleagues may provide you lodging and food if necessary.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Camp Followers.</span> <span itemprop="description"> You have contacts in the seedy underbelly of the camp allowing you to obtain illicit goods and services. When you're back at a Black Griffin encampment you can purchase fenced or black market goods and other, dubious services.</span></p>
+            </div>
+          </section>
+
+          <personality>
+            <div>
+              <h2>Personality Traits</h2>
+              <p itemprop="personality-traits">Fastidiously tidy, I'm constantly cleaning my tools and weapons.</p>
+              <p itemprop="personality-traits">Normally shy, I talk at length when I get on the subject of locks.</p>
+            </div>
+
+            <div>
+              <h2>Ideals</h2>
+              <p itemprop="ideals">Perfection. The true path to freedom for us commoners is through perfection in your chosen profession. (Neutral)</p>
+            </div>
+
+            <div>
+              <h2>Bonds</h2>
+              <p itemprop="bonds">I must redeem my standing with the Locksmiths' Guild.</p>
+            </div>
+
+            <div>
+              <h2>Flaws</h2>
+              <p itemprop="flaws">Too much time spent honing my craft has left me hopelessly inept with people.</p>
+            </div>
+          </personality>
+        </dnd-char-sheet>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <dnd-char-sheet id="jack" itemscope itemtype="http://rgladwell.github.io/dnd-schemas/character.html">
+          <header>
+            <h1 itemprop="name">"Jack"</h1>
+          </header>
+
+          <dl>
+            <dt>Class</dt><dd itemprop="class">Bard</dd>
+            <dt>Level</dt><dd itemprop="level">1</dd>
+            <dt>Race</dt><dd itemprop="race">Half-elf</dd>
+            <dt>Background</dt><dd itemprop="background">Fey Exile</dd>
+            <dt>Alignment</dt><dd itemprop="alignment">Chaotic neutral</dd>
+          </dl>
+
+          <section>
+            <dl>
+              <dt>Strength</dt><dd itemprop="strength">10</dd>
+              <dt>Dexterity</dt><dd itemprop="dexterity">15</dd>
+              <dt>Constitution</dt><dd itemprop="constitution">12</dd>
+              <dt>Intelligence</dt><dd itemprop="intelligence">14</dd>
+              <dt>Wisdom</dt><dd itemprop="wisdom">8</dd>
+              <dt>Charisma</dt><dd itemprop="charisma">17</dd>
+            </dl>
+          </section>
+
+          <section>
+            <div>
+              <h2>Combat Stats</h2>
+
+              <ul>
+                <li itemprop="ac">13</li>
+                <li itemprop="max-hit-points">9</li>
+                <li itemprop="hit-dice">d8</li>
+                <li itemprop="size">Medium</li>
+                <li itemprop="speed">30</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li itemprop="saving-throws">Dexterity</li>
+              <li itemprop="saving-throws">Charisma</li>
+            </ul>
+          </section>
+
+          <section>
+            <div>
+              <h2>Skills</h2>
+
+              <ul>
+                <li itemprop="skills">Arcana</li>
+                <li itemprop="skills">Acrobatics</li>
+                <li itemprop="skills">Deception</li>
+                <li itemprop="skills">Performance</li>
+                <li itemprop="skills">Persuasion</li>
+                <li itemprop="skills">Sleight of Hand</li>
+                <li itemprop="skills">Stealth</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Proficiencies</h2>
+
+              <ul>
+                <li itemprop="other-proficiencies">Common</li>
+                <li itemprop="other-proficiencies">Elvish</li>
+                <li itemprop="other-proficiencies">Sylvan</li>
+                <li itemprop="other-proficiencies">Light armor</li>
+                <li itemprop="other-proficiencies">Simple weapons</li>
+                <li itemprop="other-proficiencies">Hand crossbows</li>
+                <li itemprop="other-proficiencies">Longswords</li>
+                <li itemprop="other-proficiencies">Rapiers</li>
+                <li itemprop="other-proficiencies">Shortswords</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Equipment</h2>
+
+              <ul>
+                <li itemprop="equipment">Rapier</li>
+                <li itemprop="equipment">Entertainer's pack</li>
+                <li itemprop="equipment">Lute</li>
+                <li itemprop="equipment">Leather armor</li>
+                <li itemprop="equipment">Dagger</li>
+                <li itemprop="equipment">A fine set of clothes</li>
+                <li itemprop="equipment">A purse containing 25g</li>
+                <li itemprop="equipment">A fragment of a love song written as musical notes on two pieces of parchment</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li itemscope itemprop="attacks"><span itemprop="name">Rapier</span> <span itemprop="damage">1d8</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">finesse</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Dagger</span> <span itemprop="damage">1d4</span> <span itemprop="attackBonus">+2</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="finesse" value="true">ranged</data>)</li>
+            </ul>
+          </section>
+
+          <section>
+            <p itemscope itemprop="features"><span itemprop="name">Darkvision.</span> <span itemprop="description">You see in dim light within a 60-foot radius of you as if it were bright light, and in darkness in that radius as if it were dim  light.</span></p>
+
+            <p itemscope itemprop="features"><span itemprop="name">Fey Ancestry.</span> <span itemprop="description">You have advantage on saving throws against being charmed, and magic can't put you to sleep.</span></p>
+
+            <p itemscope itemprop="features"><span itemprop="name">Spellcasting.</span> <span itemprop="description">You can cast the <em>friends</em> and <em>minor illusion</em> cantrips at will. You have 2 1st-level spells slots and know the <em>charm person</em>, <em>detect magic</em>, <em>disguise self</em> and <em>sleep</em> spells. Charisma is your spellcasting ability for your bard spells. Your spell save DC is 13 and your spell attack modifier is +5. You can use a musical instrument as your spellcasting focus.</span></p>
+
+            <p itemscope itemprop="features"><span itemprop="name">Bardic Inspiration.</span> <span itemprop="description">You can use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll or saving throw it makes. You can use this feature three times. You regain any expended uses when you finish a long rest.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Camp Followers.</span> <span itemprop="description"> You have contacts in the seedy underbelly of the camp allowing you to obtain illicit goods and services. When you're back at a Black Griffin encampment you can purchase fenced or black market goods and other, dubious services.</span></p>
+          </section>
+
+          <section>
+            <div>
+              <h2>Personality Traits</h2>
+              <p itemprop="personality-traits">I can't help indulging in a tall tale of my exploits, no matter how far-fetched.</p>
+              <p itemprop="personality-traits">Nothing amuses me more than playing tricks on friends and strangers.</p>
+            </div>
+
+            <div>
+              <h2>Ideals</h2>
+              <p itemprop="ideals">Caprice. I am neither one thing nor another and will not be pinned down. (Chaotic)</p>
+            </div>
+
+            <div>
+              <h2>Bonds</h2>
+              <p itemprop="bonds">I must find a way to back to the feywild and uncover the secrets of my past.</p>
+            </div>
+
+            <div>
+              <h2>Flaws</h2>
+              <p itemprop="flaws">I've been cursed to forget my time with the fey.</p>
+              <p itemprop="flaws">Having no interest in mortal love, I leave a trail of broken hearts in my wake.</p>
+            </div>
+          </section>
+        </dnd-char-sheet>
+
+      </ink-page>
+
+      <ink-page class="content">
+
+        <dnd-char-sheet id="roche" itemscope itemtype="http://rgladwell.github.io/dnd-schemas/character.html">
+          <header>
+            <h1 itemprop="name">Ser Roche</h1>
+          </header>
+
+          <dl>
+            <dt>Class</dt><dd itemprop="class">Paladin</dd>
+            <dt>Level</dt><dd itemprop="level">1</dd>
+            <dt>Race</dt><dd itemprop="race">Human</dd>
+            <dt>Background</dt><dd itemprop="background">The Chosen (Soldier)</dd>
+            <dt>Alignment</dt><dd itemprop="alignment">Lawful neutral</dd>
+          </dl>
+
+          <section>
+            <dl>
+              <dt>Strength</dt><dd itemprop="strength">16</dd>
+              <dt>Dexterity</dt><dd itemprop="dexterity">13</dd>
+              <dt>Constitution</dt><dd itemprop="constitution">15</dd>
+              <dt>Intelligence</dt><dd itemprop="intelligence">11</dd>
+              <dt>Wisdom</dt><dd itemprop="wisdom">14</dd>
+              <dt>Charisma</dt><dd itemprop="charisma">9</dd>
+            </dl>
+          </section>
+
+          <section>
+            <div>
+              <h2>Skills</h2>
+
+              <ul>
+                <li itemprop="skills">Athletics</li>
+                <li itemprop="skills">History</li>
+                <li itemprop="skills">Intimidation</li>
+                <li itemprop="skills">Religion</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Combat Stats</h2>
+
+              <ul>
+                <li itemprop="ac">18</li>
+                <li itemprop="max-hit-points">12</li>
+                <li itemprop="hit-dice">d10</li>
+                <li itemprop="size">Medium</li>
+                <li itemprop="speed">30</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <div>
+              <h2>Proficiencies</h2>
+
+              <ul>
+                <li itemprop="other-proficiencies">Common</li>
+                <li itemprop="other-proficiencies">All armor, shields</li>
+                <li itemprop="other-proficiencies">Simple weapons</li>
+                <li itemprop="other-proficiencies">Martial weapons</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li itemprop="saving-throws">Wisdom</li>
+              <li itemprop="saving-throws">Charisma</li>
+            </ul>
+          </section>
+
+          <section>
+            <div>
+              <h2>Equipment</h2>
+
+              <ul>
+                <li itemprop="equipment">Longsword</li>
+                <li itemprop="equipment">Shield</li>
+                <li itemprop="equipment">5 javelins</li>
+                <li itemprop="equipment">Priest's pack</li>
+                <li itemprop="equipment">Chain mail</li>
+                <li itemprop="equipment">Holy symbol</li>
+                <li itemprop="equipment">set of common clothes</li>
+                <li itemprop="equipment">religious text</li>
+                <li itemprop="equipment">whip</li>
+                <li itemprop="equipment">Belt pouch containing 5gp</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li itemscope itemprop="attacks"><span itemprop="name">Longsword</span> <span itemprop="damage">1d8</span> <span itemprop="type">slashing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="versatile" value="true">versatile</data>)</li>
+              <li itemscope itemprop="attacks"><span itemprop="name">Javelin</span> <span itemprop="damage">1d6</span> <span itemprop="type">piercing</span> (<data itemprop="proficient" value="true">proficient</data>, <data itemprop="ranged" value="true">ranged</data>)</li>
+            </ul>
+          </section>
+
+          <section>
+            <div>
+              <h2>Features &amp; Traits</h2>
+
+              <p itemscope itemprop="features"><span itemprop="name">Divine Sense.</span> <span itemprop="description">As an action, you can open your awareness to detect forces of strong evil. Until the end of your next turn, you know the location of any celestial, fiend or undead within 60 feet of you that is not behind total cover. Within the same radius, you can detect the presence of any place or object that has been consecrated or desecrated, as with the <em>hallow</em> spell. You can use this feature 4 times. When you finish a long rest you regain all expended uses.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Lay on Hands.</span> <span itemprop="description">You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of 5 hit points. As an action you, you can touch a creature and draw power from the pool to restore a number of hit points to that creature. Alternatively, you can spend 5 hit points from your pool to cure the target of one disease or neutralize one poison.</span></p>
+
+              <p itemscope itemprop="features"><span itemprop="name">Camp Followers.</span> <span itemprop="description"> You have contacts in the seedy underbelly of the camp allowing you to obtain illicit goods and services. When you're back at a Black Griffin encampment you can purchase fenced or black market goods and other, dubious services.</span></p>
+            </div>
+          </section>
+
+          <personality>
+            <div>
+              <h2>Personality Traits</h2>
+              <p itemprop="personality-traits">My zealotry makes me suspicious and paranoid of those who have not proved themselves.</p>
+              <p itemprop="personality-traits">In quiet moments I frequently sermonise to anyone who will (or won't) listen.</p>
+            </div>
+
+            <div>
+              <h2>Ideals</h2>
+              <p itemprop="ideals">Doctrine. The gods themselves ordained the laws of men and we must exactly abide by each one. (Lawful)</p>
+            </div>
+
+            <div>
+              <h2>Bonds</h2>
+              <p itemprop="bonds">I have been given a prophecy of the end of the world and I must do all in my power to prevent it.</p>
+            </div>
+
+            <div>
+              <h2>Flaws</h2>
+              <p itemprop="flaws">I have a dark secret: I am no true knight. In a fit of cowardice I abandoned my lord at his time of need.</p>
+              <p itemprop="flaws">Trials by Vision. The gods send me frightening or disturbing visions, often at inconvenient moments.</p>
+            </div>
+          </personality>
+        </dnd-char-sheet>
+
+      </ink-page>
+    </ink-doc>
+
+  </main>
+
+  <script src="vendor/css-grid-polyfill-binaries/css-polyfills.min.js"></script>
+
+</body>
+</html>
