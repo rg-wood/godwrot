@@ -1,6 +1,6 @@
 {
   "name": "black-griffin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "grisly-eye-doc-style.git": "git@gitlab.com:grislyeye/grisly-eye-doc-style.git"
   },
