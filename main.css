@@ -7,5 +7,7 @@ dnd-char-sheet {
 }
 
 img.full-page {
-  width: 100%;
+  max-width: 95%;
+  height: auto;
+  margin: auto;
 }
