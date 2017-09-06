@@ -2,7 +2,7 @@
   "name": "grisly-eye-doc-template",
   "version": "0.1.0",
   "dependencies": {
-    "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.0.0"
+    "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.0.1"
   },
   "devDependencies": {
     "bower": "^1.7.9",
