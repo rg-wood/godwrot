@@ -99,13 +99,6 @@ module.exports = function (grunt) {
       }
     },
 
-    bowercopy: {
-      options: {
-        clean: true,
-        destPrefix: 'dist/vendor/components'
-      }
-    },
-
     'string-replace': {
       dist: {
         files: {
@@ -126,7 +119,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-npmcopy');
-  grunt.loadNpmTasks('grunt-bowercopy');
   grunt.loadNpmTasks('grunt-string-replace');
 
   grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy']);

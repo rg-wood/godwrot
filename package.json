@@ -7,7 +7,6 @@
   "devDependencies": {
     "bower": "^1.7.9",
     "grunt": "^1.0.1",
-    "grunt-bowercopy": "^1.2.4",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-connect": "^1.0.1",
