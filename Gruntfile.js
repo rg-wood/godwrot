@@ -55,6 +55,10 @@ module.exports = function (grunt) {
       bower_components: {
         files: ['bower_components/**'],
         tasks: ['copy:bower_components']
+      },
+      node_modules: {
+        files: ['node_modules/grisly-eye-doc-style/**'],
+        tasks: ['npmcopy:dist']
       }
     },
 

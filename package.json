@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
     "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.0.1"
   },
