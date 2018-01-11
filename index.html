@@ -877,18 +877,65 @@
             </tbody>
           </table>
 
-          <h4>Father John</h4>
+          <dnd-stat-block id="bloc-tough" str="11" dex="12" con="12" int="10" wis="10" cha="10">
+            <header>
+              <h1>Bloc Tough</h1>
+              <p>Medium humanoid (human), neutral good</p>
+            </header>
 
-          <p>The rebellion would be nothing without the support of vocal clergymen, lead by the fanatic, John(?). Rumours abound of the miracles John performs, such is his fanatical devotion to the father. There is an uneasy alliance between the increasing fanaticism of the rebel priests and the peasant factions.</p>
+            <combat-stats>
+              <dl>
+                <dt>Armor Class</dt><dd>12 (leather armor)</dd>
+                <dt>Hit Points</dt><dd>11 (2d8 + 2)</dd>
+                <dt>Speed</dt><dd>30 ft.</dd>
+              </dl>
+            </combat-stats>
 
-          <h4>Mina</h4>
+            <attributes>
+              <dl>
+                <dt>STR</dt><dd>7 (-2)</dd>
+                <dt>DEC</dt><dd>16 (+3)</dd>
+                <dt>CON</dt><dd>8 (-1)</dd>
+                <dt>INT</dt><dd>8 (-1)</dd>
+                <dt>WIS</dt><dd>12 (+1)</dd>
+                <dt>CHA</dt><dd>8 (-1)</dd>
+              </dl>
+            </attributes>
 
-          <blockquote>
-            <p>Before you stands a figure wrapped in a thick coat, their face covered by scarves and a low hat.</p>
-          </blockquote>
+            <stats>
+              <dl>
+                <dt>Senses</dt><dd>passive Perception 10</dd>
+                <dt>Languages</dt><dd>Common</dd>
+                <dt>Challenge</dt><dd>1/8 (25 XP)</dd>
+              </dl>
+            </stats>
 
-          <p>Mina is a Commonwealth spy operating out of Dismas and worshipper of the New Faith. She suffers terrible skin burns all over her body, so she keeps completely covered. Mina has a secret past as an ex-Royalist soldier. She put down many peasant revolutions for the nobility, so makes amends now by serving the Commonwealth, distributing political propaganda and spying.</p>
+            <special-traits>
+              <dl>
+                <dt>Solidarity.</dt>
+                <dd>The bloc tough can take the Disengage or Hide action as a bonus action on each of its turns if at least one of the bloc tough's allies is within 5 feet of the creature and the ally isn't incapacitated.</dd>
+              </dl>
+            </special-traits>
 
+            <actions>
+              <h2>Actions</h2>
+              <dl>
+                <dt>Club.</dt>
+                <dd><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) bludgeoning damage.</dd>
+              </dl>
+              <dl>
+                <dt>Light Crossbow.</dt>
+                <dd><em>Ranged Weapon Attack:</em> +3 to hit, reach 80 ft./320 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.</dd>
+              </dl>
+            </actions>
+
+          </dnd-stat-block>
+
+          <h4>The Communes</h4>
+
+          <p>The poor of Dismas are getting organised, forming into communes inspired by the Peasant Revolution. These communes protect the poorest against the predations of corrupt nobles and organised crime. The communes are thought to be riddled with Commonwealth spies.</p>
+
+          <p>Most often, protection comes in the form of violence. The true heroes of the communes are the blocs: gangs of street fighters who don their signature face scarves so they can anonymously protect the most vulnerable citizens of Dismas.</p>
         </div>
 
         <table>
@@ -904,7 +951,7 @@
             <tr>
               <td>0</td>
               <td>Comrade-in-Arms</td>
-              <td><em><strong>Solidarity.</strong></em> All members of the Commonwealth Army are brothers and sisters. When at camp your comrades will provide you with shelter and food. Furthermore, you may always rely on your comrades to help defend yourself.</td>
+              <td><em><strong>Solidarity.</strong></em> All members of the Commonwealth Army are brothers and sisters. When at camp your comrades will provide you with shelter and food. Furthermore, you may always rely on your comrades to help defend you.</td>
             </tr>
             <tr>
               <td>3</td>
@@ -933,6 +980,18 @@
 
       <ink-page class="content">
         <div class="columns">
+
+          <h4>Father John</h4>
+
+          <p>The rebellion would be nothing without the support of vocal clergymen, lead by the fanatic, John(?). Rumours abound of the miracles John performs, such is his fanatical devotion to the father. There is an uneasy alliance between the increasing fanaticism of the rebel priests and the peasant factions.</p>
+
+          <h4>Mina</h4>
+
+          <blockquote>
+            <p>Before you stands a figure wrapped in a thick coat, their face covered by scarves and a low hat.</p>
+          </blockquote>
+
+          <p>Mina is a Commonwealth spy operating out of Dismas and worshipper of the New Faith. She suffers terrible skin burns all over her body, so she keeps completely covered. Mina has a secret past as an ex-Royalist soldier. She put down many peasant revolutions for the nobility, so makes amends now by serving the Commonwealth, distributing political propaganda and spying.</p>
 
           <dnd-stat-block id="peasant-revolutionary" str="16" dex="12" con="12" int="10" wis="10" cha="10">
             <header>
@@ -1451,7 +1510,9 @@
 
           <blockquote><p>The grand, double-gated entrance to the Annie House stands at the end of a long alleyway. Tenements stand either side, so tall and decrepit they seem to about to fall on you.</p></blockquote>
 
-          <p>The main entrance gate is normally kept unlocked. 4 <strong>communard fighters</strong>  (see page <ink-page-ref ref="communard-fighter"></ink-page-ref>) hide in watch from the rooftops of the surrounding tenements.</p>
+          <p>The main entrance gate is normally kept unlocked. 4 <strong>bloc toughs</strong> (see page <ink-page-ref ref="bloc-tough"></ink-page-ref>) hide in watch from the rooftops of the surrounding tenements.</p>
+
+          <p>If fighting starts they are joined in two rounds by 4 more <strong>bloc toughs</strong> from area 1.9.</p>
 
           <h6 id="annie-house-rear-yard">1.2. Rear Yard</h6>
 
