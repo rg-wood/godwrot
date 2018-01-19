@@ -6,8 +6,12 @@ dnd-char-sheet {
   height: 26.7cm;
 }
 
+ink-page.image {
+  padding: 0;
+}
+
 img.full-page {
-  max-width: 95%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
