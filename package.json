@@ -1,11 +1,11 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "dependencies": {
-    "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.1.0"
+    "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.2.0"
   },
   "devDependencies": {
-    "bower": "^1.7.9",
+    "bower": "^1.8.2",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^1.0.0",
