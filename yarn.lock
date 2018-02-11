@@ -72,13 +72,9 @@ body-parser@~1.14.0:
     raw-body "~2.1.5"
     type-is "~1.6.10"
 
-bower@^1.3.5:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/bower/-/bower-1.8.0.tgz#55dbebef0ad9155382d9e9d3e497c1372345b44a"
-
-bower@^1.7.9:
-  version "1.7.9"
-  resolved "https://registry.yarnpkg.com/bower/-/bower-1.7.9.tgz#b7296c2393e0d75edaa6ca39648132dd255812b0"
+bower@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/bower/-/bower-1.8.2.tgz#adf53529c8d4af02ef24fb8d5341c1419d33e2f7"
 
 brace-expansion@^1.0.0:
   version "1.1.6"
@@ -273,7 +269,7 @@ getobject@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/getobject/-/getobject-0.1.0.tgz#047a449789fa160d018f5486ed91320b6ec7885c"
 
-glob@^4.0.2, glob@^4.3.5:
+glob@^4.0.2:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-4.5.3.tgz#c6cb73d3226c1efef04de3c56d012f03377ee15f"
   dependencies:
@@ -326,17 +322,9 @@ graceful-fs@^4.1.2:
   version "4.1.9"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.9.tgz#baacba37d19d11f9d146d3578bc99958c3787e29"
 
-"grisly-eye-doc-style@git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.0.1":
-  version "0.0.1"
-  resolved "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#25f75dad67cfae24d784823dffed655ba164ae7e"
-
-grunt-bowercopy@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/grunt-bowercopy/-/grunt-bowercopy-1.2.4.tgz#0c269f681b38bbdfa13b01dac812489ef3224c57"
-  dependencies:
-    bower "^1.3.5"
-    glob "^4.3.5"
-    lodash "^3.1.0"
+"grisly-eye-doc-style@git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.2.0":
+  version "0.2.0"
+  resolved "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#73dd51f689defa356eff7aebd6692e4cfee0163a"
 
 grunt-cli@^1.2.0, grunt-cli@~1.2.0:
   version "1.2.0"
@@ -559,7 +547,7 @@ lodash@^2.4.1:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
 
-lodash@^3.1.0, lodash@^3.10.1, lodash@~3.10.1:
+lodash@^3.10.1, lodash@~3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
 
