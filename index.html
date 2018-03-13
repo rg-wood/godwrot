@@ -8,11 +8,9 @@
   <title>Black Griffin</title>
 
   <link href="main.css" rel="stylesheet" />
-  <script src="vendor/webcomponentsjs/webcomponents-lite.min.js" async></script>
+  <script src="vendor/webcomponentsjs/webcomponents-loader.js" async></script>
   <link rel="import" href="vendor/ink-elements/ink-doc.html">
-  <link rel="import" href="vendor/dnd-stat-block/dnd-stat-block.html">
-  <link rel="import" href="vendor/grisly-eye-docs-style/assets/themes/stat-block-theme.html">
-  <style is="custom-style" include="grisly-eye-stat-block-theme"></style>
+  <link rel="import" href="vendor/vellum-stat-block/vellum-stat-block.html">
 
 </head>
 
@@ -752,106 +750,107 @@
 
           <h4 id="griffin-encampment">The Griffin Encampment</h4>
 
-          <dnd-stat-block id="mercenary" str="13" dex="12" con="12" int="10" wis="10" cha="10">
-            <header>
-              <h1>Mercenary</h1>
-              <p>Medium humanoid (any race), chaotic neutral</p>
-            </header>
+          <vellum-stat-block id="mercenary" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Mercenary</dd>
+              <dt>Size</dt><dd itemprop="size">Medium</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (any race)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">chaotic neutral</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">13 (leather armor)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">11</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">2d8 + 2</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">13</dd>
+              <dt>DEX</dt><dd itemprop="dex">12</dd>
+              <dt>CON</dt><dd itemprop="con">12</dd>
+              <dt>INT</dt><dd itemprop="int">10</dd>
+              <dt>WIS</dt><dd itemprop="wis">10</dd>
+              <dt>CHA</dt><dd itemprop="cha">10</dd>
+              <dt>Senses</dt><dd itemprop="senses">passive Perception 10</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/8</dd>
+              <dt>XP</dt><dd itemprop="xp">25</dd>
+              <dt>Longsword Attack</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Longsword</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">4 (1d6 + 1)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
+                </dl>
+              </dd>
+              <dt>Light Crossbow Attack</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Light Crossbow</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">ranged-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">80 ft./320 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">5 (1d8 + 1)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-stat-block>
 
-            <combat-stats>
-              <dl>
-                <dt>Armor Class</dt><dd>13 (leather armor)</dd>
-                <dt>Hit Points</dt><dd>11 (2d8 + 2)</dd>
-                <dt>Speed</dt><dd>30 ft.</dd>
-              </dl>
-            </combat-stats>
-
-            <attributes>
-              <dl>
-                <dt>STR</dt><dd>7 (-2)</dd>
-                <dt>DEC</dt><dd>16 (+3)</dd>
-                <dt>CON</dt><dd>8 (-1)</dd>
-                <dt>INT</dt><dd>8 (-1)</dd>
-                <dt>WIS</dt><dd>12 (+1)</dd>
-                <dt>CHA</dt><dd>8 (-1)</dd>
-              </dl>
-            </attributes>
-
-            <stats>
-              <dl>
-                <dt>Senses</dt><dd>passive Perception 10</dd>
-                <dt>Languages</dt><dd>Common</dd>
-                <dt>Challenge</dt><dd>1/8 (25 XP)</dd>
-              </dl>
-            </stats>
-
-            <actions>
-              <h2>Actions</h2>
-              <dl>
-                <dt>Longsword.</dt>
-                <dd><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) slashing damage.</dd>
-              </dl>
-              <dl>
-                <dt>Light Crossbow.</dt>
-                <dd><em>Ranged Weapon Attack:</em> +3 to hit, reach 80 ft./320 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.</dd>
-              </dl>
-            </actions>
-
-          </dnd-stat-block>
-
-          <dnd-stat-block id="grizzled-mercenary" str="16" dex="12" con="12" int="10" wis="10" cha="10">
-            <header>
-              <h1>Grizzled Mercenary</h1>
-              <p>Medium humanoid (any race), chaotic neutral</p>
-            </header>
-
-            <combat-stats>
-              <dl>
-                <dt>Armor Class</dt><dd>14 (chain shirt)</dd>
-                <dt>Hit Points</dt><dd>33 (6d8 + 2)</dd>
-                <dt>Speed</dt><dd>30 ft.</dd>
-              </dl>
-            </combat-stats>
-
-            <attributes>
-              <dl>
-                <dt>STR</dt><dd>7 (-2)</dd>
-                <dt>DEC</dt><dd>16 (+3)</dd>
-                <dt>CON</dt><dd>8 (-1)</dd>
-                <dt>INT</dt><dd>8 (-1)</dd>
-                <dt>WIS</dt><dd>12 (+1)</dd>
-                <dt>CHA</dt><dd>8 (-1)</dd>
-              </dl>
-            </attributes>
-
-            <stats>
-              <dl>
-                <dt>Senses</dt><dd>passive Perception 10</dd>
-                <dt>Languages</dt><dd>Common</dd>
-                <dt>Challenge</dt><dd>1/2 (100 XP)</dd>
-              </dl>
-            </stats>
-
-            <special-traits>
-              <dl>
-                <dt>Dirty Fighting (1/Turn).</dt>
-                <dd>The grizzled mercenary deals an extra 3 (1d6) damage when it hits a target with a weapon attack  and has advantage on the attack roll, or if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and the mercenary doesn't have disadvantage on the attack.</dd>
-              </dl>
-            </special-traits>
-
-            <actions>
-              <h2>Actions</h2>
-              <dl>
-                <dt>Longsword.</dt>
-                <dd><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.</dd>
-              </dl>
-              <dl>
-                <dt>Heavy Crossbow.</dt>
-                <dd><em>Ranged Weapon Attack:</em> +3 to hit, reach 80 ft./320 ft., one target. <em>Hit:</em> 7 (1d10 + 1) piercing damage.</dd>
-              </dl>
-            </actions>
-
-          </dnd-stat-block>
+          <vellum-stat-block id="grizzled-mercenary" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Grizzled Mercenary</dd>
+              <dt>Size</dt><dd itemprop="size">Medium</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (any race)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">chaotic neutral</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">14 (chain shirt)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">33</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">6d8 + 2</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">13</dd>
+              <dt>DEX</dt><dd itemprop="dex">12</dd>
+              <dt>CON</dt><dd itemprop="con">12</dd>
+              <dt>INT</dt><dd itemprop="int">10</dd>
+              <dt>WIS</dt><dd itemprop="wis">10</dd>
+              <dt>CHA</dt><dd itemprop="cha">10</dd>
+              <dt>Senses</dt><dd itemprop="senses">passive Perception 10</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/2</dd>
+              <dt>XP</dt><dd itemprop="xp">100</dd>
+              <dt>Special Trait</dt>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Dirty Fighting</dd>
+                  <dt>Limited Usage</dt><dd itemprop="limitedUsage">1/Turn</dd>
+                  <dt>Description</dt><dd itemprop="description">he grizzled mercenary deals an extra 3 (1d6) damage when it hits a target with a weapon attack  and has advantage on the attack roll, or if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and the mercenary doesn't have disadvantage on the attack.</dd>
+                </dl>
+              </dd>
+              <dt>Action</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Longsword</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">6 (1d6 + 3)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
+                </dl>
+              </dd>
+              <dt>Action</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Heavy Crossbow</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">ranged-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">80 ft./320 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">7 (1d10 + 1)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-stat-block>
 
           <h4 id="knothic-cache">Secret: The Knothic Cache</h4>
 
@@ -949,59 +948,59 @@
             </tbody>
           </table>
 
-          <dnd-stat-block id="bloc-tough" str="11" dex="12" con="12" int="10" wis="10" cha="10">
-            <header>
-              <h1>Bloc Tough</h1>
-              <p>Medium humanoid (human), neutral good</p>
-            </header>
-
-            <combat-stats>
-              <dl>
-                <dt>Armor Class</dt><dd>12 (leather armor)</dd>
-                <dt>Hit Points</dt><dd>11 (2d8 + 2)</dd>
-                <dt>Speed</dt><dd>30 ft.</dd>
-              </dl>
-            </combat-stats>
-
-            <attributes>
-              <dl>
-                <dt>STR</dt><dd>7 (-2)</dd>
-                <dt>DEC</dt><dd>16 (+3)</dd>
-                <dt>CON</dt><dd>8 (-1)</dd>
-                <dt>INT</dt><dd>8 (-1)</dd>
-                <dt>WIS</dt><dd>12 (+1)</dd>
-                <dt>CHA</dt><dd>8 (-1)</dd>
-              </dl>
-            </attributes>
-
-            <stats>
-              <dl>
-                <dt>Senses</dt><dd>passive Perception 10</dd>
-                <dt>Languages</dt><dd>Common</dd>
-                <dt>Challenge</dt><dd>1/8 (25 XP)</dd>
-              </dl>
-            </stats>
-
-            <special-traits>
-              <dl>
-                <dt>Solidarity.</dt>
-                <dd>The bloc tough can take the Disengage or Hide action as a bonus action on each of its turns if at least one of the bloc tough's allies is within 5 feet of the creature and the ally isn't incapacitated.</dd>
-              </dl>
-            </special-traits>
-
-            <actions>
-              <h2>Actions</h2>
-              <dl>
-                <dt>Club.</dt>
-                <dd><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) bludgeoning damage.</dd>
-              </dl>
-              <dl>
-                <dt>Light Crossbow.</dt>
-                <dd><em>Ranged Weapon Attack:</em> +3 to hit, reach 80 ft./320 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.</dd>
-              </dl>
-            </actions>
-
-          </dnd-stat-block>
+          <vellum-stat-block id="bloc-tough" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Bloc Tough</dd>
+              <dt>Size</dt><dd itemprop="size">Medium</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (any race)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">chaotic good</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">12 (leather armor)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">33</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">6d8 + 2</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">11</dd>
+              <dt>DEX</dt><dd itemprop="dex">12</dd>
+              <dt>CON</dt><dd itemprop="con">12</dd>
+              <dt>INT</dt><dd itemprop="int">10</dd>
+              <dt>WIS</dt><dd itemprop="wis">10</dd>
+              <dt>CHA</dt><dd itemprop="cha">10</dd>
+              <dt>Senses</dt><dd itemprop="senses">passive Perception 10</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/8</dd>
+              <dt>XP</dt><dd itemprop="xp">25</dd>
+              <dt>Special Trait</dt>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Solidarity</dd>
+                  <dt>Description</dt><dd itemprop="description">hThe bloc tough can take the Disengage or Hide action as a bonus action on each of its turns if at least one of the bloc tough's allies is within 5 feet of the creature and the ally isn't incapacitated.</dd>
+                </dl>
+              </dd>
+              <dt>Action</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Club</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">3 (1d4 + 1)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
+                </dl>
+              </dd>
+              <dt>Action</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Light Crossbow</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">ranged-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">80 ft./320 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">5 (1d8 + 1) </dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-stat-block>
 
           <h4>The Communes</h4>
 
@@ -1056,7 +1055,6 @@
           <h4>Father John</h4>
 
           <p>The rebellion would be nothing without the support of vocal clergymen, lead by the fanatic, John(?). Rumours abound of the miracles John performs, such is his fanatical devotion to the father. There is an uneasy alliance between the increasing fanaticism of the rebel priests and the peasant factions.</p>
-
           <h4>Mina</h4>
 
           <blockquote>
@@ -1065,114 +1063,58 @@
 
           <p>Mina is a Commonwealth spy operating out of Dismas and worshipper of the New Faith. She suffers terrible skin burns all over her body, so she keeps completely covered. Mina has a secret past as an ex-Royalist soldier. She put down many peasant revolutions for the nobility, so makes amends now by serving the Commonwealth, distributing political propaganda and spying.</p>
 
-          <dnd-stat-block id="peasant-revolutionary" str="16" dex="12" con="12" int="10" wis="10" cha="10">
-            <header>
-              <h1>Peasant Revolutionary</h1>
-              <p>Medium humanoid (human), lawful neutral</p>
-            </header>
-
-            <combat-stats>
-              <dl>
-                <dt>Armor Class</dt><dd>?</dd>
-                <dt>Hit Points</dt><dd>?</dd>
-                <dt>Speed</dt><dd>30 ft.</dd>
-              </dl>
-            </combat-stats>
-
-            <attributes>
-              <dl>
-                <dt>STR</dt><dd>7 (-2)</dd>
-                <dt>DEC</dt><dd>16 (+3)</dd>
-                <dt>CON</dt><dd>8 (-1)</dd>
-                <dt>INT</dt><dd>8 (-1)</dd>
-                <dt>WIS</dt><dd>12 (+1)</dd>
-                <dt>CHA</dt><dd>8 (-1)</dd>
-              </dl>
-            </attributes>
-
-            <stats>
-              <dl>
-                <dt>Senses</dt><dd>passive Perception 10</dd>
-                <dt>Languages</dt><dd>Common</dd>
-                <dt>Challenge</dt><dd>?</dd>
-              </dl>
-            </stats>
-
-            <special-traits>
-              <dl>
-                <dt>Low Morale.</dt>
-                <dd>?</dd>
-              </dl>
-            </special-traits>
-
-            <actions>
-              <h2>Actions</h2>
-              <dl>
-                <dt>Longsword.</dt>
-                <dd><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.</dd>
-              </dl>
-              <dl>
-                <dt>Heavy Crossbow.</dt>
-                <dd><em>Ranged Weapon Attack:</em> +3 to hit, reach 80 ft./320 ft., one target. <em>Hit:</em> 7 (1d10 + 1) piercing damage.</dd>
-              </dl>
-            </actions>
-
-          </dnd-stat-block>
-
           <h4>Peasant Revolutionaries</h4>
 
           <p>The rank and file of the Revolution, the revolutionaries are farmhands, apprentices and other common workmen who have taken whatever tools are at hand (scythes, pitchforks, clubs) and . What they lack in fighting skill and weapons they make up for in zeal. After all they are fighting for their freedom(?).</p>
+
+          <p>Peasant revolutionaries use the stats for the <strong>commoner</strong>.</p>
 
           <h4>The Sparrow</h4>
 
           <p>The Sparrow is the mysterious spymaster operating out of Dismas.</p>
 
-          <dnd-stat-block id="warsmith" str="16" dex="12" con="12" int="10" wis="10" cha="10">
-            <header>
-              <h1>Warsmith</h1>
-              <p>Medium humanoid (human), lawful neutral</p>
-            </header>
-
-            <combat-stats>
-              <dl>
-                <dt>Armor Class</dt><dd>?</dd>
-                <dt>Hit Points</dt><dd>?</dd>
-                <dt>Speed</dt><dd>30 ft.</dd>
-              </dl>
-            </combat-stats>
-
-            <attributes>
-              <dl>
-                <dt>STR</dt><dd>7 (-2)</dd>
-                <dt>DEC</dt><dd>16 (+3)</dd>
-                <dt>CON</dt><dd>8 (-1)</dd>
-                <dt>INT</dt><dd>8 (-1)</dd>
-                <dt>WIS</dt><dd>12 (+1)</dd>
-                <dt>CHA</dt><dd>8 (-1)</dd>
-              </dl>
-            </attributes>
-
-            <stats>
-              <dl>
-                <dt>Senses</dt><dd>passive Perception 10</dd>
-                <dt>Languages</dt><dd>Common</dd>
-                <dt>Challenge</dt><dd>?</dd>
-              </dl>
-            </stats>
-
-            <actions>
-              <h2>Actions</h2>
-              <dl>
-                <dt>Warping Blow (Recharge 5-6).</dt>
-                <dd>The warsmith strikes a blow at just the right angle to cause permanent damage to an opponents weapon or armour. On a failed attack against an armed opponent, the warping blow is parried causing permanent damage to the wielded weapon. The weapon has a permanent -2 penalty to damage (minimum damage 1 HP) until it can be mended. On a successful attack the warsmith deals normal damage but also permanently damages the target&#39;s armour. Reduce the AC provided by the armour by -1 permanently until it can be mended. These penalties do not stack.</dd>
-              </dl>
-              <dl>
-                <dt>Heavy Crossbow.</dt>
-                <dd><em>Ranged Weapon Attack:</em> +3 to hit, reach 80 ft./320 ft., one target. <em>Hit:</em> 7 (1d10 + 1) piercing damage.</dd>
-              </dl>
-            </actions>
-
-          </dnd-stat-block>
+          <vellum-stat-block id="warsmith" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Warsmith</dd>
+              <dt>Size</dt><dd itemprop="size">Medium</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (any race)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">lawful neutral</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">14 (chain shirt)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">33</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">6d8 + 2</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">16</dd>
+              <dt>DEX</dt><dd itemprop="dex">12</dd>
+              <dt>CON</dt><dd itemprop="con">12</dd>
+              <dt>INT</dt><dd itemprop="int">10</dd>
+              <dt>WIS</dt><dd itemprop="wis">10</dd>
+              <dt>CHA</dt><dd itemprop="cha">10</dd>
+              <dt>Senses</dt><dd itemprop="senses">passive Perception 10</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/2</dd>
+              <dt>XP</dt><dd itemprop="xp">100</dd>
+              <dt>Action</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Warping Blow</dd>
+                  <dt>Limited Usage</dt><dd itemprop="limitedUsage">Recharge 5-6</dd>
+                  <dt>Description</dt><dd itemprop="description">The warsmith strikes a blow at just the right angle to cause permanent damage to an opponents weapon or armour. On a failed attack against an armed opponent, the warping blow is parried causing permanent damage to the wielded weapon. The weapon has a permanent -2 penalty to damage (minimum damage 1 HP) until it can be mended. On a successful attack the warsmith deals normal damage but also permanently damages the target&#39;s armour. Reduce the AC provided by the armour by -1 permanently until it can be mended. These penalties do not stack.</dd>
+                </dl>
+              </dd>
+              <dt>Action</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Heavy Crossbow</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">ranged-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">80 ft./320 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">7 (1d10 + 1)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-stat-block>
 
           <h4>Warsmiths</h4>
 

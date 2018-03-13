@@ -12,8 +12,8 @@
     "tests"
   ],
   "dependencies": {
-    "ink-elements": "^0.1.0",
-    "dnd-stat-block": "^0.3.3",
+    "ink-elements": "^0.2.0",
+    "vellum-stat-block": "^0.5.0",
     "normalize-css": "^5.0.0"
   }
 }
