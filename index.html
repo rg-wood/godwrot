@@ -10,7 +10,8 @@
   <link href="main.css" rel="stylesheet" />
   <script src="vendor/webcomponentsjs/webcomponents-loader.js" async></script>
   <link rel="import" href="vendor/ink-elements/ink-doc.html">
-  <link rel="import" href="vendor/dnd-stat-block/dnd-stat-block.html">
+  <link rel="import" href="vendor/vellum-stat-block/vellum-stat-block.html">
+  <link rel="import" href="vendor/vellum-stat-block/vellum-monster.html">
 
 </head>
 
@@ -69,6 +70,72 @@
           <h4>Sub-Heading</h4>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <vellum-stat-block name="Custom Stat Block" description="Example Custom Stat Block">
+            <vellum-stat-block-section name="Custom Stats">
+              <vellum-stat name="Custom Stat 1">Custom stat 1 description</vellum-stat>
+              <vellum-stat name="Custom Stat 2">Custom stat 2 description</vellum-stat>
+            </vellum-stat-block-section>
+          </vellum-stat-block>
+
+          <vellum-monster id="vermus" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Vermus</dd>
+              <dt>Size</dt><dd itemprop="size">Small</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (vermus)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">chaotic neutral</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">14 (leather armor)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">5</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">2d6 - 2</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">7</dd>
+              <dt>DEX</dt><dd itemprop="dex">16</dd>
+              <dt>CON</dt><dd itemprop="con">8</dd>
+              <dt>INT</dt><dd itemprop="int">8</dd>
+              <dt>WIS</dt><dd itemprop="wis">14</dd>
+              <dt>CHA</dt><dd itemprop="cha">8</dd>
+              <dt>Saving Throw</dt><dd itemprop="savingThrows">Cons +1</dd>
+              <dt>Skill</dt><dd itemprop="skills">Stealth +5</dd>
+              <dt>Sense</dt><dd itemprop="senses">darkvision 60ft.</dd>
+              <dt>Sense</dt><dd itemprop="senses">passive Perception 10</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/4</dd>
+              <dt>XP</dt><dd itemprop="xp">50</dd>
+              <dt>Special Trait</dt>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Keen Smell</dd>
+                  <dt>Description</dt><dd itemprop="description">The vermus has advantage on Wisdom (Perception) checks that rely on smell.</dd>
+                </dl>
+              </dd>
+              <dt>Special Trait</dt>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Squirm</dd>
+                  <dt>Description</dt><dd itemprop="description">The vermus can move through the space of a hostile creature that is a size larger than itself. It ignores the penalties for squeezing through a space.</dd>
+                </dl>
+              </dd>
+              <dt>Special Trait</dt>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Swarm Tactics</dd>
+                  <dt>Description</dt><dd itemprop="description">The vermus can share its space with one other, friendly vermus. It has advantage on an attack roll against a creature if it is within 5 feet of the creature and in a space occupied by another, friendly vermus and the vermus ally isn't incapacitated.</dd>
+                </dl>
+              </dd>
+              <dt>Action</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Dagger</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-or-ranged-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+5</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5 ft. or range 20/60 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">5 (1d4 + 3)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-monster>
 
         </div>
       </ink-page>
