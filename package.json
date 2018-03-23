@@ -2,7 +2,7 @@
   "name": "black-griffin",
   "version": "0.7.0",
   "dependencies": {
-    "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.3.0"
+    "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.4.0"
   },
   "devDependencies": {
     "bower": "^1.8.2",
