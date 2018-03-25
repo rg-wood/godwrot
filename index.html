@@ -892,7 +892,7 @@
             <tbody>
               <tr>
                 <td class="number">1-5</td>
-                <td>?</td>
+                <td>Jack</td>
               </tr>
               <tr>
                 <td class="number">6-10</td>
@@ -1079,9 +1079,31 @@
 
           <p>Peasant revolutionaries use the stats for the <strong>commoner</strong>.</p>
 
+          <vellum-stat-block id="jack" name="Jack" description="This young girl of about 6 wears fine, golden braids tied up in a bright rend-and-blue head scarf, but the mannish clothes of a fieldhand.">
+
+            <vellum-stat name="Voice of the Folk (Bond)">Despite her young years, Jack's oratory skills have made her a prominent voice of the movement.</vellum-stat>
+
+            <vellum-stat name="On Her Father's Shoulders (Bond)">Jack is always accompanied by her stern father, the Warsmith Thomas. He often carries her on his broad shoulders.</vellum-stat>
+
+            <vellum-stat name="Tomboy (Personality Trait)">Jack eschews girlish things.</vellum-stat>
+
+            <vellum-stat name="Precocious (Flaw)">Jack is an intense girl, full of revolutionary fervour and zeal, but has difficulty talking about anything else.</vellum-stat>
+
+          </vellum-stat-block>
+
           <h4>The Sparrow</h4>
 
           <p>The Sparrow is the mysterious spymaster operating out of Dismas.</p>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+        <div class="columns">
+
+          <h4>Warsmiths</h4>
+
+          <p>Once humble blacksmiths, the warsmiths quickly learned their knowledge of forging weapons translated into battle readiness. Now they frequently lead battalions into battle, wielding their mighty warhammers and sweeping foes away before them.</p>
 
           <vellum-monster id="warsmith" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
             <dl>
@@ -1106,29 +1128,31 @@
               <dt>Action</dt>
               <dd>
                 <dl itemscope itemprop="actions">
-                  <dt>Name</dt><dd itemprop="name">Warping Blow</dd>
-                  <dt>Limited Usage</dt><dd itemprop="limitedUsage">Recharge 5-6</dd>
-                  <dt>Description</dt><dd itemprop="description">The warsmith strikes a blow at just the right angle to cause permanent damage to an opponents weapon or armour. On a failed attack against an armed opponent, the warping blow is parried causing permanent damage to the wielded weapon. The weapon has a permanent -2 penalty to damage (minimum damage 1 HP) until it can be mended. On a successful attack the warsmith deals normal damage but also permanently damages the target&#39;s armour. Reduce the AC provided by the armour by -1 permanently until it can be mended. These penalties do not stack.</dd>
+                  <dt>Name</dt><dd itemprop="name">Warhammer</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">8 (1d8 + 3)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">bludgeoning</dd>
                 </dl>
               </dd>
               <dt>Action</dt>
               <dd>
                 <dl itemscope itemprop="actions">
-                  <dt>Name</dt><dd itemprop="name">Heavy Crossbow</dd>
-                  <dt>Attack Type</dt><dd itemprop="type">ranged-attack</dd>
+                  <dt>Name</dt><dd itemprop="name">Warping Blow (Recharge 5-6)</dd>
+                  <dt>Limited Usage</dt><dd itemprop="limitedUsage">Recharge 5-6</dd>
                   <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
-                  <dt>Reach</dt><dd itemprop="reach">80 ft./320 ft.</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5ft.</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">7 (1d10 + 1)</dd>
-                  <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
+                  <dt>Damage</dt><dd itemprop="damage">3 (0 + 3)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">bludgeoning</dd>
+                  <dt>Description</dt><dd itemprop="notes">. The warsmith warps a non-magical item the target is wielding. Choose either armor or a weapon. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage roles, or the armor takes a permanent and cumulative -1 to the AC it offers. If its penalty drops to -5, the weapon or armor is destroyed.</dd>
                 </dl>
               </dd>
             </dl>
           </vellum-monster>
-
-          <h4>Warsmiths</h4>
-
-          <p>Once humble blacksmiths, the warsmiths quickly learned their knowledge of forging weapons translated into battle readiness. Now they frequently lead battalions into battle, wielding their mighty warhammers and sweeping foes away before them.</p>
 
         </div>
       </ink-page>
