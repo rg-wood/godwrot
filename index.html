@@ -2376,7 +2376,172 @@
       </ink-page>
 
       <ink-page class="appendix chapter title">
-        <h2 id="appendix-2-assorted-tables">Appendix II: Assorted Tables</h2>
+        <h2 id="appendix-2-nonplayer-characters">Appendix II: Nonplayer Characters</h2>
+      </ink-page>
+
+      <!-- https://5etools.com/crcalculator.html#0,9,12,11,3,false,Medium,2,10,false,0,false,0,traits: -->
+      <ink-page class="content appendix">
+        <div class="columns">
+          <vellum-monster id="street-thief" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Street Thief</dd>
+              <dt>Size</dt><dd itemprop="size">Medium</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (any race)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">any alignment</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">12 (leather armor)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">9</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">2d8</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">10</dd>
+              <dt>DEX</dt><dd itemprop="dex">13</dd>
+              <dt>CON</dt><dd itemprop="con">10</dd>
+              <dt>INT</dt><dd itemprop="int">10</dd>
+              <dt>WIS</dt><dd itemprop="wis">12</dd>
+              <dt>CHA</dt><dd itemprop="cha">12</dd>
+              <dt>Senses</dt><dd itemprop="senses">passive Perception 11</dd>
+              <dt>Skills</dt><dd itemprop="skills">Stealth +3</dd>
+              <dt>Skills</dt><dd itemprop="skills">Sleight of Hand +3</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/2</dd>
+              <dt>XP</dt><dd itemprop="xp">50</dd>
+              <dt>Special Trait</dt>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Back Stab</dd>
+                  <dt>Limited Usage</dt><dd itemprop="limitedUsage">1/Turn</dd>
+                  <dt>Description</dt><dd itemprop="description">The thief deals an extra 3 (1d4) damage when it hits a target with a weapon attack  and has advantage on the attack roll, or if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and the mercenary doesn't have disadvantage on the attack.</dd>
+                </dl>
+              </dd>
+              <dt>Multiattack</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Multiattack</dd>
+                  <dt>Attack Type</dt><dd itemprop="description">The thief makes two attacks.</dd>
+                </dl>
+              </dd>
+              <dt>Attack</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Dagger</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-or-ranged-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5 ft. or 20/60 ft. range</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">4 (1d4 + 1)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-monster>
+
+          <p>The alleyways of the city swarm with <strong>street thieves</strong>, always looking for an opportunity to pick a purse or mug a wealthy victim.</p>
+
+          <vellum-monster id="ruffian" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Ruffian</dd>
+              <dt>Size</dt><dd itemprop="size">Medium</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (any race)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">any alignment</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">12 (chain shirt)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">18</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">4d8</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">14</dd>
+              <dt>DEX</dt><dd itemprop="dex">8</dd>
+              <dt>CON</dt><dd itemprop="con">10</dd>
+              <dt>INT</dt><dd itemprop="int">10</dd>
+              <dt>WIS</dt><dd itemprop="wis">10</dd>
+              <dt>CHA</dt><dd itemprop="cha">10</dd>
+              <dt>Skills</dt><dd itemprop="skills">Intimidation +2</dd>
+              <dt>Senses</dt><dd itemprop="senses">passive Perception 10</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/2</dd>
+              <dt>XP</dt><dd itemprop="xp">50</dd>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Pack Tactics</dd>
+                  <dt>Description</dt><dd itemprop="description">The ruffian has advantage on an attack roll against a creature if at least on of the ruffian's allies is within 5 feet of the creature and the ally isn't incapacitated.</dd>
+                </dl>
+              </dd>
+              <dt>Club Attack</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Greatclub</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">7 (1d8 + 2)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">bludgeoning</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-monster>
+
+          <p>Every street gang has a <strong>ruffian</strong> or two. What they lack in skill, they make up for in raw strength.</p>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content appendix">
+        <div class="columns">
+
+          <!-- https://5etools.com/crcalculator.html#0,9,12,12,3,false,Medium,2,10,false,0,false,0,traits: -->
+          <vellum-monster id="zealot" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
+            <dl>
+              <dt>Name</dt><dd itemprop="name">Zealot</dd>
+              <dt>Size</dt><dd itemprop="size">Medium</dd>
+              <dt>Type</dt><dd itemprop="type">humanoid (any race)</dd>
+              <dt>Alignment</dt><dd itemprop="alignment">any alignment</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">12 (leather armor)</dd>
+              <dt>Hit Points</dt><dd itemprop="hp">9</dd>
+              <dt>Hit Points</dt><dd itemprop="hitDie">2d8</dd>
+              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
+              <dt>STR</dt><dd itemprop="str">10</dd>
+              <dt>DEX</dt><dd itemprop="dex">12</dd>
+              <dt>CON</dt><dd itemprop="con">10</dd>
+              <dt>INT</dt><dd itemprop="int">10</dd>
+              <dt>WIS</dt><dd itemprop="wis">11</dd>
+              <dt>CHA</dt><dd itemprop="cha">10</dd>
+              <dt>Senses</dt><dd itemprop="senses">passive Perception 10</dd>
+              <dt>Languages</dt><dd itemprop="skills">Religion +2</dd>
+              <dt>Languages</dt><dd itemprop="languages">Common</dd>
+              <dt>Challenge</dt><dd itemprop="cr">1/2</dd>
+              <dt>XP</dt><dd itemprop="xp">50</dd>
+              <dt>Special Trait</dt>
+              <dd>
+                <dl itemscope itemprop="specialTraits">
+                  <dt>Name</dt><dd itemprop="name">Fanaticism</dd>
+                  <dt>Description</dt><dd itemprop="description">The zealot has advantage on saving throw against being charmed or frightened.</dd>
+              </dd>
+              <dt>Multiattack</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Multiattack</dd>
+                  <dt>Attack Type</dt><dd itemprop="description">The zealot makes three melee attacks.</dd>
+                </dl>
+              </dd>
+              <dt>Longsword Attack</dt>
+              <dd>
+                <dl itemscope itemprop="actions">
+                  <dt>Name</dt><dd itemprop="name">Whip</dd>
+                  <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
+                  <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
+                  <dt>Reach</dt><dd itemprop="reach">10 ft.</dd>
+                  <dt>Target</dt><dd itemprop="target">one target</dd>
+                  <dt>Damage</dt><dd itemprop="damage">4 (1d4 + 1)</dd>
+                  <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
+                </dl>
+              </dd>
+            </dl>
+          </vellum-monster>
+
+          <p>With religious corruption rife, <strong>zealots</strong> in increase numbers, clamouring for a return to fundamental morals.</p>
+        </div>
+      </ink-page>
+
+      <ink-page class="appendix chapter title">
+        <h2 id="appendix-2-assorted-tables">Appendix III: Assorted Tables</h2>
       </ink-page>
 
       <ink-page class="content appendix">
