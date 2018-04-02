@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "ink-elements": "^0.3.0",
-    "vellum-stat-block": "^0.6.1",
+    "vellum-monster": "^0.7.0",
     "normalize-css": "^5.0.0"
   }
 }
