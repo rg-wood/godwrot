@@ -675,16 +675,59 @@
 
           <p>Larke uses the stats for <strong>veterans</strong> in combat.</p>
 
-          <h4 id="walter">Walter the Scribe</h4>
-          <blockquote><p>Walter is a thin, grey man. He wears fine clothes, including a ruff and fancy shirt, most of which have seen better days. He is covered in splattered mud.</p></blockquote>
-
-          <p>Walter can be found in the middle of the encampment (see page <ink-page-ref ref="black-griffin-encampment"></ink-page-ref>) holding court, sitting at his desk, Company Charter to his right, a scales with coins balanced in it to his left. He is often surrounded by his entourage of clerks.</p>
         </div>
       </ink-page>
 
       <ink-page class="content">
         <div class="columns">
 
+          <vellum-stat-block id="reyny" name="Private Reyny" description="?">
+
+            <vellum-stat name="Black Griffin Fetch (Bond)">Deserter/bounty hunter for the Company of the Black Griffin.</vellum-stat>
+            <vellum-stat name="Born Again (Good Ideal)">Reyny's new found faith is giving him moral qualms about his work.</vellum-stat>
+
+            <vellum-stat-block-divider></vellum-stat-block-divider>
+
+            <vellum-stat name="Armor Class">12 (leather armor)</vellum-stat>
+            <vellum-stat name="Hit Points">11 (2d8 + 2)</vellum-stat>
+            <vellum-stat name="Speed">30 ft.</vellum-stat>
+
+            <vellum-stat-block-divider></vellum-stat-block-divider>
+
+          <vellum-stat-block-ability-scores str="13" dex="12" con="12" int="10" wis="10" cha="10"></vellum-stat-block-ability-scores>
+
+          <vellum-stat-block-divider></vellum-stat-block-divider>
+
+          <vellum-stat name="Senses">passive Perception 10</vellum-stat>
+          <vellum-stat name="Languages">Common</vellum-stat>
+          <vellum-stat name="Challenge">1/8 (100 XP)</vellum-stat>
+
+          <vellum-stat-block-divider></vellum-stat-block-divider>
+
+          <vellum-stat name="Military Discipline" class="trait">Reyny adds 2 to his AC against one melee attack that would hit him. To do so, Reyny must see the attacker.</vellum-stat>
+
+          <vellum-stat-block-section name="Actions">
+
+            <vellum-attack name="Shortsword" type="melee-attack" bonus="+3" reach="80 ft./320 ft." target="one target" damage="5 (1d6 + 1)" damage-type="slashing"></vellum-attack>
+
+            <vellum-attack name="Light Crossbow" type="ranged-attack" bonus="+3" reach="5 ft." target="one target" damage="6 (1d8 + 1)" damage-type="piercing"></vellum-attack>
+
+          </vellum-stat-block-section>
+
+          <vellum-stat-block-section name="Secrets">
+
+            <vellum-stat name="Demons Abound">Reyny is convinced the nobility are corrupted by a secret coven of witches. A successful Intelligence (Investigation) check DC 12 to search his quarters will uncover a diary full of his paranoid ramblings.</vellum-stat>
+
+            <vellum-stat name="St. John's Crown">Reyny knows the whereabouts of a relic, the Crown of St. John. He keeps a torn parchment with a map of its location on his person at all times.</vellum-stat>
+
+          </vellum-stat-block-section>
+
+          </vellum-stat-block>
+
+          <h4 id="walter">Walter the Scribe</h4>
+          <blockquote><p>Walter is a thin, grey man. He wears fine clothes, including a ruff and fancy shirt, most of which have seen better days. He is covered in splattered mud.</p></blockquote>
+
+          <p>Walter can be found in the middle of the encampment (see page <ink-page-ref ref="black-griffin-encampment"></ink-page-ref>) holding court, sitting at his desk, Company Charter to his right, a scales with coins balanced in it to his left. He is often surrounded by his entourage of clerks.</p>
           <p>Despite being a non-combatant, Walter is probably the second most important person in the Company next to Larke. Although, to his chagrin, rarely gets credit. Walter maintains the Charter (as one of the few people who can read and write) as well as handling the Company coffers as bursar. This means he knows all the company's dirty secrets.</p>
 
           <p>Walter uses the stats for <strong>commoners</strong> in combat.</p>
@@ -715,6 +758,10 @@
           </div>
 
         </div>
+
+      </ink-page>
+
+      <ink-page class="content">
 
         <table id="court-marital-difficulties">
           <caption>Court-martial Difficulties</caption>
@@ -749,9 +796,6 @@
           </tbody>
         </table>
 
-      </ink-page>
-
-      <ink-page class="content">
         <div class="columns">
           <h4 id="vins">Lieutenant Vins</h4>
 
