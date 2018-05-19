@@ -1686,22 +1686,26 @@
             <caption>Thieves' Council Leaders</caption>
             <thead>
               <tr>
-                <th class="number">d6</th>
+                <th class="number">d20</th>
                 <th>Leader</th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
-                <td class="number">1-3</td>
+                <td class="number">1-5</td>
+                <td>Wis the Hunter</td>
+              </tr>
+              <tr>
+                <td class="number">15-17</td>
                 <td><q>King</q> Sam</td>
               </tr>
               <tr>
-                <td class="number">1-2</td>
+                <td class="number">18-19</td>
                 <td>Bellow</td>
               </tr>
               <tr>
-                <td class="number">6</td>
+                <td class="number">20</td>
                 <td>Red Ruby</td>
               </tr>
             </tbody>
@@ -1721,6 +1725,51 @@
 
           </vellum-stat-block>
         </div>
+      </ink-page>
+
+      <ink-page class="content">
+
+        <!-- https://5etools.com/crcalculator.html#0,52,15,15,3,false,Medium,8,14,false,0,false,0,traits: -->
+        <vellum-stat-block id="wis-the-hunter" class="two-column" name="Wis the Hunter" description="This tall, reedy man has pale skin, and long, black, greasy hair. His otherwise handsome features are marred by a terrible scar that closes his left eye.">
+
+          <vellum-stat name="Council Assassin (Bond)">Wis is one of the deadly assassins somehow beholden to Red Ruby.</vellum-stat>
+
+          <vellum-stat name="Freedom (Neutral Ideal)">Wis has lived his life beholden to powerful individuals and will do anything to gain his freedom.</vellum-stat>
+
+          <vellum-stat name="Ex-Warden (Secret)">Wis is a deserter of the Northern Wardens and is a wanted man. <em>Tell.</em> A passive Intelligence (History) check DC 20 will recall his story, passive Intelligence (History) check DC 15 will recognise the wound on his face as punishment for desertion with the Wardens, advantage for creatures from the North or who were members of the Thieves' Council.</vellum-stat>
+
+          <vellum-stat-block-divider></vellum-stat-block-divider>
+
+          <vellum-stat name="Armor Class">15 (studded leather armor)</vellum-stat>
+          <vellum-stat name="Hit Points">52 (8d8 + 16)</vellum-stat>
+          <vellum-stat name="Speed">30 ft.</vellum-stat>
+
+          <vellum-stat-block-divider></vellum-stat-block-divider>
+
+          <vellum-stat-block-ability-scores str="11" dex="16" con="14" int="11" wis="13" cha="10"></vellum-stat-block-ability-scores>
+
+          <vellum-stat-block-divider></vellum-stat-block-divider>
+
+          <vellum-stat name="Skills">Nature +2, Perception +3, Survival +3, Stealth +5</vellum-stat>
+          <vellum-stat name="Senses">passive Perception 13</vellum-stat>
+          <vellum-stat name="Languages">Thieves Cant, Common</vellum-stat>
+          <vellum-stat name="Challenge">2 (450 XP)</vellum-stat>
+
+          <vellum-stat-block-divider></vellum-stat-block-divider>
+
+          <vellum-stat name="Point-blank Longbow Shot" class="trait">Wis ignores the penalty for making a ranged attack with his longbow against an hostile creature that is within 5 feet.</vellum-stat>
+
+          <vellum-stat name="Sneak Attack (1/Turn)" class="trait">Wis deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Wis that isn't incapacitated and he doesn't have disadvantage on the attack roll.</vellum-stat>
+
+          <vellum-stat-block-section name="Actions">
+
+            <vellum-attack name="Longsword" type="melee-attack" bonus="+3" reach="5ft." target="one target" damage="5 (1d8)" damage-type="slashing"></vellum-attack>
+
+            <vellum-attack name="Longbow" type="ranged-attack" bonus="+5" reach="150/600ft." target="one target" damage="8 (1d8 + 3)" damage-type="piercing"></vellum-attack>
+
+        </vellum-stat-block>
+
+        </vellum-stat-block>
       </ink-page>
 
       <ink-page class="content">
