@@ -62,17 +62,6 @@ module.exports = function (grunt) {
       }
     },
 
-    sass: {
-      options: {
-        sourceMap: true
-      },
-      dist: {
-        files: {
-          'dist/main.css': 'main.scss'
-        }
-      }
-    },
-
     clean: {
       release: ["dist"]
     },
