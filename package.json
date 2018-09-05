@@ -1,6 +1,14 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "0.7.1",
+  "version": "0.8.0",
+  "author": {
+    "name": "R.G. Wood",
+    "email": "ric@grislyeye.com",
+    "url": "https://grislyeye.com"
+  },
+  "copyright": {
+    "year": "2018"
+  },
   "dependencies": {
     "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.2"
   },

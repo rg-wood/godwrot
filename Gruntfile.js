@@ -97,6 +97,12 @@ module.exports = function (grunt) {
           replacements: [{
             pattern: /{{ VERSION }}/g,
             replacement: pkg.version
+          },{
+            pattern: /{{ AUTHOR }}/g,
+            replacement: pkg.author.name
+          },{
+            pattern: /{{ COPYRIGHT_YEAR }}/g,
+            replacement: pkg.copyright.year
           }]
         }
       }
