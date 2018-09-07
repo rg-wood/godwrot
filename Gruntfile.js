@@ -49,7 +49,7 @@ module.exports = function (grunt) {
         tasks: ['copy:main', 'string-replace']
       },
       assets: {
-        files: ['assets/**', '!assets/styles/**'],
+        files: ['assets/**'],
         tasks: ['copy:assets']
       },
       bower_components: {
