@@ -26,17 +26,6 @@ module.exports = function (grunt) {
             dest: 'dist/'
           }
         ],
-      },
-      bower_components: {
-        files: [
-          {
-            expand: true,
-            follow: true,
-            cwd: 'bower_components/',
-            src: ['**'],
-            dest: 'dist/vendor/'
-          }
-        ],
       }
     },
 
@@ -57,7 +46,7 @@ module.exports = function (grunt) {
         tasks: ['copy:bower_components']
       },
       node_modules: {
-        files: ['node_modules/grisly-eye-doc-style/**'],
+        files: ['node_modules/grisly-eye-doc-style/**', 'node_modules/ink-elements/**', 'node_modules/@webcomponents/**', 'node_modules/@polymer/**'],
         tasks: ['npmcopy:dist']
       }
     },
@@ -83,7 +72,13 @@ module.exports = function (grunt) {
           destPrefix: 'dist/vendor',
         },
         files: {
-          'grisly-eye-docs-style': 'grisly-eye-doc-style'
+          '@polymer': '@polymer',
+          '@webcomponents': '@webcomponents',
+          'grisly-eye-docs-style': 'grisly-eye-doc-style',
+          'ink-elements': 'ink-elements',
+          'vellum-monster': 'vellum-monster',
+          'polymer-microdata': 'polymer-microdata',
+          'microtesia.js': 'microtesia.js'
         }
       }
     },
