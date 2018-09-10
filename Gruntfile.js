@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
-  'use strict';
+  'use strict'
 
-  var pkg = grunt.file.readJSON('package.json');
+  var pkg = grunt.file.readJSON('package.json')
 
   grunt.initConfig({
     copy: {
@@ -25,7 +25,7 @@ module.exports = function (grunt) {
             src: ['**', '!styles/**'],
             dest: 'dist/'
           }
-        ],
+        ]
       }
     },
 
@@ -52,7 +52,7 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      release: ["dist"]
+      release: ['dist']
     },
 
     connect: {
@@ -69,7 +69,7 @@ module.exports = function (grunt) {
     npmcopy: {
       dist: {
         options: {
-          destPrefix: 'dist/vendor',
+          destPrefix: 'dist/vendor'
         },
         files: {
           '@polymer': '@polymer',
@@ -92,25 +92,27 @@ module.exports = function (grunt) {
           replacements: [{
             pattern: /{{ VERSION }}/g,
             replacement: pkg.version
-          },{
+          },
+          {
             pattern: /{{ AUTHOR }}/g,
             replacement: pkg.author.name
-          },{
+          },
+          {
             pattern: /{{ COPYRIGHT_YEAR }}/g,
             replacement: pkg.copyright.year
           }]
         }
       }
     }
-  });
+  })
 
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-npmcopy');
-  grunt.loadNpmTasks('grunt-string-replace');
+  grunt.loadNpmTasks('grunt-contrib-watch')
+  grunt.loadNpmTasks('grunt-contrib-copy')
+  grunt.loadNpmTasks('grunt-contrib-clean')
+  grunt.loadNpmTasks('grunt-contrib-connect')
+  grunt.loadNpmTasks('grunt-npmcopy')
+  grunt.loadNpmTasks('grunt-string-replace')
 
-  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy']);
-  grunt.registerTask('run', ['clean', 'default', 'connect', 'watch']);
-};
+  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy'])
+  grunt.registerTask('run', ['clean', 'default', 'connect', 'watch'])
+}
