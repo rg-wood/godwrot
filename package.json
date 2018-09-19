@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.3",
+    "@polymer/polymer": "^3.0.5",
+    "@webcomponents/webcomponentsjs": "2.1.2",
     "ink-elements": "^0.4.0",
     "vellum-monster": "^0.10.0"
   },
