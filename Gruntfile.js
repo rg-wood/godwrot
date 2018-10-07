@@ -74,7 +74,8 @@ module.exports = function (grunt) {
           'ink-elements': 'ink-elements',
           'vellum-monster': 'vellum-monster',
           'polymer-microdata': 'polymer-microdata',
-          'microtesia.js': 'microtesia.js'
+          'microtesia.js': 'microtesia.js',
+          'normalize.css': 'normalize.css'
         }
       }
     },
