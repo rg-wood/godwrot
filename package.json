@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "author": {
     "name": "R.G. Wood",
     "email": "ric@grislyeye.com",
@@ -10,7 +10,7 @@
     "year": "2018"
   },
   "dependencies": {
-    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.3",
+    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.4",
     "@polymer/polymer": "^3.0.5",
     "@webcomponents/webcomponentsjs": "2.1.2",
     "ink-elements": "^0.4.0",
