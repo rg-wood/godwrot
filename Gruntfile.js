@@ -34,7 +34,7 @@ module.exports = function (grunt) {
         livereload: true
       },
       html: {
-        files: ['index.html', 'package.json'],
+        files: ['index.html', 'main.css', 'package.json'],
         tasks: ['copy:main', 'string-replace']
       },
       assets: {
