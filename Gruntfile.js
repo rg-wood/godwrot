@@ -42,7 +42,12 @@ module.exports = function (grunt) {
         tasks: ['copy:assets']
       },
       node_modules: {
-        files: ['node_modules/grisly-eye-doc-style/**', 'node_modules/ink-elements/**', 'node_modules/@webcomponents/**', 'node_modules/@polymer/**'],
+        files: [
+          'node_modules/grisly-eye-doc-style/*',
+          'node_modules/ink-elements/*',
+          'node_modules/@webcomponents/*',
+          'node_modules/@polymer/*'
+        ],
         tasks: ['npmcopy:dist']
       }
     },
