@@ -46,7 +46,8 @@ module.exports = function (grunt) {
           'node_modules/grisly-eye-doc-style/*',
           'node_modules/ink-elements/*',
           'node_modules/@webcomponents/*',
-          'node_modules/@polymer/*'
+          'node_modules/@polymer/*',
+          'node_modules/vellum-monster/*'
         ],
         tasks: ['npmcopy:dist']
       }
