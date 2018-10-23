@@ -53,7 +53,7 @@
   "head-valid-content-model": true,
   "href-style": false,
   "label-req-for": true,
-  "line-end-style": "lf",
+  "line-end-style": false,
   "line-no-trailing-whitespace": false,
   "line-max-len": false,
   "line-max-len-ignore-regex": false,
