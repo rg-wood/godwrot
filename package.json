@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "author": {
     "name": "R.G. Wood",
     "email": "ric@grislyeye.com",
@@ -38,7 +38,7 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
-    "build": "eslint *.js && htmllint *.html && stylelint *.css **/*.css && grunt",
+    "build": "eslint *.js && htmllint *.html && stylelint *.css assets/style/*.css && grunt",
     "watch": "grunt watch",
     "deploy": "grunt deploy",
     "clean": "grunt clean",
