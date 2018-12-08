@@ -40,7 +40,6 @@
   "scripts": {
     "build": "eslint *.js && htmllint *.html && stylelint *.css assets/style/*.css && grunt",
     "watch": "grunt watch",
-    "deploy": "grunt deploy",
     "clean": "grunt clean",
     "start": "grunt run",
     "publish": "grunt publish"
