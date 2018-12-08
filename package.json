@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "0.9.5",
+  "version": "0.10.0",
   "author": {
     "name": "R.G. Wood",
     "email": "ric@grislyeye.com",
@@ -10,9 +10,9 @@
     "year": "2018"
   },
   "dependencies": {
-    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.4",
     "@polymer/polymer": "^3.0.5",
     "@webcomponents/webcomponentsjs": "2.1.2",
+    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.4",
     "ink-elements": "^0.4.0",
     "normalize.css": "^8.0.0",
     "vellum-monster": "^0.10.0"
@@ -33,6 +33,7 @@
     "grunt-npmcopy": "^0.1.0",
     "grunt-string-replace": "^1.3.1",
     "htmllint-cli": "0.0.7",
+    "ink-cli": "^0.0.7",
     "polymer-cli": "^1.8.0",
     "stylelint": "^9.5.0",
     "stylelint-config-standard": "^18.2.0"
@@ -42,6 +43,6 @@
     "watch": "grunt watch",
     "clean": "grunt clean",
     "start": "grunt run",
-    "publish": "grunt publish"
+    "publish": "npm run build --scripts-prepend-node-path=true && ink publish"
   }
 }

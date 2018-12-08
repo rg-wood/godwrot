@@ -9,11 +9,11 @@ module.exports = function (grunt) {
         files: [
           {
             src: 'index.html',
-            dest: 'dist/index.html'
+            dest: 'dist/html/index.html'
           },
           {
             src: 'main.css',
-            dest: 'dist/main.css'
+            dest: 'dist/html/main.css'
           }
         ]
       },
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
             expand: true,
             cwd: 'assets/',
             src: ['**', '!styles/**'],
-            dest: 'dist/'
+            dest: 'dist/html/'
           }
         ]
       }
@@ -61,7 +61,7 @@ module.exports = function (grunt) {
       server: {
         options: {
           port: 8000,
-          base: 'dist',
+          base: 'dist/html',
           hostname: 'localhost',
           livereload: true
         }
@@ -71,7 +71,7 @@ module.exports = function (grunt) {
     npmcopy: {
       dist: {
         options: {
-          destPrefix: 'dist/vendor'
+          destPrefix: 'dist/html/vendor'
         },
         files: {
           '@polymer': '@polymer',
@@ -89,7 +89,7 @@ module.exports = function (grunt) {
     'string-replace': {
       dist: {
         files: {
-          'dist/': 'index.html'
+          'dist/html/': 'index.html'
         },
         options: {
           replacements: [{
