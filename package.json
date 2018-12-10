@@ -1,6 +1,7 @@
 {
   "name": "grisly-eye-doc-template",
   "version": "0.10.0",
+  "private": true,
   "author": {
     "name": "R.G. Wood",
     "email": "ric@grislyeye.com",
