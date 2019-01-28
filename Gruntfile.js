@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
-  'use strict';
+  'use strict'
 
-  let pkg = grunt.file.readJSON('package.json');
+  var pkg = grunt.file.readJSON('package.json')
 
   grunt.initConfig({
     copy: {
@@ -9,7 +9,7 @@ module.exports = function (grunt) {
         files: [
           {
             src: 'index.html',
-            dest: 'dist/index.html'
+            dest: 'dist/html/index.html'
           },
           {
             src: 'players-guide.html',
@@ -17,7 +17,7 @@ module.exports = function (grunt) {
           },
           {
             src: 'main.css',
-            dest: 'dist/main.css'
+            dest: 'dist/html/main.css'
           }
         ]
       },
@@ -27,20 +27,9 @@ module.exports = function (grunt) {
             expand: true,
             cwd: 'assets/',
             src: ['**', '!styles/**'],
-            dest: 'dist/'
+            dest: 'dist/html/'
           }
-        ],
-      },
-      bower_components: {
-        files: [
-          {
-            expand: true,
-            follow: true,
-            cwd: 'bower_components/',
-            src: ['**'],
-            dest: 'dist/vendor/'
-          }
-        ],
+        ]
       }
     },
 
@@ -53,39 +42,30 @@ module.exports = function (grunt) {
         tasks: ['copy:main', 'string-replace']
       },
       assets: {
-        files: ['assets/**', '!assets/styles/**'],
+        files: ['assets/**'],
         tasks: ['copy:assets']
       },
-      bower_components: {
-        files: ['bower_components/**'],
-        tasks: ['copy:bower_components']
-      },
       node_modules: {
-        files: ['node_modules/grisly-eye-doc-style/**'],
+        files: [
+          'node_modules/grisly-eye-doc-style/**/!(node_modules)',
+          'node_modules/ink-elements/**/!(node_modules)',
+          'node_modules/@webcomponents/**/!(node_modules)',
+          'node_modules/@polymer/**/!(node_modules)',
+          'node_modules/vellum-monster/**/!(node_modules)'
+        ],
         tasks: ['npmcopy:dist']
       }
     },
 
-    sass: {
-      options: {
-        sourceMap: true
-      },
-      dist: {
-        files: {
-          'dist/main.css': 'main.scss'
-        }
-      }
-    },
-
     clean: {
-      release: ["dist"]
+      release: ['dist']
     },
 
     connect: {
       server: {
         options: {
           port: 8000,
-          base: 'dist',
+          base: 'dist/html',
           hostname: 'localhost',
           livereload: true
         }
@@ -95,10 +75,17 @@ module.exports = function (grunt) {
     npmcopy: {
       dist: {
         options: {
-          destPrefix: 'dist/vendor',
+          destPrefix: 'dist/html/vendor'
         },
         files: {
-          'grisly-eye-docs-style': 'grisly-eye-doc-style'
+          '@polymer': '@polymer',
+          '@webcomponents': '@webcomponents',
+          'grisly-eye-docs-style': 'grisly-eye-doc-style',
+          'ink-elements': 'ink-elements',
+          'vellum-monster': 'vellum-monster',
+          'polymer-microdata': 'polymer-microdata',
+          'microtesia.js': 'microtesia.js',
+          'normalize.css': 'normalize.css'
         }
       }
     },
@@ -106,25 +93,33 @@ module.exports = function (grunt) {
     'string-replace': {
       dist: {
         files: {
-          'dist/': '*.html'
+          'dist/html/': '*.html'
         },
         options: {
           replacements: [{
             pattern: /{{ VERSION }}/g,
             replacement: pkg.version
+          },
+          {
+            pattern: /{{ AUTHOR }}/g,
+            replacement: pkg.author.name
+          },
+          {
+            pattern: /{{ COPYRIGHT_YEAR }}/g,
+            replacement: pkg.copyright.year
           }]
         }
       }
     }
-  });
+  })
 
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-npmcopy');
-  grunt.loadNpmTasks('grunt-string-replace');
+  grunt.loadNpmTasks('grunt-contrib-watch')
+  grunt.loadNpmTasks('grunt-contrib-copy')
+  grunt.loadNpmTasks('grunt-contrib-clean')
+  grunt.loadNpmTasks('grunt-contrib-connect')
+  grunt.loadNpmTasks('grunt-npmcopy')
+  grunt.loadNpmTasks('grunt-string-replace')
 
-  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy']);
-  grunt.registerTask('run', ['clean', 'default', 'connect', 'watch']);
-};
+  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy'])
+  grunt.registerTask('run', ['clean', 'default', 'connect', 'watch'])
+}

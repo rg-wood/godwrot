@@ -3,15 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
   <title>Black Griffin</title>
 
   <link href="main.css" rel="stylesheet" />
-  <script src="vendor/webcomponentsjs/webcomponents-loader.js" async></script>
-  <link rel="import" href="vendor/ink-elements/ink-doc.html">
-  <link rel="import" href="vendor/vellum-monster/vellum-stat-block.html">
-  <link rel="import" href="vendor/vellum-monster/vellum-monster.html">
+  <script src="vendor/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script type="module" src="vendor/ink-elements/ink-doc.js"></script>
+  <script type="module" src="vendor/vellum-monster/vellum-monster.js"></script>
+  <script type="module" src="vendor/vellum-monster/vellum-stat-block.js"></script>
 
 </head>
 
@@ -26,10 +26,10 @@
         </header>
 
         <div id="branding">
-          <p id="brand">Grisly Eye Games</p>
+          <p id="brand">By {{ AUTHOR }}</p>
 
           <div id="logos">
-            <img src="vendor/grisly-eye-docs-style/assets/images/dmsguild.png" alt="DMs Guild Logo"/>
+            <img src="vendor/grisly-eye-docs-style/assets/images/dmsguild.png" alt="DMs Guild Logo">
           </div>
         </div>
       </ink-page>
@@ -39,7 +39,7 @@
         <header>
           <h2>Black Griffin</h2>
 
-          <img src="vendor/grisly-eye-docs-style/assets/images/seperator.svg">
+          <img src="vendor/grisly-eye-docs-style/assets/images/seperator.svg" alt="Title seperator">
 
           <h3>A gritty, low-magic campaign</h3>
         </header>
@@ -52,17 +52,17 @@
 
         <p><em>Version {{ VERSION }}</em></p>
 
-        <a href="https://grislyeye.com"><img src="https://grislyeye.com/images/full-logo.png" class="logo" style="width: auto;"></a>
+        <a href="https://grislyeye.com"><img src="images/logo.png" class="logo" alt="Grisly Eye Games' Logo"></a>
 
         <footer class="legal">
           <p>DUNGEONS &amp; DRAGONS, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries. This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
 
-          <p>Grisly Eye logo symbol designed by Freepik. All other original material in this work is copyright 2016 by Grisly Eye Games and published under the Community Content Agreement for Dungeon Masters Guild. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
+          <p>Grisly Eye logo symbol designed by Freepik. All other original material in this work is copyright {{ AUTHOR }} {{ COPYRIGHT_YEAR }} and published under the Community Content Agreement for Dungeon Masters Guild. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
         </footer>
 
       </ink-page>
 
-      <ink-page class="content" id="introduction">
+      <ink-page class="content">
 
         <div class="columns">
 
@@ -760,9 +760,9 @@
 
           <vellum-stat-block-section name="Actions">
 
-            <vellum-attack name="Shortsword" type="melee-attack" bonus="+3" reach="80 ft./320 ft." target="one target" damage="5 (1d6 + 1)" damage-type="slashing"></vellum-attack>
+            <vellum-attack name="Shortsword" type="melee-attack" bonus="+3" reach="80 ft./320 ft." target="one target" damage="1d6 + 1" damage-type="slashing"></vellum-attack>
 
-            <vellum-attack name="Light Crossbow" type="ranged-attack" bonus="+3" reach="5 ft." target="one target" damage="6 (1d8 + 1)" damage-type="piercing"></vellum-attack>
+            <vellum-attack name="Light Crossbow" type="ranged-attack" bonus="+3" reach="5 ft." target="one target" damage="1d8 + 1" damage-type="piercing"></vellum-attack>
 
           </vellum-stat-block-section>
 
@@ -995,7 +995,7 @@
                   <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
                   <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">3 (1d4 + 1)</dd>
+                  <dt>Damage</dt><dd itemprop="damage">1d4 + 1</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
                 </dl>
               </dd>
@@ -1007,7 +1007,7 @@
                   <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
                   <dt>Reach</dt><dd itemprop="reach">80 ft./320 ft.</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">5 (1d8 + 1) </dd>
+                  <dt>Damage</dt><dd itemprop="damage">1d8 + 1</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
                 </dl>
               </dd>
@@ -1135,7 +1135,7 @@
                   <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
                   <dt>Reach</dt><dd itemprop="reach">5ft.</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">8 (1d8 + 3)</dd>
+                  <dt>Damage</dt><dd itemprop="damage">1d8 + 3</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">bludgeoning</dd>
                 </dl>
               </dd>
@@ -1148,7 +1148,7 @@
                   <dt>Reach</dt><dd itemprop="reach">5ft.</dd>
                   <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">3 (0 + 3)</dd>
+                  <dt>Damage</dt><dd itemprop="damage">1d4 + 3</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">bludgeoning</dd>
                   <dt>Description</dt><dd itemprop="notes">. The warsmith warps a non-magical item the target is wielding. Choose either armor or a weapon. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage roles, or the armor takes a permanent and cumulative -1 to the AC it offers. If its penalty drops to -5, the weapon or armor is destroyed.</dd>
                 </dl>
@@ -1218,9 +1218,9 @@
 
             <vellum-stat name="Multiattack." class="action">Reynard makes two attacks, one with his bite and another with his claw.</vellum-stat>
 
-            <vellum-attack name="Bite" type="melee-attack" bonus="+4" reach="5ft." target="one target" damage="6 (1d6 + 2)" damage-type="piercing"></vellum-attack>
+            <vellum-attack name="Bite" type="melee-attack" bonus="+4" reach="5ft." target="one target" damage="1d6 + 2" damage-type="piercing"></vellum-attack>
 
-            <vellum-attack name="Claw" type="melee-attack" bonus="+4" reach="5ft." target="one target" damage="6 (1d6 + 2)" damage-type="slashing"></vellum-attack>
+            <vellum-attack name="Claw" type="melee-attack" bonus="+4" reach="5ft." target="one target" damage="1d6 + 2" damage-type="slashing"></vellum-attack>
 
             <vellum-stat name="Hideous Laugh (1/Day)." class="action">Reynard makes an unearthly, ear-splitting laugh. Each creature in a 60 ft. radius who can hear this sound must make a DC 13 Wisdom saving throw or take 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from him. On a successful save, the target takes half as much damage and doesn’t have to move away. A deafened creature automatically succeeds on the save.</vellum-stat>
 
@@ -1238,7 +1238,7 @@
 
           <p>This tattered long coat belongs to Reynard the Fox. Examination reveals the coat is well made, and surprisingly durable, but it otherwise appears to be normal.</p>
 
-          <p>As an action you can pull an illusionary object from the pockets of this voluminous coat. This can be any item no larger than a 5-foot cube. It seems completely real to the touch, including sounds, smells, and temperature appropriate to the thing depicted. The item can't cause damage, a sound loud enough to deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).<p>
+          <p>As an action you can pull an illusionary object from the pockets of this voluminous coat. This can be any item no larger than a 5-foot cube. It seems completely real to the touch, including sounds, smells, and temperature appropriate to the thing depicted. The item can't cause damage, a sound loud enough to deafen a creature, or a smell that might sicken a creature (like a troglodyte's stench).</p>
 
           <p>A creature that uses its action to examine the item can determine that it is an illusion with a successful Intelligence (Investigation) check DC 13, dispelling the item. Unless dispelled, the item fades away to nothing at midnight the next evening.</p>
         </div>
@@ -1335,7 +1335,7 @@
 
               <vellum-stat name="Multiattack" class="action">Osa makes two attacks.</vellum-stat>
 
-              <vellum-attack name="Javelin" type="melee-or-ranged-attack" bonus="+3" reach="5ft. or 30/120 ft. range" target="one target" damage="6 (1d6 +2)" damage-type="slashing"></vellum-attack>
+              <vellum-attack name="Javelin" type="melee-or-ranged-attack" bonus="+3" reach="5ft. or 30/120 ft. range" target="one target" damage="1d6 + 2" damage-type="slashing"></vellum-attack>
 
             </vellum-stat-block-section>
 
@@ -1398,7 +1398,7 @@
 
             <vellum-stat name="Dirty Fighting (Recharge 5-6)" class="action">Piers chooses a target he can see within 5ft. and tries to trip them up or play some other dirty trick. The target must succeed a DC 14 Dexterity saving throw or take 1d6 bludgeoning damage and re-roll their initiative at disadvantage. They must use their new place in the initiative order in the next round.</vellum-stat>
 
-            <vellum-attack name="Longsword" type="melee-attack" bonus="+3" reach="5ft." target="one target" damage="5 (1d8)" damage-type="slashing"></vellum-attack>
+            <vellum-attack name="Longsword" type="melee-attack" bonus="+3" reach="5ft." target="one target" damage="1d8" damage-type="slashing"></vellum-attack>
 
           <vellum-stat-block-section name="Secrets">
             <vellum-stat name="Dismissed from Griffin Company">Piers is actually an ex-fetch, who deserted from Griffin Company under dubious circumstances. A character who makes a passive Intelligence (History) check DC 12 can recall this.</vellum-stat>
@@ -1451,7 +1451,7 @@
 
             <vellum-stat name="Multiattack" class="action">Merry makes three melee attacks.</vellum-stat>
 
-            <vellum-attack name="Whip" type="melee-attack" bonus="+3" reach="10ft." target="one target" damage="4 (1d4 + 1)" damage-type="slashing"></vellum-attack>
+            <vellum-attack name="Whip" type="melee-attack" bonus="+3" reach="10ft." target="one target" damage="1d4 + 1" damage-type="slashing"></vellum-attack>
 
           </vellum-stat-block-section>
 
@@ -1469,24 +1469,26 @@
 
             <vellum-stat-block-divider></vellum-stat-block-divider>
 
-          <vellum-stat-block-ability-scores str="15" dex="11" con="14" int="10" wis="10" cha="10"></vellum-stat-block-ability-scores>
+            <vellum-stat-block-ability-scores str="15" dex="11" con="14" int="10" wis="10" cha="10"></vellum-stat-block-ability-scores>
 
-          <vellum-stat-block-divider></vellum-stat-block-divider>
+            <vellum-stat-block-divider></vellum-stat-block-divider>
 
-          <vellum-stat name="Senses">passive Perception 10</vellum-stat>
-          <vellum-stat name="Skills">Intimidation +2</vellum-stat>
-          <vellum-stat name="Languages">Common</vellum-stat>
-          <vellum-stat name="Challenge">1/2 (100 XP)</vellum-stat>
+            <vellum-stat name="Senses">passive Perception 10</vellum-stat>
+            <vellum-stat name="Skills">Intimidation +2</vellum-stat>
+            <vellum-stat name="Languages">Common</vellum-stat>
+            <vellum-stat name="Challenge">1/2 (100 XP)</vellum-stat>
 
-          <vellum-stat-block-divider></vellum-stat-block-divider>
+            <vellum-stat-block-divider></vellum-stat-block-divider>
 
-          <vellum-stat name="Pack Tactics" class="trait">Strogo has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't incapacitated.</vellum-stat>
+            <vellum-stat name="Pack Tactics" class="trait">Strogo has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't incapacitated.</vellum-stat>
 
-          <vellum-stat-block-section name="Actions">
+            <vellum-stat-block-section name="Actions">
 
-            <vellum-stat name="Multiattack" class="action">Strogo makes two melee attacks.</vellum-stat>
+              <vellum-stat name="Multiattack" class="action">Strogo makes two melee attacks.</vellum-stat>
 
-            <vellum-attack name="Mace" type="melee-attack" bonus="+4" reach="5 ft." target="one target" damage="5 (1d6 + 2)" damage-type="slashing"></vellum-attack>
+              <vellum-attack name="Mace" type="melee-attack" bonus="+4" reach="5 ft." target="one target" damage="1d6 + 2" damage-type="slashing"></vellum-attack>
+
+            </vellum-stat-block-section>
 
           </vellum-stat-block>
 
@@ -1527,7 +1529,9 @@
 
               <vellum-stat name="Multiattack" class="action">Toad makes two attacks.</vellum-stat>
 
-              <vellum-attack name="Dagger" type="melee-or-ranged-attack" bonus="+4" reach="5 ft. or 20/60 ft. range" target="one target" damage="5 (1d4 + 2)" damage-type="slashing"></vellum-attack>
+              <vellum-attack name="Dagger" type="melee-or-ranged-attack" bonus="+4" reach="5 ft. or 20/60 ft. range" target="one target" damage="1d4 + 2" damage-type="slashing"></vellum-attack>
+
+            </vellum-stat-block-section>
 
           </vellum-stat-block>
 
@@ -1765,9 +1769,11 @@
 
           <vellum-stat-block-section name="Actions">
 
-            <vellum-attack name="Longsword" type="melee-attack" bonus="+3" reach="5ft." target="one target" damage="5 (1d8)" damage-type="slashing"></vellum-attack>
+            <vellum-attack name="Longsword" type="melee-attack" bonus="+3" reach="5ft." target="one target" damage="1d8" damage-type="slashing"></vellum-attack>
 
-            <vellum-attack name="Longbow" type="ranged-attack" bonus="+5" reach="150/600ft." target="one target" damage="8 (1d8 + 3)" damage-type="piercing"></vellum-attack>
+            <vellum-attack name="Longbow" type="ranged-attack" bonus="+5" reach="150/600ft." target="one target" damage="1d8 + 3" damage-type="piercing"></vellum-attack>
+
+          </vellum-stat-block-section>
 
         </vellum-stat-block>
 
@@ -2065,7 +2071,7 @@
             <p><em>Small settlement (fort)</em></p>
           </header>
 
-          <p>Hidden in a cave lies the wreck of the pirate ship, The Robert Morgan, about which a thriving community of smugglers has formed. Almost all smuggling along the Coves has some link to the Robert Morgan. The location of this community is a secret, and the pirates and smugglers here all enforce it with deadly intent.<p>
+          <p>Hidden in a cave lies the wreck of the pirate ship, The Robert Morgan, about which a thriving community of smugglers has formed. Almost all smuggling along the Coves has some link to the Robert Morgan. The location of this community is a secret, and the pirates and smugglers here all enforce it with deadly intent.</p>
 
           <p>The Robert Morgan originally hails from <strong>Port Redsand</strong> (see page  <ink-page-ref ref="port-redsand"></ink-page-ref>)</td>.</p>
 
@@ -2081,7 +2087,7 @@
           </header>
 
           <blockquote>
-            <p>Whiterock is an islet that sits just off the coast of the Coves. Its treacherous white cliffs rise out of the grey waters of the Eastern Sea.<p>
+            <p>Whiterock is an islet that sits just off the coast of the Coves. Its treacherous white cliffs rise out of the grey waters of the Eastern Sea.</p>
 
             <p>A small village perches precariously up one steep bank. You spy various fishing boats moored at the base.</p>
           </blockquote>
@@ -2394,11 +2400,11 @@
 
           <p>All are beautifully illustrated by Mina.</p>
 
-          <h6 id="annie-house-secret-exit">1.9. Bloc Forum</h6>
+          <h6 id="annie-house-bloc-forum">1.9. Bloc Forum</h6>
 
           <p>This room is centered around a large table. If the party aren't expected, a lively debate is ensuing here. Mina and 4 <strong>bloc toughs</strong> can be found here.</p>
 
-          <h6 id="annie-house-secret-exit">1.10. Harry's Tomb</h6>
+          <h6 id="annie-house-harrys-tomb">1.10. Harry's Tomb</h6>
 
           <p>This room contains a long-dead body. A sign with the writing "Harry the Ravisher" is hung about his neck. He is the ex-owner of the Annie House. Killed for abusing his trust.</p>
         </div>
@@ -2919,14 +2925,13 @@
                   <span itemprop="name">Decrepit</span>
                   <span itemprop="description">When the battlement reaches 0 hp it falls apart, causing (3d6) bludgeoning to any one within 10ft. of the wall, or anyone standing on the battlement. The battlement no longer obstructs access but is now considered difficult terrain.</span>
                 </li>
-
             </ol>
 
           </vellum-monster>
 
         </div>
 
-        <img src="images/fort-finy.png">
+        <img src="images/fort-finy.png" alt="Map of Fort Finy">
 
       </ink-page>
 
@@ -3064,7 +3069,7 @@
 
           <h5>7. Keep Dungeon</h5>
 
-          <p>The dreaded oubliette can be only accessed by a recessed door at the base of the keep. This opens onto a spiral staircase which takes you down to the dungeon. This door is kept locked at all times.<p>
+          <p>The dreaded oubliette can be only accessed by a recessed door at the base of the keep. This opens onto a spiral staircase which takes you down to the dungeon. This door is kept locked at all times.</p>
 
           <p><strong>Fosa the Cut</strong>, two <strong>executioners</strong> and <strong>wretched prisoners</strong> can often be found here.</p>
 
@@ -3079,7 +3084,7 @@
             </vellum-stat-block-section>
 
             <vellum-stat-block-section name="Deeds">
-              <p> <input type="checkbox"> <strong>Nightmares</strong> Using his infernal powers Fosa contacts the player in their dreams to interrogate them about the hand.</vellum-stat>
+              <p> <input type="checkbox"> <strong>Nightmares</strong> Using his infernal powers Fosa contacts the player in their dreams to interrogate them about the hand.</p>
             </vellum-stat-block-section>
 
           </vellum-stat-block>
@@ -3108,8 +3113,9 @@
             <vellum-stat name="Sworn to Protect House Lyonne (Bond)">Sir Christophe swore an oath to protect House Lyonne.</vellum-stat>
 
             <vellum-stat name="Loud (Personality Trait)">Sir Christophe would rather bellow than merely say anything.</vellum-stat>
+
             <vellum-stat-block-section name="Deeds">
-              <p> <input type="checkbox"> <strong>Duel</strong> Sir Christophe takes offence and challenges a character to a duel.</vellum-stat>
+              <p> <input type="checkbox"> <strong>Duel</strong> Sir Christophe takes offence and challenges a character to a duel.</p>
             </vellum-stat-block-section>
 
           </vellum-stat-block>
@@ -3166,7 +3172,7 @@
 
           <p>Inevitably, in Black Griffin, the characters will find themselves preparing their own troops for battle.</p>
 
-          <p><strong>Success:</strong> There is no success condition for this skill challenge. Instead you get a number of challenge rounds in which to roll and increase your odds of success during the final melee.<p>
+          <p><strong>Success:</strong> There is no success condition for this skill challenge. Instead you get a number of challenge rounds in which to roll and increase your odds of success during the final melee.</p>
 
             <p>You get three rounds per day. One for each quarter of the day, morning, afternoon and evening but excluding night. You can work through the night, but each night worked costs a level of exhaustion for you and your troops.</p>
 
@@ -3203,7 +3209,8 @@
               <dt>Size</dt><dd itemprop="size">Medium</dd>
               <dt>Type</dt><dd itemprop="type">swarm of tiny beasts</dd>
               <dt>Alignment</dt><dd itemprop="alignment">unaligned</dd>
-              <dt>Armor Class</dt><dd itemprop="ac">11 (natural armor)</dd>
+              <dt>Armor Class</dt><dd itemprop="ac">11</dd>
+              <dt>Armor Class</dt><dd itemprop="armor">natural armor</dd>
               <dt>Hit Points</dt><dd itemprop="hp">54</dd>
               <dt>Hit Points</dt><dd itemprop="hitDie">6d8</dd>
               <dt>Speed</dt><dd itemprop="speeds">20 ft., swim 20 ft.</dd>
@@ -3244,7 +3251,7 @@
                   <dt>Bonus</dt><dd itemprop="bonus">+0</dd>
                   <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">10 (4d4)</dd>
+                  <dt>Damage</dt><dd itemprop="damage">4d4</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
                   <dt>Notes</dt><dd itemprop="notes">, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer</dd>
                 </dl>
@@ -3307,7 +3314,7 @@
                   <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
                   <dt>Reach</dt><dd itemprop="reach">5 ft. or 20/60 ft. range</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">4 (1d4 + 1)</dd>
+                  <dt>Damage</dt><dd itemprop="damage">1d4 + 1</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
                 </dl>
               </dd>
@@ -3352,7 +3359,7 @@
                   <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
                   <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">7 (1d8 + 2)</dd>
+                  <dt>Damage</dt><dd itemprop="damage">1d8 + 2</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">bludgeoning</dd>
                 </dl>
               </dd>
@@ -3395,6 +3402,7 @@
                 <dl itemscope itemprop="specialTraits">
                   <dt>Name</dt><dd itemprop="name">Fanaticism</dd>
                   <dt>Description</dt><dd itemprop="description">The zealot has advantage on saving throw against being charmed or frightened.</dd>
+                </dl>
               </dd>
               <dt>Multiattack</dt>
               <dd>
@@ -3411,7 +3419,7 @@
                   <dt>Bonus</dt><dd itemprop="bonus">+3</dd>
                   <dt>Reach</dt><dd itemprop="reach">10 ft.</dd>
                   <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">4 (1d4 + 1)</dd>
+                  <dt>Damage</dt><dd itemprop="damage">1d4 + 1</dd>
                   <dt>Damage Type</dt><dd itemprop="damageType">slashing</dd>
                 </dl>
               </dd>
@@ -3886,56 +3894,56 @@
           </tbody>
           </table>
         </div>
-
       </ink-page>
 
       <ink-page class="content">
-
         <h3>Coming Soon</h3>
 
-        <p>If you enjoyed <strong>Black Griffin</strong>, look out for the following monographs from <strong>Grisly Eye Games</strong> coming to the Dungeon Masters Guild soon:</p>
+        <p>If you enjoyed <strong>The XXX</strong>, look out for the following monographs from <strong>Grisly Eye Games</strong> coming to the Dungeon Masters Guild soon:</p>
 
         <div class="columns">
 
-          <h4>?</h4>
+          <h4>Lorem ipsum</h4>
 
-          <p>?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-          <h4>?</h4>
+          <h4>Lorem ipsum</h4>
 
-          <p>?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-          <h4>?</h4>
+          <h4>Lorem ipsum</h4>
 
-          <p>?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-          <h4>?</h4>
+          <h4>Lorem ipsum</h4>
 
-          <p>?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
         </div>
 
-        <div class="aside columns">
-          <h4>Thanks</h4>
+        <aside class="columns">
+          <div>
+            <h4>Thanks</h4>
 
-          <p>The layout and style of this monograph was based on the <strong>Dungeon Masters Guild</strong> <em>Adventure Template</em>. The main font is <em>Alegreya</em> by Juan Pablo del Peral which is more elegant and legible than the template default. It is also hosted on Google Webfonts and supports "true" italics and bold. The title font was <em>Andada SC</em>.</p>
+            <p>The layout and style of this monograph was based on the <strong>Dungeon Masters Guild</strong> <em>Adventure Template</em>. The main font is <em>Alegreya</em> by Juan Pablo del Peral which is more elegant and legible than the template default. It is also hosted on Google Webfonts and supports "true" italics and bold. The title font was <em>Andada SC</em>.</p>
 
-          <p>This document was published using HTML, JavaScript and CSS, and composed using open source, web technologies including Node.js, Grunt, NPM, Bower, SASS, Polymer and Yarn. The PDF was generated using Chrome's PDF print preview feature. The monster stat blocks were generated using a web component of my own creation, based on Val Markovic's open source <em>Statblock5e</em>.</p>
+            <p>This document was published using HTML, JavaScript and CSS, and composed using open source, web technologies including Node.js, Grunt, NPM, Bower, SASS, Polymer and Yarn. The PDF was generated using Chrome's PDF print preview feature. The monster stat blocks were generated using a web component of my own creation, based on Val Markovic's open source <em>Statblock5e</em>.</p>
 
-          <p>I'd also like to thank our playtesters, including:</p>
+            <p>I'd also like to thank our playtesters, including:</p>
 
-          <ul>
-            <li>Alex Loomis</li>
-            <li>Santiago Garcia</li>
-            <li>Guam</li>
-            <li>Angelika Freitag</li>
-            <li>Aaron Humphrey</li>
-            <li>Ethan Hudgens</li>
-            <li>Andrew Tu</li>
-          </ul>
+            <ul>
+              <li>Alex Loomis</li>
+              <li>Santiago Garcia</li>
+              <li>Guam</li>
+              <li>Angelika Freitag</li>
+              <li>Aaron Humphrey</li>
+              <li>Ethan Hudgens</li>
+              <li>Andrew Tu</li>
+            </ul>
 
-          <p>- R. G. Wood., CEO Grisly Eye Games</p>
-        </div>
+            <p>- R. G. Wood., CEO Grisly Eye Games</p>
+          </div>
+        </aside>
       </ink-page>
 
     </ink-doc>

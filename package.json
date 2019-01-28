@@ -1,27 +1,49 @@
 {
   "name": "black-griffin",
   "version": "0.8.0",
+  "private": true,
+  "author": {
+    "name": "R.G. Wood",
+    "email": "ric@grislyeye.com",
+    "url": "https://grislyeye.com"
+  },
+  "copyright": {
+    "year": "2018"
+  },
   "dependencies": {
-    "grisly-eye-doc-style": "git+ssh://git@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.4.2"
+    "@polymer/polymer": "^3.0.5",
+    "@webcomponents/webcomponentsjs": "2.1.2",
+    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.8",
+    "ink-elements": "^0.4.2",
+    "normalize.css": "^8.0.0",
+    "vellum-monster": "^0.12.0"
   },
   "devDependencies": {
-    "bower": "^1.8.4",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "grunt": "^1.0.3",
     "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-contrib-connect": "^1.0.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-connect": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-npmcopy": "^0.1.0",
-    "grunt-string-replace": "^1.3.1"
+    "grunt-string-replace": "^1.3.1",
+    "htmllint-cli": "0.0.7",
+    "ink-cli": "^0.0.8",
+    "polymer-cli": "^1.8.0",
+    "stylelint": "^9.5.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
-    "build": "grunt",
+    "build": "eslint *.js && htmllint *.html && stylelint *.css assets/style/*.css && grunt",
     "watch": "grunt watch",
-    "deploy": "grunt deploy",
     "clean": "grunt clean",
     "start": "grunt run",
-    "publish": "grunt publish",
-    "postinstall": "bower install"
+    "publish": "npm run build --scripts-prepend-node-path=true && ink publish"
   }
 }

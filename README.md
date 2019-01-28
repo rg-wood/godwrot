@@ -27,10 +27,4 @@ To clean build:
 
 To publish as a PDF:
 
- 1. Open in Chrome
- 2. Click File -> Print...
- 3. Click on `More settings`
- 4. Set `Paper size` to `A4`
- 5. Set `Margins` to `None
- 6. Click in `Open PDF in Preview`
- 7. Then click File -> Save...
+    $ yarn publish

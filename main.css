@@ -1,14 +1,5 @@
-@import url('vendor/normalize-css/normalize.css');
+@import url('vendor/normalize.css/normalize.css');
 @import url('vendor/grisly-eye-docs-style/main.css');
-
-dnd-char-sheet {
-  width: 19cm;
-  height: 26.7cm;
-}
-
-ink-page.image {
-  padding: 0;
-}
 
 img.full-page {
   width: 100%;

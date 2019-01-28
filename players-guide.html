@@ -8,9 +8,8 @@
   <title>Black Griffin Player's Guide</title>
 
   <link href="main.css" rel="stylesheet" />
-  <script src="vendor/webcomponentsjs/webcomponents-loader.js" async></script>
-  <link rel="import" href="vendor/ink-elements/ink-doc.html">
-  <link rel="import" href="vendor/dnd-char-sheet/dnd-char-sheet.html">
+  <script src="vendor/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script type="module" src="vendor/ink-elements/ink-doc.js"></script>
 
 </head>
 
@@ -26,7 +25,7 @@
         </header>
 
         <div id="branding">
-          <p id="brand">Grisly Eye Games</p>
+          <p id="brand">By {{ AUTHOR }}</p>
 
           <div id="logos">
             <img src="vendor/grisly-eye-docs-style/assets/images/dmsguild.png" alt="DMs Guild Logo"/>
@@ -39,7 +38,7 @@
         <header>
           <h2>Black Griffin</h2>
 
-          <img src="vendor/grisly-eye-docs-style/assets/images/seperator.svg">
+          <img src="vendor/grisly-eye-docs-style/assets/images/seperator.svg" alt="Title seperator">
 
           <h3>Player's Guide</h3>
         </header>
@@ -52,7 +51,7 @@
 
         <p><em>Version {{ VERSION }}</em></p>
 
-        <a href="https://grislyeye.com"><img src="https://grislyeye.com/images/full-logo.png" class="logo" style="width: auto;"></a>
+        <a href="https://grislyeye.com"><img src="images/logo.png" class="logo" alt="Grisly Eye Games' Logo"></a>
 
         <footer class="legal">
           <p>DUNGEONS &amp; DRAGONS, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.  This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
@@ -102,11 +101,11 @@
       </ink-page>
 
       <ink-page class="image">
-        <img id+'midlands-map' src="images/midlands.png" class="full-page">
+        <img id="midlands-map" src="images/midlands.png" class="full-page" alt="Map of Midlands">
       </ink-page>
 
       <ink-page class="content">
-        <div class='columns'>
+        <div class="columns">
 
           <h3 id="characters">Black Griffin Characters</h3>
 
@@ -183,7 +182,7 @@
         <div class="columns">
           <h3>Gritty Variants</h3>
 
-          <p>It is recommended you play with the variant rules for <em>injuries</em> and <em>gritty realism rest</em> from chapter 9 of the <em>Dungeon Master's Guide</em>, in addition to the following.
+          <p>It is recommended you play with the variant rules for <em>injuries</em> and <em>gritty realism rest</em> from chapter 9 of the <em>Dungeon Master's Guide</em>, in addition to the following.</p>
 
           <h4>Stealth Spellcasting</h4>
 
