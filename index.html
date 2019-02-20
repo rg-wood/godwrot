@@ -703,21 +703,17 @@
 
           <p>Hyde uses the stats for <strong>grizzled mercenary</strong> from <em>The Many</em>.</p>
 
-          <vellum-stat-block id="sly-ben" name="Sly Ben" description="?">
+          <vellum-stat-block id="sly-ben" name="Sly Ben" description="This short and barrel-like man sports a hook for his right hand.">
 
             <vellum-stat name="Smuggler's Mate (Bond)">Ben is notorious for running smuggling in and out of the Griffin encampment.</vellum-stat>
-            <vellum-stat name="Larke's Rum Supplier (Bond)">Ben keeps Larke stocked with rum and is, therefore, beyond reproach.</vellum-stat>
             <vellum-stat name="Bon Vivant (Chaotic Ideal)">Life is short and should be lived!</vellum-stat>
             <vellum-stat name="Work Shy (Personality Trait)">Ben would rather while away a lazy afternoon telling tall tales then actually fight.</vellum-stat>
             <vellum-stat name="Alchoholic (Flaw)">Ben is always deep in his cups.</vellum-stat>
 
-          </vellum-stat-block>
-
-          <vellum-stat-block id="here-and-gere" name="Here and Gere" description="Identical twins...">
-
-            <vellum-stat name="Black Griffin Mercenaries (Bond)">?</vellum-stat>
-
-            <vellum-stat name="Always in Trouble (Flaw)">Here and Gere are always seem to be on some punishment duty.</vellum-stat>
+            <vellum-stat-block-section name="Secrets">
+              <vellum-stat name="Larke's Rum Supplier">Ben keeps Larke stocked with rum and is, therefore, beyond reproach.</vellum-stat>
+              <vellum-stat name="Ex-Physician">In a previous life Ben was a physician. <em>Tell.</em> </vellum-stat>
+            </vellum-stat-block-section>
 
           </vellum-stat-block>
 
@@ -776,6 +772,14 @@
 
           </vellum-stat-block>
 
+          <vellum-stat-block id="here-and-gere" name="Here and Gere" description="Identical twins...">
+
+            <vellum-stat name="Black Griffin Mercenaries (Bond)">?</vellum-stat>
+
+            <vellum-stat name="Always in Trouble (Flaw)">Here and Gere are always seem to be on some punishment duty.</vellum-stat>
+
+          </vellum-stat-block>
+
           <h4 id="vins">Lieutenant Vins</h4>
 
           <p>Lieutenant Vins is a severe, devious man who commands the fetches. A veteran of many battles, Vins is known for his ruthlessness and his proud, black beard.</p>
@@ -785,8 +789,6 @@
 
           <p>Walter can be found in the middle of the encampment (see page <ink-page-ref ref="black-griffin-encampment"></ink-page-ref>) holding court, sitting at his desk, Company Charter to his right, a scales with coins balanced in it to his left. He is often surrounded by his entourage of clerks.</p>
           <p>Despite being a non-combatant, Walter is probably the second most important person in the Company next to Larke. Although, to his chagrin, rarely gets credit. Walter maintains the Charter (as one of the few people who can read and write) as well as handling the Company coffers as bursar. This means he knows all the company's dirty secrets.</p>
-
-          <h4 id="griffin-encampment">The Griffin Encampment</h4>
 
           <h4 id="knothic-cache">Secret: The Knothic Cache</h4>
 
@@ -802,7 +804,58 @@
       <ink-page class="content">
         <div class="columns">
 
-          <div class="aside" id="court-martial-skill-challenge">
+          <vellum-stat-block id="Phsyick Vicmas" name="Physick Vicmas" description="This impossible short man bears what appears to be a monks tonsure on his head.">
+
+            <vellum-stat name="Camp Physician (Bond)">?</vellum-stat>
+            <vellum-stat name="? (Ideal)"></vellum-stat>
+            <vellum-stat name="Unconvincing Smile (Personality Trait)">Vicmas smiles a lot, believing it is comforting but it appears fake and unconvincing.</vellum-stat>
+            <vellum-stat name="? (Flaw)">?</vellum-stat>
+
+          </vellum-stat-block>
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+        <img src="images/black-griffin-camp-map.png" alt="Map of Black Griffin Encampment">
+        <div class="columns">
+          <h4 id="griffin-encampment">The Griffin Encampment</h4>
+
+          <p>The camp for the Company of the Griffin Company sits within a days march of the frontline. The camp is guarded by <strong>wooden barricades</strong> with <strong>trenches</strong> dug in front.</p>
+
+          <p>Periodically <strong>wooden towers</strong> line the barricades. Each is manned by an <strong>archer unit</strong>.</p>
+
+          <h5 id="griffin-encampment-larkes-manor">1. Captain Larke's Manor</h5>
+
+          <p>Captain Larke has set-up his base amidst the ruins of this once-grand manor house. Guarded day and night by a <strong>veteran guard retinue</strong>. They will not allow anyone lower than lieutenant rank to enter.</p>
+
+          <h5>2. The Mess</h5>
+
+          <p>This large tent serves as the camp mess hall. Hot meals are served here at dawn, midday and dusk. Officers eat separately, usually with Larke. Usually there are various factions seated in their cliques:</p>
+
+          <ul>
+            <li><strong>Hyde's Crew.</strong> Arrogant and dismissive, generally unfriendly.</li>
+            <li><strong>The Fetches.</strong> No one wants to sit with the fetches, but everyone is curious as to what they are talking about.</li>
+            <li><strong>Walter's Clarks.</strong> Walter's clarks keep to themselves, eating as quickly as possible and leaving just as fast.</li>
+            <li><strong>Infantry.</strong> Gruff and uncouth.</li>
+            <li><strong>Musketeers.</strong> <q>Only other musketeers can sit with us.</q></li>
+          </ul>
+
+          <h5 id="griffin-encampment-camp-followers">3. Camp Followers</h5>
+
+          <p>This impromptu <q>street</q> leads out of the camp, and overflows with swarms of camp followers shouting their wares, day and night. Here you can find traders, catamites, purveyors of dubious foods, and many others including:</p>
+
+          <ul>
+            <li><strong>Shady Bert.</strong> This aimless and cheery lass has a face <q>only a mother could love</q>. She is in fact a thief shady <q>supplier</q> (items stolen from the commissary) at half price. Anyone found with items purchased from Bert gets a court-martial.</li>
+            <li><strong>Enet the Good.</strong> Enet is a young and bold catamite, who does a side-line in salacious fortune telling.</li>
+            <li><strong>Otto's Supplies.</strong> Meek Otto reluctantly sells supplies (at double the price in the <i>Player's Handbook</i>) at his stand. He seems constantly frightened of DC 10 for all Intimidation (Charisma) checks. Despite this, he is there everyday.</li>
+          </ul>
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+
+        <aside id="court-martial-skill-challenge">
+          <div class="columns">
             <header>
               <h4>Court-martial</h4>
               <p><em>Skill challenge (level 1-4, difficulty varies)</em></p>
@@ -827,42 +880,93 @@
             <p><strong><em>Enchantments</em></strong> You can cast <em>charm person</em> to gain an automatic success.</p>
           </div>
 
-        </div>
+          <table id="court-marital-difficulties">
+            <caption>Court-martial Difficulties</caption>
+            <thead>
+              <tr>
+                <th>Infraction</th>
+                <th>Officer</th>
+                <th>Difficulty</th>
+                <th>Punishment</th>
+              </tr>
+            </thead>
 
-        <table id="court-marital-difficulties">
-          <caption>Court-martial Difficulties</caption>
-          <thead>
-            <tr>
-              <th>Infraction</th>
-              <th>Officer</th>
-              <th>Difficulty</th>
-              <th>Punishment</th>
-            </tr>
-          </thead>
+            <tbody>
+              <tr>
+                <td>Any other crime</td>
+                <td>Any corporal (Hyde, Agata, etc.)</td>
+                <td>Easy</td>
+                <td>Fine (2d10 gp)</td>
+              </tr>
+              <tr>
+                <td>Insubordination, assaulting an officer</td>
+                <td>Lieutenant Vins</td>
+                <td>Medium</td>
+                <td>Flogging (creature suffers 1 level of exhaustion for the next mission)</td>
+              </tr>
+              <tr>
+                <td>Desertion</td>
+                <td>Captain Larke</td>
+                <td>Hard</td>
+                <td>Death</td>
+              </tr>
+            </tbody>
+          </table>
 
-          <tbody>
-            <tr>
-              <td>Any other crime</td>
-              <td>Any corporal (Hyde, Agata, etc.)</td>
-              <td>Easy</td>
-              <td>Fine (2d10 gp)</td>
-            </tr>
-            <tr>
-              <td>Insubordination, assaulting an officer</td>
-              <td>Lieutenant Vins</td>
-              <td>Medium</td>
-              <td>Flogging (creature suffers 1 level of exhaustion for the next mission)</td>
-            </tr>
-            <tr>
-              <td>Desertion</td>
-              <td>Captain Larke</td>
-              <td>Hard</td>
-              <td>Death</td>
-            </tr>
-          </tbody>
-        </table>
+        </aside>
 
         <div class="columns">
+
+          <h5>4. Training Ground</h5>
+
+          <p>During the day infantry can be found here training. At night the area turns into an impromptu meeting ground, with soldiers lazily lying around drinking, smoking and chatting.</p>
+
+          <h5>5. Fetch Camp</h5>
+
+          <p>Isolated from the other forces, this patchy camp has tents arranged here and there without the regimented order of the other areas of the camp. Deserted at daytime when fetches sleep, it is busiest at night.</p>
+
+          <h5>6. Commissary</h5>
+
+          <p>The commissary is the store of food and supplies for the camp. Run by <strong>Sly Ben</strong> who is always here, holding court with his assorted crowd of fellow drunks. Sometimes <strong>Captain Larke</strong> joins him of an evening.</p>
+
+          <h5>7. Lime Pit</h5>
+
+          <p>Just beyond the camp a natural crevasse has been turned into a vast lime pit where the (many) dead bodies produced by the camp are disposed of. Here masked mercenaries on punishment duty shovel dead bodies and slacked lime.</p>
+
+          <p>Fallen mercenaries of note are buried in separate graves here as well, with wooden crosses to mark their resting places.</p>
+
+          <p><strong><em>The Wrack.</em></strong> Anyone spending too much time here without a mask, creatures can contract a disease called <q>the wrack</q>. It is otherwise similar to <em><a href="https://www.dndbeyond.com/sources/dmg/running-the-game#SewerPlague">sewer plague</a></em>.</p>
+
+          <h5>8. Infirmary</h5>
+
+          <p>This tent is usually a flurry of action set to the sound of low groans and suffering. The harassed military physicians who operate here are a stern lot, unfriendly and stand-offish.</p>
+
+        </div>
+      </ink-page>
+
+      <ink-page class="content">
+        <div class="columns">
+
+          <h5>9. East Camp</h5>
+
+          <p>This is where the newer recruits tend to bunk. For this reason it is the rowdiest and most chaotic area of the camp. Drinking and games go on long into the night. The party have a 1 in 4 chance of encounter 1d4 drunk and hostile <strong>thugs</strong> while wandering through here at night.</p>
+
+          <h5>10. West Camp</h5>
+
+          <p>?</p>
+
+          <h5>11. North Camp</h5>
+
+          <p>This camp is where the more veteran mercenaries camp, and is a more disciplined affair.</p>
+
+          <h5>12. Friar Wood</h5>
+
+          <p>This small wood is so-named for the ruined monastery that lies somewhere amidst it's trees.</p>
+
+          <h5>13. Ruined Church</h5>
+
+          <p>The ruins of a church dedicated to the Father stands in ruins here, clearly the victim of cannon-fire.</p>
+
         </div>
       </ink-page>
 
