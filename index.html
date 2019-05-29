@@ -17,8 +17,10 @@
 
   <main>
 
-    <ink-doc class="draft">
-      <ink-page id="cover">
+    <ink-doc>
+
+      <section id="cover">
+
         <header>
           <h1>Document Template</h1>
           <p id="brand">By {{ AUTHOR }}</p>
@@ -29,9 +31,10 @@
             <img src="vendor/grisly-eye-docs-style/assets/images/dmsguild.png" alt="DMs Guild Logo">
           </div>
         </div>
-      </ink-page>
 
-      <ink-page id="title" class="content">
+      </section>
+
+      <section id="title" class="content">
 
         <header>
           <h2>Document Template</h2>
@@ -55,347 +58,376 @@
           <p>Grisly Eye logo symbol designed by Freepik. All other original material in this work is copyright {{ AUTHOR }} {{ COPYRIGHT_YEAR }} and published under the Community Content Agreement for Dungeon Masters Guild. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
         </footer>
 
-      </ink-page>
+      </section>
 
-      <ink-page class="content">
-        <div class="columns">
+      <section class="draft">
 
-          <h3>Heading</h3>
+        <section class="content">
+          <div class="columns">
 
-          <p><a href="#rat-king">Lorem ipsum</a> (on page <ink-page-xref ref="rat-king"></ink-page-xref>) dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3>Heading</h3>
 
-          <aside>
-            <h5>Aside Heading</h5>
+            <p><a href="#gynosphinx">Lorem ipsum</a> (on page <ink-page-xref ref="gynosphinx"></ink-page-xref>) dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <aside>
+              <h5>Aside Heading</h5>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </aside>
+
+            <h4>Sub-Heading</h4>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </aside>
 
-          <h4>Sub-Heading</h4>
+            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></blockquote>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <vellum-stat-block name="Custom Stat Block" description="Example Custom Stat Block">
+              <vellum-stat-block-section name="Custom Stats">
+                <vellum-stat name="Custom Stat 1">Custom stat 1 description</vellum-stat>
+                <vellum-stat name="Custom Stat 2">Custom stat 2 description</vellum-stat>
+              </vellum-stat-block-section>
+            </vellum-stat-block>
 
-          <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></blockquote>
+            <vellum-monster
+              id="warhorse"
+              class="official"
+              name="Warhorse"
+              size="Large"
+              type="beast"
+              alignment="unaligned"
+              ac="11"
+              armor="natural armor"
+              hp="20"
+              hit-die="16d10 + 48"
+              speeds='["60 ft."]'
+              cr="½"
 
-          <vellum-stat-block name="Custom Stat Block" description="Example Custom Stat Block">
-            <vellum-stat-block-section name="Custom Stats">
-              <vellum-stat name="Custom Stat 1">Custom stat 1 description</vellum-stat>
-              <vellum-stat name="Custom Stat 2">Custom stat 2 description</vellum-stat>
-            </vellum-stat-block-section>
-          </vellum-stat-block>
+              str="18"
+              dex="12"
+              con="13"
+              int="2"
+              wis="12"
+              cha="7"
 
-          <vellum-monster id="vermus" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
-            <dl>
-              <dt>Name</dt><dd itemprop="name">Vermus</dd>
-              <dt>Size</dt><dd itemprop="size">Small</dd>
-              <dt>Type</dt><dd itemprop="type">humanoid (vermus)</dd>
-              <dt>Alignment</dt><dd itemprop="alignment">chaotic neutral</dd>
-              <dt>Armor Class</dt><dd itemprop="ac">14 (leather armor)</dd>
-              <dt>Armor Class</dt><dd itemprop="armor">leather armor</dd>
-              <dt>Hit Points</dt><dd itemprop="hp">5</dd>
-              <dt>Hit Points</dt><dd itemprop="hitDie">2d6 - 2</dd>
-              <dt>Speed</dt><dd itemprop="speeds">30 ft.</dd>
-              <dt>STR</dt><dd itemprop="str">7</dd>
-              <dt>DEX</dt><dd itemprop="dex">16</dd>
-              <dt>CON</dt><dd itemprop="con">8</dd>
-              <dt>INT</dt><dd itemprop="int">8</dd>
-              <dt>WIS</dt><dd itemprop="wis">14</dd>
-              <dt>CHA</dt><dd itemprop="cha">8</dd>
-              <dt>Saving Throw</dt><dd itemprop="savingThrows">Cons +1</dd>
-              <dt>Skill</dt><dd itemprop="skills">Stealth +5</dd>
-              <dt>Sense</dt><dd itemprop="senses">darkvision 60ft.</dd>
-              <dt>Sense</dt><dd itemprop="senses">passive Perception 10</dd>
-              <dt>Languages</dt><dd itemprop="languages">Common</dd>
-              <dt>Special Trait</dt>
-              <dd>
-                <dl itemscope itemprop="specialTraits">
-                  <dt>Name</dt><dd itemprop="name">Keen Smell</dd>
-                  <dt>Description</dt><dd itemprop="description">The vermus has advantage on Wisdom (Perception) checks that rely on smell.</dd>
-                </dl>
-              </dd>
-              <dt>Special Trait</dt>
-              <dd>
-                <dl itemscope itemprop="specialTraits">
-                  <dt>Name</dt><dd itemprop="name">Squirm</dd>
-                  <dt>Description</dt><dd itemprop="description">The vermus can move through the space of a hostile creature that is a size larger than itself. It ignores the penalties for squeezing through a space.</dd>
-                </dl>
-              </dd>
-              <dt>Special Trait</dt>
-              <dd>
-                <dl itemscope itemprop="specialTraits">
-                  <dt>Name</dt><dd itemprop="name">Swarm Tactics</dd>
-                  <dt>Description</dt><dd itemprop="description">The vermus can share its space with one other, friendly vermus. It has advantage on an attack roll against a creature if it is within 5 feet of the creature and in a space occupied by another, friendly vermus and the vermus ally isn't incapacitated.</dd>
-                </dl>
-              </dd>
-              <dt>Action</dt>
-              <dd>
-                <dl itemscope itemprop="actions">
-                  <dt>Name</dt><dd itemprop="name">Dagger</dd>
-                  <dt>Attack Type</dt><dd itemprop="type">melee-or-ranged-attack</dd>
-                  <dt>Bonus</dt><dd itemprop="bonus">+5</dd>
-                  <dt>Reach</dt><dd itemprop="reach">5 ft. or range 20/60 ft.</dd>
-                  <dt>Target</dt><dd itemprop="target">one target</dd>
-                  <dt>Damage</dt><dd itemprop="damage">1d4 + 3</dd>
-                  <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
-                </dl>
-              </dd>
-            </dl>
+              senses='["passive Perception 11"]'
+              traits='[
+                {
+                  "name": "Trampling Charge",
+                  "description": "If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action."
+                }
+              ]'
+              actions='[
+                {
+                  "name": "Hooves",
+                  "type": "melee-attack",
+                  "bonus": "+4",
+                  "reach": "5ft.",
+                  "target": "one target",
+                  "damage": "2d6 + 4",
+                  "damageType": "bludgeoning"
+                }
+              ]'
+            >
+            </vellum-monster>
+
+          </div>
+        </section>
+
+        <section class="chapter title content">
+          <h2>Chapter Title</h2>
+        </section>
+
+        <section class="content">
+
+          <vellum-monster
+            id="gynosphinx"
+            class="two-column"
+            name="Gynosphinx"
+            size="large"
+            type="monstrosity"
+            alignment="lawful neutral"
+            ac="17"
+            armor="natural armor"
+            hit-die="16d10 + 48"
+            speeds='["40 ft.", "fly 60 ft."]'
+
+            str="18"
+            dex="15"
+            con="16"
+            int="18"
+            wis="18"
+            cha="18"
+
+            skills='["Arcana +14", "History +14", "Perception +9", "Religion +9"]'
+            vulnerabilities='["fire"]'
+            resistances="bludgeoning, piercing, and slashing from nonmagical items"
+            immunities='["psychic"]'
+            condition-immunities='["charmed", "frightened"]'
+            senses='["truesight 120 ft.", "passive Perception 18"]'
+            languages='["Common", "Sphinx"]'
+            traits='[
+              {
+                "name": "Inscrutable",
+                "description": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any Divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx&apos;s intentions or sincerity have disadvantage."
+              },
+              {
+                "name": "Magic Weapons",
+                "description": "The sphinx&apos;s weapon attacks are magical.",
+                "hpAdjustment": "+68"
+              }
+            ]'
+            spellcasting='{
+              "level": "9th",
+              "ability": "Intelligence",
+              "save": 17,
+              "attackBonus": "+9",
+              "notes": "it requires no material components to cast its spells",
+              "class": "wizard",
+              "levels": [
+                {
+                  "level": "Cantrips",
+                  "spells": ["mage hand", "minor illusion", "prestidigitation"]
+                },
+                {
+                  "level": "1st",
+                  "slots": 4,
+                  "spells": ["detect magic", "identify", "shield"]
+                },
+                {
+                  "level": "2nd",
+                  "slots": 3,
+                  "spells": ["darkness", "locate object", "suggestion"]
+                },
+                {
+                  "level": "3rd",
+                  "slots": 3,
+                  "spells": ["dispel magic", "remove curse", "tongues"]
+                },
+                {
+                  "level": "4th",
+                  "slots": 2,
+                  "spells": ["banishment", "greater invisibility"]
+                },
+                {
+                  "level": "5th",
+                  "slots": 1,
+                  "spells": ["legend lore"]
+                }
+              ]
+            }'
+            actions='[
+              {
+                "name": "Multiattack",
+                "type": "multiattack",
+                "description": "The sphinx makes two claw attacks.",
+                "multiAttacks": {
+                  "id": "claw",
+                  "number": 2
+                }
+              },
+              {
+                "id": "claw",
+                "name": "Claw",
+                "type": "melee-attack",
+                "bonus": "+9",
+                "reach": "5ft.",
+                "target": "one target",
+                "damage": "2d8 + 4",
+                "damageType": "slashing"
+              }
+            ]'
+            legendary-actions='{
+              "number": 3,
+              "actions": [
+                {
+                  "name": "Claw Attack",
+                  "description": "The sphinx makes one claw attack.",
+                  "damageAdjustment": "+39"
+                },
+                {
+                  "name": "Teleport",
+                  "actions": 2,
+                  "description": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+                },
+                {
+                  "name": "Cast a Spell",
+                  "actions": 3,
+                  "description": "The sphinx casts a spell from its list of prepared Spells, using a spell slot as normal."
+                }
+              ]
+            }'
+          >
           </vellum-monster>
 
-        </div>
-      </ink-page>
+          <div class="columns">
 
-      <ink-page class="chapter title content">
-        <h2>Chapter Title</h2>
-      </ink-page>
+            <vellum-npc
+              class="official"
+              name="Lyrum"
+              gender="male"
+              race="elf"
+              statblock="archmage"
+              alignment="lawful neutral"
+              attitude="indifferent"
+              description="Lyrum is a thin and pasty elf with a painful-looking humped back. His black hair hangs down in long, greasy rat tails. Black marks under his rheumy eyes indicate a severe lack of sleep. His clothes, once fine, appear to have never been cleaned and are covered in dubious stains.">
 
-      <ink-page class="content">
+              <vellum-stat class="trait" name="Brusque (Personality Trait).">Lyrum is often impatient and rude.</vellum-stat>
 
-        <vellum-monster id="rat-king" class="two-column" itemscope itemtype="http://rgladwell.github.io/vellum-schemas/monster.html">
-          <dl>
-            <dt>Name</dt><dd itemprop="name">Rat King</dd>
-            <dt>Size</dt><dd itemprop="size">Large</dd>
-            <dt>Type</dt><dd itemprop="type">swarm of Small humanoids (ratfolk)</dd>
-            <dt>Alignment</dt><dd itemprop="alignment">chaotic neutral</dd>
-            <dt>Armor Class</dt><dd itemprop="ac">8</dd>
-            <dt>Hit Points</dt><dd itemprop="hp">90</dd>
-            <dt>Hit Die</dt><dd itemprop="hitDie">36d6-36</dd>
-            <dt>Speed</dt><dd itemprop="speeds">10 ft.</dd>
-            <dt>STR</dt><dd itemprop="str">8</dd>
-            <dt>DEX</dt><dd itemprop="dex">6</dd>
-            <dt>CON</dt><dd itemprop="con">8</dd>
-            <dt>INT</dt><dd itemprop="int">14</dd>
-            <dt>WIS</dt><dd itemprop="wis">18</dd>
-            <dt>CHA</dt><dd itemprop="cha">8</dd>
-            <dt>Saving Throw</dt><dd itemprop="savingThrows">Cons +1</dd>
-            <dt>Skill</dt><dd itemprop="skills">Perception +6</dd>
-            <dt>Sense</dt><dd itemprop="senses">darkvision 60ft.</dd>
-            <dt>Sense</dt><dd itemprop="senses">passive Perception 16</dd>
-            <dt>Languages</dt><dd itemprop="languages">Common</dd>
-            <dt>Special Trait</dt>
-            <dd>
-              <dl itemscope itemprop="specialTraits">
-                <dt>Name</dt><dd itemprop="name">Keen Smell</dd>
-                <dt>Description</dt><dd itemprop="description">The rat king has advantage on Wisdom (Perception) checks that rely on smell.</dd>
-              </dl>
-            </dd>
-            <dt>Action</dt>
-            <dd>
-              <dl itemscope itemprop="actions">
-                <dt>Name</dt><dd itemprop="name">Shortsword</dd>
-                <dt>Attack Type</dt><dd itemprop="type">melee-attack</dd>
-                <dt>Bonus</dt><dd itemprop="bonus">+2</dd>
-                <dt>Reach</dt><dd itemprop="reach">5 ft.</dd>
-                <dt>Target</dt><dd itemprop="target">one target</dd>
-                <dt>Damage</dt><dd itemprop="damage">4d6 - 4</dd>
-                <dt>Damage Type</dt><dd itemprop="damageType">piercing</dd>
-                <dt>Notes</dt><dd itemprop="notes">, or 5 (2d6 - 2) piercing damage if the rat king has half of its hit points or fewer</dd>
-              </dl>
-            </dd>
-            <dt>Action</dt>
-            <dd>
-              <dl itemscope itemprop="actions">
-                <dt>Name</dt><dd itemprop="name">Leadership</dd>
-                <dt>Limited Usage</dt><dd itemprop="limitedUsage">Recharges after a Short or Long Rest</dd>
-                <dt>Description</dt><dd itemprop="description">For 1 minute, the rat king can utter a special hiss or warning whenever another ratfolk creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a 1d4 to its roll provided it can hear or understand the rat king. A creature can benefit from only one Leadership die at a time. This effect ends if the rat king is incapacitated.</dd>
-              </dl>
-            </dd>
-            <dt>Reaction</dt>
-            <dd>
-              <dl itemscope itemprop="reactions">
-                <dt>Name</dt><dd itemprop="name">Protective Swarm</dd>
-                <dt>Description</dt><dd itemprop="description">When a creature the rat king can see targets it with an attack, the rat king chooses another ratfolk creature within 5 feet of itself. The chosen ratfolk becomes the target instead.</dd>
-              </dl>
-            </dd>
-            <dt>Legendary Actions</dt>
-            <dd>
-              <dl itemscope itemprop="legendaryActions">
-                <dt>Number</dt><dd itemprop="number">1</dd>
-                <dt>Actions</dt><dd>
-                  <dl itemscope itemprop="actions">
-                    <dt>Name</dt><dd itemprop="name">Detect</dd>
-                    <dt>Description</dt><dd itemprop="description">The rat king makes a Wisdom (Perception) check.</dd>
-                  </dl>
-                  <dl itemscope itemprop="actions">
-                    <dt>Name</dt><dd itemprop="name">Protective Swarm Reaction</dd>
-                    <dt>Description</dt><dd itemprop="description">The rat king can use its protective swarm reaction.</dd>
-                  </dl>
-                </dd>
-              </dl>
-            </dd>
-          </dl>
-        </vellum-monster>
+              <vellum-stat class="trait" name="Ponderous (Personality Trait).">Lyrum always tries to think two steps ahead, making conversation with him ponderous</vellum-stat>
 
-        <div class="content">
+              <vellum-stat class="trait" name="Pain (Flaw).">Lyrum suffers from incessant pain, causing him to lose sleep and often leading to poor judgement.</vellum-stat>
+            </vellum-npc>
 
-          <vellum-npc
-            class="official"
-            name="Lyrum"
-            gender="male"
-            race="elf"
-            statblock="archmage"
-            alignment="lawful neutral"
-            attitude="indifferent"
-            description="Lyrum is a thin and pasty elf with a painful-looking humped back. His black hair hangs down in long, greasy rat tails. Black marks under his rheumy eyes indicate a severe lack of sleep. His clothes, once fine, appear to have never been cleaned and are covered in dubious stains.">
-
-            <vellum-stat class="trait" name="Brusque (Personality Trait).">Lyrum is often impatient and rude.</vellum-stat>
-
-            <vellum-stat class="trait" name="Ponderous (Personality Trait).">Lyrum always tries to think two steps ahead, making conversation with him ponderous</vellum-stat>
-
-            <vellum-stat class="trait" name="Pain (Flaw).">Lyrum suffers from incessant pain, causing him to lose sleep and often leading to poor judgement.</vellum-stat>
-          </vellum-npc>
-
-        </div>
-      </ink-page>
-
-      <ink-page class="content">
-        <vellum-sheet>
-          <header>
-            <h2>Campaign Threats</h2>
-            <p>Roll a d3 or d4 to randomly choose one of the following:</p>
-          </header>
-
-          <vellum-sheet-group>
-            <vellum-sheet-field label="Campaign">Black Griffin</vellum-sheet-field>
-          </vellum-sheet-group>
-
-          <vellum-sheet-box>
-            <vellum-sheet-field label="Threat Name">1.</vellum-sheet-field>
-
-            <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
-
-            <h3>Agenda</h3>
-
-            <table>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-            </table>
-          </vellum-sheet-box>
-
-          <vellum-sheet-box>
-            <vellum-sheet-field label="Threat Name">2.</vellum-sheet-field>
-
-            <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
-
-            <h3>Agenda</h3>
-
-            <table>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-            </table>
-          </vellum-sheet-box>
-
-          <vellum-sheet-box>
-            <vellum-sheet-field label="Threat Name">3.</vellum-sheet-field>
-
-            <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
-
-            <h3>Agenda</h3>
-
-            <table>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-            </table>
-          </vellum-sheet-box>
-
-          <vellum-sheet-box>
-            <vellum-sheet-field label="Threat Name">4.</vellum-sheet-field>
-
-            <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
-
-            <h3>Agenda</h3>
-
-            <table>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-              <tr>
-                <td><input type="checkbox"></td>
-                <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
-              </tr>
-            </table>
-          </vellum-sheet-box>
-
-        </vellum-sheet>
-      </ink-page>
-
-      <ink-page class="content">
-        <h3 id="coming-soon">Coming Soon</h3>
-
-        <p>If you enjoyed <span class="product">The XXX</span>, look out for the following monographs from <span class="title">Grisly Eye Games</span> coming to the <span class="title">Dungeon Masters Guild</span> soon:</p>
-
-        <div class="columns">
-
-          <h4>Lorem ipsum</h4>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <h4>Lorem ipsum</h4>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-          <h4>Lorem ipsum</h4>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-          <h4>Lorem ipsum</h4>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-        </div>
-
-        <aside class="columns">
-          <div>
-            <h4 id="colophon">Colophon</h4>
-
-            <p>The layout and style of this monograph was based on the <span class="title">Dungeon Masters Guild</span> <span class="product">Adventure Template</span>. The main font is <em>Alegreya</em> by Juan Pablo del Peral which is more elegant and legible than the template default. It is also hosted on Google Webfonts and supports "true" italics and bold. The title font was <em>Andada SC</em>.</p>
-
-            <p>This document was published using HTML, JavaScript and CSS, and composed using open-source technologies including Node.js, Grunt, NPM, SASS, Polymer and Lit. The PDF was published using the <a href="https://github.com/ink-elements">Ink Framework</a>. The monster stat blocks were generated using <a href="https://github.com/grislyeye/vellum-monster"><code>&lt;vellum-monster&gt;</code></a> based on Val Markovic's open source <em>Statblock5e</em>.</p>
-
-            <p>I would especially like to thank my playtesters and reviewers. The roll call includes:</p>
-
-            <ul id="playtester-credits">
-              <li>???</li>
-            </ul>
-
-            <p>- R. G. Wood., CEO <span class="title">Grisly Eye Games</span></p>
           </div>
-        </aside>
-      </ink-page>
+
+          <vellum-sheet class="full-page">
+            <header>
+              <h2>Campaign Threats</h2>
+              <p>Roll a d3 or d4 to randomly choose one of the following:</p>
+            </header>
+
+            <vellum-sheet-group>
+              <vellum-sheet-field label="Campaign">Black Griffin</vellum-sheet-field>
+            </vellum-sheet-group>
+
+            <vellum-sheet-box>
+              <vellum-sheet-field label="Threat Name">1.</vellum-sheet-field>
+
+              <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
+
+              <h3>Agenda</h3>
+
+              <table>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+              </table>
+            </vellum-sheet-box>
+
+            <vellum-sheet-box>
+              <vellum-sheet-field label="Threat Name">2.</vellum-sheet-field>
+
+              <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
+
+              <h3>Agenda</h3>
+
+              <table>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+              </table>
+            </vellum-sheet-box>
+
+            <vellum-sheet-box>
+              <vellum-sheet-field label="Threat Name">3.</vellum-sheet-field>
+
+              <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
+
+              <h3>Agenda</h3>
+
+              <table>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+              </table>
+            </vellum-sheet-box>
+
+            <vellum-sheet-box>
+              <vellum-sheet-field label="Threat Name">4.</vellum-sheet-field>
+
+              <vellum-sheet-field class="small" label="Notes" lines="4"></vellum-sheet-field>
+
+              <h3>Agenda</h3>
+
+              <table>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox"></td>
+                  <td class="notes"><vellum-sheet-field class="small" lines="2"></vellum-sheet-field></td>
+                </tr>
+              </table>
+            </vellum-sheet-box>
+
+          </vellum-sheet>
+
+          <h3 id="coming-soon">Coming Soon</h3>
+
+          <p>If you enjoyed <span class="product">The XXX</span>, look out for the following monographs from <span class="title">Grisly Eye Games</span> coming to the <span class="title">Dungeon Masters Guild</span> soon:</p>
+
+          <div class="columns">
+
+            <h4>Lorem ipsum</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <h4>Lorem ipsum</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+            <h4>Lorem ipsum</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+            <h4>Lorem ipsum</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+          </div>
+
+          <aside class="columns">
+            <div>
+              <h4 id="colophon">Colophon</h4>
+
+              <p>The layout and style of this monograph was based on the <span class="title">Dungeon Masters Guild</span> <span class="product">Adventure Template</span>. The main font is <em>Alegreya</em> by Juan Pablo del Peral which is more elegant and legible than the template default. It is also hosted on Google Webfonts and supports "true" italics and bold. The title font was <em>Andada SC</em>.</p>
+
+              <p>This document was published using HTML, JavaScript and CSS, and composed using open-source technologies including Node.js, Grunt, NPM, SASS, Polymer and Lit. The PDF was published using the <a href="https://github.com/ink-elements">Ink Framework</a>. The monster stat blocks were generated using <a href="https://github.com/grislyeye/vellum-monster"><code>&lt;vellum-monster&gt;</code></a> based on Val Markovic's open source <em>Statblock5e</em>.</p>
+
+              <p>I would especially like to thank my playtesters and reviewers. The roll call includes:</p>
+
+              <ul id="playtester-credits">
+                <li>???</li>
+              </ul>
+
+              <p>- R. G. Wood., CEO <span class="title">Grisly Eye Games</span></p>
+            </div>
+          </aside>
+        </section>
+
+      </section>
 
     </ink-doc>
 

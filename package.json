@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "private": true,
   "author": {
     "name": "R.G. Wood",
@@ -11,11 +11,10 @@
     "year": "2018-2020"
   },
   "dependencies": {
-    "@polymer/polymer": "^3.3.1",
-    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v1.0.2",
-    "ink-elements": "1.0.2",
+    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v2.0.0",
+    "ink-elements": "^2.0.0",
     "modern-normalize": "^0.6.0",
-    "vellum-monster": "^0.14.0",
+    "vellum-monster": "^0.15.1",
     "vellum-sheet": "^0.1.0"
   },
   "devDependencies": {
