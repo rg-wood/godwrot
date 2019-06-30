@@ -12,6 +12,7 @@
   <script type="module" src="vendor/ink-elements/ink-doc.js"></script>
   <script type="module" src="vendor/vellum-monster/vellum-monster.js"></script>
   <script type="module" src="vendor/vellum-monster/vellum-stat-block.js"></script>
+  <script type="module" src="vendor/vellum-monster/vellum-npc.js"></script>
 
 </head>
 
@@ -228,6 +229,26 @@
           </dl>
         </vellum-monster>
 
+        <div class="content">
+
+          <vellum-npc
+            class="official"
+            name="Lyrum"
+            gender="male"
+            race="elf"
+            statblock="archmage"
+            alignment="lawful neutral"
+            attitude="indifferent"
+            description="Lyrum is a thin and pasty elf with a painful-looking humped back. His black hair hangs down in long, greasy rat tails. Black marks under his rheumy eyes indicate a severe lack of sleep. His clothes, once fine, appear to have never been cleaned and are covered in dubious stains.">
+
+            <vellum-stat class="trait" name="Brusque (Personality Trait).">Lyrum is often impatient and rude.</vellum-stat>
+
+            <vellum-stat class="trait" name="Ponderous (Personality Trait).">Lyrum always tries to think two steps ahead, making conversation with him ponderous</vellum-stat>
+
+            <vellum-stat class="trait" name="Pain (Flaw).">Lyrum suffers from incessant pain, causing him to lose sleep and often leading to poor judgement.</vellum-stat>
+          </vellum-npc>
+
+        </div>
       </ink-page>
 
       <ink-page class="content">
