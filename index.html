@@ -568,18 +568,71 @@ You can use the strongholds and followers from the threat description in your ad
               </tr>
             </tbody>
           </table>
+
+          <h4 id="describing-locations">Describing Locations</h4>
+
+          <p>Locations are described with a name and description, as well as the following stats:</p>
+
+          <dl>
+            <dt>Size.</dt>
+            <dd>This stat defines relative size of a location and can be small, medium large or huge.</dd>
+
+            <dt>Type.</dt>
+            <dd>This stat defines relative size of a location and can be small, medium or large.</dd>
+
+            <dt>Tags.</dt>
+            <dd>A location might have one or more tags appended to its type, in parenthesis. Common tags include: secret, keep, village, town or city.</dd>
+
+            <dt>Level and Difficulty.</dt>
+            <dd>Level and difficulty also appear in parenthesis. A location’s level is expressed as a range of levels to give you an idea of its relative strength (levels 1–4, 5–10, 11–16, and 17– 20). It is then labeled as an safe, unsafe, or perilous. The location’s level tells you how much of a challenge it is compared to others of its level range</dd>
+          </dl>
+
         </div>
       </ink-page>
 
       <ink-page class="content">
         <div class="columns">
 
+          <dl>
+            <dt>Peril.</dt>
+            <dd>Each location has a starting peril rating which defines how disorderly or unlawful that area is. This is added to when rolling to check for random encounters <em>and</em> when rolling on random encounter tables. The peril rating is usually listed in the parenthesis with the location difficulty.</dd>
+
+            <dt>Traits.</dt>
+            <dd>Locations can have one or more traits which influence or affect travellers through the region. For example, making navigation much harder. The most important trait is <strong>difficult terrain</strong>, as defined in chapter 8 of the <em>Player's Handbook</em>.</dd>
+
+          </dl>
+
+          <h5 id="peril">Peril</h5>
+
+          <p>Each location has a starting peril rating that ranges from -5 to +5. Unlike other traits that affect a location, the characters actions can increase or decrease a locations' peril rating.</p>
+
+          <p>Each time the characters do something substantial to increase the areas lawfulness, decrease the peril rating by -1. For example, if they kill a band of brigands or bring a wanted criminal to justice.</p>
+
+          <p>Similarly, when the characters do something substantial to increase the areas peril, increase the peril rating by +1. Usually if they commit some kind of crime, or fail to stop some other chaotic faction.</p>
+
+          <p>When a location's peril rating exceeds +5 it can increase its difficulty or level. Safe regions become unsafe, and unsafe regions become perilous. When a perilous region exceeds +5 peril increase its level (i.e. a level 1-4 location becomes level 5-10).</p>
+
+          <p>Similarly, when a location's peril rating descends below -5 it can decrease its difficulty or level. Unsafe regions become safe, etc. When a safe region descends below -5 peril decrease its level (i.e. a level 5-10 location becomes level 1-4).</p>
+
+          <p>These changes to a region may require changes to its traits (such as increasing or decreasing difficulties for travel checks like navigation checks) and random encounter tables</p>
+
           <header>
             <h3 id="the-coves">The Coves</h3>
-            <p><em>Region (level 1-4, medium)</em></p>
+            <p><em>Medium region (level 1-4, unsafe +3)</em></p>
           </header>
 
-          <p>The Coves are a series of cliffs, caves and remote beaches that runs along the easterly coast of the Midlands. Here you will find remote fishing communities, farmers and the odd smuggling gang.</p>
+          <p>The Coves are a series of cliffs, caves and remote beaches that runs along the easterly coast of the Midlands. Here you will find remote fishing communities and the odd gang of smugglers.</p>
+
+          <dl>
+            <dt>Flat.</dt>
+            <dd>The land is mostly flat in this area making navigation easy (DC 10).</dd>
+
+            <dt>Hidden coves.</dt>
+            <dd>The many hidden coves that litter this area give good cover to all manner of nefarious folk, make scouting difficult (DC 17).</dd>
+
+            <dt>Scarce.</dt>
+            <dd>Game is limited to a few gulls and fish straying too close to the shore. Foraging checks are made with DC 15.</dd>
+          </dl>
 
           <table id="cove-encounters">
             <caption>Random Cove Encounters</caption>
@@ -654,30 +707,17 @@ You can use the strongholds and followers from the threat description in your ad
             </tbody>
           </table>
 
-          <table id="cove-locations">
-            <caption>Random Cove Locations</caption>
-            <thead>
-              <tr>
-                <th>d6</th>
-                <th>Location</th>
-              </tr>
-            </thead>
+          <h4 id="cove-notable-locations">Notable Locations</h4>
 
-            <tbody>
-              <tr>
-                <td>1-3</td>
-                <td>Whiterock (see page <ink-page-ref ref="whiterock"></ink-page-ref>)</td>
-              </tr>
-              <tr>
-                <td>4-5</td>
-                <td>???</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>The Robert Morgan (see page <ink-page-ref ref="robert-morgan"></ink-page-ref>)</td>
-              </tr>
-            </tbody>
-          </table>
+          <p>Notable location in the Coves include:</p>
+
+          <dl>
+            <dt>Whiterock.</dt>
+            <dd>This remote fishing village does a brisk trade in fish but does not welcome strangers lingering after dark (see page <ink-page-ref ref="whiterock"></ink-page-ref>).</dd>
+
+            <dt>The Robert Morgan.</dt>
+            <dd>This landlocked ship has become a haven for pirates and smuggler's in the Coves, commanded by the ruthless pirate queen, Captain Daniels (see page <ink-page-ref ref="robert-morgan"></ink-page-ref>).</dd>
+          </dl>
 
         </div>
       </ink-page>
