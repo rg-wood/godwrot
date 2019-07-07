@@ -69,12 +69,12 @@
 
           <h3 id="introduction">Introduction</h3>
 
-          <p><strong>Black Griffin</strong> is a gritty campaign where the characters play bounty hunters working for a shady mercenary company on the wrong side of a war. The party will be sent on missions to chip away at enemy factions as part of a new style of play called a "faction sandbox".</p>
+          <p><strong>Black Griffin</strong> is a gritty campaign where the characters play bounty hunters working for a shady mercenary company on the wrong side of a war. The party will be sent on missions to chip away at enemy factions as part of a new style of play called a "threat sandbox".</p>
 
           <p>This book is divided into the following sections:</p>
 
           <ul>
-            <li><strong>Introduction.</strong> This introduction summarises the campaign and introduces the faction sandbox.</li>
+            <li><strong>Introduction.</strong> This introduction summarises the campaign and introduces the threat sandbox.</li>
             <li><strong>Chapter 1: The Nightmare Under Dismas.</strong> An introductory adventure that puts the party into the middle of the action.</li>
             <li><strong>Chapter 2: The Midlands Gazetteer.</strong> Outline of the main regions, paths and locations in the Midlands.</li>
             <li><strong>Chapter 3: Factions of the Midlands.</strong> The various threats that can be encountered as the party explore the Midlands.</li>
@@ -84,63 +84,68 @@
 
           <h4 id="what-you-need-to-play">What You'll Need to Play</h4>
 
-          <p>In addition to the normal items you need to play, you'll need a set of index cards for <strong>Black Griffin</strong>. This campaign is heavily war based so you should also have a copy of the mass combat rules in <em>The Many</em>, also by <strong>Grisly Eye Games</strong>.</p>
+          <p>This campaign is heavily war based so you should also have a copy of the mass combat rules in <em>The Many</em>, also by <strong>Grisly Eye Games</strong>.</p>
           <!-- TODO remove this requirement by having an appendix with sample stats from The Many -->
 
-          <h4 id="faction-sandbox">The Faction Sandbox</h4>
+          <h4 id="threat-sandbox">The Threat Sandbox</h4>
 
-          <p>After the first adventure ('The Nightmare Under Dismas') has established the setting and characters, the game turns into a faction sandbox:</p>
+          <p>After the first adventure ('The Nightmare Under Dismas') has established the setting and characters the game turns into a <em>threat sandbox</em>:</p>
 
-          <p>In a faction sandbox, at the end of each session the DM generates three new missions. The players decide amongst themselves which mission to run for the next session. The DM then turns this mission into a mini-adventure as part of his session preparation. The process is repeated for the next session after that and so on.</p>
+          <p>In a threat sandbox, at the end of each session the DM generates three new missions. The players decide amongst themselves which mission to run for the next session. The DM then turns this mission into a mini-adventure as part of his session preparation. The process is repeated for the next session after that and so on.</p>
 
           <p>In addition to the normal rewards and risks of adventures, missions have impacts on the wider world of factions. New factions can appear on the scene, and old factions maybe weakened or empowered by the party's actions.</p>
 
-          <h4 id="factions">Factions</h4>
+          <h4 id="describing-threats">Describing Threats</h4>
 
-          <p>The factions sandbox builds on the rules for factions and organisations from chapter 1 of the <em>Dungeon Master's Guide</em>. Factions in the sandbox are described with the following additional details:</p>
+          <p>Threats in the sandbox are described with a name and description, as well as the following stats:</p>
 
-          <p><em><strong>Level and Difficulty.</strong></em> A faction’s level is expressed as a range of levels to give you an idea of its relative strength (levels 1–4, 5–10, 11–16, and 17– 20).  It is then labeled as an easy, medium, or hard. The faction’s level tells you how powerful it is compared to others of its level range.</p>
+          <p><em><strong>Level and Difficulty.</strong></em> A threat’s level is expressed as a range of levels to give you an idea of its relative strength (levels 1–4, 5–10, 11–16, and 17– 20). It is then labeled as an easy, medium, or hard. The threat’s level tells you how much of a challenge it is compared to others of its level range.</p>
 
-          <p><em><strong>Missions.</strong></em> A random table of typical missions this faction carries out when not in direct conflict with another.</p>
+          <p><em><strong>Agenda.</strong></em> A series of checkboxes indicating what the threat is setting out to achieve at any particular time. As the campaign progresses the checkboxes get checked off, raising the stakes.</p>
 
-          <p><em><strong>Leaders.</strong></em> A random table of the most powerful and notable members of this faction, accompanied by stat blocks for these NPCs.</p>
+          <h4 id="threat-die">Threat Die</h4>
 
-          <p><em><strong>Strongholds.</strong></em> A random table of locations important to this faction. These locations will be accompanied by detailed maps and notes elsewhere in the faction description.</p>
+          <p>Each threat has a threat die associated with it, which determines its current strength. Threat die run along the following progression:</p>
 
-          <p><em><strong>Followers.</strong></em> A random encounter table for common members of this faction. This maybe accompanied by stat blocks for these NPCs.</p>
+          <p class="rule">d10 → d8 → d6 → d4</p>
 
-          <h4 id="faction-deck">The Faction Deck</h4>
-
-          <p>The faction deck represents the balance of power between the factions in your world. The more cards a faction has, the more powerful it is. As factions expend their resources or face defeat, they lose cards. Similarly, victorious factions gain cards.</p>
-
-          <p>The number of cards a faction has initially depends on their difficulty. When adding factions to a faction deck, refer to the Initial Faction Deck table below:</p>
+          <p>Each successful mission against a threat reduces its threat die. Each failed mission reduces the party’s faction's threat die.</p>
 
           <table id="initial-faction-deck-table">
-            <caption>Initial Faction Deck</caption>
+            <caption>Initial Threat Die</caption>
             <thead>
               <tr>
-                <th>Faction Difficulty</th>
-                <th class="number">Initial Cards</th>
+                <th>Threat Difficulty</th>
+                <th class="number">Initial Die</th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <td>Easy</td>
-                <td class="number">5</td>
+                <td class="number">d6</td>
               </tr>
               <tr>
                 <td>Medium</td>
-                <td class="number">10</td>
+                <td class="number">d8</td>
               </tr>
               <tr>
                 <td>Hard</td>
-                <td class="number">15</td>
+                <td class="number">d10</td>
               </tr>
             </tbody>
           </table>
 
-          <p>You can just use index cards and write the name of the faction on each one.</p>
+          <h4 id="creating-missions">Creating Missions</h4>
+
+          <p>To create a new mission, roll a threat die for each threat. On a 1-2 there is a mission targeting that threat. Keep rolling until you get three missions, looping back through the threats in play if you have to. Then for each mission you have you need to do two things:</p>
+
+          <ol>
+            <li>Roll on the Mission Types table below to determine the type of mission.</li>
+            <li>Check off an agenda from the threat's agenda to determine which enemy action is involved in this mission.</li>
+          </ol>
+
+          <p>If you are a member of this faction, roll for a random mission from the table in its description instead of the above.</p>
 
         </div>
       </ink-page>
@@ -148,131 +153,90 @@
       <ink-page class="content">
         <div class="columns">
 
+          <p>For example, the DM rolls an espionage mission against The Flock threat, and checks off the <q>infiltrate the Mandatory forces</q> agenda item. The DM interprets this as an espionage mission to uncover the next target of the Flock's infiltration.</p>
 
-          <h4 id="creating-missions">Creating Missions</h4>
+          <h5 id="coup-de-grace">Coup de Grâce</h5>
 
-          <p>To create a new mission, randomly draw a or choose a faction card from the faction deck. If you are a member of this faction, roll for a random mission from the table in its description.</p>
+          <p>If a threat’s die is reduced below d4 it triggers a special, <em>coup-de-grâce</em> mission. This mission represents the threat‘s last gasp. It might involve a last ditch attack by the front or a mission to face down the the end-of-level boss type.</p>
 
-          <p>Otherwise, this is the enemy faction involved in this mission. Roll on the Mission Types table below.</p>
+          <p>If the party succeed or fail, the front is resolved and and morphs into a new, higher-level front. Usually the new front start one front die lower than the original.</p>
+
+          <p>This new threat could represent a new faction stepping into the void created by the destruction of the old, a big bad boss escaping and regrouping or anything that might make sense for your campaign.</p>
+
+          <h4 id="creating-missions">Turning Missions into Adventures</h4>
+
+          <p>Once the players have chosen the mission for next weeks session, the DM needs to turn it into an adventure. The adventure, encounter, non-player character and environment creation guidelines and tables from chapters 3, 4 and 5 of the <em>Dungeon Master's Guide</em> are invaluable for this.
+You can use the strongholds and followers from the threat description in your adventure locations and encounters. You are, of course, also allowed to include whatever monsters, NPCs and locations you like.</p>
+
+          <p>Missions should be shorter than normal adventures and conclude in one or two sessions.</p>
+
+          <p>Most missions should also include one or two complications, possibly involving new threats where the player character's actions may decide whether they become friend or foe.</p>
+
           <table id="missions">
-            <caption>Missions</caption>
+            <caption>Mission Types</caption>
             <thead>
               <tr>
                 <th class="number">d10</th>
-                <th>Mission</th>
+                <th>Type of Mission</th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <td class="number">1</td>
-                <td><strong>Attack (Offensive).</strong> Capture or kill an enemy leader.</td>
+                <td><strong>Attack.</strong> Capture or kill an enemy leader.</td>
               </tr>
               <tr>
                 <td class="number">2</td>
-                <td><strong>Annex (Offensive).</strong> Capture or destroy a stronghold.</td>
+                <td><strong>Annex.</strong> Capture or destroy an enemy stronghold.</td>
               </tr>
               <tr>
                 <td class="number">3</td>
-                <td><strong>Scout (Support).</strong> Discover the position of an enemy stronghold.</td>
+                <td><strong>Scout.</strong> Discover the position of an enemy stronghold.</td>
               </tr>
               <tr>
                 <td class="number">4</td>
-                <td><strong>Espionage (Support).</strong> Uncover information about the enemy.</td>
+                <td><strong>Espionage.</strong> Uncover information about the enemy.</td>
               </tr>
               <tr>
                 <td class="number">5</td>
-                <td><strong>Sabotage (Offensive).</strong> Capture or destroy enemy resources.</td>
+                <td><strong>Sabotage.</strong> Capture or destroy enemy resources.</td>
               </tr>
               <tr>
                 <td class="number">6</td>
-                <td><strong>Guard Duty (Defensive).</strong> You must protect a leader from an enemy attack.</td>
+                <td><strong>Guard Duty.</strong> You must protect a leader from an enemy attack.</td>
               </tr>
               <tr>
                 <td class="number">7</td>
-                <td><strong>Repel (Defensive).</strong> You must defend a stronghold from an enemy attack.</td>
+                <td><strong>Repel.</strong> You must defend a stronghold from an enemy attack.</td>
               </tr>
               <tr>
                 <td class="number">8</td>
-                <td><strong>Spyhunt (Defensive).</strong> You must search out enemy spies in your midsts.</td>
+                <td><strong>Counter-espionage.</strong> You must search out enemy spies in your midsts.</td>
               </tr>
               <tr>
                 <td class="number">9</td>
-                <td><strong>Patrol (Defensive).</strong> You must patrol around a stronghold on the look out for enemy scouts.</td>
+                <td><strong>Patrol.</strong> You must patrol around a stronghold on the look out for enemy scouts.</td>
               </tr>
               <tr>
                 <td class="number">10</td>
-                <td><strong>Escort (Defensive).</strong> You must defend a supply delivery against enemy attacks.</td>
+                <td><strong>Escort.</strong> You must defend a supply delivery against enemy attacks.</td>
               </tr>
             </tbody>
           </table>
-
-          <p>Missions can be of three different types, which determine how they affect the faction deck:</p>
-
-          <p><em><strong>Offensive.</strong></em> A direct attack on an enemy faction.</p>
-
-          <p><em><strong>Defensive.</strong></em> Defending against an enemy faction attack.</p>
-
-          <p><em><strong>Support.</strong></em> Non-conflict missions that support or maintain the faction.</p>
 
           <div class="aside" id="mission-timers">
             <h5>Variant Rule: Mission Timers</h5>
 
-            <p>Faction sandbox worlds can still seem passive, only changing in reaction to the player characters. If you want to make your worlds more dynamic you can use these variant rules for mission timers:</p>
+            <p>Threat sandbox worlds can still seem passive, only changing in reaction to the player characters. If you want to make your worlds more dynamic you can use these variant rules for mission timers:</p>
 
             <p>Rather than generate a complete set of new missions after each session, missions persist for longer. Each mission has a number of timer checkboxes. Each session a mission is not taken by the party, a mission checkbox is marked off. Once all the checkboxes are marked off the mission defaults as though it failed, and the mission penalties come into effect.</p>
           </div>
 
-          <h4 id="turning-missions-into-adventures">Turning Missions into Adventures</h4>
-
-          <p>Once the players have chosen the mission for next weeks session, the DM needs to turn it into an adventure. The adventure, encounter, nonplayer character and environment creation guidelines and tables from chapters 3, 4 and 5 of the <em>Dungeon Master's Guide</em> are invaluable for this.</p>
-
-          <p>You can use the strongholds and followers from the faction description in your adventure locations and encounters. You are, of course, also allowed to include whatever monsters, NPCs and locations you like.</p>
-
-          <p>Missions should be shorter than normal adventures, typically taking about a day of game time (not including travel) and concluding in one or two sessions. You should plan the encounters accordingly.</p>
-
-          <p>Most missions should also include one or two complications, possibly involving new factions where the player character's actions may decide whether they become friend or foe. You can choose or roll for a random faction using the Factions table in chapter 3.</p>
-
-        </div>
-      </ink-page>
-
-      <ink-page class="content">
-        <div class="columns">
-
           <h4 id="between-missions">Between Missions</h4>
 
-          <p>Characters get a maximum of 7 days to rest between missions (a long rest if you're using the variant rules for gritty rests in Chapter 9 of the <em>Dungeon Master's Guide</em>).</p>
+          <p>Characters a contracted to have a maximum of 7 days to rest between missions (a long rest if you're using the variant rules for gritty rests in Chapter 9 of the <em>Dungeon Master's Guide</em>).</p>
 
-          <p>In addition to the normal downtime activities between adventures you should adjust the faction deck according to the outcome of the last mission. This reflects the change in the balance of power resulting from the character's actions. Factions lose or gain cards from the faction deck according to the type of mission and whether it was successful or not:</p>
-
-          <table id="mission-outcomes">
-            <caption>Mission Outcomes</caption>
-            <thead>
-              <tr>
-                <th>Mission Type</th>
-                <th>Success</th>
-                <th>Failure</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>Offensive</td>
-                <td>Enemy faction loses card.</td>
-                <td>No change</td>
-              </tr>
-              <tr>
-                <td>Defensive</td>
-                <td>No change</td>
-                <td>Player's faction loses card.</td>
-              </tr>
-              <tr>
-                <td>Support</td>
-                <td>Player's faction gains card.</td>
-                <td>No change</td>
-              </tr>
-            </tbody>
-          </table>
         </div>
       </ink-page>
 
@@ -1977,7 +1941,7 @@
               <p><em>Skill Challenge (level 1-4, difficulty varies)</em></p>
           </header>
 
-          <p>Travelling the Midlands between missions is an important part of the faction sandbox. Use this challenge when the party undertakes a long journey. Before a journey begins the party members choose which role they play depending on their strongest skill: guide (Survival), scout (Stealth or Investigation) and look-out (Perception).</p>
+          <p>Travelling the Midlands between missions is an important part of the threat sandbox. Use this challenge when the party undertakes a long journey. Before a journey begins the party members choose which role they play depending on their strongest skill: guide (Survival), scout (Stealth or Investigation) and look-out (Perception).</p>
 
           <p> Roll for a random encounter each journey using the region random encounter tables in this chapter.</p>
 
