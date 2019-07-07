@@ -1,16 +1,2 @@
 @import url('vendor/modern-normalize/modern-normalize.css');
 @import url('vendor/grisly-eye-docs-style/main.css');
-
-img.full-page {
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-
-.content p.rule {
-  text-align: center;
-  border-top: thin solid red;
-  border-bottom: thin solid red;
-  padding: 0.5em;
-  background-color: #eaeaea;
-}
