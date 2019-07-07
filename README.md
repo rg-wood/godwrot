@@ -5,25 +5,24 @@ Static HTML document for 'Threats: Vermus'.
 Requirements:
 
   * [Node.js](http://nodejs.org/)
-  * [Yarn](https://yarnpkg.com/)
 
 To set-up your environment execute:
 
-    $ yarn install
+    $ npm install
 
 To build execute:
 
-    $ yarn run build
+    $ npm run build
 
 To test:
 
-    $ yarn run start
+    $ npm start
 
 And open http://localhost:8000 in your browser.
 
 To clean build:
 
-    $ yarn run clean
+    $ npm clean
 
 To publish as a PDF:
 
