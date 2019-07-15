@@ -1,6 +1,6 @@
-# Black Griffon
+# Black Griffon Player's Guide
 
-Static HTML document for 'Threats: Vermus'.
+Static HTML document for 'Black Griffon Player's Guide'.
 
 Requirements:
 

@@ -12,10 +12,6 @@ module.exports = function (grunt) {
             dest: 'dist/html/index.html'
           },
           {
-            src: 'players-guide.html',
-            dest: 'dist/players-guide.html'
-          },
-          {
             src: 'main.css',
             dest: 'dist/html/main.css'
           }
@@ -38,7 +34,7 @@ module.exports = function (grunt) {
         livereload: true
       },
       html: {
-        files: ['index.html', 'players-guide.html', 'main.css', 'package.json'],
+        files: ['index.html', 'main.css', 'package.json'],
         tasks: ['copy:main', 'string-replace']
       },
       assets: {
@@ -50,8 +46,7 @@ module.exports = function (grunt) {
           'node_modules/grisly-eye-doc-style/**/!(node_modules)',
           'node_modules/ink-elements/**/!(node_modules)',
           'node_modules/@webcomponents/**/!(node_modules)',
-          'node_modules/@polymer/**/!(node_modules)',
-          'node_modules/vellum-monster/**/!(node_modules)'
+          'node_modules/@polymer/**/!(node_modules)'
         ],
         tasks: ['npmcopy:dist']
       }
@@ -82,9 +77,6 @@ module.exports = function (grunt) {
           '@webcomponents': '@webcomponents',
           'grisly-eye-docs-style': 'grisly-eye-doc-style',
           'ink-elements': 'ink-elements',
-          'vellum-monster': 'vellum-monster',
-          'polymer-microdata': 'polymer-microdata',
-          'microtesia.js': 'microtesia.js',
           'modern-normalize': 'modern-normalize'
         }
       }

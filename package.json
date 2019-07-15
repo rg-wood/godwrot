@@ -1,6 +1,6 @@
 {
-  "name": "black-griffin",
-  "version": "0.8.0",
+  "name": "black-griffin-players-guide",
+  "version": "0.9.0",
   "private": true,
   "author": {
     "name": "R.G. Wood",
@@ -15,8 +15,7 @@
     "@webcomponents/webcomponentsjs": "2.2.10",
     "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v0.5.19",
     "ink-elements": "^0.4.2",
-    "modern-normalize": "^0.5.0",
-    "vellum-monster": "^0.13.0"
+    "modern-normalize": "^0.5.0"
   },
   "devDependencies": {
     "eslint": "^5.15.1",
