@@ -22,7 +22,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: 'assets/',
-            src: ['**', '!styles/**'],
+            src: ['**', '!styles/**', '!scripts/**'],
             dest: 'dist/html/'
           }
         ]
@@ -47,7 +47,8 @@ module.exports = function (grunt) {
           'node_modules/ink-elements/**/!(node_modules)',
           'node_modules/@webcomponents/**/!(node_modules)',
           'node_modules/@polymer/**/!(node_modules)',
-          'node_modules/vellum-monster/**/!(node_modules)'
+          'node_modules/vellum-monster/**/!(node_modules)',
+          'node_modules/vellum-sheet/**/!(node_modules)'
         ],
         tasks: ['npmcopy:dist']
       }
@@ -117,5 +118,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-string-replace')
 
   grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy'])
-  grunt.registerTask('run', ['clean', 'default', 'connect', 'watch'])
+  grunt.registerTask('run', ['default', 'connect', 'watch'])
 }
