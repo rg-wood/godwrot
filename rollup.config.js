@@ -1,9 +1,9 @@
 import resolve from 'rollup-plugin-node-resolve'
 
 export default {
-  input: ['assets/scripts/vellum.js'],
+  input: ['assets/scripts/vellum.js', 'assets/scripts/ink.js'],
   output: {
-    file: 'dist/html/scripts/vellum.js',
+    dir: 'dist/html/scripts/',
     format: 'es',
     sourcemap: true
   },
