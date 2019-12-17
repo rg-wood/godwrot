@@ -3,6 +3,8 @@ module.exports = function (grunt) {
 
   var pkg = grunt.file.readJSON('package.json')
 
+  var resolve = require('rollup-plugin-node-resolve')
+
   grunt.initConfig({
     copy: {
       main: {
@@ -41,16 +43,23 @@ module.exports = function (grunt) {
         files: ['assets/**'],
         tasks: ['copy:assets']
       },
-      node_modules: {
+      vendor_modules: {
         files: [
           'node_modules/grisly-eye-doc-style/**/!(node_modules)',
-          'node_modules/ink-elements/**/!(node_modules)',
           'node_modules/@webcomponents/**/!(node_modules)',
           'node_modules/@polymer/**/!(node_modules)',
           'node_modules/vellum-monster/**/!(node_modules)',
           'node_modules/vellum-sheet/**/!(node_modules)'
         ],
         tasks: ['npmcopy:dist']
+      },
+      rollup_modules: {
+        files: [
+          'node_modules/ink-elements/**/!(node_modules)',
+          'node_modules/vellum-monster/**/!(node_modules)',
+          'node_modules/vellum-sheet/**/!(node_modules)'
+        ],
+        tasks: ['rollup']
       }
     },
 
@@ -106,6 +115,21 @@ module.exports = function (grunt) {
           }]
         }
       }
+    },
+
+    rollup: {
+      options: {
+        format: 'es',
+        plugins: [
+          resolve()
+        ]
+      },
+      dist: {
+        files: {
+          'dist/html/scripts/vellum.js': 'assets/scripts/vellum.js',
+          'dist/html/scripts/ink.js': 'assets/scripts/ink.js'
+        }
+      }
     }
   })
 
@@ -115,7 +139,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect')
   grunt.loadNpmTasks('grunt-npmcopy')
   grunt.loadNpmTasks('grunt-string-replace')
+  grunt.loadNpmTasks('grunt-rollup')
 
-  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy'])
+  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy', 'rollup'])
   grunt.registerTask('run', ['default', 'connect', 'watch'])
 }
