@@ -78,7 +78,6 @@ module.exports = function (grunt) {
           '@polymer': '@polymer',
           '@webcomponents': '@webcomponents',
           'grisly-eye-docs-style': 'grisly-eye-doc-style',
-          'ink-elements': 'ink-elements',
           'vellum-monster': 'vellum-monster',
           'polymer-microdata': 'polymer-microdata',
           'microtesia.js': 'microtesia.js',
