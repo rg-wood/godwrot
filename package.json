@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "0.10.14",
+  "version": "1.0.0",
   "private": true,
   "author": {
     "name": "R.G. Wood",
@@ -36,7 +36,7 @@
     "grunt-rollup": "^10.0.0",
     "grunt-string-replace": "^1.3.1",
     "htmllint-cli": "0.0.7",
-    "ink-cli": "^0.0.8",
+    "scribe-cli": "^0.1.3",
     "polymer-cli": "^1.9.11",
     "rollup-plugin-node-resolve": "^5.2.0",
     "stylelint": "^12.0.0",
@@ -47,6 +47,6 @@
     "watch": "grunt watch",
     "clean": "grunt clean",
     "start": "grunt run",
-    "publish": "npm run build --scripts-prepend-node-path=true && ink publish"
+    "publish": "npm run build --scripts-prepend-node-path=true && scribe publish --size A4"
   }
 }
