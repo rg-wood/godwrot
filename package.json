@@ -14,7 +14,7 @@
     "@polymer/polymer": "^3.3.1",
     "@webcomponents/webcomponentsjs": "2.4.0",
     "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v1.0.0",
-    "ink-elements": "0.7.1",
+    "ink-elements": "1.0.0",
     "modern-normalize": "^0.5.0",
     "vellum-monster": "^0.13.2",
     "vellum-sheet": "^0.1.0"
@@ -36,7 +36,7 @@
     "grunt-rollup": "^10.0.0",
     "grunt-string-replace": "^1.3.1",
     "htmllint-cli": "0.0.7",
-    "scribe-cli": "^0.1.3",
+    "scribe-cli": "^1.0.0",
     "polymer-cli": "^1.9.11",
     "rollup-plugin-node-resolve": "^5.2.0",
     "stylelint": "^12.0.0",
