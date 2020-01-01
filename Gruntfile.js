@@ -46,7 +46,6 @@ module.exports = function (grunt) {
       vendor_modules: {
         files: [
           'node_modules/grisly-eye-doc-style/**/!(node_modules)',
-          'node_modules/@webcomponents/**/!(node_modules)',
           'node_modules/@polymer/**/!(node_modules)',
           'node_modules/vellum-monster/**/!(node_modules)',
           'node_modules/vellum-sheet/**/!(node_modules)'
@@ -85,7 +84,6 @@ module.exports = function (grunt) {
         },
         files: {
           '@polymer': '@polymer',
-          '@webcomponents': '@webcomponents',
           'grisly-eye-docs-style': 'grisly-eye-doc-style',
           'vellum-monster': 'vellum-monster',
           'polymer-microdata': 'polymer-microdata',
