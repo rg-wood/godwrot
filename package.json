@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "author": {
     "name": "R.G. Wood",
@@ -8,7 +8,7 @@
     "url": "https://grislyeye.com"
   },
   "copyright": {
-    "year": "2018-2019"
+    "year": "2018-2020"
   },
   "dependencies": {
     "@polymer/polymer": "^3.3.1",
