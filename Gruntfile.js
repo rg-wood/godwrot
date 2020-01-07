@@ -45,10 +45,7 @@ module.exports = function (grunt) {
       },
       vendor_modules: {
         files: [
-          'node_modules/grisly-eye-doc-style/**/!(node_modules)',
-          'node_modules/@polymer/**/!(node_modules)',
-          'node_modules/vellum-monster/**/!(node_modules)',
-          'node_modules/vellum-sheet/**/!(node_modules)'
+          'node_modules/grisly-eye-doc-style/**/!(node_modules)'
         ],
         tasks: ['npmcopy:dist']
       },
@@ -83,11 +80,7 @@ module.exports = function (grunt) {
           destPrefix: 'dist/html/vendor'
         },
         files: {
-          '@polymer': '@polymer',
           'grisly-eye-docs-style': 'grisly-eye-doc-style',
-          'vellum-monster': 'vellum-monster',
-          'polymer-microdata': 'polymer-microdata',
-          'microtesia.js': 'microtesia.js',
           'modern-normalize': 'modern-normalize'
         }
       }
