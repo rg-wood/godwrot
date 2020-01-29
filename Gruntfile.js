@@ -45,15 +45,19 @@ module.exports = function (grunt) {
       },
       vendor_modules: {
         files: [
-          'node_modules/grisly-eye-doc-style/**/!(node_modules)'
+          'node_modules/grisly-eye-doc-style/**/*',
+          '!node_modules/grisly-eye-doc-style/**/node_modules/**/*'
         ],
         tasks: ['npmcopy:dist']
       },
       rollup_modules: {
         files: [
-          'node_modules/ink-elements/**/!(node_modules)',
-          'node_modules/vellum-monster/**/!(node_modules)',
-          'node_modules/vellum-sheet/**/!(node_modules)'
+          'node_modules/ink-elements/**/*',
+          '!node_modules/ink-elements/**/node_modules/**/*',
+          'node_modules/vellum-monster/**/*',
+          '!node_modules/vellum-monster/**/node_modules/**/*',
+          'node_modules/vellum-sheet/**/*',
+          '!node_modules/vellum-sheet/**/node_modules/**/*'
         ],
         tasks: ['rollup']
       }
