@@ -1,2 +1,7 @@
 @import url('vendor/modern-normalize/modern-normalize.css');
 @import url('vendor/grisly-eye-docs-style/main.css');
+
+#cover {
+  background-image: url("images/cover-art.png");
+  background-size: cover;
+}
