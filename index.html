@@ -8,8 +8,7 @@
   <title>Black Griffin Player's Guide</title>
 
   <link href="main.css" rel="stylesheet" />
-  <script src="vendor/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-  <script type="module" src="vendor/ink-elements/ink-doc.js"></script>
+  <script type="module" src="scripts/ink.js"></script>
 
 </head>
 
@@ -17,23 +16,25 @@
 
   <main>
 
-    <ink-doc class="draft">
-      <ink-page id="cover">
+    <ink-doc>
+
+      <section id="cover">
+
         <header>
           <h1>Black Griffin</h1>
+          <p id="brand">&bull; By {{ AUTHOR }} &bull;</p>
           <h2>Player's Guide</h2>
         </header>
 
         <div id="branding">
-          <p id="brand">By {{ AUTHOR }}</p>
-
           <div id="logos">
             <img src="vendor/grisly-eye-docs-style/assets/images/dmsguild.png" alt="DMs Guild Logo"/>
           </div>
         </div>
-      </ink-page>
 
-      <ink-page id="title" class="content">
+      </section>
+
+      <section id="title" class="content">
 
         <header>
           <h2>Black Griffin</h2>
@@ -54,70 +55,72 @@
         <a href="https://grislyeye.com"><img src="images/logo.png" class="logo" alt="Grisly Eye Games' Logo"></a>
 
         <footer class="legal">
-          <p>DUNGEONS &amp; DRAGONS, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries.  This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
+          <p>Dungeons &amp; Dragons, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries. This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
 
           <p>All other original material in this work is copyright 2016 by Grisly Eye Games and published under the Community Content Agreement for Dungeon Masters Guild. Grisly Eye logo symbol designed by Freepik. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
         </footer>
 
-      </ink-page>
+      </section>
 
-      <ink-page class="content" id="the-land">
+      <section class="draft content">
         <div class="columns">
 
-          <h3>The Land</h3>
+          <section id="land">
+            <h3>The Land</h3>
 
-          <p><em>Black Griffon</em> takes place in The Land: a vast, continental mass that is going through a renaissance-like period. The Land is still largely medieval: most of humanity huddles together in villages and towns separated by vast tracts of untamed wilderness.</p>
+            <p><em>Black Griffon</em> takes place in The Land: a vast, continental mass that is going through a renaissance-like period. The Land is still largely medieval: most of humanity</p>
 
-          <p>Yet, in the midst of this great darkness, a few bastions of civilisation shine, beacons of hope. In the cities, abbeys and courts of men, philosophers, merchants and nobles gather together to discuss new ideas. Ideas that threaten to overturn the old orders and usher in a new age of enlightenment.</p>
+            <p>Yet, in the midst of this great darkness, a few bastions of civilisation shine, beacons of hope. In the cities, abbeys and courts of men, philosophers, merchants and nobles gather together to discuss new ideas. Ideas that threaten to overturn the old orders and usher in a new age of enlightenment.</p>
 
-          <dl>
-            <dt>Age of War.</dt>
-            <dd>
-              <p>For many this brave, new age bears a striking resemblance to old ones. New ideas threaten old powers and embolden new ones. The inevitable result is familiar to many: war!</p>
+            <dl>
+              <dt>Age of War.</dt>
+              <dd>
+                <p>For many this brave, new age bears a striking resemblance to old ones. New ideas threaten old powers and embolden new ones. The inevitable result is familiar to many: war!</p>
 
-              <p>Religious schisms, new, national borders and old, ethnic tensions divide the people anew. Brother takes arms against brother in cruel battle, made all the worse by new discoveries in explosives and firearms.</p>
+                <p>Religious schisms, new, national borders and old, ethnic tensions divide the people anew. Brother takes arms against brother in cruel battle, made all the worse by new discoveries in explosives and firearms.</p>
 
-              <p>In the midst of this chaos, corruption thrives. While the old authorities are distracted, thieves band together, corrupt officials take bribes and hypocrites and demagogues prosper.</p>
-            </dd>
+                <p>In the midst of this chaos, corruption thrives. While the old authorities are distracted, thieves band together, corrupt officials take bribes and hypocrites and demagogues prosper.</p>
+              </dd>
 
-            <dt>Magic Dwindles.</dt>
-            <dd>
-              <p>As reason waxes, the Old Ways wane. The gods no longer intervene directly in the affairs of men. The fey, once abundant, retreat deeper into their woods. And ruthless inquisitors hunt down the last remaining practitioners and put them to the flame.</p>
-            </dd>
+              <dt>Magic Dwindles.</dt>
+              <dd>
+                <p>As reason waxes, the Old Ways wane. The gods no longer intervene directly in the affairs of men. The fey, once abundant, retreat deeper into their woods. And ruthless inquisitors hunt down the last remaining practitioners and put them to the flame.</p>
+              </dd>
 
-            <dt>Intrigue and Conspiracy.</dt>
-            <dd>
-              <p>For most, the chaos of this age seems meaningless. Some, however, sense a deeper pattern. A hidden meaning in the disorder, a secret history of past events, circles within circles.</p>
+              <dt>Intrigue and Conspiracy.</dt>
+              <dd>
+                <p>For most, the chaos of this age seems meaningless. Some, however, sense a deeper pattern. A hidden meaning in the disorder, a secret history of past events, circles within circles.</p>
 
-              <p>Rumours abound of shadowy cabals that secretly control institutions, even command entire nations. Of networks of spies that criss-cross the Land, watching everyone and everything. Who really pulls the strings?</p>
-            </dd>
-          </dl>
+                <p>Rumours abound of shadowy cabals that secretly control institutions, even command entire nations. Of networks of spies that criss-cross the Land, watching everyone and everything. Who really pulls the strings?</p>
+              </dd>
+            </dl>
 
-          <h4>The Gods, Old and New</h4>
+            <h4>The Gods, Old and New</h4>
 
-          <p>While the gods remain silent, their faithful are anything but. The Land is filled with acolytes, priests and zealots of <strong>The Holy Temple</strong>. They stand on city streets scolding the masses, or wander lonely roads looking for converts.</p>
+            <p>While the gods remain silent, their faithful are anything but. The Land is filled with acolytes, priests and zealots of <strong>The Holy Temple</strong>. They stand on city streets scolding the masses, or wander lonely roads looking for converts.</p>
 
-          <p>The Temple is the all-powerful instrument of the New Gods, the Mother and the Father. It is a massive institution that crosses national boundaries and has its fingers in nearly every aspect of common life. No other faiths are tolerated, and even kings must bend their knee to the Hierophant.</p>
+            <p>The Temple is the all-powerful instrument of the New Gods, the Mother and the Father. It is a massive institution that crosses national boundaries and has its fingers in nearly every aspect of common life. No other faiths are tolerated, and even kings must bend their knee to the Hierophant.</p>
 
-          <p>Yet the Temple is far from united, and even its inquisitors cannot stamp out all heresy. Apostates frequently find loopholes in temple law or escape the authorities.</p>
+            <p>Yet the Temple is far from united, and even its inquisitors cannot stamp out all heresy. Apostates frequently find loopholes in temple law or escape the authorities.</p>
 
-          <p>And in the shadows, dark things are still worshipped. Despite the best efforts of the witch hunters, <strong>The Old Ways</strong> still linger. Folk still curse the name of <strong>The Bastard</strong>, the illegitimate son of the Father. And if the gods are absent, what of <strong>Hell</strong>?</p>
+            <p>And in the shadows, dark things are still worshipped. Despite the best efforts of the witch hunters, <strong>The Old Ways</strong> still linger. Folk still curse the name of <strong>The Bastard</strong>, the illegitimate son of the Father. And if the gods are absent, what of <strong>Hell</strong>?</p>
 
-          <h4 id="midlands">The Midlands</h4>
+            <h4 id="midlands">The Midlands</h4>
 
-          <p>The events of <em>Black Griffin</em> start in the Midlands, a region of the Land notable for its grim men and women and cold and wet weather.</p>
+            <p>The events of <em>Black Griffin</em> start in the Midlands, a region of the Land notable for its grim men and women and cold and wet weather.</p>
 
-          <p>The Midlands are divided. Revolution has struck and a new, people's republic, <strong>The Commonwealth</strong>, has arisen to the north.</p>
+            <p>The Midlands are divided. Revolution has struck and a new, people's republic, <strong>The Commonwealth</strong>, has arisen to the north.</p>
 
-          <p>The remaining kings have formed an alliance, <strong>The Three Kings</strong>, and raised a grand, conscript army, <strong>The Mandatory Forces</strong> to strike down the fledgling nation. And, after months of battle, the two armies have reached an uneasy stalemate.</p>
+            <p>The remaining kings have formed an alliance, <strong>The Three Kings</strong>, and raised a grand, conscript army, <strong>The Mandatory Forces</strong> to strike down the fledgling nation. And, after months of battle, the two armies have reached an uneasy stalemate.</p>
+
+          </section>
+
         </div>
-      </ink-page>
 
-      <ink-page class="image">
-        <img id="midlands-map" src="images/midlands.png" class="full-page" alt="Map of Midlands">
-      </ink-page>
+        <section class="full-page">
+          <img id="midlands-map" src="images/midlands.png" class="full-page" alt="Map of Midlands">
+        </section>
 
-      <ink-page class="content">
         <div class="columns">
 
           <aside>
@@ -167,279 +170,267 @@
             </dd>
           </dl>
 
-        </div>
-      </ink-page>
+          <section id="characters" class="full-page">
+            <h3>Black Griffin Characters</h3>
 
-      <ink-page class="content">
-        <div class="columns">
+            <p>You start the campaign as mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, you have been placed on punishment duty as <em>company fetches</em>: bounty hunters charged with capture of deserters for trial.</p>
 
-          <h3 id="characters">Black Griffin Characters</h3>
+            <p>With this in mind, when you create your characters you are:</p>
 
-          <p>You start the campaign as mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, you have been placed on punishment duty as <em>company fetches</em>: bounty hunters charged with capture of deserters for trial.</p>
+            <ol>
+              <li><strong>Low-magic</strong>. You are limited to <em>low-magic</em> character options unless you pick a <em>unique background</em> (see below).</li>
+              <li><strong>Mercenaries</strong>. You start with Renown 1 in the <em>Company of the Black Griffon</em> faction. Remember to note the faction perks on your character sheet.</li>
+              <li><strong>Renaissance Men and Women</strong>. You live in a period analogous to the early Renaissance. Magic is waning and strange new ideas spread, causing war and upending the old orders in their wake. You may be trained in the use of <em>firearms</em> (see below).</li>
+            </ol>
 
-          <p>With this in mind, when you create your characters you are:</p>
+            <h4>Low-Magic Characters</h4>
 
-          <ol>
-            <li><strong>Low-magic</strong>. You are limited to <em>low-magic</em> character options unless you pick a <em>unique background</em> (see below).</li>
-            <li><strong>Mercenaries</strong>. You start with Renown 1 in the <em>Company of the Black Griffon</em> faction. Remember to note the faction perks on your character sheet.</li>
-            <li><strong>Renaissance Men and Women</strong>. You live in a period analogous to the early Renaissance. Magic is waning and strange new ideas spread, causing war and upending the old orders in their wake. You may be trained in the use of <em>firearms</em> (see below).</li>
-          </ol>
+            <p>Normally, low-magic characters are limited to playing humans and choosing from the following classes:</p>
 
-          <h4>Low-Magic Characters</h4>
+            <ul>
+              <li>Path of Berserker Barbarian</li>
+              <li>Battle Master <em>or</em> Champion Fighter</li>
+              <li>Thief <em>or</em> Assassin Rogue</li>
+            </ul>
 
-          <p>Normally, low-magic characters are limited to playing humans and choosing from the following classes:</p>
+            <h5>Unique Backgrounds</h5>
 
-          <ul>
-            <li>Path of Berserker Barbarian</li>
-            <li>Battle Master <em>or</em> Champion Fighter</li>
-            <li>Thief <em>or</em> Assassin Rogue</li>
-          </ul>
+            <p>If you want to play a magical character you can select a unique background at the start of character creation, instead of a normal background. A unique background represents a rare or special origin that might give your character access to magical races or classes (or feats) in a way that is sympathetic to low-magic campaigns.</p>
 
-          <h5>Unique Backgrounds</h5>
+            <p>Each unique background lists which magical races, classes and feats are available to players who choose them.</p>
 
-          <p>If you want to play a magical character you can select a unique background at the start of character creation, instead of a normal background. A unique background represents a rare or special origin that might give your character access to magical races or classes (or feats) in a way that is sympathetic to low-magic campaigns.</p>
+            <p>Unique backgrounds have the following limitations:</p>
 
-          <p>Each unique background lists which magical races, classes and feats are available to players who choose them.</p>
+            <ol>
 
-          <p>Unique backgrounds have the following limitations:</p>
+              <li><strong>Unique.</strong> You may only pick a particular unique background if no one else in your party has chosen it.</li>
 
-          <ol>
+              <li><strong>No Feature.</strong> You do not gain a background feature with a unique background.</li>
 
-            <li><strong>Unique.</strong> You may only pick a particular unique background if no one else in your party has chosen it.</li>
+              <li><strong>Unique Flaw.</strong> In addition to the flaw you would normally choose for your character, you must choose an extra, unique flaw detailed in the description of your unique background.</li>
 
-            <li><strong>No Feature.</strong> You do not gain a background feature with a unique background.</li>
+            </ol>
 
-            <li><strong>Unique Flaw.</strong> In addition to the flaw you would normally choose for your character, you must choose an extra, unique flaw detailed in the description of your unique background.</li>
+            <p>Unique backgrounds can be found in other <strong>Grisly Eye Games</strong> monographs, such as <em><q>The Enchanted</q></em> and <em><q>The Hallowed</q></em>.</p>
 
-          </ol>
+            <h4>Factions</h4>
 
-          <p>Unique backgrounds can be found in other <strong>Grisly Eye Games</strong> monographs, such as <em><q>The Enchanted</q></em> and <em><q>The Hallowed</q></em>.</p>
+            <p>Black Griffon is a campaign of intrigue and conspiracies. With this in mind, it makes heavy use of the rules for factions in chapter 1 of the <em>Dungeon Master's Guide</em>.</p>
 
-          <h4>Factions</h4>
+            <h4>Firearms</h4>
 
-          <p>Black Griffon is a campaign of intrigue and conspiracies. With this in mind, it makes heavy use of the rules for factions in chapter 1 of the <em>Dungeon Master's Guide</em>.</p>
+            <p>Renaissance firearms, explosives and firearm proficiencies - as described in chapter 9 of the <em>Dungeon Master's Guide</em> - are available to some characters.</p>
 
-          <h4>Firearms</h4>
+            <p>Fighters gain the firearms proficiency at 1st level, and they can choose to be equipped with a pistol with 20 bullets where they could choose a crossbow with 20 bolts, or longbow or shortbow with 20 arrows.</p>
 
-          <p>Renaissance firearms, explosives and firearm proficiencies - as described in chapter 9 of the <em>Dungeon Master's Guide</em> - are available to some characters.</p>
+            <div class="aside">
+              <h5>Languages of the Land</h5>
 
-          <p>Fighters gain the firearms proficiency at 1st level, and they can choose to be equipped with a pistol with 20 bullets where they could choose a crossbow with 20 bolts, or longbow or shortbow with 20 arrows.</p>
+              <p>Common fantasy languages like Elvish do not exist in the Land. Instead, the following languages are available to characters:</p>
 
-          <div class="aside">
-            <h5>Languages of the Land</h5>
+              <p><strong>Common.</strong> The trade tongue and international lingua franca, descended from Imperial.</p>
 
-            <p>Common fantasy languages like Elvish do not exist in the Land. Instead, the following languages are available to characters:</p>
+              <p><strong>Imperial.</strong> The dead language of the Old Empire, largely forgotten except in academic circles.</p>
 
-            <p><strong>Common.</strong> The trade tongue and international lingua franca, descended from Imperial.</p>
+              <p><strong>The Half Tongue.</strong> The Half Tongue is pidgin language, with words from Common and the forgotten language of the pagans.</p>
 
-            <p><strong>Imperial.</strong> The dead language of the Old Empire, largely forgotten except in academic circles.</p>
+              <p><strong>Enochian.</strong> The esoteric language of the angels, popular in occult circles.</p>
 
-            <p><strong>The Half Tongue.</strong> The Half Tongue is pidgin language, with words from Common and the forgotten language of the pagans.</p>
+              <p><strong>The Witch's Tongue.</strong> This blasphemous language is said to be taught by demons to their infernal followers.</p>
+            </div>
+          </section>
 
-            <p><strong>Enochian.</strong> The esoteric language of the angels, popular in occult circles.</p>
+          <section class="full-page">
+            <h3>Gritty Variants</h3>
 
-            <p><strong>The Witch's Tongue.</strong> This blasphemous language is said to be taught by demons to their infernal followers.</p>
-          </div>
+            <p>It is recommended you play with the variant rules for <em>injuries</em> and <em>gritty realism rest</em> from chapter 9 of the <em>Dungeon Master's Guide</em>, in addition to the following.</p>
 
-        </div>
-      </ink-page>
+            <h4>Stealth Spellcasting</h4>
 
-      <ink-page class="content">
-        <div class="columns">
-          <h3>Gritty Variants</h3>
+            <p>In a world where you can be burned alive for witchcraft or heresy, spellcasters have, by necessity, found ways to conceal their magic from prying eyes.</p>
 
-          <p>It is recommended you play with the variant rules for <em>injuries</em> and <em>gritty realism rest</em> from chapter 9 of the <em>Dungeon Master's Guide</em>, in addition to the following.</p>
+            <p>When attempting to cast a spell you can declare you are attempting to cast it stealthily. To successfully conceal your spellcasting you must make a Dexterity (Stealth) check if the spell has verbal components or Dexterity (Sleight of Hand) check if the spell has somatic or material components contested by the passive Wisdom (Perception) score of anyone who might see or hear you in the nearby area.</p>
 
-          <h4>Stealth Spellcasting</h4>
+            <p>If you are being actively observed, the check is contested by a Wisdom (Perception) check result. If a spell has both verbal and somatic or material components the DM determines which skill should be used.</p>
 
-          <p>In a world where you can be burned alive for witchcraft or heresy, spellcasters have, by necessity, found ways to conceal their magic from prying eyes.</p>
+            <p>While all spells can be cast stealthily, the results many spells are so blatant (such as <em>fireball</em>) that it becomes obvious after the fact that something magical occurred. At the DM's discretion, when you cast an blatant spell it is immediately obvious to any creature who can see you that you were the spellcaster.</p>
 
-          <p>When attempting to cast a spell you can declare you are attempting to cast it stealthily. To successfully conceal your spellcasting you must make a Dexterity (Stealth) check if the spell has verbal components or Dexterity (Sleight of Hand) check if the spell has somatic or material components contested by the passive Wisdom (Perception) score of anyone who might see or hear you in the nearby area.</p>
+            <h4>New Equipment</h4>
 
-          <p>If you are being actively observed, the check is contested by a Wisdom (Perception) check result. If a spell has both verbal and somatic or material components the DM determines which skill should be used.</p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Price</th>
+                  <th>Weight</th>
+                </tr>
+              </thead>
 
-          <p>While all spells can be cast stealthily, the results many spells are so blatant (such as <em>fireball</em>) that it becomes obvious after the fact that something magical occurred. At the DM's discretion, when you cast an blatant spell it is immediately obvious to any creature who can see you that you were the spellcaster.</p>
-
-          <h4>New Equipment</h4>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Item</th>
-                <th>Price</th>
-                <th>Weight</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>Bounty Hunter's Pack</td>
-                <td>19 gp</td>
-                <td>37 lb.</td>
-              </tr>
-              <tr>
-                <td>Torturer's Tools</td>
-                <td>30 gp</td>
-                <td>6 lb.</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <h5>Bounty Hunter's Pack</h5>
-
-          <p>Includes a backpack, a bedroll, a bag of caltrops, 5 manacles with a key, 5 candles, a signal whistle, 5 days rations, and a waterskin.</p>
-
-          <h5>Torturer's Tools</h5>
-
-          <p>These fiendish tools are designed to inflict maximum pain while keeping a victim alive as long as possible. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to torture or interrogate a captive.</p>
-
-          <h4>New Services</h4>
-
-          <table>
-            <thead>
-              <tr>
-                <th>Service</th>
-                <th>Price</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>Healer</td>
-                <td>1 gp per day</td>
-              </tr>
-              <tr>
-                <td>Physician</td>
-                <td>5 gp per day</td>
-              </tr>
-              <tr>
-                <td>Master Physician</td>
-                <td>20 gp per day</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <h5>Healer</h5>
-
-          <p>Healers are trained in the ways of folk healing, using herbs . They can offer a +2 to Intelligence (Medicine) checks to diagnose, heal or cure a creature. They can also be hired to help physicians and other healers to give advantage on their Intelligence (Medicine) checks.</p>
-
-          <h5>Physician</h5>
-
-          <p>Physicians are men and women of reason (or so they believe) who dedicate their lives to the study of medicine. They have +4 to Intelligence (Medicine) checks to diagnose, heal or cure a creature.</p>
-
-          <p>Each time you hire a physician you have a 1 in 4 chance (1 on a 1d4) of hiring a quack instead, who has a -2  to Intelligence (Medicine) checks instead. The DM rolls secretly to determine this.</p>
-
-          <h5>Master Physician</h5>
-
-          <p>Master physicians are the most gifted masters of the science of medicine, and are equally rare. They have +6 to Intelligence (Medicine) checks to diagnose, heal or cure a creature. Extremely rare and in demand, they can only be found around royal courts, universities or in large cities.</p>
-
-        </div>
-      </ink-page>
-
-      <ink-page class="content">
-        <div class="columns">
-
-          <h3 id="black-griffin-faction">Griffin Company</h3>
-
-          <p>The Company of the Black Griffin (often just called <q>Griffin Company</q>) is a mercenary army commanded by the ageing Captain Larke. For a century now it has journeyed east, seeking fortune and glory and collecting recruits from across the known world.</p>
-
-          <dl>
-            <dt>The New Warfare.</dt>
-            <dd>
-              <p>A new age demands a new kind of warfare. Gone are the old rules of engagement. Where once courage and bravery held the day, victory now belongs to the most ruthless.</p>
-
-              <p>And there is no collection of sellswords more ruthless than the Black Griffins. And they have never been in such demand. The nobles that hire them may despise their foul reputation, but cannot deny they win the day.</p>
-            </dd>
-
-            <dt>Fetches.</dt>
-            <dd>
-              <p>Griffin Company tolerates many crimes except one: desertion. In years past, company commanders would form small parties of <q>fetches</q> (bounty hunters) to bring deserters to justice.</p>
-
-              <p>Fetches were so useful they became a permanent part of the company. Now they are used for all kinds of off-the-book work, such as espionage, sabotage and even assassination.</p>
-            </dd>
-
-            <dt>United by a Charter.</dt>
-            <dd>The Company Charter is an ancient document that outlines the core mission of the Company, as well as including a lengthy history of its decades-long migration east. Walter the Scribe (and penny-pinching bursar) keeps the Charter updated with it&#39;s current travels. The Charter is a massive collection of notes, torn scraps, scrolls and other miscellany collected over the years, all bound in black leather into a rough tome.</dd>
-
-            <dt>Black Griffin Crest.</dt>
-            <dd> Members of Griffin Company are known by the crest worn on the shoulder and shields: a rampant, black griffin on a gold background.</dd>
-          </dl>
-
-          <h4>Beliefs and Goals</h4>
-
-          <p><strong>Ruthless.</strong> Results, not mercy or glory, matter. (Evil)</p>
-
-          <p><strong>For the Gold.</strong> We fight for a reason and that reason is gold! (Neutral)</p>
-
-          <table id="black-griffin-followers">
-            <caption>Black Griffin Followers</caption>
-            <thead>
-              <tr>
-                <th class="number">d00</th>
-                <th>Followers</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td class="number">1-15</td>
-                <td>1 <strong>light guard retinue</strong></td>
-              </tr>
-              <tr>
-                <td class="number">16-30</td>
-                <td>1 <strong>spy</strong></td>
-              </tr>
-              <tr>
-                <td class="number">31-40</td>
-                <td>1d4 <strong>grizzled mercenaries</strong></td>
-              </tr>
-              <tr>
-                <td class="number">41-50</td>
-                <td>1d4 <strong>scouts</strong></td>
-              </tr>
-              <tr>
-                <td class="number">51-60</td>
-                <td>1 <strong>medium guard retinue</strong></td>
-              </tr>
-              <tr>
-                <td class="number">61-70</td>
-                <td>1 <strong>light infantry squad</strong></td>
-              </tr>
-              <tr>
-                <td class="number">71-75</td>
-                <td>1 <strong>light artillery squad</strong></td>
-              </tr>
-              <tr>
-                <td class="number">76-80</td>
-                <td>1 <strong>medium infantry squad</strong></td>
-              </tr>
-              <tr>
-                <td class="number">81-85</td>
-                <td>1 <strong>heavy guard retinue</strong></td>
-              </tr>
-              <tr>
-                <td class="number">86-90</td>
-                <td>1 <strong>veteran</strong></td>
-              </tr>
-              <tr>
-                <td class="number">91-93</td>
-                <td>1 <strong>heavy infantry squad</strong></td>
-              </tr>
-              <tr>
-                <td class="number">94-96</td>
-                <td>1 <strong>heavy artillery squad</strong></td>
-              </tr>
-              <tr>
-                <td class="number">97-99</td>
-                <td>1d4 <strong>spies</strong></td>
-              </tr>
-              <tr>
-                <td class="number">00</td>
-                <td>1 <strong>assassin</strong></td>
-              </tr>
-            </tbody>
-          </table>
-
+              <tbody>
+                <tr>
+                  <td>Bounty Hunter's Pack</td>
+                  <td>19 gp</td>
+                  <td>37 lb.</td>
+                </tr>
+                <tr>
+                  <td>Torturer's Tools</td>
+                  <td>30 gp</td>
+                  <td>6 lb.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h5>Bounty Hunter's Pack</h5>
+
+            <p>Includes a backpack, a bedroll, a bag of caltrops, 5 manacles with a key, 5 candles, a signal whistle, 5 days rations, and a waterskin.</p>
+
+            <h5>Torturer's Tools</h5>
+
+            <p>These fiendish tools are designed to inflict maximum pain while keeping a victim alive as long as possible. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to torture or interrogate a captive.</p>
+
+            <h4>New Services</h4>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Service</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Healer</td>
+                  <td>1 gp per day</td>
+                </tr>
+                <tr>
+                  <td>Physician</td>
+                  <td>5 gp per day</td>
+                </tr>
+                <tr>
+                  <td>Master Physician</td>
+                  <td>20 gp per day</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <h5>Healer</h5>
+
+            <p>Healers are trained in the ways of folk healing, using herbs . They can offer a +2 to Intelligence (Medicine) checks to diagnose, heal or cure a creature. They can also be hired to help physicians and other healers to give advantage on their Intelligence (Medicine) checks.</p>
+
+            <h5>Physician</h5>
+
+            <p>Physicians are men and women of reason (or so they believe) who dedicate their lives to the study of medicine. They have +4 to Intelligence (Medicine) checks to diagnose, heal or cure a creature.</p>
+
+            <p>Each time you hire a physician you have a 1 in 4 chance (1 on a 1d4) of hiring a quack instead, who has a -2  to Intelligence (Medicine) checks instead. The DM rolls secretly to determine this.</p>
+
+            <h5>Master Physician</h5>
+
+            <p>Master physicians are the most gifted masters of the science of medicine, and are equally rare. They have +6 to Intelligence (Medicine) checks to diagnose, heal or cure a creature. Extremely rare and in demand, they can only be found around royal courts, universities or in large cities.</p>
+          </section>
+
+          <section id="black-griffin-faction" class="full-page">
+            <h3>Griffin Company</h3>
+
+            <p>The Company of the Black Griffin (often just called <q>Griffin Company</q>) is a mercenary army commanded by the ageing Captain Larke. For a century now it has journeyed east, seeking fortune and glory and collecting recruits from across the known world.</p>
+
+            <dl>
+              <dt>The New Warfare.</dt>
+              <dd>
+                <p>A new age demands a new kind of warfare. Gone are the old rules of engagement. Where once courage and bravery held the day, victory now belongs to the most ruthless.</p>
+
+                <p>And there is no collection of sellswords more ruthless than the Black Griffins. And they have never been in such demand. The nobles that hire them may despise their foul reputation, but cannot deny they win the day.</p>
+              </dd>
+
+              <dt>Fetches.</dt>
+              <dd>
+                <p>Griffin Company tolerates many crimes except one: desertion. In years past, company commanders would form small parties of <q>fetches</q> (bounty hunters) to bring deserters to justice.</p>
+
+                <p>Fetches were so useful they became a permanent part of the company. Now they are used for all kinds of off-the-book work, such as espionage, sabotage and even assassination.</p>
+              </dd>
+
+              <dt>United by a Charter.</dt>
+              <dd>The Company Charter is an ancient document that outlines the core mission of the Company, as well as including a lengthy history of its decades-long migration east. Walter the Scribe (and penny-pinching bursar) keeps the Charter updated with it&#39;s current travels. The Charter is a massive collection of notes, torn scraps, scrolls and other miscellany collected over the years, all bound in black leather into a rough tome.</dd>
+
+              <dt>Black Griffin Crest.</dt>
+              <dd> Members of Griffin Company are known by the crest worn on the shoulder and shields: a rampant, black griffin on a gold background.</dd>
+            </dl>
+
+            <h4>Beliefs and Goals</h4>
+
+            <p><strong>Ruthless.</strong> Results, not mercy or glory, matter. (Evil)</p>
+
+            <p><strong>For the Gold.</strong> We fight for a reason and that reason is gold! (Neutral)</p>
+
+            <table id="black-griffin-followers">
+              <caption>Black Griffin Followers</caption>
+              <thead>
+                <tr>
+                  <th class="number">d00</th>
+                  <th>Followers</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td class="number">1-15</td>
+                  <td>1 <strong>light guard retinue</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">16-30</td>
+                  <td>1 <strong>spy</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">31-40</td>
+                  <td>1d4 <strong>grizzled mercenaries</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">41-50</td>
+                  <td>1d4 <strong>scouts</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">51-60</td>
+                  <td>1 <strong>medium guard retinue</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">61-70</td>
+                  <td>1 <strong>light infantry squad</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">71-75</td>
+                  <td>1 <strong>light artillery squad</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">76-80</td>
+                  <td>1 <strong>medium infantry squad</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">81-85</td>
+                  <td>1 <strong>heavy guard retinue</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">86-90</td>
+                  <td>1 <strong>veteran</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">91-93</td>
+                  <td>1 <strong>heavy infantry squad</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">94-96</td>
+                  <td>1 <strong>heavy artillery squad</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">97-99</td>
+                  <td>1d4 <strong>spies</strong></td>
+                </tr>
+                <tr>
+                  <td class="number">00</td>
+                  <td>1 <strong>assassin</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
         </div>
 
         <table>
@@ -480,119 +471,52 @@
           </tbody>
         </table>
 
-      </ink-page>
+        <section class="full-page">
 
-      <ink-page class="content">
-        <div class="columns">
+          <h3 id="coming-soon">Coming Soon</h3>
 
-          <h3 id="bailiff">Background: Bailiff</h3>
+          <p>If you enjoyed <span class="product">The XXX</span>, look out for the following monographs from <span class="title">Grisly Eye Games</span> coming to the <span class="title">Dungeon Masters Guild</span> soon:</p>
 
-          <p>You were a bailiff, constable or lawman. A proctor for the courts, your temple or the nobles. It was your duty to arrest criminals, collect taxes and execute warrants. You might've been a member of the city watch, road warden, travelling justiciar or a tax collector.</p>
+          <div class="columns">
 
-          <p><strong>Skill Proficiencies:</strong> Investigation, Intimidation</p>
+            <h4>Lorem ipsum</h4>
 
-          <p><strong>Tool Proficiencies:</strong> Torturer's tools, vehicles (land)</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-          <p><strong>Equipment:</strong> A badge or warrant denoting your authority, a bag of caltrops, 5 manacles, a signal whistle, torturer's tools, a set of common clothes and a belt pouch containing 10 gp.</p>
+            <h4>Lorem ipsum</h4>
 
-          <h4 id="bailiff-authority">Feature: Authority</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-          <p>Your commands carry the power of your lord, lady or temple. You can invoke your authority to exert influence over commoners you encounter within your jurisdiction. You can use this power to make arrests and commandeer simple equipment and horses for temporary use.</p>
+            <h4>Lorem ipsum</h4>
 
-          <h4>Suggested Characteristics</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-          <p>The life of a bailiff is a hard life of violence. Enemies are easily made, and sometimes it is very like war. Use the personality trait and flaw tables for the Soldier from the <em>Player's Handbook</em>, modifying the entries where appropriate to suit your identity as a bailiff. Otherwise, use the following tables for your ideal and bond.</p>
+            <h4>Lorem ipsum</h4>
 
-          <table>
-            <thead>
-              <tr>
-                <th class="number">d6</th>
-                <th>Ideal</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="number">1</td>
-                <td><strong>Power.</strong> The word of my lord/lady/god is law. (Lawful)</td>
-              </tr>
-              <tr>
-                <td class="number">2</td>
-                <td><strong>Corruption.</strong> Justice is for those who can offer the greatest bribe. (Evil)</td>
-              </tr>
-              <tr>
-                <td class="number">3</td>
-                <td><strong>Order.</strong> The law must be followed to the letter. (Lawful)</td>
-              </tr>
-                <td class="number">4</td>
-                <td><strong>Cynicism.</strong> The worst of humanity always wins out. (Neutral)</td>
-              </tr>
-              <tr>
-                <td class="number">5</td>
-                <td><strong>Impunity.</strong> The law is for the weak, the strong make their own rules. (Evil)</td>
-              </tr>
-              <tr>
-                <td class="number">6</td>
-                <td><strong>Fairness.</strong> The law is there to protect the weak and most vulnerable. (Good)</td>
-              </tr>
-            </tbody>
-          </table>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
-          <table>
-            <thead>
-              <tr>
-                <th class="number">d6</th>
-                <th>Bond</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="number">1</td>
-                <td>I'm still looking for the one criminal who got away.</td>
-              </tr>
-              <tr>
-                <td class="number">2</td>
-                <td>I have made a powerful enemy in the criminal underworld through my dedication to the law.</td>
-              </tr>
-              <tr>
-                <td class="number">3</td>
-                <td>I obey my lord/lady in all things.</td>
-              </tr>
-              <tr>
-                <td class="number">4</td>
-                <td>A particular type of crime (player chooses) disgusts me and I prosecute it with greater fervour.</td>
-              </tr>
-              <tr>
-                <td class="number">5</td>
-                <td>I trust my fellow lawman with my life, and I always return that trust.</td>
-              </tr>
-              <tr>
-                <td class="number">6</td>
-                <td>I became a bailiff to take down corruption within the city watch.</td>
-              </tr>
-            </tbody>
-          </table>
+          </div>
 
-          <h4 id="bounty-hunter">Variant Bailiff: Bounty Hunter</h4>
+          <aside class="columns">
+            <h4 id="colophon">Colophon</h4>
 
-          <p>You made your living hunting down outlaws, deserters and escaped convicts for gold. Your work often took you across national boundaries, into strange lands and dangerous territories.</p>
+            <p>The layout and style of this monograph was based on the <span class="title">Dungeon Masters Guild</span> <span class="product">Adventure Template</span>. The main font is <em>Alegreya</em> by Juan Pablo del Peral which is more elegant and legible than the template default. It is also hosted on Google Webfonts and supports "true" italics and bold. The title font was <em>Andada SC</em>.</p>
 
-          <p>If you decide you were a bounty hunter, you may can choose the Fearful Reputation feature (see sidebar) instead of the Authority feature.</p>
+            <p>This document was published using HTML, JavaScript and CSS, and composed using open-source technologies including Node.js, Grunt, NPM, SASS, Polymer and Lit. The PDF was published using the <a href="https://github.com/ink-elements">Ink Framework</a>. The monster stat blocks were generated using <a href="https://github.com/grislyeye/vellum-monster"><code>&lt;vellum-monster&gt;</code></a> based on Val Markovic's open source <em>Statblock5e</em>.</p>
 
-          <h4 id="executioner">Variant Bailiff: Executioner</h4>
+            <p>I would especially like to thank my playtesters and reviewers. The roll call includes:</p>
 
-          <p>You were one of the men and women tasked with dealing out the ultimate punishment: death.</p>
+            <ul id="playtester-credits">
+              <li>???</li>
+            </ul>
 
-          <p>If you decide your duties as a bailiff included work as an executioner, you may can choose the Fearful Reputation feature (see sidebar) instead of the Authority feature. You can replace the signal whistle in your equipment package with a black executioner's mask.</p>
-
-          <aside class="aside">
-            <h5>Variant Feature: Fearsome Reputation</h5>
-
-            <p>If your character has a bailiff background, you may select this background feature instead of Authority</p>
-
-            <p>Your reputation precedes you. No matter where you go, people are afraid of you because of your reputation, particularly criminals. People are more likely to get out of your way, and minor criminals, such as pickpockets, muggers or footpads, will not molest you if they know who you are.</p>
+            <p>- R. G. Wood., CEO <span class="title">Grisly Eye Games</span></p>
           </aside>
-        </div>
-      </ink-page>
+
+        </section>
+
+      </section>
+
     </ink-doc>
 
   </main>
