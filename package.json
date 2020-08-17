@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "2.0.9",
+  "version": "3.0.0",
   "private": true,
   "author": {
     "name": "R.G. Wood",
@@ -11,9 +11,9 @@
     "year": "2018-2020"
   },
   "dependencies": {
-    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v2.0.9",
-    "ink-elements": "^2.0.1",
+    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v3.0.0",
     "modern-normalize": "^0.7.0",
+    "pagedjs": "^0.1.42",
     "vellum-monster": "^1.0.0",
     "vellum-sheet": "^0.1.0"
   },
@@ -37,7 +37,7 @@
     "htmllint-cli": "0.0.7",
     "polymer-cli": "^1.9.11",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "scribe-cli": "^1.0.3",
+    "scribe-cli": "^2.0.0",
     "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0"
   },
@@ -46,6 +46,6 @@
     "watch": "grunt watch",
     "clean": "grunt clean",
     "start": "grunt run",
-    "publish": "npm run build --scripts-prepend-node-path=true && scribe publish --size A4"
+    "publish": "npm run build --scripts-prepend-node-path=true && scribe publish --page-format A4 ./dist/html/index.html dist/documents/"
   }
 }

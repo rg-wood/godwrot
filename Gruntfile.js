@@ -85,7 +85,8 @@ module.exports = function (grunt) {
         },
         files: {
           'grisly-eye-docs-style': 'grisly-eye-doc-style',
-          'modern-normalize': 'modern-normalize'
+          'modern-normalize': 'modern-normalize',
+          pagedjs: 'pagedjs'
         }
       }
     },
@@ -121,8 +122,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          'dist/html/scripts/vellum.js': 'assets/scripts/vellum.js',
-          'dist/html/scripts/ink.js': 'assets/scripts/ink.js'
+          'dist/html/scripts/vellum.js': 'assets/scripts/vellum.js'
         }
       }
     }
