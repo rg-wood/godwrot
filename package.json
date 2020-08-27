@@ -35,6 +35,7 @@
     "grunt-rollup": "^11.3.0",
     "grunt-string-replace": "^1.3.1",
     "htmllint-cli": "0.0.7",
+    "husky": "^4.2.5",
     "polymer-cli": "^1.9.11",
     "rollup-plugin-node-resolve": "^5.2.0",
     "scribe-cli": "^2.0.0",
@@ -42,10 +43,16 @@
     "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
-    "build": "eslint *.js && htmllint *.html && stylelint *.css assets/style/*.css && grunt && blcl dist/html -ro",
+    "build": "npm run test && grunt && blcl dist/html -ro",
+    "test": "eslint *.js && htmllint *.html && stylelint *.css assets/style/*.css",
     "watch": "grunt watch",
     "clean": "grunt clean",
     "start": "grunt run",
     "publish": "npm run build --scripts-prepend-node-path=true && scribe publish --page-format A4 ./dist/html/index.html dist/documents/"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
   }
 }
