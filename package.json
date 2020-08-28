@@ -11,7 +11,7 @@
     "year": "2018-2020"
   },
   "dependencies": {
-    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v3.0.2",
+    "grisly-eye-doc-style": "git+https://gitlab+deploy-token-16455:4a68coJjvX6_6rGNo8o6@gitlab.com/grislyeye/grisly-eye-doc-style.git#v3.0.3",
     "modern-normalize": "^1.0.0",
     "pagedjs": "^0.1.42",
     "vellum-monster": "^1.0.1",
