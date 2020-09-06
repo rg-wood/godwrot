@@ -37,11 +37,11 @@ module.exports = function (grunt) {
       },
       html: {
         files: ['index.html', 'main.css', 'package.json'],
-        tasks: ['copy:main', 'string-replace']
+        tasks: ['copy:main', 'string-replace', 'exec:test']
       },
       assets: {
         files: ['assets/**'],
-        tasks: ['copy:assets']
+        tasks: ['copy:assets', 'exec:test']
       },
       vendor_modules: {
         files: [
@@ -125,6 +125,13 @@ module.exports = function (grunt) {
           'dist/html/scripts/vellum.js': 'assets/scripts/vellum.js'
         }
       }
+    },
+    exec: {
+      test: {
+        command: 'npm test',
+        stdout: true,
+        stderr: true
+      }
     }
   })
 
@@ -135,6 +142,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-npmcopy')
   grunt.loadNpmTasks('grunt-string-replace')
   grunt.loadNpmTasks('grunt-rollup')
+  grunt.loadNpmTasks('grunt-exec')
 
   grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy', 'rollup'])
   grunt.registerTask('run', ['default', 'connect', 'watch'])
