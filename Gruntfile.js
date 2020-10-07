@@ -24,7 +24,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: 'assets/',
-            src: ['**', '!styles/**', '!scripts/**'],
+            src: ['**'],
             dest: 'dist/html/'
           }
         ]
@@ -122,7 +122,7 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          'dist/html/scripts/vellum.js': 'assets/scripts/vellum.js'
+          'dist/html/scripts/vellum.js': 'assets/components/vellum.js'
         }
       }
     },
