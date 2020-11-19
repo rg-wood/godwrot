@@ -1,9 +1,9 @@
 module.exports = function (grunt) {
   'use strict'
 
-  var pkg = grunt.file.readJSON('package.json')
+  const pkg = grunt.file.readJSON('package.json')
 
-  var resolve = require('rollup-plugin-node-resolve')
+  const resolve = require('rollup-plugin-node-resolve')
 
   grunt.initConfig({
     copy: {
