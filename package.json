@@ -1,6 +1,6 @@
 {
   "name": "grisly-eye-doc-template",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "private": true,
   "author": {
     "name": "R.G. Wood",
@@ -39,7 +39,7 @@
     "husky": "^4.3.6",
     "polymer-cli": "^1.9.11",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "scribe-cli": "^2.0.4",
+    "scribe-cli": "^2.0.5",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0"
   },
