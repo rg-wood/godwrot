@@ -30,7 +30,7 @@ function createTableOfContents(config) {
 
   const html = `
     <table class="table-of-contents">
-      ${entries.join('')}
+      ${entries.join('\n')}
     <table>
     `
 
