@@ -26,4 +26,4 @@ To clean build:
 
 To publish as a PDF:
 
-    $ yarn publish
+    $ npm run publish

@@ -1,9 +1,7 @@
 module.exports = function (grunt) {
   'use strict'
 
-  var pkg = grunt.file.readJSON('package.json')
-
-  var resolve = require('rollup-plugin-node-resolve')
+  const pkg = grunt.file.readJSON('package.json')
 
   grunt.initConfig({
     copy: {
@@ -24,7 +22,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: 'assets/',
-            src: ['**', '!styles/**', '!scripts/**'],
+            src: ['**'],
             dest: 'dist/html/'
           }
         ]
@@ -37,11 +35,11 @@ module.exports = function (grunt) {
       },
       html: {
         files: ['index.html', 'main.css', 'package.json'],
-        tasks: ['copy:main', 'string-replace']
+        tasks: ['copy:main', 'string-replace', 'exec:test']
       },
       assets: {
         files: ['assets/**'],
-        tasks: ['copy:assets']
+        tasks: ['copy:assets', 'exec:test']
       },
       vendor_modules: {
         files: [
@@ -85,7 +83,8 @@ module.exports = function (grunt) {
         },
         files: {
           'grisly-eye-docs-style': 'grisly-eye-doc-style',
-          'modern-normalize': 'modern-normalize'
+          'modern-normalize': 'modern-normalize',
+          pagedjs: 'pagedjs'
         }
       }
     },
@@ -112,17 +111,11 @@ module.exports = function (grunt) {
       }
     },
 
-    rollup: {
-      options: {
-        format: 'es',
-        plugins: [
-          resolve()
-        ]
-      },
-      dist: {
-        files: {
-          'dist/html/scripts/ink.js': 'assets/scripts/ink.js'
-        }
+    exec: {
+      test: {
+        command: 'npm test',
+        stdout: true,
+        stderr: true
       }
     }
   })
@@ -133,8 +126,8 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect')
   grunt.loadNpmTasks('grunt-npmcopy')
   grunt.loadNpmTasks('grunt-string-replace')
-  grunt.loadNpmTasks('grunt-rollup')
+  grunt.loadNpmTasks('grunt-exec')
 
-  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy', 'rollup'])
+  grunt.registerTask('default', ['copy', 'string-replace', 'npmcopy'])
   grunt.registerTask('run', ['default', 'connect', 'watch'])
 }
