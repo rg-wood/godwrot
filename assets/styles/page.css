@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700);
+
+section.page {
+  font-family: 'Alegreya', serif;
+  font-size: 3rem;
+  font-weight: normal;
+
+  margin: 0px auto 0px 0px;
+  max-width: 800px;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+section.page + section.page {
+  margin-top: 5em;
+}
+
+
+@media (max-width: 500px) {
+
+  section.page {
+    font-size: 2.5em;
+  }
+
+}

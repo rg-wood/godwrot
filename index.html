@@ -5,515 +5,93 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 
-  <title>Black Griffin Player's Guide</title>
-
-  <script src="vendor/pagedjs/dist/paged.polyfill.js"></script>
-  <script src="scripts/table-of-contents.js"></script>
+  <title>Dismas Remade</title>
 
   <link href="main.css" rel="stylesheet" />
 </head>
 
 <body>
 
-  <section id="cover">
+  <main>
 
     <header>
-      <h1>Black Griffin</h1>
-      <p id="brand">&bull; By {{ AUTHOR }} &bull;</p>
-      <h2>Player's Guide</h2>
+
+      <nav></nav>
+
+      <h1>Dismas Remade</h1>
+
+      <div class="logo">
+        <a href="https://grislyeye.com"><img src="assets/images/logo.png" alt="Grisly Eye Games Logo"></a>
+      </div>
+
     </header>
 
-    <div id="branding">
-      <div id="logos">
-        <img src="vendor/grisly-eye-docs-style/assets/images/dmsguild.png" alt="DMs Guild Logo">
-      </div>
-    </div>
+    <section class="page">
+      <h2>A low fantasy campaign of grim deeds</h2>
 
-  </section>
+      <p>Whereupon our scoundrels are caught in the midsts of a secret war. They'll serve shadowy masters, often at great peril. For what? Perhaps to repay a debt. Maybe a chance at a better life. Or just to survive.</p>
 
-  <section class="draft">
+      <ul>
+        <li>We play <strong>7-10pm (BST) every Thursday</strong>.</li>
+        <li><strong>Text-only</strong>. We type in Roll20 and Discord. No video or audio.</li>
+        <li>We'll be play-testing my low-fantasy <strong>5E hack</strong>, <a href="https://grislyeye.github.io/three-meet">Three Meet</a>. Rules may change as they evolve.</li>
+        <li><strong>Magic is rare.</strong> The gods are absent, they fey in retreat. Sorry, you probably won't be playing anything like an elf or wizard.</li>
+      </ul>
 
-    <section id="title">
+      <p>If you are brave (or foolish) enough, apply here:</p>
 
-      <header>
-        <h2 id="title-heading">Black Griffin</h2>
-
-        <img src="vendor/grisly-eye-docs-style/assets/images/seperator.svg" alt="Title seperator">
-
-        <h3 id="title-subheading">Player's Guide</h3>
-      </header>
-
-      <p>As war rages, dark forces gather in the shadows. Can a band of misfit mercenaries uncover an ancient conspiracy and stop it before civilisation ends?</p>
-
-      <p><strong>Black Griffin</strong> is a gritty, low-magic campaign for 1st-2nd level characters. This short guide for players includes rules for low-magic characters and new factions.</p>
-
-      <p>Written by R. G. Wood.</p>
-
-      <p><em>Version {{ VERSION }}</em></p>
-
-      <a href="https://grislyeye.com"><img src="images/logo.png" class="logo" alt="Grisly Eye Games' Logo"></a>
-
-      <footer class="legal">
-        <p>Dungeons &amp; Dragons, D&amp;D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, and all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries. This work contains material that is copyright Wizards of the Coast and/or other authors. Such material is used with permission under the Community Content Agreement for Dungeon Masters Guild.</p>
-
-        <p>Grisly Eye logo design by Freepik. All other original material in this work is copyright {{ AUTHOR }} {{ COPYRIGHT_YEAR }} and published under the Community Content Agreement for Dungeon Masters Guild. Not for resale. Permission granted to print or photocopy this document for personal use only.</p>
-      </footer>
-
+      <form>
+        <a class="center" href="https://app.roll20.net/lfg/listing/287917/dismas-remade#newtopic"><div class="button">Apply</div></a>
+      </form>
     </section>
 
-    <section id="table-of-contents-page">
+    <figure class="spread">
+      <img src="assets/images/war-spread.jpg" title="Illustration of 16th century peasant rebels by Hans Lützelburger c1526.">
+    </figure>
 
-      <h3>Table of Contents</h3>
+    <section class="page">
+      <h3>Of knaves, lubberworts, and goode folk</h3>
 
-      <div id="table-of-contents"></div>
+      <p>Life is hard for folk of this age. Few are left untouched by the ravages of poverty, disease, or war. And our characters are no exception. These are not heroes. These are not saints. They are imperfect, mortal, flawed, and broken. They are grubby scoundrels, pariahs, venal sellswords, or merely folk caught up in events.</p>
 
+      <p>Yet, hardship breeds ingenuity. Gunpowder weapons are changing the face of war. The printing press is spreading dangerous, new ideas. Yet superstition and ignorance still reign.</p>
     </section>
 
-    <section class="content">
+    <section class="page">
+      <h3>Our adventure takes place in foul Dismas</h3>
 
-      <section id="land" class="large">
-        <h3>The Land</h3>
+      <p>Ancient <strong>Dismas</strong>. The City that Eats Itself. A blistering canker on the arse of the Grey Sea. A corrupt miser gnawing at its own bones. Its streets run black with filth. A wretched beggar on every corner.</p>
 
-        <p><em>Black Griffon</em> takes place in The Land: a vast, continental mass that is going through a renaissance-like period. The Land is still largely medieval: most of humanity</p>
-
-        <p>Yet, in the midst of this great darkness, a few bastions of civilisation shine, beacons of hope. In the cities, abbeys and courts of men, philosophers, merchants and nobles gather together to discuss new ideas. Ideas that threaten to overturn the old orders and usher in a new age of enlightenment.</p>
-
-        <dl>
-          <dt>Age of War.</dt>
-          <dd>
-            <p>For many this brave, new age bears a striking resemblance to old ones. New ideas threaten old powers and embolden new ones. The inevitable result is familiar to many: war!</p>
-
-            <p>Religious schisms, new, national borders and old, ethnic tensions divide the people anew. Brother takes arms against brother in cruel battle, made all the worse by new discoveries in explosives and firearms.</p>
-
-            <p>In the midst of this chaos, corruption thrives. While the old authorities are distracted, thieves band together, corrupt officials take bribes and hypocrites and demagogues prosper.</p>
-          </dd>
-
-          <dt>Magic Dwindles.</dt>
-          <dd>
-            <p>As reason waxes, the Old Ways wane. The gods no longer intervene directly in the affairs of men. The fey, once abundant, retreat deeper into their woods. And ruthless inquisitors hunt down the last remaining practitioners and put them to the flame.</p>
-          </dd>
-
-          <dt>Intrigue and Conspiracy.</dt>
-          <dd>
-            <p>For most, the chaos of this age seems meaningless. Some, however, sense a deeper pattern. A hidden meaning in the disorder, a secret history of past events, circles within circles.</p>
-
-            <p>Rumours abound of shadowy cabals that secretly control institutions, even command entire nations. Of networks of spies that criss-cross the Land, watching everyone and everything. Who really pulls the strings?</p>
-          </dd>
-        </dl>
-
-        <h4>The Gods, Old and New</h4>
-
-        <p>While the gods remain silent, their faithful are anything but. The Land is filled with acolytes, priests and zealots of <strong>The Holy Temple</strong>. They stand on city streets scolding the masses, or wander lonely roads looking for converts.</p>
-
-        <p>The Temple is the all-powerful instrument of the New Gods, the Mother and the Father. It is a massive institution that crosses national boundaries and has its fingers in nearly every aspect of common life. No other faiths are tolerated, and even kings must bend their knee to the Hierophant.</p>
-
-        <p>Yet the Temple is far from united, and even its inquisitors cannot stamp out all heresy. Apostates frequently find loopholes in temple law or escape the authorities.</p>
-
-        <p>And in the shadows, dark things are still worshipped. Despite the best efforts of the witch hunters, <strong>The Old Ways</strong> still linger. Folk still curse the name of <strong>The Bastard</strong>, the illegitimate son of the Father. And if the gods are absent, what of <strong>Hell</strong>?</p>
-
-        <h4 id="midlands">The Midlands</h4>
-
-        <p>The events of <em>Black Griffin</em> start in the Midlands, a region of the Land notable for its grim men and women and cold and wet weather.</p>
-
-        <p>The Midlands are divided. Revolution has struck and a new, people's republic, <strong>The Commonwealth</strong>, has arisen to the north.</p>
-
-        <p>The remaining kings have formed an alliance, <strong>The Three Kings</strong>, and raised a grand, conscript army, <strong>The Mandatory Forces</strong> to strike down the fledgling nation. And, after months of battle, the two armies have reached an uneasy stalemate.</p>
-
-        <section class="full-page">
-          <img id="midlands-map" src="images/midlands.png" class="full-page" alt="Map of Midlands">
-        </section>
-
-        <aside>
-          <h5>Midlands Slang</h5>
-
-          <p>Some common slang terms in the Midlands include:</p>
-
-          <p><strong><q>By the Father.</q></strong> Blasphemous exclamation, typically spoken in anger.</p>
-
-          <p><strong><q>By the Mother.</q></strong> Blasphemous exclamation, typically spoken resignation.</p>
-
-          <p><strong><q>Burn It.</q></strong> A common expletive. Sometimes <q>burn them/him/her</q> or simply <q>burn you.</q></p>
-        </aside>
-
-        <h4 id="beyond-midlands">Beyond the Midlands</h4>
-
-        <p>Few folk travel far in the Land, and little is known of the kingdoms and lands beyond the Midlands. Here are some DM notes about what might be found or what characters might know:</p>
-
-        <dl>
-          <dt>The Commonwealth.</dt>
-          <dd>
-            <p>Little is known of what has transpired north of the Front since the revolution. The Commonwealth has erased ancient borders and reconfigured (and even built) entire towns and cities so fast, the region is nearly unrecognisable.</p>
-
-            <p>It is said the fledgling nation is led from <strong>The Capital</strong>, a city under constant reconstruction. And there are many rumours of a fortress-town known only as <strong>The Bastillon</strong>, where political prisoners are kept. But little else.</p>
-          </dd>
-
-          <dt>The North.</dt>
-          <dd>Far north lies a wild land filled with cold climes, and hard men and women. Here warring clans constantly fight over the claim to be <q>King O'The North</q> and have little time to build towns or sow fields. When it isn't being razed, the town of <strong>Norton</strong> stands against the chaos as the singular bastion of order.</dd>
-        </dl>
-
-        <dl>
-          <dt>The West.</dt>
-          <dd>What lies beyond the vast woods of the Grey Woald? To some it is a meaningless question. The woods are so vast, it is easier to ask: <q>What does not?</q> Everything. Nothing. Certainly no cities as grand as Dismas. The humble trading town of Lairn greets travellers exiting the woods via the Old Road. And beyond that is the rest of the Land.</dd>
-
-          <dt>The Southron Kingdoms.</dt>
-          <dd>
-            <p>Sunnier climes lie south of Dismas but the city casts a long shadow, and the kingdoms and towns here are effectively vassals to the Midlands. For example, the once-great city of <strong>Kastenburg</strong> sits within the borders of the <strong>Duchy of Castantis</strong>. Now it is merely a gigantic slum, a city held hostage to the trade in hemp-weed poppy that keeps the opium dens of Dismas stocked.</p>
-
-            <p>Only the burgeoning city of <strong>Faro</strong> might threaten Dismas' dominance, with its mineral rich mines. How long the Mad Bishop of Dismas tolerates this situation remains to be seen.</p>
-          </dd>
-
-          <dt>The Easterly Sea.</dt>
-          <dd>
-            <p>And what lies beyond the grey waters of the Easterly Sea? Countless uncharted lands: the gold nation of <strong>Jinibia</strong>, the forlorn isles known only as <strong>The Catcalls</strong> and the icy wastes of the <strong>Shining Lands</strong> are to name but a few.</p>
-
-            <p>The closest port of call is the city of <strong>Port Redsand</strong>, pirate-haven and thorn in the side of merchants everywhere.</p>
-          </dd>
-        </dl>
-
-      </section>
-
-      <section id="characters" class="large">
-        <h3>Black Griffin Characters</h3>
-
-        <p>You start the campaign as mercenaries in the employ of the infamous Company of the Black Griffin. Lowly even for sellswords, you have been placed on punishment duty as <em>company fetches</em>: bounty hunters charged with capture of deserters for trial.</p>
-
-        <p>With this in mind, when you create your characters you are:</p>
-
-        <ol>
-          <li><strong>Low-magic</strong>. You are limited to <em>low-magic</em> character options unless you pick a <em>unique background</em> (see below).</li>
-          <li><strong>Gritty</strong>. This campaign uses the rules for injuries and gritty realism from chapter 9 of the <em>Dungeon Master's Guide</em>.</li>
-          <li><strong>Mercenaries</strong>. You start with Renown 1 in the <em>Company of the Black Griffon</em> faction. Remember to note the faction perks on your character sheet.</li>
-          <li><strong>Renaissance Men and Women</strong>. You live in a period analogous to the early Renaissance. You may use the rules for firearm and explosives from chapter 9 of the <em>Dungeon Master's Guide</em>s. Fighters gain the firearms proficiency at 1st level. Rogues can choose the firearms proficiency instead of hand crossbows. Rogues and fighters can choose to be equipped with a pistol with 20 bullets instead of a crossbow with 20 bolts, or longbow or shortbow with 20 arrows.</li>
-        </ol>
-
-        <h4>Low-Magic Characters</h4>
-
-        <p>Normally, low-magic characters are limited to playing humans and choosing from the following classes:</p>
-
-        <ul>
-          <li>Path of Berserker Barbarian</li>
-          <li>Battle Master <em>or</em> Champion Fighter</li>
-          <li>Thief <em>or</em> Assassin Rogue</li>
-        </ul>
-
-        <h5>Unique Backgrounds</h5>
-
-        <p>If you want to play a magical character you can select a unique background at the start of character creation, instead of a normal background. A unique background represents a rare or special origin that might give your character access to magical races or classes (or feats) in a way that is sympathetic to low-magic campaigns.</p>
-
-        <p>Each unique background lists which magical races, classes and feats are available to players who choose them.</p>
-
-        <p>Unique backgrounds have the following limitations:</p>
-
-        <ol>
-
-          <li><strong>Unique.</strong> You may only pick a particular unique background if no one else in your party has chosen it.</li>
-
-          <li><strong>No Feature.</strong> You do not gain a background feature with a unique background.</li>
-
-          <li><strong>Unique Flaw.</strong> In addition to the flaw you would normally choose for your character, you must choose an extra, unique flaw detailed in the description of your unique background.</li>
-
-        </ol>
-
-        <p>Unique backgrounds can be found in other <strong>Grisly Eye Games</strong> monographs, such as <em><q>The Enchanted</q></em> and <em><q>The Hallowed</q></em>.</p>
-
-        <h4>Factions</h4>
-
-        <p>Black Griffon is a campaign of intrigue and conspiracies. With this in mind, it makes heavy use of the rules for factions in chapter 1 of the <em>Dungeon Master's Guide</em>.</p>
-
-        <div class="aside">
-          <h5>Languages of the Land</h5>
-
-          <p>Common fantasy languages like Elvish do not exist in the Land. Instead, the following languages are available to characters:</p>
-
-          <p><strong>Common.</strong> The trade tongue and international lingua franca, descended from Imperial.</p>
-
-          <p><strong>Imperial.</strong> The dead language of the Old Empire, largely forgotten except in academic circles.</p>
-
-          <p><strong>The Half Tongue.</strong> The Half Tongue is pidgin language, with words from Common and the forgotten language of the pagans.</p>
-
-          <p><strong>Enochian.</strong> The esoteric language of the angels, popular in occult circles.</p>
-
-          <p><strong>The Witch's Tongue.</strong> This blasphemous language is said to be taught by demons to their infernal followers.</p>
-        </div>
-
-      </section>
-
-      <section class="large">
-        <h3>Gritty Variants</h3>
-
-        <p>This campaign uses the following variants rules.</p>
-
-        <h4>Stealth Spellcasting</h4>
-
-        <p>In a world where you can be burned alive for witchcraft or heresy, spellcasters have, by necessity, found ways to conceal their magic from prying eyes.</p>
-
-        <p>When attempting to cast a spell you can declare you are attempting to cast it stealthily. To successfully conceal your spellcasting you must make a Dexterity (Stealth) check if the spell has verbal components or Dexterity (Sleight of Hand) check if the spell has somatic or material components contested by the Wisdom (Perception) of any possible witnesses.</p>
-
-        <p>If a spell has both verbal and somatic or material components the DM determines which skill should be used.</p>
-
-        <p>While all spells can be cast stealthily, the results many spells are so blatant (such as <em>fireball</em>) that it becomes obvious after the fact that something magical occurred. At the DM's discretion, when you cast an blatant spell it is immediately obvious to any creature who can see you that you were the spellcaster.</p>
-
-        <h4>New Equipment</h4>
-
-        <table>
-          <thead>
-            <tr>
-              <th>Item</th>
-              <th>Price</th>
-              <th>Weight</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>Bounty Hunter's Pack</td>
-              <td>19 gp</td>
-              <td>37 lb.</td>
-            </tr>
-            <tr>
-              <td>Torturer's Tools</td>
-              <td>30 gp</td>
-              <td>6 lb.</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <h5>Bounty Hunter's Pack</h5>
-
-        <p>Includes a backpack, a bedroll, a bag of caltrops, 5 manacles with a key, 5 candles, a signal whistle, 5 days rations, and a waterskin.</p>
-
-        <h5>Torturer's Tools</h5>
-
-        <p>These fiendish tools are designed to inflict maximum pain while keeping a victim alive as long as possible. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to torture or interrogate a captive.</p>
-
-        <h4>New Services</h4>
-
-        <table>
-          <thead>
-            <tr>
-              <th>Service</th>
-              <th>Price</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>Healer</td>
-              <td>1 gp per day</td>
-            </tr>
-            <tr>
-              <td>Physician</td>
-              <td>5 gp per day</td>
-            </tr>
-            <tr>
-              <td>Master Physician</td>
-              <td>20 gp per day</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <h5>Healer</h5>
-
-        <p>Healers are trained in the ways of folk healing, using herbs . They can offer a +2 to Intelligence (Medicine) checks to diagnose, heal or cure a creature. They can also be hired to help physicians and other healers to give advantage on their Intelligence (Medicine) checks.</p>
-
-        <h5>Physician</h5>
-
-        <p>Physicians are men and women of reason (or so they believe) who dedicate their lives to the study of medicine. They have +4 to Intelligence (Medicine) checks to diagnose, heal or cure a creature.</p>
-
-        <p>Each time you hire a physician you have a 1 in 4 chance (1 on a 1d4) of hiring a quack instead, who has a -2  to Intelligence (Medicine) checks instead. The DM rolls secretly to determine this.</p>
-
-        <h5>Master Physician</h5>
-
-        <p>Master physicians are the most gifted masters of the science of medicine, and are equally rare. They have +6 to Intelligence (Medicine) checks to diagnose, heal or cure a creature. Extremely rare and in demand, they can only be found around royal courts, universities or in large cities.</p>
-
-      </section>
-
-      <section id="black-griffin-faction" class="large">
-
-        <h3>Griffin Company</h3>
-
-        <p>The Company of the Black Griffin (often just called <q>Griffin Company</q>) is a mercenary army commanded by the ageing Captain Larke. For a century now it has journeyed east, seeking fortune and glory and collecting recruits from across the known world.</p>
-
-        <dl>
-          <dt>The New Warfare.</dt>
-          <dd>
-            <p>A new age demands a new kind of warfare. Gone are the old rules of engagement. Where once courage and bravery held the day, victory now belongs to the most ruthless.</p>
-
-            <p>And there is no collection of sellswords more ruthless than the Black Griffins. And they have never been in such demand. The nobles that hire them may despise their foul reputation, but cannot deny they win the day.</p>
-          </dd>
-
-          <dt>Fetches.</dt>
-          <dd>
-            <p>Griffin Company tolerates many crimes except one: desertion. In years past, company commanders would form small parties of <q>fetches</q> (bounty hunters) to bring deserters to justice.</p>
-
-            <p>Fetches were so useful they became a permanent part of the company. Now they are used for all kinds of off-the-book work, such as espionage, sabotage and even assassination.</p>
-          </dd>
-
-          <dt>Black Griffin Crest.</dt>
-          <dd> Members of Griffin Company are known by the crest worn on the shoulder and shields: a rampant, black griffin on a gold background.</dd>
-        </dl>
-
-        <h4>Beliefs and Goals</h4>
-
-        <p><strong>Ruthless.</strong> Results, not mercy or glory, matter. (Evil)</p>
-
-        <p><strong>For the Gold.</strong> We fight for a reason and that reason is gold! (Neutral)</p>
-
-        <table id="black-griffin-followers">
-          <caption>Black Griffin Followers</caption>
-          <thead>
-            <tr>
-              <th class="number">d00</th>
-              <th>Followers</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td class="number">1-15</td>
-              <td>1 <strong>light guard retinue</strong></td>
-            </tr>
-            <tr>
-              <td class="number">16-30</td>
-              <td>1 <strong>spy</strong></td>
-            </tr>
-            <tr>
-              <td class="number">31-40</td>
-              <td>1d4 <strong>grizzled mercenaries</strong></td>
-            </tr>
-            <tr>
-              <td class="number">41-50</td>
-              <td>1d4 <strong>scouts</strong></td>
-            </tr>
-            <tr>
-              <td class="number">51-60</td>
-              <td>1 <strong>medium guard retinue</strong></td>
-            </tr>
-            <tr>
-              <td class="number">61-70</td>
-              <td>1 <strong>light infantry squad</strong></td>
-            </tr>
-            <tr>
-              <td class="number">71-75</td>
-              <td>1 <strong>light artillery squad</strong></td>
-            </tr>
-            <tr>
-              <td class="number">76-80</td>
-              <td>1 <strong>medium infantry squad</strong></td>
-            </tr>
-            <tr>
-              <td class="number">81-85</td>
-              <td>1 <strong>heavy guard retinue</strong></td>
-            </tr>
-            <tr>
-              <td class="number">86-90</td>
-              <td>1 <strong>veteran</strong></td>
-            </tr>
-            <tr>
-              <td class="number">91-93</td>
-              <td>1 <strong>heavy infantry squad</strong></td>
-            </tr>
-            <tr>
-              <td class="number">94-96</td>
-              <td>1 <strong>heavy artillery squad</strong></td>
-            </tr>
-            <tr>
-              <td class="number">97-99</td>
-              <td>1d4 <strong>spies</strong></td>
-            </tr>
-            <tr>
-              <td class="number">00</td>
-              <td>1 <strong>assassin</strong></td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table class="full-width">
-          <thead>
-            <tr>
-              <th>Renown</th>
-              <th>Rank</th>
-              <th>Perks</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Private</td>
-              <td><strong>Camp Followers.</strong> You have contacts in the seedy underbelly of the camp allowing you to obtain illicit goods and services. When you&#39;re back at a Black Griffin encampment you can purchase fenced or black market goods and other, dubious services.</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Corporal</td>
-              <td><strong>Command.</strong> You gain advantage on intimidation checks against Company mercenaries of lower rank.</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>Sergeant</td>
-              <td><strong>Minor Retinue.</strong> You are accompanied by a small retinue. Roll once on the Black Griffin Followers table.</td>
-            </tr>
-            <tr>
-              <td>25</td>
-              <td>Lieutenant</td>
-              <td><strong>Major Retinue.</strong> You are accompanied by a large retinue. Roll another two times on the Black Griffin Followers table.</td>
-            </tr>
-            <tr>
-              <td>50</td>
-              <td>Captain</td>
-              <td><strong>Inspiring Reputation.</strong> Your military prowess is legendary. All black griffin mercenaries within 30 feet of you that can see or hear you can add a d4 to all saving throws and attack rolls. You cannot use this perk if you are incapacitated.</td>
-            </tr>
-          </tbody>
-        </table>
-
-      </section>
-
+      <p>Now riven by war. The north districts have been taken by the <strong>Commonwealth Army</strong> in a fiery siege. Only the south districts remain loyal to the <strong>Three Kings</strong>. An uneasy truce abides, about which spies, profiteers, and mercenaries swarm like flies.</p>
     </section>
 
-    <section class="postscript">
-      <section class="large">
+    <section class="page">
+      <h3>The Gods, Old and New</h3>
 
-        <h3 id="coming-soon">Coming Soon</h3>
+      <p>Dismas is dominated by the worship of the New Gods: <strong>The Mother</strong> and <string>The Father</string>, the ancestral parents of humanity. Shrines to The Mother dot the city, and the all-powerful <strong>Holy Temple of the Father</strong> rules in all but name, under the leadership of the <strong>Mad Bishop of Dismas.</strong></p>
 
-        <p class="full-width">If you enjoyed the <span class="product">Black Griffins Player's Guide</span>, look out for the following monographs from <span class="title">Grisly Eye Games</span> coming to the <span class="title">Dungeon Masters Guild</span> soon:</p>
-
-        <h4 id="product-1">Lorem ipsum</h4>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        <h4 id="product-2">Lorem ipsum</h4>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-        <h4 id="product-3">Lorem ipsum</h4>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-        <h4 id="product-4">Lorem ipsum</h4>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-
-        <aside class="full-width">
-          <h4 id="colophon">Colophon</h4>
-
-          <p>The layout and style of this monograph was based on the <span class="title">Dungeon Masters Guild</span> <span class="product">Adventure Template</span>. The main font is <em>Alegreya</em> by Juan Pablo del Peral. It is also hosted on Google Webfonts and supports "true" italics and bold. The title font was <em>Andada SC</em>.</p>
-
-          <p>This document was published using HTML, JavaScript and CSS, and composed using open-source technologies including Node.js, Grunt, NPM, SASS, Polymer and Lit. The PDF was published using <a href="https://www.pagedjs.org/">Paged.js</a>. The monster stat blocks were generated using <a href="https://github.com/grislyeye/vellum-monster"><code>&lt;vellum-monster&gt;</code></a>.</p>
-
-          <p>I would especially like to thank my playtesters and reviewers. The roll call includes:</p>
-
-          <ul id="playtester-credits">
-            <li>???</li>
-          </ul>
-
-          <p>- R. G. Wood</p>
-        </aside>
-
-      </section>
-
+      <p>Beyond Dismas <strong>The Old Ways</strong> still linger, despite the best efforts of the <strong>Witch Finders</strong>. Folk still curse the name of <strong>The Bastard</strong>, the illegitimate son of the Father. And if the gods are absent, what of <strong>Hell</strong>?</p>
     </section>
 
-  </section>
+    <section class="page">
+      <h3>Beyond Dismas</h3>
+
+      <p>Few folk travel far, and little is known of the kingdoms and lands far from Dismas. Here are some notes about what might be found or what rumours our characters might hear:</p>
+
+      <ul>
+        <li><strong>The New Commonwealth</strong>. Little is known of what has transpired north of Dismas since the <strong>Commoner Revolution</strong> unseated the nobles of <strong>Dorshire</strong>. The fledgling Commonwealth has erased ancient borders, and reconfigured (even built) entire towns and cities so fast, the region is nearly unrecognisable.</li>
+
+        <li><strong>North.</strong> Far north lies a wild land filled with cold climes, and hard men and women. Here warring clans constantly fight over the claim to be <strong>King O'The North</strong> and have little time to build towns or sow fields. When it isn't being razed, the town of <strong>Norton</strong> stands against the chaos as the singular bastion of order.</li>
+
+        <li><strong>West.</strong> What lies beyond the vast woods of the <strong>Grey Woald</strong>? To some it is a meaningless question. The woods are so vast, it is easier to ask: <q>What does not?</q> Everything. Nothing.</li>
+
+        <li><strong>South.</strong> Sunnier climes lie south but the city casts a long shadow. The kingdoms and towns here are effectively vassals to Dismas. For example, the once-great city of <strong>Kastenburg</strong> is now a gigantic slum, held hostage to the trade in hemp-weed poppy that keeps the opium dens of Dismas stocked.</li>
+
+        <li><strong>East.</strong> What lies beyond the cobalt waters of the Easterly Sea? Countless uncharted lands: the gold nation of <strong>Jinibia</strong>, the forlorn isles known only as <strong>The Catcalls</strong>, and the icy wastes of the <strong>Shining Lands</strong>, are to name but a few.</li>
+      </ul>
+    </section>
+
+  </main>
 
 </body>
 

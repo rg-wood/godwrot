@@ -1,7 +1,29 @@
-@import url('vendor/modern-normalize/modern-normalize.css');
-@import url('vendor/grisly-eye-docs-style/main.css');
+@import url('vendor/skeleton-css/css/skeleton.css');
+@import url('assets/styles/header.css');
+@import url('assets/styles/page.css');
+@import url('assets/styles/headers.css');
+@import url('assets/styles/lists.css');
+@import url('assets/styles/button.css');
+@import url('assets/styles/illustrations.css');
 
-#cover {
-  background-image: url("images/cover-art.png");
-  background-size: cover;
+body {
+  margin: 0;
+}
+
+@media (max-width: 950px) {
+  html {
+    font-size: 6pt;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 5pt;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 4pt;
+  }
 }

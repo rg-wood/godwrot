@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0');
+
+h1,
+h2,
+h3 {
+  font-family: 'IM Fell English', serif;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+h3 {
+  font-size: 6rem;
+}

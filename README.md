@@ -1,6 +1,6 @@
-# Black Griffon Player's Guide
+# Dismas Remade Player's Guide
 
-Static HTML document for 'Black Griffon Player's Guide'.
+Static HTML document for 'Dismas Remade Player's Guide'.
 
 Requirements:
 
