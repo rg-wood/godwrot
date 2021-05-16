@@ -17,7 +17,7 @@
     "build": "mkdir -p dist && npm run copy:core && npm run copy:assets && npm run copy:vendor",
     "copy:core": "mkdir -p dist && cp index.html main.css dist/",
     "copy:assets": "mkdir -p dist && cp -r assets dist",
-    "copy:vendor": "mkdir -p dist && cp package.json dist/package.json && cp package-lock.json dist/package-lock.json && cd dist && npm ci --production && rm -r vendor && mv node_modules vendor",
+    "copy:vendor": "mkdir -p dist && cp package.json dist/package.json && cp package-lock.json dist/package-lock.json && cd dist && npm ci --production && rm -rf vendor && mv node_modules vendor",
     "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
     "test": "htmlhint 'index.html' && stylelint main.css && npx linkinator index.html -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)' --verbosity debug",
     "start": "npm run build && npm-run-all --parallel start:server start:watch",
