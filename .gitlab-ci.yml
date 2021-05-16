@@ -10,6 +10,8 @@ pages:
     - npm install
     - npm run build
     - mv dist/ public
+  after_script:
+  - npm run deploy
   artifacts:
     paths:
     - public
