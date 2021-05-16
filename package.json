@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "mkdir -p dist && npm run copy:core && npm run copy:assets && npm run copy:vendor",
+    "clean": "rm -r dist",
     "copy:core": "mkdir -p dist && cp index.html main.css dist/",
     "copy:assets": "mkdir -p dist && cp -r assets dist",
     "copy:vendor": "mkdir -p dist && cp package.json dist/package.json && cp package-lock.json dist/package-lock.json && cd dist && npm ci --production && rm -rf vendor && mv node_modules vendor",
