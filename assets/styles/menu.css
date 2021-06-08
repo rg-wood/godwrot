@@ -1,0 +1,25 @@
+#menu {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#menu a:link {
+  color: black;
+}
+
+#menu a:visited {
+  color: black;
+}
+
+#menu a {
+  outline: none;
+  text-decoration: none;
+}
+
+#menu ul {
+  padding-top: 4em;
+  padding-left: 2em;
+  padding-right: 4em;
+  font-size: 1.5em;
+  list-style-type: none;
+}

@@ -5,9 +5,12 @@
 @import url('assets/styles/lists.css');
 @import url('assets/styles/button.css');
 @import url('assets/styles/illustrations.css');
+@import url('assets/styles/nav.css');
+@import url('assets/styles/menu.css');
 
 body {
   margin: 0;
+  font-family: 'Alegreya', serif;
 }
 
 @media (max-width: 950px) {
