@@ -1,3 +1,7 @@
+figure img {
+  filter: invert(1);
+}
+
 figure.spread {
   margin: 5em 0;
 }
