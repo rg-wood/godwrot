@@ -6,9 +6,10 @@ form {
 
 .button {
   font-size: 18px;
-  color: black;
+  background-color: red;
+  color: white;
 }
 
 .button:hover {
-  color: black;
+  color: white;
 }
