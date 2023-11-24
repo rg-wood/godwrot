@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: 'Alegreya', serif;
+  font-family: Alegreya, serif;
   background-color: black;
   color: #dfdfdf;
 }
@@ -20,19 +20,19 @@ body strong {
   color: white;
 }
 
-@media (max-width: 950px) {
+@media (width < 950px) {
   html {
     font-size: 6pt;
   }
 }
 
-@media (max-width: 650px) {
+@media (width < 650px) {
   html {
     font-size: 5pt;
   }
 }
 
-@media (max-width: 500px) {
+@media (width < 500px) {
   html {
     font-size: 4pt;
   }
