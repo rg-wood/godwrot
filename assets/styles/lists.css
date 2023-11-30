@@ -1,5 +1,15 @@
 ul {
-  padding: 1em;
+  padding: 2em;
   list-style: disc;
   list-style-type: "✥  ";
+}
+
+
+ul li {
+  padding-bottom: 0.5em;
+}
+
+
+ul.subsections li {
+  padding-bottom: 1em;
 }
