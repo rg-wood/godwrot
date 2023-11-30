@@ -16,6 +16,10 @@ section.page h3 {
   max-width: 800px;
 }
 
+section.page h4 {
+  text-align: right;
+}
+
 section.page > * {
   margin-left: auto;
   max-width: 800px;

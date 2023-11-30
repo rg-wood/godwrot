@@ -2,7 +2,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'IM Fell English', serif;
 }
 
@@ -13,3 +14,8 @@ h2 {
 h3 {
   font-size: 6rem;
 }
+
+h4 {
+  font-size: 4rem;
+}
+
