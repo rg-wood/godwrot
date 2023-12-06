@@ -1,6 +1,6 @@
 {
   "name": "dismas.grislyeye.com",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "dependencies": {
     "skeleton-css": "^2.0.4"
   },
