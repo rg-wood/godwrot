@@ -6,10 +6,15 @@ form {
 
 .button {
   font-size: 18px;
-  background-color: red;
+  background-color: darkred;
   color: white;
 }
 
 .button:hover {
   color: white;
+}
+
+.button.disabled {
+  color: darkgrey;
+  pointer-events: none;
 }
