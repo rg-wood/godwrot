@@ -1,5 +1,5 @@
 ul {
-  padding: 2em;
+  padding: 2em 0 2em 2em;
   list-style: disc;
   list-style-type: "✥  ";
 }
