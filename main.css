@@ -64,8 +64,8 @@ vellum-doc {
 
 #document > section,
 nav {
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 6em;
+  padding-right: 6em;
 }
 
 h1,
