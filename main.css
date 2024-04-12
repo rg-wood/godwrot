@@ -1,39 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0');
 @import url('vendor/skeleton-css/css/skeleton.css');
-@import url('assets/styles/header.css');
-@import url('assets/styles/page.css');
-@import url('assets/styles/headers.css');
-@import url('assets/styles/lists.css');
 @import url('assets/styles/button.css');
 @import url('assets/styles/illustrations.css');
-@import url('assets/styles/nav.css');
-@import url('assets/styles/menu.css');
 @import url('assets/styles/links.css');
+@import url('assets/styles/lists.css');
+
+html {
+  scroll-behavior: smooth;
+
+  --gap: 50px;
+}
 
 body {
-  margin: 0;
+  font-size: 18pt;
   font-family: Alegreya, serif;
   background-color: black;
   color: #dfdfdf;
+  margin: 0;
 }
 
-body strong {
+strong {
   color: white;
 }
 
-@media (width < 950px) {
-  html {
-    font-size: 6pt;
+vellum-doc {
+  padding-left: calc(var(--gap) / 2);
+  padding-right: var(--gap);
+
+  --index-font-family: "Alegreya", serif;
+  --index-font-size: 14pt;
+  --index-width: 200px;
+  --index-level-1-font: bold 2em var(--index-font-family);
+  --index-level-2-font: small-caps bold 1.15em var(--index-font-family);
+
+  .roller {
+    display: flex;
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+
+    .table-result {
+      font-family: "IM Fell English", serif;
+      font-weight: bold;
+      color: black;
+      text-transform: uppercase;
+      height: 1.5em;
+      width: 100%;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      text-align: center;
+      border: 1px solid;
+      font-size: 0.6em;
+    }
   }
 }
 
-@media (width < 650px) {
-  html {
-    font-size: 5pt;
+#document {
+  padding-top: 2em;
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+#document > section {
+  padding-left: 2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  font-family: "IM Fell English", serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  padding-top: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding-top: 3em;
+}
+
+h4 {
+  font-size: 1.1em;
+  padding-top: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: solid 1px;
+}
+
+header {
+  margin-bottom: 2em;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  p {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-top: 0;
   }
 }
 
-@media (width < 500px) {
-  html {
-    font-size: 4pt;
+table {
+  margin-top: 2em;
+
+  caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "IM Fell English", serif;
+    text-transform: uppercase;
+  }
+}
+
+tbody {
+  border-top : 2px solid;
+}
+
+td,
+th {
+  padding: 0.4rem 1.0rem;
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+}
+
+table.three-column {
+  thead {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  tbody {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+button {
+  display: block;
+  font-family: "IM Fell English", serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 3em;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: white;
+  text-align: center;
+  border: 3px double black;
+  transition: 0.10s all linear;
+  cursor: pointer;
+}
+
+button:hover {
+  outline: 3px double black;
+}
+
+button:active {
+  background: black;
+  color: white;
+  border: 3px double white;
+}
+
+nav {
+  height: 60px;
+  float: right;
+
+  img {
+    height: 60px;
   }
 }

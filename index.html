@@ -28,162 +28,167 @@
 
   <link href="main.css" rel="stylesheet" />
 
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <script type="module">
+    import './components/vellum-doc.js'
+    import './components/vellum-random-table.js'
+    import './components/vellum-dice.js'
+  </script>
 </head>
 
 <body>
 
-  <main>
-
-    <header>
-
-      <amp-sidebar id="menu" layout="nodisplay" side="left">
-        <ul>
-          <li><a href="#about" on="tap:about.scrollTo">about</a></li>
-          <li><a href="#characters" on="tap:characters.scrollTo">Characters</a></li>
-          <li><a href="#dismas" on="tap:dismas.scrollTo">Dismas</a></li>
-          <li><a href="#factions" on="tap:factions.scrollTo">Conspiracies</a></li>
-          <li><a href="#gods" on="tap:gods.scrollTo">The Gods</a></li>
-          <li><a href="#world" on="tap:world.scrollTo">The World</a></li>
-          <li><a href="#rules" on="tap:rules.scrollTo">House Rules</a></li>
-        </ul>
-      </amp-sidebar>
-
+  <vellum-doc>
+    <section id="document">
       <nav>
-        <img id="button" src="assets/images/menu.svg" on="tap:menu.toggle">
+        <div class="logo">
+          <a href="https://grislyeye.com"><img src="assets/images/logo.png" alt="Grisly Eye Games Logo"></a>
+        </div>
       </nav>
 
-      <h1>Dismas Remade</h1>
+      <section>
+        <header>
+          <h1 id="about">Dismas Remade</h1>
+          <p>A low fantasy campaign of grim deeds</p>
+        </header>
 
-      <div class="logo">
-        <a href="https://grislyeye.com"><img src="assets/images/logo.png" alt="Grisly Eye Games Logo"></a>
-      </div>
+        <p>Whereupon, our scoundrels are caught up in a secret war fought between shadowy masters. As secret agents of the utopian spy ring, <strong>The Flock</strong>, they'll gamble their lives against dark forces, both human and inhuman. For what? Perhaps to repay a debt. Maybe a chance at a better life. Or just to survive.</p>
 
-    </header>
+        <ul>
+          <li>We play <strong>7-10pm (GMT) every Thursday</strong>.</li>
+          <li>We're running <strong><a href="https://freeleaguepublishing.com/games/forbidden-lands/">Forbidden Lands</a></strong> but familiarity with this system is not required.</li>
+          <li><strong>Text-only</strong>. We type in Roll20 and Discord. No video or audio.</li>
+          <li><strong>Magic is rare.</strong> The gods are absent, the fey in retreat. Sorry, you probably won't be playing anything like an elf or paladin.</li>
+          <li>You'll be joining a <strong>long-running campaign</strong> with a storied history and two established player characters.</li>
+          <li><strong>Content Warnings:</strong> violence, gore and body horror.</li>
+        </ul>
 
-    <section class="page">
-      <h2 id="about">A low fantasy campaign of grim deeds</h2>
+        <p>If you're brave (or foolish) enough, we're looking for <strong>2 new players</strong>. Apply here:</p>
 
-      <p>Whereupon, our scoundrels are caught up in a secret war fought between shadowy masters. As secret agents of the utopian spy ring, <strong>The Flock</strong>, they'll gamble their lives against dark forces, both human and inhuman. For what? Perhaps to repay a debt. Maybe a chance at a better life. Or just to survive.</p>
+        <form>
+          <div class="disabled button">Applications Closed</div>
+        </form>
+      </section>
 
-      <ul>
-        <li>We play <strong>7-10pm (GMT) every Thursday</strong>.</li>
-        <li>We're running <strong><a href="https://freeleaguepublishing.com/games/forbidden-lands/">Forbidden Lands</a></strong> but familiarity with this system is not required.</li>
-        <li><strong>Text-only</strong>. We type in Roll20 and Discord. No video or audio.</li>
-        <li><strong>Magic is rare.</strong> The gods are absent, the fey in retreat. Sorry, you probably won't be playing anything like an elf or paladin.</li>
-        <li>You'll be joining a <strong>long-running campaign</strong> with a storied history and two established player characters.</li>
-        <li><strong>Content Warnings:</strong> violence, gore and body horror.</li>
-      </ul>
+      <figure class="spread">
+        <img src="assets/images/war-spread.jpg" title="Illustration of 16th century peasant rebels by Hans Lützelburger c1526.">
+      </figure>
 
-      <p>If you're brave (or foolish) enough, we're looking for <strong>2 new players</strong>. Apply here:</p>
+      <section class="page" id="characters">
 
-      <form>
-        <div class="disabled button">Applications Closed</div>
-      </form>
+        <header>
+          <h2 id="setting">Setting</h2>
+          <p>Of knaves, lubberworts and goode folk</p>
+        </header>
+
+        <p>Life is hard for folk of the Land. Few are left untouched by the ravages of poverty, disease or war. And our characters are no exception. These are not heroes. These are not saints. They are imperfect, mortal, flawed and broken. They are grubby scoundrels, pariahs, venal sellswords or merely common folk caught up in events beyond their ken.</p>
+      </section>
+
+      <section class="page">
+
+        <header>
+          <h3 id="dismas">The City</h3>
+          <p>Our adventure takes place in foul Dismas</p>
+        </header>
+
+        <p>Ancient <strong>Dismas</strong>. The City that Eats Itself. A blistering canker on the arse of the <strong>Easterly Sea</strong>. A corrupt miser gnawing at its own bones. Its streets run black with filth. A wretched beggar on every corner.</p>
+
+        <p>Now riven by war. Two factions divide Dismas. The city north of the River Hy has been taken by the <strong>Commonwealth Army</strong> in a fiery siege. Only the south districts remain loyal to the <strong>Three Kings</strong>. An uneasy truce abides, about which spies, profiteers and mercenaries swarm like flies.</p>
+
+        <p>As if life in Dismas wasn't wretched enough, the recent dawning of the lambent <strong>Balestar</strong> in the firmament over the city presaged a night of catastrophe. It still lingers and many consider it a sign of the immanent apocalypse.</p>
+      </section>
+
+      <section class="page">
+
+        <header>
+        <h3 id="factions">Factions</h3>
+        <p>The hidden forces at work herein</p>
+      </header>
+
+        <p>When conflict cannot rear its ugly head, it lurks in shadows. The truce between the Three Kings and New Commonwealth wavers, but is held in place by the various conspiracies working against each other. For now, none has triumphed and peace abides, but for how long?</p>
+
+        <ul class="subsections">
+          <li id="flock"><strong>The Flock</strong> is a ring of Commonwealth spies operating out of South Dismas. Led by the mercurial figure known only as <strong>The Sparrow</strong>, they work to counter the machinations of the Privy Council (see below).</li>
+
+          <li id="mandatories">The army of conscripts known as the <strong>Mandatory Forces</strong> (or "mandatories") draws soldiers from those lands still under the sway of the Three Kings. Many are, in fact, loyalist refugees from the Commoner Revolution. Morale is low for these grey-liveried grunts and one wonders how long they can hold together before they desert <em>en masse</em>.</li>
+
+          <li id="privy-council"><strong>The Privy Council</strong> is the power behind the Three Kings. Led by the notorious <strong>Lord Roche</strong>, this influential body consists of the loyalists, generals and bureaucrats who keep the old monarchies going before anyone realises they're losing the war.</li>
+
+          <li id="thieves-council"><strong>Thieves' Council</strong> is a name you only hear in whispers, if at all. This secretive alliance presents a unified organisation for all thieves, blackguards, scoundrels and rogues in Dismas. Most believe it's just a legend, but the word on the street is that it is very much alive. If the Council were real, it would surely be a tenuous alliance at best, easily broken.</li>
+
+          <li id="witchfinders">While the <strong>Witchfinders</strong> nominally punish heresy, under the Bishop's command they have broadened the definition of the blasphemous and become the <em>de facto</em> secret police of the Privy Council, while it's otherwise occupied. These sinister fanatics are recognisable by their wide brimmed hats and humourless demeanours. The one thing that might unite all the other factions of the city is their contempt for the Witchfinders.</li>
+        </ul>
+
+      </section>
+
+      <figure class="spread">
+        <img src="assets/images/dismas.png" title="Map of Dismas Remade">
+      </figure>
+
+      <section class="page">
+        <h3 id="gods">The Gods, Old and New</h3>
+
+        <p>The Land is dominated by the worship of the New Gods: <strong>The Mother</strong> and <strong>The Father</strong>, the ancestral parents of humanity. Shrines to The Mother dot the city, and the <strong>Holy Temple of the Father</strong> rules in all but name under the leadership of the <strong>Mad Bishop of Dismas.</strong></p>
+
+        <p>Beyond Dismas <strong>The Old Ways</strong> still linger, despite the best efforts of the <strong>Witchfinders</strong>. Folk still curse the name of <strong>The Bastard</strong>, the illegitimate son of the Father. And if the gods are absent, what of <strong>Hell</strong>?</p>
+      </section>
+
+      <section class="page">
+        <h3 id="world">Beyond Dismas</h3>
+
+        <p>Few folk travel far, and little is known of the kingdoms and lands far from Dismas. Here are some notes about what might be found or what rumours our characters might hear:</p>
+
+        <ul class="subsections">
+          <li><strong>The New Commonwealth</strong>. Little is known of what has transpired north of Dismas since the <strong>Commoner Revolution</strong> unseated the nobles of <strong>Dorshire</strong>. The fledgling Commonwealth has erased ancient borders, and reconfigured (even built) entire towns and cities. So quickly, the region is nearly unrecognisable.</li>
+
+          <li><strong>North.</strong> Far north lies a wild land filled with cold climes, and hard men and women. Here, warring clans constantly fight over the claim to be <strong>King O'The North</strong> and have little time to build towns or sow fields. When it isn't being razed, the town of <strong>Norton</strong> stands against the chaos as the singular bastion of order.</li>
+
+          <li><strong>West.</strong> What lies beyond the vast woods of the <strong>Grey Woald</strong>? To some, it is a meaningless question. The woods are so vast, it is easier to ask: <q>What does not?</q> Everything. Nothing.</li>
+
+          <li><strong>South.</strong> Sunnier climes lie south, but the city casts a long shadow. The kingdoms and towns here are effectively vassals to Dismas. Such places as <strong>Kastenburg</strong>, <strong>Faro</strong> or the <strong>Duchy of Castantis</strong> are held hostage to Dismas' insatiable hunger for food, workers and opium.</li>
+
+          <li><strong>East.</strong> What lies beyond the cobalt waters of the <strong>Easterly Sea</strong>? Countless uncharted lands: the golden nation of <strong>Jinibia</strong>, the forlorn isles known only as <strong>The Catcalls</strong> and the icy wastes of the <strong>Shining Lands</strong>, are to name but a few.</li>
+        </ul>
+      </section>
+
+      <section class="page">
+        <h2 id="rules">House Rules</h2>
+
+        <p>All material from the official <em>Forbidden Lands</em> line is allowed, as well as <a href="https://grislyeye.com/products/witchcraft/">Witchcraft</a>, <a href="https://www.drivethrurpg.com/product/345538/Powder-and-Grimstone-Firearms-for-Forbidden-Lands">Powder and Grimstone</a> and the house rules described here.</p>
+
+        <header>
+          <h3 id="safety">Safety Tools</h3>
+          <p>Gird Thyselves</p>
+        </header>
+
+        <p>We avoid all objectionable content from the <strong><a href="https://2e.aonprd.com/Rules.aspx?ID=488">Pathfinder Baseline</a></strong> by default, excluding the content warnings mentioned above (i.e. gore, etc.).</p>
+
+        <p>The <strong>X card</strong> can be used at any point if a player (DM or not) is uncomfortable with content currently happening IC. Play the card by typing an “X” in OOC (tag the DM as well) and the group can change, rewind or skip the content. And you don't have to explain or say anything about why you played the X card.</p>
+
+        <p><strong>Lines and Veils</strong> are established boundaries for the story. Players can let me know their <strong>lines</strong> (hard boundaries which are excluded from the game) and <strong>veils</strong> (soft boundaries which are included, but not explicitly described) and we will do our best to respect them.</p>
+
+
+        <header>
+          <h3 id="experience">Intrigue Experience</h3>
+          <p>Lesson's Learned (Experience)</p>
+        </header>
+
+        <p>Life in Dismas is less about heroic deeds or discoveries, and more about mere survival or just keeping one's wits. For this reason, we use the following questions for determining XP instead of the ones from the <em>Forbidden Lands Player's Guide</em> (pg. 39):</p>
+
+        <ul>
+          <li>Did you participate in the game session? You get one XP just for being there.</li>
+          <li>Did you travel through at least one area that you had not visited before?</li>
+          <li>Did you discover a new adventure site?</li>
+          <li>Did you defeat one or more monsters or major NPCs?</li>
+          <li>Did you uncover useful information?</li>
+          <li>Did you build a function in your stronghold?</li>
+          <li>Did you activate your Pride?</li>
+          <li>Did you suffer from your Dark Secret?</li>
+          <li>Did you risk your life for another PC?</li>
+          <li>Did you survive a dire predicament of some kind?</li>
+        </ul>
+      </section>
     </section>
-
-    <figure class="spread">
-      <img src="assets/images/war-spread.jpg" title="Illustration of 16th century peasant rebels by Hans Lützelburger c1526.">
-    </figure>
-
-    <section class="page" id="characters">
-      <h3>Of knaves, lubberworts and goode folk</h3>
-
-      <p>Life is hard for folk of the Land. Few are left untouched by the ravages of poverty, disease or war. And our characters are no exception. These are not heroes. These are not saints. They are imperfect, mortal, flawed and broken. They are grubby scoundrels, pariahs, venal sellswords or merely common folk caught up in events beyond their ken.</p>
-    </section>
-
-    <section class="page" id="dismas">
-      <h3>Our adventure takes place in foul Dismas</h3>
-
-      <p>Ancient <strong>Dismas</strong>. The City that Eats Itself. A blistering canker on the arse of the <strong>Easterly Sea</strong>. A corrupt miser gnawing at its own bones. Its streets run black with filth. A wretched beggar on every corner.</p>
-
-      <p>Now riven by war. Two factions divide Dismas. The city north of the River Hy has been taken by the <strong>Commonwealth Army</strong> in a fiery siege. Only the south districts remain loyal to the <strong>Three Kings</strong>. An uneasy truce abides, about which spies, profiteers and mercenaries swarm like flies.</p>
-
-      <p>As if life in Dismas wasn't wretched enough, the recent dawning of the lambent <strong>Balestar</strong> in the firmament over the city presaged a night of catastrophe. It still lingers and many consider it a sign of the immanent apocalypse.</p>
-    </section>
-
-    <section class="page" id="factions">
-      <h3>The hidden forces at work herein</h3>
-
-      <p>When conflict cannot rear its ugly head, it lurks in shadows. The truce between the Three Kings and New Commonwealth wavers, but is held in place by the various conspiracies working against each other. For now, none has triumphed and peace abides, but for how long?</p>
-
-      <ul class="subsections">
-        <li id="flock"><strong>The Flock</strong> is a ring of Commonwealth spies operating out of South Dismas. Led by the mercurial figure known only as <strong>The Sparrow</strong>, they work to counter the machinations of the Privy Council (see below).</li>
-
-        <li id="mandatories">The army of conscripts known as the <strong>Mandatory Forces</strong> (or "mandatories") draws soldiers from those lands still under the sway of the Three Kings. Many are, in fact, loyalist refugees from the Commoner Revolution. Morale is low for these grey-liveried grunts and one wonders how long they can hold together before they desert <em>en masse</em>.</li>
-
-        <li id="privy-council"><strong>The Privy Council</strong> is the power behind the Three Kings. Led by the notorious <strong>Lord Roche</strong>, this influential body consists of the loyalists, generals and bureaucrats who keep the old monarchies going before anyone realises they're losing the war.</li>
-
-        <li id="thieves-council"><strong>Thieves' Council</strong> is a name you only hear in whispers, if at all. This secretive alliance presents a unified organisation for all thieves, blackguards, scoundrels and rogues in Dismas. Most believe it's just a legend, but the word on the street is that it is very much alive. If the Council were real, it would surely be a tenuous alliance at best, easily broken.</li>
-
-        <li id="witchfinders">While the <strong>Witchfinders</strong> nominally punish heresy, under the Bishop's command they have broadened the definition of the blasphemous and become the <em>de facto</em> secret police of the Privy Council, while it's otherwise occupied. These sinister fanatics are recognisable by their wide brimmed hats and humourless demeanours. The one thing that might unite all the other factions of the city is their contempt for the Witchfinders.</li>
-      </ul>
-
-    </section>
-
-    <figure class="spread">
-      <img src="assets/images/dismas.png" title="Map of Dismas Remade">
-    </figure>
-
-    <section class="page" id="gods">
-      <h3>The Gods, Old and New</h3>
-
-      <p>The Land is dominated by the worship of the New Gods: <strong>The Mother</strong> and <strong>The Father</strong>, the ancestral parents of humanity. Shrines to The Mother dot the city, and the <strong>Holy Temple of the Father</strong> rules in all but name under the leadership of the <strong>Mad Bishop of Dismas.</strong></p>
-
-      <p>Beyond Dismas <strong>The Old Ways</strong> still linger, despite the best efforts of the <strong>Witchfinders</strong>. Folk still curse the name of <strong>The Bastard</strong>, the illegitimate son of the Father. And if the gods are absent, what of <strong>Hell</strong>?</p>
-    </section>
-
-    <section class="page" id="world">
-      <h3>Beyond Dismas</h3>
-
-      <p>Few folk travel far, and little is known of the kingdoms and lands far from Dismas. Here are some notes about what might be found or what rumours our characters might hear:</p>
-
-      <ul class="subsections">
-        <li><strong>The New Commonwealth</strong>. Little is known of what has transpired north of Dismas since the <strong>Commoner Revolution</strong> unseated the nobles of <strong>Dorshire</strong>. The fledgling Commonwealth has erased ancient borders, and reconfigured (even built) entire towns and cities. So quickly, the region is nearly unrecognisable.</li>
-
-        <li><strong>North.</strong> Far north lies a wild land filled with cold climes, and hard men and women. Here, warring clans constantly fight over the claim to be <strong>King O'The North</strong> and have little time to build towns or sow fields. When it isn't being razed, the town of <strong>Norton</strong> stands against the chaos as the singular bastion of order.</li>
-
-        <li><strong>West.</strong> What lies beyond the vast woods of the <strong>Grey Woald</strong>? To some, it is a meaningless question. The woods are so vast, it is easier to ask: <q>What does not?</q> Everything. Nothing.</li>
-
-        <li><strong>South.</strong> Sunnier climes lie south, but the city casts a long shadow. The kingdoms and towns here are effectively vassals to Dismas. Such places as <strong>Kastenburg</strong>, <strong>Faro</strong> or the <strong>Duchy of Castantis</strong> are held hostage to Dismas' insatiable hunger for food, workers and opium.</li>
-
-        <li><strong>East.</strong> What lies beyond the cobalt waters of the <strong>Easterly Sea</strong>? Countless uncharted lands: the golden nation of <strong>Jinibia</strong>, the forlorn isles known only as <strong>The Catcalls</strong> and the icy wastes of the <strong>Shining Lands</strong>, are to name but a few.</li>
-      </ul>
-    </section>
-
-    <section class="page" id="rules">
-      <h3>House Rules</h3>
-
-      <p>All material from the official <em>Forbidden Lands</em> line is allowed, as well as <a href="https://grislyeye.com/products/witchcraft/">Witchcraft</a>, <a href="https://www.drivethrurpg.com/product/345538/Powder-and-Grimstone-Firearms-for-Forbidden-Lands">Powder and Grimstone</a> and the house rules described here.</p>
-
-      <h4>Gird Thyself (Safety Tools)</h4>
-
-      <p>We avoid all objectionable content from the <strong><a href="https://2e.aonprd.com/Rules.aspx?ID=488">Pathfinder Baseline</a></strong> by default, excluding the content warnings mentioned above (i.e. gore, etc.).</p>
-
-      <p>The <strong>X card</strong> can be used at any point if a player (DM or not) is uncomfortable with content currently happening IC. Play the card by typing an “X” in OOC (tag the DM as well) and the group can change, rewind or skip the content. And you don't have to explain or say anything about why you played the X card.</p>
-
-      <p><strong>Lines and Veils</strong> are established boundaries for the story. Players can let me know their <strong>lines</strong> (hard boundaries which are excluded from the game) and <strong>veils</strong> (soft boundaries which are included, but not explicitly described) and we will do our best to respect them.</p>
-
-      <h4>Lesson's Learned (Experience)</h4>
-
-      <p>Life in Dismas is less about heroic deeds or discoveries, and more about mere survival or just keeping one's wits. For this reason, we use the following questions for determining XP instead of the ones from the <em>Forbidden Lands Player's Guide</em> (pg. 39):</p>
-
-      <ul>
-        <li>Did you participate in the game session? You get one XP just for being there.</li>
-        <li>Did you travel through at least one area that you had not visited before?</li>
-        <li>Did you discover a new adventure site?</li>
-        <li>Did you defeat one or more monsters or major NPCs?</li>
-        <li>Did you uncover useful information?</li>
-        <li>Did you build a function in your stronghold?</li>
-        <li>Did you activate your Pride?</li>
-        <li>Did you suffer from your Dark Secret?</li>
-        <li>Did you risk your life for another PC?</li>
-        <li>Did you survive a dire predicament of some kind?</li>
-      </ul>
-    </section>
-
-  </main>
+  </vellum-doc>
 
 </body>
 

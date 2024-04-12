@@ -1,46 +1,43 @@
 {
   "name": "dismas.grislyeye.com",
-  "version": "1.6.0",
+  "version": "2.0.0",
   "dependencies": {
-    "skeleton-css": "^2.0.4"
+    "skeleton-css": "^2.0.4",
+    "vellum-dice": "^0.1.0",
+    "vellum-doc": "^0.3.0",
+    "vellum-random-table": "^1.1.0"
   },
   "devDependencies": {
-    "browser-sync": "^2.29.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "browser-sync": "^3.0.2",
     "htmlhint": "^1.1.4",
-    "linkinator": "^6.0.2",
-    "npm-run-all": "^4.1.5",
+    "linkinator": "^6.0.4",
     "npm-watch": "^0.11.0",
-    "stylelint": "^15.11.0",
-    "stylelint-config-standard": "^34.0.0"
+    "rollup": "^4.13.2",
+    "rollup-plugin-copy": "^3.5.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
   },
   "scripts": {
-    "build": "mkdir -p dist && npm run copy:core && npm run copy:assets && npm run copy:vendor",
+    "build": "mkdir -p dist && npm run build:dist && npm run build:components",
+    "build:components": "rollup -c",
+    "build:dist": "mkdir -p dist && cp index.html main.css dist/",
+    "build:watch": "npm-watch",
     "clean": "rm -r dist",
-    "copy:core": "mkdir -p dist && cp index.html main.css dist/",
-    "copy:assets": "mkdir -p dist && cp -r assets dist",
-    "copy:vendor": "mkdir -p dist && cp package.json dist/package.json && cp package-lock.json dist/package-lock.json && cd dist && npm ci --production && rm -rf vendor && mv node_modules vendor",
-    "deploy": "curl -X POST \"https://api.cloudflare.com/client/v4/zones/6576d55621fb5a1290106d65ff89aee3/purge_cache\" -H \"X-Auth-Email: ricardo@gladwell.me\"  -H \"X-Auth-Key: ${CLOUDFLARE_API_KEY}\" -H \"Content-Type:application/json\" --data '{\"purge_everything\":true}'",
-    "test": "htmlhint 'index.html' && stylelint main.css && npx linkinator index.html -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)' --verbosity debug",
-    "start": "npm run build && npm-run-all --parallel start:server start:watch",
-    "start:server": "browser-sync start --server --files dist --ss dist",
-    "start:watch": "npm-watch"
+    "test": "htmlhint 'index.html' && stylelint main.css assets/styles/**/*.css && npx linkinator index.html -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(.*\\.drivethrurpg\\.com)' --verbosity debug",
+    "start": "npm run build && npm run start:server",
+    "start:server": "browser-sync start --server --files dist --ss dist"
   },
   "watch": {
-    "copy:core": {
+    "build": {
       "patterns": [
-        "index.html",
-        "main.css"
-      ]
-    },
-    "copy:assets": {
-      "patterns": [
-        "assets"
+        "**/*"
       ],
-      "extensions": "css,jpg,jpeg,png"
-    },
-    "copy:vendor": {
-      "patterns": [
-        "package.json"
+      "extensions": "html,css",
+      "ignore": [
+        "node_module",
+        "dist"
       ]
     }
   }
