@@ -1,6 +1,6 @@
 {
   "name": "dismas.grislyeye.com",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "dependencies": {
     "skeleton-css": "^2.0.4",
     "vellum-dice": "^0.1.0",
@@ -22,7 +22,7 @@
   "scripts": {
     "build": "mkdir -p dist && npm run build:dist && npm run build:components",
     "build:components": "rollup -c",
-    "build:dist": "mkdir -p dist && cp -r index.html main.css assets dist/",
+    "build:dist": "mkdir -p dist && cp -r main.css assets dist/",
     "build:watch": "npm-watch",
     "clean": "rm -r dist",
     "test": "htmlhint 'index.html' && stylelint main.css assets/styles/**/*.css && npx linkinator index.html -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(.*\\.drivethrurpg\\.com)' --verbosity debug",

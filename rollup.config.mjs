@@ -1,6 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve'
 import terser from '@rollup/plugin-terser'
 import copy from 'rollup-plugin-copy'
+import pkg from './package.json' assert { type: 'json' }
 
 export default {
   plugins: [
@@ -12,6 +13,11 @@ export default {
     }),
     copy({
       targets: [
+        {
+          src: 'index.html',
+          dest: 'dist/',
+          transform: (contents, filename) => contents.toString().replace('__VERSION__', pkg.version)
+        },
         { src: 'node_modules/skeleton-css/**/*', dest: 'dist/vendor/skeleton-css' }
       ]
     })
