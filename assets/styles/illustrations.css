@@ -14,19 +14,15 @@ figure.portrait {
 
   img {
     width: 100%;
+    max-width: 190px;
   }
 
-  @media (width <= 800px) {
+  @media (width <= 450px) {
     float: none;
-  }
 
-
-  @media (width <= 700px) {
-    float: right;
-  }
-
-
-  @media (width <= 550px) {
-    float: none;
+    img {
+      display: block;
+      margin: auto;
+    }
   }
 }
