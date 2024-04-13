@@ -8,3 +8,7 @@ figure.spread img {
   object-fit: cover;
   overflow: hidden;
 }
+
+figure.portrait {
+  float: right;
+}
