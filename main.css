@@ -54,7 +54,7 @@ vellum-doc {
     }
   }
 
-  @media (max-width: 700px) {
+  @media (width <= 700px) {
     padding-left: 0;
   }
 }
@@ -70,7 +70,7 @@ vellum-doc {
   padding-left: 6em;
   padding-right: 6em;
 
-  @media (max-width: 1000px) {
+  @media (width <= 1000px) {
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -190,14 +190,13 @@ button:active {
 nav {
   height: 60px;
   float: right;
-
   padding-right: 6em;
 
   img {
     height: 60px;
   }
 
-  @media (max-width: 1000px) {
+  @media (width <= 1000px) {
     padding-right: 1em;
   }
 }
