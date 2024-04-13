@@ -53,6 +53,10 @@ vellum-doc {
       font-size: 0.6em;
     }
   }
+
+  @media (max-width: 700px) {
+    padding-left: 0;
+  }
 }
 
 #document {
@@ -62,10 +66,14 @@ vellum-doc {
   padding-right: 0;
 }
 
-#document > section,
-nav {
+#document > section {
   padding-left: 6em;
   padding-right: 6em;
+
+  @media (max-width: 1000px) {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
 h1,
@@ -183,8 +191,14 @@ nav {
   height: 60px;
   float: right;
 
+  padding-right: 6em;
+
   img {
     height: 60px;
+  }
+
+  @media (max-width: 1000px) {
+    padding-right: 1em;
   }
 }
 

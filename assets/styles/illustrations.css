@@ -11,4 +11,22 @@ figure.spread img {
 
 figure.portrait {
   float: right;
+
+  img {
+    width: 100%;
+  }
+
+  @media (max-width: 800px) {
+    float: none;
+  }
+
+
+  @media (max-width: 700px) {
+    float: right;
+  }
+
+
+  @media (max-width: 550px) {
+    float: none;
+  }
 }
