@@ -1,6 +1,6 @@
 {
   "name": "dismas.grislyeye.com",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "dependencies": {
     "skeleton-css": "^2.0.4",
     "vellum-dice": "^0.1.0",
