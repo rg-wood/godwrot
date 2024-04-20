@@ -4,12 +4,13 @@
   list-style-type: "✥  ";
 }
 
-#document ul li {
+#document ul li,
+#document ol li {
   padding-bottom: 0.5em;
 }
 
 #document ol {
-  padding: 2em 0 2em 2em;
+  padding: 2em 0 1em 1em;
   font-size: 100%;
 }
 
