@@ -33,28 +33,31 @@ vellum-doc {
   --index-width: 200px;
   --index-level-1-font: bold 2em var(--index-font-family);
   --index-level-2-font: small-caps bold 1.15em var(--index-font-family);
+}
 
-  .roller {
-    display: flex;
-    border-top: 3px black solid;
-    border-bottom: 3px black solid;
 
-    .table-result {
-      font-family: "IM Fell English", serif;
-      font-weight: bold;
-      color: black;
-      text-transform: uppercase;
-      height: 1.5em;
-      width: 100%;
-      margin: 0.5rem;
-      padding: 0.5rem;
-      text-align: center;
-      border: 1px solid;
-      font-size: 0.6em;
-    }
+vellum-doc .roller {
+  display: flex;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid;
+
+  .table-result {
+    font-family: "IM Fell English", serif;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    height: 1.5em;
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid;
+    font-size: 0.6em;
   }
+}
 
-  @media (width <= 700px) {
+@media (width <= 700px) {
+  vellum-doc {
     padding-left: 0;
   }
 }
@@ -69,8 +72,11 @@ vellum-doc {
 #document > section {
   padding-left: 6em;
   padding-right: 6em;
+}
 
-  @media (width <= 1000px) {
+
+@media (width <= 1000px) {
+  #document > section {
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -108,31 +114,32 @@ h4 {
 
 header {
   margin-bottom: 2em;
+}
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
 
-  p {
-    font-size: 0.9em;
-    font-style: italic;
-    margin-top: 0;
-  }
+header h1,
+header h2,
+header h3,
+header h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+header p {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0;
 }
 
 table {
   margin-top: 2em;
+}
 
-  caption {
-    font-size: 1.2em;
-    font-weight: bold;
-    font-family: "IM Fell English", serif;
-    text-transform: uppercase;
-  }
+table caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "IM Fell English", serif;
+  text-transform: uppercase;
 }
 
 tbody {
@@ -192,11 +199,14 @@ nav {
   float: right;
   padding-right: 6em;
 
-  img {
-    height: 60px;
-  }
+}
 
-  @media (width <= 1000px) {
+nav img {
+  height: 60px;
+}
+
+@media (width <= 1000px) {
+  nav {
     padding-right: 1em;
   }
 }

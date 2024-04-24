@@ -12,18 +12,20 @@ figure.spread img {
 figure.portrait {
   float: right;
   clear: both;
+}
 
-  img {
-    width: 100%;
-    max-width: 170px;
+figure.portrait img {
+  width: 100%;
+  max-width: 170px;
+}
+
+@media (width <= 450px) {
+  figure.portrait {
+    float: none;
   }
 
-  @media (width <= 450px) {
-    float: none;
-
-    img {
-      display: block;
-      margin: auto;
-    }
+  figure.portrait img {
+    display: block;
+    margin: auto;
   }
 }
