@@ -40,20 +40,20 @@ vellum-doc .roller {
   display: flex;
   border-top: 3px black solid;
   border-bottom: 3px black solid;
+}
 
-  .table-result {
-    font-family: "IM Fell English", serif;
-    font-weight: bold;
-    color: black;
-    text-transform: uppercase;
-    height: 1.5em;
-    width: 100%;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    text-align: center;
-    border: 1px solid;
-    font-size: 0.6em;
-  }
+vellum-doc .roller .table-result {
+  font-family: "IM Fell English", serif;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  height: 1.5em;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid;
+  font-size: 0.6em;
 }
 
 @media (width <= 700px) {
