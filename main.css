@@ -56,7 +56,7 @@ vellum-doc .roller .table-result {
   font-size: 0.6em;
 }
 
-@media (width <= 700px) {
+@media (max-width: 700px) {
   vellum-doc {
     padding-left: 0;
   }
@@ -75,7 +75,7 @@ vellum-doc .roller .table-result {
 }
 
 
-@media (width <= 1000px) {
+@media (max-width: 1000px) {
   #document > section {
     padding-left: 1em;
     padding-right: 1em;
@@ -205,7 +205,7 @@ nav img {
   height: 60px;
 }
 
-@media (width <= 1000px) {
+@media (max-width: 1000px) {
   nav {
     padding-right: 1em;
   }

@@ -19,7 +19,7 @@ figure.portrait img {
   max-width: 170px;
 }
 
-@media (width <= 450px) {
+@media (max-width: 450px) {
   figure.portrait {
     float: none;
   }
