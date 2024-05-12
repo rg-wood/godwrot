@@ -1,7 +1,7 @@
 import resolve from '@rollup/plugin-node-resolve'
 import terser from '@rollup/plugin-terser'
 import copy from 'rollup-plugin-copy'
-import pkg from './package.json' assert { type: 'json' }
+import pkg from './package.json' with { type: 'json' }
 
 export default {
   plugins: [
