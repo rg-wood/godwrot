@@ -9,7 +9,7 @@
 html {
   scroll-behavior: smooth;
 
-  --gap: 50px;
+  --index-font-family: "Alegreya", serif;
 }
 
 body {
@@ -25,16 +25,12 @@ strong {
 }
 
 vellum-doc {
-  padding-left: calc(var(--gap) / 2);
-  padding-right: 0;
-
-  --index-font-family: "Alegreya", serif;
-  --index-font-size: 14pt;
-  --index-width: 200px;
+  --index-width: 280px;
   --index-level-1-font: bold 2em var(--index-font-family);
   --index-level-2-font: small-caps bold 1.15em var(--index-font-family);
+  --index-level-3-font: var(--index-font-family);
+  --index-level-4-font: var(--index-font-family);
 }
-
 
 vellum-doc .roller {
   display: flex;
@@ -56,24 +52,21 @@ vellum-doc .roller .table-result {
   font-size: 0.6em;
 }
 
-@media (max-width: 700px) {
-  vellum-doc {
-    padding-left: 0;
-  }
+vellum-doc::part(index) {
+  font-family: var(--index-font-family);
+  font-size: 14pt;
+  padding-left: 2em;
+  padding-right: 1em;
 }
 
 #document {
-  overflow: hidden;
   padding-top: 2em;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 #document > section {
   padding-left: 6em;
   padding-right: 6em;
 }
-
 
 @media (max-width: 1000px) {
   #document > section {
@@ -115,7 +108,6 @@ h4 {
 header {
   margin-bottom: 2em;
 }
-
 
 header h1,
 header h2,
