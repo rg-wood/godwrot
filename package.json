@@ -1,10 +1,10 @@
 {
   "name": "dismas.grislyeye.com",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "dependencies": {
     "skeleton-css": "^2.0.4",
     "vellum-dice": "^0.1.0",
-    "vellum-doc": "^0.5.1",
+    "vellum-doc": "^0.8.0",
     "vellum-random-table": "^1.1.0"
   },
   "devDependencies": {

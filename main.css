@@ -69,6 +69,14 @@ vellum-doc::part(index) {
   max-width: 1000px;
 }
 
+@media (max-width: 900px) {
+  #document > section {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1000px;
+  }
+}
+
 h1,
 h2,
 h3,
