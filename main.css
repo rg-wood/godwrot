@@ -26,10 +26,6 @@ strong {
 
 vellum-doc {
   --index-width: 280px;
-  --index-level-1-font: bold 2em var(--index-font-family);
-  --index-level-2-font: small-caps bold 1.15em var(--index-font-family);
-  --index-level-3-font: var(--index-font-family);
-  --index-level-4-font: var(--index-font-family);
 }
 
 vellum-doc .roller {
@@ -53,10 +49,26 @@ vellum-doc .roller .table-result {
 }
 
 vellum-doc::part(index) {
+  border-right: 1px solid white;
   font-family: var(--index-font-family);
   font-size: 14pt;
-  padding-left: 2em;
-  padding-right: 1em;
+  padding-left: 1em;
+}
+
+vellum-doc::part(index-h1) {
+  font: bold 2em var(--index-font-family);
+}
+
+vellum-doc::part(index-h2) {
+  font: small-caps bold 1.15em var(--index-font-family);
+}
+
+vellum-doc::part(index-h3) {
+  font: var(--index-font-family);
+}
+
+vellum-doc::part(index-h4) {
+  font: var(--index-font-family);
 }
 
 #document {
