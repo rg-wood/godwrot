@@ -25,7 +25,32 @@ strong {
 }
 
 vellum-doc {
-  --index-width: 280px;
+  --index-width: 300px;
+}
+
+vellum-doc::part(index) {
+  background-color: black;
+  border-right: 1px solid white;
+  font-family: var(--index-font-family);
+  font-size: 14pt;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+vellum-doc::part(index-h1) {
+  font: bold 2em var(--index-font-family);
+}
+
+vellum-doc::part(index-h2) {
+  font: small-caps bold 1.15em var(--index-font-family);
+}
+
+vellum-doc::part(index-h3) {
+  font: var(--index-font-family);
+}
+
+vellum-doc::part(index-h4) {
+  font: var(--index-font-family);
 }
 
 vellum-doc .roller {
@@ -48,29 +73,6 @@ vellum-doc .roller .table-result {
   font-size: 0.6em;
 }
 
-vellum-doc::part(index) {
-  border-right: 1px solid white;
-  font-family: var(--index-font-family);
-  font-size: 14pt;
-  padding-left: 1em;
-}
-
-vellum-doc::part(index-h1) {
-  font: bold 2em var(--index-font-family);
-}
-
-vellum-doc::part(index-h2) {
-  font: small-caps bold 1.15em var(--index-font-family);
-}
-
-vellum-doc::part(index-h3) {
-  font: var(--index-font-family);
-}
-
-vellum-doc::part(index-h4) {
-  font: var(--index-font-family);
-}
-
 #document {
   padding-top: 2em;
 }
@@ -81,7 +83,7 @@ vellum-doc::part(index-h4) {
   max-width: 1000px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #document > section {
     padding-left: 1em;
     padding-right: 1em;
@@ -99,6 +101,10 @@ h4 {
 
 h1 {
   font-size: 3em;
+}
+
+h1 .anchor {
+  display: none;
 }
 
 h2 {
