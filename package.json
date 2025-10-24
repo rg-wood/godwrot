@@ -1,44 +1,39 @@
 {
   "name": "dismas.grislyeye.com",
-  "version": "2.7.3",
-  "dependencies": {
-    "skeleton-css": "^2.0.4",
-    "vellum-dice": "^0.1.0",
-    "vellum-doc": "^0.10.0",
-    "vellum-random-table": "^1.1.0"
-  },
-  "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "browser-sync": "^3.0.2",
-    "htmlhint": "^1.1.4",
-    "linkinator": "^6.1.1",
-    "npm-watch": "^0.13.0",
-    "rollup": "^4.19.2",
-    "rollup-plugin-copy": "^3.5.0",
-    "stylelint": "^16.8.1",
-    "stylelint-config-standard": "^36.0.1"
+  "version": "2.8.0",
+  "author": {
+    "name": "Ric Wood",
+    "email": "ric@grislyeye.com",
+    "url": "https://grislyeye.com/"
   },
   "scripts": {
-    "build": "mkdir -p dist && npm run build:dist && npm run build:components",
-    "build:components": "rollup -c",
-    "build:dist": "mkdir -p dist && cp -r main.css assets dist/",
-    "build:watch": "npm-watch",
-    "clean": "rm -r dist",
-    "test": "htmlhint 'index.html' && stylelint main.css assets/styles/**/*.css && npx linkinator index.html -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(.*\\.drivethrurpg\\.com)' --verbosity debug",
-    "start": "npm run build && npm run start:server",
-    "start:server": "browser-sync start --server --files dist --ss dist"
+    "build": "npx @11ty/eleventy",
+    "clean": "rimraf _site",
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "predeploy": "npm run clean && npm run build && npm run test",
+    "deploy": "gh-pages -d dist -b gh-pages -t",
+    "lint": "npx prettier . --check && npx stylelint 'assets/styles/**/*.css' && htmlhint _site/**/*.html",
+    "lint:fix": "npx prettier . --write",
+    "test": "npm run lint && npm run test:links",
+    "test:links": "npx linkinator _site/ -ro --recurse --skip '(.*\\.drivethrurpg\\.com)'"
   },
-  "watch": {
-    "build": {
-      "patterns": [
-        "**/*"
-      ],
-      "extensions": "html,css",
-      "ignore": [
-        "node_module",
-        "dist"
-      ]
-    }
+  "dependencies": {
+    "@grislyeye/link-preview": "^0.0.3",
+    "normalize.css": "^8.0.1",
+    "vellum-doc": "^0.10.1",
+    "vellum-sidebar": "^0.0.1"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@photogabble/eleventy-plugin-interlinker": "^1.1.2",
+    "cheerio": "^1.1.2",
+    "gh-pages": "^6.3.0",
+    "htmlhint": "^1.7.1",
+    "linkinator": "^7.1.3",
+    "mime-types": "^3.0.1",
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1"
   }
 }

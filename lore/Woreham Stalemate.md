@@ -1,0 +1,1 @@
+The stalemate between the [[Three Kings]] and [[Commonwealth Army]], which divided the township of [[Woreham]] and held the [[Woreham Front]]. During this period the [[Company of the Black Griffin|Black Griffins]] served the [[Three Kings]] and participated in numerous counter-espionage missions against the agents of the [[New Commonwealth]], active south of the front line.

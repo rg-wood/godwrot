@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"2c1def101dfae29b","type":"file","file":"🗡 Dismas Remade/Agata surprises the characters.md","x":37,"y":-145,"width":400,"height":85},
+		{"id":"1431a9194f52b6bf","type":"file","file":"🗡 Dismas Remade/Nevala.md","x":-444,"y":-332,"width":400,"height":52},
+		{"id":"fe768702afd2eea1","x":37,"y":80,"width":400,"height":86,"type":"file","file":"🗡 Dismas Remade/Bea comes looking for Annette.md"}
+	],
+	"edges":[
+		{"id":"7fadb18ea1802076","fromNode":"2c1def101dfae29b","fromSide":"top","toNode":"1431a9194f52b6bf","toSide":"right"}
+	]
+}

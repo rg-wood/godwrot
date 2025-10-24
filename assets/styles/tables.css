@@ -1,0 +1,71 @@
+.content table {
+  border-collapse: collapse;
+  margin-left: 2em;
+  text-align: left;
+  width: 100%;
+}
+
+.content table caption {
+  font-variant: small-caps;
+  font-weight: bold;
+  color: red;
+  text-align: left;
+  font-size: larger;
+}
+
+.content table tr {
+  border-bottom: 1px solid white;
+}
+
+.content table td,
+.content table th {
+  padding: 0.7em 0.7em 0.7em 0;
+  vertical-align: top;
+}
+
+.content table td.number,
+.content table th.number {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+
+.three-column table {
+  thead {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  tbody {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+.content vellum-random-table {
+  margin-bottom: 2em;
+  width: 100%;
+  padding-left: 2em;
+}
+
+.content vellum-random-table table {
+  margin-left: 0;
+}
+
+.content vellum-random-table.three-column {
+  width: 100%;
+}
+
+.content vellum-random-table .roller {
+  display: flex;
+  gap: 0.5em;
+  width: 100%;
+}
+
+.content vellum-random-table .roller input {
+  width: 100%;
+}
+
+.content section.two-column vellum-random-table {
+  padding-left: 0;
+}

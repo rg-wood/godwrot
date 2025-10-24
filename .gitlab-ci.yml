@@ -1,19 +1,20 @@
-image: node:21
+image: node:24
 
 lint:
   script:
     - npm install
+    - npm run build
     - npm test
 
 pages:
   script:
     - npm ci
     - npm run build
-    - mv dist/ public
+    - mv _site/ public
   after_script:
-  - npm run deploy
+    - npm run deploy
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - tags
+    - tags

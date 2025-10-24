@@ -1,0 +1,8 @@
+- [ ] Assortment of flashy throwing knives
+- [ ] 3 Questions of the [[Thieves' Council of Dismas|Thieves' Council of Dismas]]
+- [ ] Maps of [[Dismas Catacombs]]
+- [ ] A means of entering the [[Dismas Deadside|Dismas Deadside]]
+- [x] Your own cell from [[Flock]]
+- [ ] Cover/safe house in a new district
+- [ ] The names of [[Black Hand]]
+- [ ] A [[Phial of the White]]

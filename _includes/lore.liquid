@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+    <title>{{ title }} - {{ site.title }}</title>
+
+    <link href="/assets/styles/main.css" rel="stylesheet" />
+
+    <script type="module">
+      import '/vendor/link-preview/link-preview.js'
+      import '/vendor/vellum-sidebar/vellum-sidebar.js'
+    </script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "lit": "/vendor/@lit/index.js",
+          "lit/": "/vendor/@lit/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+
+    <vellum-sidebar>
+      <nav id="sidebar" slot="sidebar">
+
+        <h2><a href="/lore">Lore</a></h2>
+
+        <ul>
+          <li><a href="/">Dismas Remade</a></li>
+        </ul>
+
+        <hr>
+
+        <ul>
+
+        {%- for item in collections.lore -%}
+
+          <li>
+            <a
+              id="{{ item.fileSlug | slugify }}-link"
+              href="{{ item.filePathStem }}"
+              {% if item.filePathStem == page.filePathStem %}class="selected"{% endif %}>
+              {{ item.data.title }}
+            </a>
+          </li>
+
+        {%- endfor -%}
+
+        </ul>
+      </nav>
+
+      <main>
+        <article id="document" class="lore content">
+
+          <section>
+            {% if backlinks.size > 0  %}
+            <aside id="backlinks">
+              <h4>Mentions:</h4>
+
+              <ul>
+                {% for link in backlinks %}
+                    <li><link-preview><a href="{{ link.url }}">{{ link.title }}</a></link-preview></li>
+                {% endfor %}
+              </ul>
+            </aside>
+            {% endif %}
+
+            <h1>{{ title }}</h1>
+
+            {{ content | standard-markdown | preview: preview }}
+          </section>
+
+        </article>
+      </main>
+
+      <footer>
+        <p>{{ site.description }} (version {{ project.version }}) &copy; 2024 <a href="{{ project.author.url }}">{{ project.author.name }}</a>. Grisly Eye logo symbol designed by Freepik.</p>
+      </footer>
+    </vellum-sidebar>
+  </body>
+
+  <script defer>
+    const select = document.querySelector("#sidebar a#{{ page.fileSlug | slugify }}-link")
+    if (select) {
+      setTimeout(() => select.scrollIntoView({ block: "center" }), 200);
+    }
+  </script>
+
+</html>

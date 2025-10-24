@@ -1,0 +1,66 @@
+.content blockquote {
+  margin: 0;
+  padding-left: 1em;
+  border-left: 1px solid white;
+  font-style: italic;
+}
+
+#post blockquote p {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.content blockquote cite,
+#post blockquote + ul {
+  display: block;
+  font-style: normal;
+  text-indent: 1em;
+}
+
+#post blockquote + ul {
+  margin-top: -1.4em;
+  padding-top: 0.3em;
+  border-left: 1px solid white;
+  text-indent: 2em;
+}
+
+#post blockquote + ul li::before {
+  content: "- ";
+}
+
+#post blockquote + ul li em {
+  color: red;
+}
+
+#post blockquote + ul li a {
+  color: red;
+}
+
+#post blockquote + ul,
+#post blockquote ol:last-child,
+#post blockquote ul:last-child {
+  padding-left: 1em;
+  list-style: none;
+}
+
+#post blockquote ol:last-child li,
+#post blockquote ul:last-child li {
+  font-style: normal;
+  text-indent: 1em;
+}
+
+#post blockquote ol:last-child li em,
+#post blockquote ul:last-child li em {
+  color: red;
+}
+
+#post blockquote ol:last-child li a,
+#post blockquote ul:last-child li a {
+  color: red;
+}
+
+.content blockquote cite::before,
+#post blockquote ol:last-child li::before,
+#post blockquote ul:last-child li::before {
+  content: "- ";
+}

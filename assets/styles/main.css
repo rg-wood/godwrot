@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700italic,700");
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0");
+@import url("asides.css");
+@import url("blockquote.css");
+@import url("button.css");
+@import url("illustrations.css");
+@import url("link-preview.css");
+@import url("links.css");
+@import url("lists.css");
+@import url("tables.css");
+
+html {
+  scroll-behavior: smooth;
+
+  --index-font-family: "Alegreya", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18pt;
+  font-family: Alegreya, serif;
+  background-color: black;
+  color: #dfdfdf;
+}
+
+nav {
+  height: 60px;
+  float: right;
+  padding-right: 6em;
+}
+
+nav img {
+  height: 60px;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    padding-right: 1em;
+  }
+}
+
+article#document {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#document > section img {
+  max-width: 600px;
+  width: 60%;
+}
+
+#document > section {
+  padding-left: 6em;
+  padding-right: 6em;
+  max-width: 1000px;
+}
+
+@media (max-width: 1000px) {
+  #document > section {
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1000px;
+  }
+}
+
+article#document > section {
+  width: 100%;
+}
+
+strong {
+  color: white;
+}
+
+#document {
+  padding-top: 2em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  font-family: "IM Fell English", serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1 .anchor {
+  display: none;
+}
+
+h2 {
+  font-size: 3em;
+  padding-top: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding-top: 3em;
+}
+
+h4 {
+  font-size: 1em;
+  padding-top: 1.2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: solid 1px;
+}
+
+header {
+  margin-bottom: 2em;
+}
+
+header h1,
+header h2,
+header h3,
+header h4 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+header p {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 0;
+}
+
+table {
+  margin-top: 2em;
+}
+
+table caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "IM Fell English", serif;
+  text-transform: uppercase;
+}
+
+tbody {
+  border-top: 2px solid;
+}
+
+td,
+th {
+  padding: 0.4rem 1rem;
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+}
+
+table.three-column {
+  thead {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+
+  tbody {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+vellum-sidebar {
+  --sidebar-width: 300px;
+}
+
+vellum-sidebar::part(sidebar) {
+  background-color: black;
+  border-right: 1px solid white;
+  font-family: var(--index-font-family);
+  font-size: 14pt;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+nav#sidebar {
+  padding: 0;
+}
+
+#sidebar a {
+  color: grey;
+}
+
+#sidebar h2 a {
+  color: white;
+  text-decoration: inherit;
+}
+
+#sidebar h2 {
+  padding: 0.5em;
+}
+
+#sidebar a.selected {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar ul li {
+  font: small-caps bold 1.15em var(--index-font-family);
+  padding-bottom: 1em;
+}
+
+#document.lore h2 {
+  font-size: 2em;
+  padding-top: 0;
+}
+
+vellum-doc {
+  --index-width: 300px;
+}
+
+vellum-doc::part(index) {
+  background-color: black;
+  border-right: 1px solid white;
+  font-family: var(--index-font-family);
+  font-size: 14pt;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+vellum-doc::part(index-h1) {
+  font: bold 2em var(--index-font-family);
+}
+
+vellum-doc::part(index-h2) {
+  font: small-caps bold 1.15em var(--index-font-family);
+}
+
+vellum-doc::part(index-h3) {
+  font: var(--index-font-family);
+}
+
+vellum-doc::part(index-h4) {
+  font: var(--index-font-family);
+}
+
+vellum-doc .roller {
+  display: flex;
+  border-top: 3px black solid;
+  border-bottom: 3px black solid;
+}
+
+vellum-doc .roller .table-result {
+  font-family: "IM Fell English", serif;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  height: 1.5em;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid;
+  font-size: 0.6em;
+}
+
+footer {
+  margin-top: 3em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-size: 0.8em;
+  color: gray;
+  text-align: center;
+  margin-bottom: 3.5em;
+}
+
+code {
+  display: none;
+}
