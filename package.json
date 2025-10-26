@@ -1,23 +1,23 @@
 {
-  "name": "dismas.grislyeye.com",
-  "version": "2.7.3",
+  "name": "wyrgud",
+  "version": "0.0.0",
   "dependencies": {
     "skeleton-css": "^2.0.4",
-    "vellum-dice": "^0.1.0",
-    "vellum-doc": "^0.10.0",
-    "vellum-random-table": "^1.1.0"
+    "vellum-dice": "^0.3.0",
+    "vellum-doc": "^0.10.1",
+    "vellum-random-table": "^1.2.0"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "browser-sync": "^3.0.2",
-    "htmlhint": "^1.1.4",
-    "linkinator": "^6.1.1",
+    "browser-sync": "^3.0.4",
+    "htmlhint": "^1.7.1",
+    "linkinator": "^7.3.0",
     "npm-watch": "^0.13.0",
-    "rollup": "^4.19.2",
+    "rollup": "^4.52.5",
     "rollup-plugin-copy": "^3.5.0",
-    "stylelint": "^16.8.1",
-    "stylelint-config-standard": "^36.0.1"
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1"
   },
   "scripts": {
     "build": "mkdir -p dist && npm run build:dist && npm run build:components",
