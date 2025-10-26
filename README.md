@@ -1,6 +1,6 @@
-# Dismas Remade Player's Guide
+# Wyrgüd
 
-Static HTML document for 'Dismas Remade Player's Guide'.
+Powered by the Apocalypse hack for grimdark gaming
 
 Requirements:
 
