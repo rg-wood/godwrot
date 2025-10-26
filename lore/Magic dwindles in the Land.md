@@ -1,1 +1,0 @@
-As reason waxes, the [[Old Ways]] wane. The gods no longer intervene directly in the affairs of men. The fey, once abundant, retreat deeper into their woods. And ruthless inquisitors hunt down the last remaining practitioners and put them to the flame.

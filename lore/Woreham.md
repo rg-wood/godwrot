@@ -1,6 +1,0 @@
----
-aliases:
-  - Fream
----
-
-#settlement

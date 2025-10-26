@@ -4,7 +4,7 @@ Static HTML document for 'Dismas Remade Player's Guide'.
 
 Requirements:
 
-- [Node.js](http://nodejs.org/)
+  * [Node.js](http://nodejs.org/)
 
 To set-up your environment execute:
 
