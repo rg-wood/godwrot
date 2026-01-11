@@ -11,7 +11,7 @@ Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core a
 - **Agility:** reflexive or graceful.
 - **Cunning**: inquisitive or exploratory.
 - **Strength:** aggressive or forceful.
-- **Wisdom**: calculating or methodical.
+- **Wits**: calculating or methodical.
 - **Will:** persuasive or assertive.
 
 ### Relationships
