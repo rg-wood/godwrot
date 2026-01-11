@@ -214,4 +214,4 @@ The concept of **Wyrgüd** has been bubbling around in my head for a while now. 
 
 Creating a PbtA game can be overwhelming, but _Simple World_ gave me a barebones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
 
-A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my *Troika!* hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest with my
+A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my _Troika!_ hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest. The result is the document you're reading now.
