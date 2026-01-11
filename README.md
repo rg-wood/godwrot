@@ -44,15 +44,16 @@ The next stage of creating characters is to pick 3 moves. When a player picks a 
 
 All characters in **Wyrgüd** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below:
 
-- **Reckless**
-- **Slow-witted**
-- **Fanatical**
-- **Devious**
-- **Foolish**
-- **Faithless**
-- **Drunk**
-- **Bumbling**
-- **Wicked**
+- Reckless
+- Slow-witted
+- Fanatical
+- Gruff
+- Devious
+- Foolish
+- Faithless
+- Drunk
+- Bumbling
+- Wicked
 
 ### Basic Moves
 
@@ -72,7 +73,7 @@ Whenever you roll a highlighted attribute you earn a point of Experience. Mark i
 
 #### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** on a roll of 10+ you can choose to fail that roll and hold 1. Describe how your Flaw intervenes to frustrate your goals, and make it [grubby](be-grubby)
+When you **succeed with a move related to your Flaw** on a roll of 10+ you can choose to fail that roll and hold 1. Describe how your Flaw intervenes to frustrate your goals, and make it [grubby](#be-grubby)
 
 You may spend the hold to accidentally succeed any failed roll related to your Flaw. Again, describe how luck allows you succeed in spite of yourself.
 
@@ -217,3 +218,9 @@ The concept of **Wyrgüd** has been bubbling around in my head for a while now. 
 Creating a PbtA game can be overwhelming, but _Simple World_ gave me a bare-bones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
 
 A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my _Troika!_ hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest. The result is the document you're reading now.
+
+### Stealing Defeat
+
+Too often, the systems I use to run my grubby fantasy games produce PCs that are too competent. As experience accrues, protagonists become increasingly capable, which breaks the setting. Characters in grubby fantasy are defined by their powerlessness. This game isn't about heroes, it's about wretches, twerps and other dubious figures that are, if not villains, corrupt at best.
+
+At the heart of **Wyrgüd** is the [Steal Defeat](#steal-defeat) move, which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
