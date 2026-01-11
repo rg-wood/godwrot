@@ -2,33 +2,71 @@
 
 Powered by the Apocalypse Grimdark hack.
 
-## Attributes
+## Characters
 
-What maketh the scoundrel
+### Attributes
 
-### Agility
+Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core attributes for **Wyrgüd** are:
 
-How reflexive or graceful.
+- **Agility:** reflexive or graceful.
+- **Cunning**: inquisitive or exploratory.
+- **Strength:** aggressive or forceful.
+- **Wisdom**: calculating or methodical.
+- **Will:** persuasive or assertive.
 
-### Cunning
+### Relationships
 
-How inquisitive or exploratory.
+Every PC in the game has a relationship stat with every other character. Assign the following relationship stat scores that their character has toward the other PCs: +2 for the one they know best, -1 for the one they know least, and +1 for all others. They will also list “NPCs: 0,” as the default is that they have a relationship score with all NPCs that starts at 0.
 
-### Might
+Relationship scores will go up and down over play. Characters can betray one another for a +2 bonus to a roll, but their relationship score goes down by 1. Characters can make meaningful sacrifices for someone, and their relationship score toward that person will go up by one.
 
-How aggressive or forceful.
+### Harm
 
-### Wisdom
+Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the MC tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are taken out of the action
 
-How calculating or methodical.
+### Player Moves
 
-### Will
+The next stage of creating characters is to pick 3 moves. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their character sheet.
 
-How persuasive or assertive.
+• When you do something relating to [specialty], add +1.
+
+• You have the ability to [do some sort of active special power]. It counts as a basic move using [stat].
+
+• You have [some passive special power that has a constant effect].
+
+• You have a [thing]. When applicable, it adds +1 to [attribute] and [attribute].
+
+• When you do [specialty], mark XP.
+
+• Add +1 to [attribute].
+
+### Basic Moves
+
+#### Taking Action
+
+When you take an action that risks failure or opposition, roll with one of the basic attributes. On a 10+, you succeed at your goal. As appropriate, the Mod might award you: resource points, harm dealt, or a bonus to carry forward. On a 7-9, the Mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the Mod might award you resource points, harm dealt, or a bonus to carry forward).
+
+#### Helping or Hindering
+
+When you **help or hinder another PC**, roll your relationship stat with that person. On a 10+, add or subtract 2 from their roll. On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
+
+When you **help or hinder a NPC**, roll your relationship stat with that person. On a 10+, they either succeed or fail - your choice. On a 7-9, the MC will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
 ## Moderation
 
+The Mod is responsible for running and moderating the game. In particular, The Mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The Mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the Mod should say that something isn’t possible. When the MC says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
+
+Early in the first session, the Mod should juggle two responsibilities:
+
+• Follow the PCs around, and learn what they’re all about.
+
+• Give the players a sense of what the world is like, and how it operates.
+
+Astute players will realize that these two things can sometimes be at odds with one another. MC, the way you navigate this combination of responsibilities is by honouring your [Agendas](#agendas) and your [Principles](#principles).
+
 ### Agendas
+
+Agendas are the reason you play **Wyrgüd**. They include:
 
 #### Make it exciting
 
@@ -37,6 +75,8 @@ How persuasive or assertive.
 #### ???
 
 ### Principles
+
+The Principles are things you should seek to do whenever you speak, in the game.
 
 #### Sprinkle evocative details everywhere
 
@@ -66,15 +106,7 @@ How persuasive or assertive.
 
 #### Sometimes, reflect a question back upon the players
 
-::::
-::::::::
-
-:::: section
-::: {}
-
 ### Reactions
-
-:::
 
 Reactions are the specific things you say in any moment. There are two
 different cases where you use the Reactions, and you use them
@@ -100,6 +132,8 @@ The Reactions are:
 
 #### Deal harm
 
+When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence, but it may vary from setting to setting. When someone does harm to someone else, the Mod will rate that harm from 1-3. PC harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out of the action](#taken-out), but tougher NPCs might have more.
+
 #### Announce off-screen badness
 
 #### Announce future badness
@@ -116,8 +150,24 @@ The Reactions are:
 
 #### Make a move from one of your Threats or Fronts
 
-::::
-::::::::::::::::::
+### Talking and Moves
 
-Version \_\_VERSION\_\_ © 2025 Grisly Eye Games. Grisly Eye logo symbol
-designed by Freepik.
+The game is like a conversation. People describe what their characters do, ask questions about what’s going on, and talk in character. If someone says something that seems untrue or unreasonable, the Mod is allowed to say, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
+
+At some point, the Mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The Mod will name which [attribute](#attributes) applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.
+
+[Moves](#moves) and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the move should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
+
+Whenever people look at the MC expectantly, the MC should make a soft reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
+
+### Taken Out
+
+When a character has all of their harm sections filled in, they’re are dead and taken out of the action. When a character is taken out of the action. If the character was a PC, the player should create a new character.
+
+### Bonus to Carry Forward
+
+Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the PC is set up for future successes. In these cases, the Mod can award a +1 bonus that the PC can apply to their next roll. The player should mark that bonus on their character sheet.
+
+### Marking Experience
+
+Whenever you roll a highlighted attribute you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new specialty and reference it in the Player Move you purchase.
