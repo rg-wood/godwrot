@@ -106,11 +106,13 @@ Agendas are the reason you play **Wyrgüd**. They include:
 
 #### Be grubby
 
+**Wyrgüd** is about grubby fantasy, a sub-genre of the low fantasy idiomatic to the British old-school fantasy scene. To be grubby is to be farcical, bawdy, pessimistic and satirical.
+
 ### Principles
 
 The Principles are things you should seek to do whenever you speak, in the game.
 
-#### Sprinkle evocative details everywhere
+#### Sprinkle grubby and convoluted details everywhere
 
 #### Make the world seem real
 
@@ -132,11 +134,15 @@ The Principles are things you should seek to do whenever you speak, in the game.
 
 #### Respond with challenging circumstances and occasional rewards
 
-#### Be a fan of the players' characters
+#### Make the lives of the player characters miserable
+
+#### But also be a fan of the players' characters
 
 #### Think offscreen, too
 
 #### Sometimes, reflect a question back upon the players
+
+#### Draw the characters into mystery
 
 ### Reactions
 
@@ -201,3 +207,11 @@ When a character has all of their harm sections filled in, they’re are dead an
 ### Bonus to Carry Forward
 
 Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the PC is set up for future successes. In these cases, the Mod can award a +1 bonus that the PC can apply to their next roll. The player should mark that bonus on their character sheet.
+
+## Design Notes
+
+The concept of **Wyrgüd** has been bubbling around in my head for a while now. It started with an observation: that many *Powered by the Apocalypse* fantasy games tend towards the high fantasy, and that there's a gap in the hobby for a low fantasy flavour. From that, _Bleak World_ was born, a partially-completed document that went through a number of versions and iterations which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
+
+Creating a PbtA game can be overwhelming, but *Simple World* gave me a barebones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? *Simple World* was that beginning.
+
+A name change was required (*Bleak World* was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/context/), my *Troika!* hack, because this game is a spiritual successor to that one. Using the skeleton cut from *Simple World*, I began a process of continual playtesting until I achieved the document you are reading now.
