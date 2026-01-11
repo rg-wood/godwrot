@@ -28,7 +28,7 @@ Every character has a harm clock, with six sections. When characters take harm i
 
 The next stage of creating characters is to pick 3 moves. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their character sheet.
 
-• When you do something relating to [specialty], add +1.
+• When you do something relating to [speciality], add +1.
 
 • You have the ability to [do some sort of active special power]. It counts as a basic move using [stat].
 
@@ -36,7 +36,7 @@ The next stage of creating characters is to pick 3 moves. When a player picks a 
 
 • You have a [thing]. When applicable, it adds +1 to [attribute] and [attribute].
 
-• When you do [specialty], mark XP.
+• When you do [speciality], mark XP.
 
 • Add +1 to [attribute].
 
@@ -70,7 +70,7 @@ When you **help or hinder a NPC**, roll your relationship stat with that person.
 
 #### Mark Experience
 
-Whenever you roll a highlighted attribute you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new specialty and reference it in the Player Move you purchase.
+Whenever you roll a highlighted attribute you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
 
 #### Steal Success
 
@@ -80,7 +80,7 @@ For example:
 
 > Gregori the Reckless Brute succeeds on an attack move on a roll of 11. This is a flawed move for his flaw, Reckless. He decides to steal success and fail the attack move instead.
 >
-> Gregori takes becomes off balance and tajes a -1 penalty to the next Agility roll he makes and holds 1.
+> Gregori takes becomes off-balance and takes a -1 penalty to the next Agility roll he makes and holds 1.
 >
 > Later, Gregori is fighting Marcus, the Bandit King. It's an important fight, but at a crucial moment, he fails an attack move. Deciding to spend his hold, he instead succeeds accidentally. His player says, “as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line tying a…”
 
@@ -174,7 +174,7 @@ As [Deal Harm](#deal-harm), but a PC is dealt harm in return.
 
 When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence, but it may vary from setting to setting. When someone does harm to someone else, the Mod will rate that harm from 1-3. PC harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out of the action](#taken-out), but tougher NPCs might have more.
 
-#### Announce off-screen badness
+#### Announce offscreen badness
 
 #### Announce future badness
 
@@ -202,7 +202,7 @@ Whenever people look at the Mod expectantly, the Mod should make a soft reaction
 
 ### Taken Out
 
-When a character has all of their harm sections filled in, they’re are dead and taken out of the action. When a character is taken out of the action. If the character was a PC, the player should create a new character.
+When a character has all of their harm sections filled in, they’re dead and taken out of the action. When a character is taken out of the action. If the character was a PC, the player should create a new character.
 
 ### Bonus to Carry Forward
 
@@ -210,8 +210,8 @@ Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the P
 
 ## Design Notes
 
-The concept of **Wyrgüd** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that there's a gap in the hobby for a low fantasy flavour. From that, _Bleak World_ was born, a partially-completed document that went through a number of versions and iterations which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
+The concept of **Wyrgüd** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that there's a gap in the hobby for a low fantasy flavour. From that, _Bleak World_ was born, a partially completed document that went through a number of versions and iterations which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
 
-Creating a PbtA game can be overwhelming, but _Simple World_ gave me a barebones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
+Creating a PbtA game can be overwhelming, but _Simple World_ gave me a bare-bones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
 
 A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my _Troika!_ hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest. The result is the document you're reading now.
