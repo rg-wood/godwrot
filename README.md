@@ -40,6 +40,22 @@ The next stage of creating characters is to pick 3 moves. When a player picks a 
 
 • Add +1 to [attribute].
 
+### Flaws
+
+All characters in **Wyrgüd** are broken in some way, and has a Flaw. Choose a Flaw from the list below:
+
+- **Reckless**
+- **Slow-witted**
+- **Fanatical**
+- **Devious**
+- **Foolish**
+- **Faithless**
+- **Drunk**
+- **Bumbling**
+- **Wicked**
+
+Your Flaw determines when you can use the [Steal Success](#steal-success) basic move.
+
 ### Basic Moves
 
 #### Taking Action
@@ -51,6 +67,22 @@ When you take an action that risks failure or opposition, roll with one of the b
 When you **help or hinder another PC**, roll your relationship stat with that person. On a 10+, add or subtract 2 from their roll. On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
 
 When you **help or hinder a NPC**, roll your relationship stat with that person. On a 10+, they either succeed or fail - your choice. On a 7-9, the MC will name a cost; if you accept the cost, they either succeed or fail - your choice.
+
+#### Mark Experience
+
+Whenever you roll a highlighted attribute you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new specialty and reference it in the Player Move you purchase.
+
+#### Steal Success
+
+When you **succeed with a move related to your Flaw** on a roll of 10+ you can choose to fail that roll and hold 1. You may spend the hold to accidentally succeed any failed roll related to your Flaw. You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
+
+For example:
+
+> Gregori the Reckless Brute succeeds on an attack move on a roll of 11. This is a flawed move for his flaw, Reckless. He decides to steal success and fail the attack move instead.
+>
+> Gregori takes becomes off balance and tajes a -1 penalty to the next Agility roll he makes and holds 1.
+>
+> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight, but at a crucial moment, he fails an attack move. Deciding to spend his hold, he instead succeeds accidentally. His player says, “as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line tying a…”
 
 ## Moderation
 
@@ -167,7 +199,3 @@ When a character has all of their harm sections filled in, they’re are dead an
 ### Bonus to Carry Forward
 
 Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the PC is set up for future successes. In these cases, the Mod can award a +1 bonus that the PC can apply to their next roll. The player should mark that bonus on their character sheet.
-
-### Marking Experience
-
-Whenever you roll a highlighted attribute you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new specialty and reference it in the Player Move you purchase.
