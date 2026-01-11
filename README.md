@@ -1,6 +1,6 @@
 # Wyrgüd
 
-**Wyrgüd** is a *Powered by the Apocalypse* grimhack inspired by *Warhammer*, *Terry Pratchett* and the British old-school.
+**Wyrgüd** is a _Powered by the Apocalypse_ grimhack inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
 ## Characters
 
