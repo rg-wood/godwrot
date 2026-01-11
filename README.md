@@ -1,6 +1,6 @@
 # Wyrgüd
 
-Powered by the Apocalypse Grimdark hack.
+**Wyrgüd** is a *Powered by the Apocalypse* grimhack inspired by *Warhammer*, *Terry Pratchett* and the British old-school.
 
 ## Characters
 
