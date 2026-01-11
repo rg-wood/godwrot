@@ -54,6 +54,9 @@ All characters in **Wyrgüd** are broken in some way. Flaws represent this and d
 - Drunk
 - Bumbling
 - Wicked
+- Treacherous
+- Cowardly
+- Unlucky
 
 ### Basic Moves
 
