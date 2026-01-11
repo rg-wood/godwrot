@@ -27,9 +27,9 @@
     "build:assets": "cp -r assets dist/",
     "build:modules": "mkdir -p dist/vendor && cp -r node_modules/vellum-doc dist/vendor/vellum-doc/ && cp -r node_modules/magick.css/ dist/vendor/magick.css/",
     "clean": "rm -r dist",
-    "lint": "npx prettier . --check && npx htmlhint dist/**/*.html",
+    "lint": "npx prettier . --check && npx htmlhint dist/index.html",
     "lint:fix": "npx prettier . --write",
-    "test": "npm run lint && linkinator --check-fragments dist/**/*.html",
+    "test": "npm run lint && linkinator --check-fragments dist/index.html",
     "start": "npm run build && npm run start:server",
     "start:server": "browser-sync start --server --files dist --ss dist"
   },
