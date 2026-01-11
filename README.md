@@ -172,7 +172,7 @@ As [Deal Harm](#deal-harm), but a PC is dealt harm in return.
 
 #### Deal harm
 
-When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence, but it may vary from setting to setting. When someone does harm to someone else, the Mod will rate that harm from 1-3. PC harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out of the action](#taken-out), but tougher NPCs might have more.
+When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. PC harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out of the action](#taken-out), but tougher NPCs might have more.
 
 #### Announce offscreen badness
 
