@@ -108,7 +108,7 @@ Agendas are the reason you play **Wyrgüd**. They include:
 
 #### Be grubby
 
-**Wyrgüd** is about grubby fantasy, a sub-genre of the low fantasy idiomatic to the British old-school fantasy scene. To be grubby is to be farcical, bawdy, pessimistic, grotesque and satirical.
+**Wyrgüd** is about grubby fantasy, a sub-genre of the low fantasy idiomatic to the British old-school fantasy scene. To be grubby is to be farcical, bawdy, pessimistic, grotesque and satirical. Revel in these themes, shamelessly.
 
 ### Principles
 
