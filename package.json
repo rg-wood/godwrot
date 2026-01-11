@@ -1,31 +1,35 @@
 {
   "name": "wyrgud",
   "version": "0.0.0",
+  "author": "Ric Wood <ric@grislyeye.com>",
   "dependencies": {
-    "skeleton-css": "^2.0.4",
-    "vellum-dice": "^0.3.0",
-    "vellum-doc": "^0.10.1",
-    "vellum-random-table": "^1.2.0"
+    "@grislyeye/link-preview": "^0.0.3",
+    "magick.css": "^1.0.6",
+    "normalize.css": "^8.0.1",
+    "vellum-doc": "^0.10.1"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^16.0.3",
-    "@rollup/plugin-terser": "^0.4.4",
     "browser-sync": "^3.0.4",
-    "htmlhint": "^1.7.1",
-    "linkinator": "^7.3.0",
+    "gh-pages": "^6.3.0",
+    "htmlhint": "^1.8.0",
+    "linkinator": "^7.5.3",
+    "marked": "^17.0.1",
     "npm-watch": "^0.13.0",
-    "rollup": "^4.52.5",
-    "rollup-plugin-copy": "^3.5.0",
-    "stylelint": "^16.25.0",
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.2",
+    "stylelint": "^16.26.1",
     "stylelint-config-standard": "^39.0.1"
   },
   "scripts": {
-    "build": "mkdir -p dist && npm run build:dist && npm run build:components",
-    "build:components": "rollup -c",
-    "build:dist": "mkdir -p dist && cp -r main.css assets dist/",
+    "build": "mkdir -p dist && npm run build:dist",
+    "build:dist": "mkdir -p dist && node index.js > dist/index.html && npm run build:assets && npm run build:modules",
     "build:watch": "npm-watch",
+    "build:assets": "cp -r assets dist/",
+    "build:modules": "mkdir -p dist/vendor && cp -r node_modules/vellum-doc dist/vendor/vellum-doc/ && cp -r node_modules/magick.css/ dist/vendor/magick.css/",
     "clean": "rm -r dist",
-    "test": "htmlhint 'index.html' && stylelint main.css assets/styles/**/*.css && npx linkinator index.html -ro --recurse --skip '(.*\\.reddit\\.com)|(.*\\.twitter\\.com)|(.*\\.drivethrurpg\\.com)' --verbosity debug",
+    "lint": "npx prettier . --check && npx stylelint 'assets/styles/**/*.css' && htmlhint dist/**/*.html",
+    "lint:fix": "npx prettier . --write",
+    "test": "npm run lint && linkinator --check-fragments dist/**/*.html",
     "start": "npm run build && npm run start:server",
     "start:server": "browser-sync start --server --files dist --ss dist"
   },
@@ -34,7 +38,7 @@
       "patterns": [
         "**/*"
       ],
-      "extensions": "html,css",
+      "extensions": "md,html,css,liquid",
       "ignore": [
         "node_module",
         "dist"

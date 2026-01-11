@@ -1,214 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Wyrgüd</title>
 
-  <title>Wyrgüd</title>
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="R.G. Wood" />
 
-  <meta name="robots" content="index,follow">
-  <meta name="author" content="R.G. Wood">
+    <link href="assets/styles/main.css" rel="stylesheet" />
+    <link href="vendor/magick.css/magick.css" rel="stylesheet" />
 
-  <meta property="og:title" content="Wyrgüd">
-  <meta property="og:type" content="article">
+    <script type="module">
+      import "./vendor/vellum-doc/vellum-doc.js";
+    </script>
+  </head>
 
-  <meta property="og:url" content="">
-  <meta property="og:description" content="Rules for Wyrgüd">
+  <body>
+    <vellum-doc anchors>
+      <section id="document">
+        __MARKDOWN__
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@grislyeye">
-  <meta name="twitter:title" content="Wyrgüd">
-  <meta name="twitter:description" content="Rules for Wyrgüd">
-
-  <link href="main.css" rel="stylesheet" />
-
-  <script type="module">
-    import './components/vellum-doc.js'
-    import './components/vellum-random-table.js'
-    import './components/vellum-dice.js'
-  </script>
-</head>
-
-<body>
-
-  <vellum-doc anchors>
-    <section id="document">
-      <nav>
-        <div class="logo">
-          <a href="https://grislyeye.com"><img src="assets/images/logo.png" alt="Grisly Eye Games Logo"></a>
-        </div>
-      </nav>
-
-      <section>
-        <header>
-          <h1 id="about">Wyrgüd</h1>
-          <p>Powered by the Apocalypse Grimdark hack</p>
-        </header>
-
-        <p></p>
+        <footer>
+          Version __VERSION__ copyright &copy; 2025
+          <a href="https://grislyeye.com">Ric Wood</a>. This game is not
+          affiliated with, sponsored, or endorsed by Fria Ligan AB. The Year
+          Zero Engine System Reference Document is used under Fria Ligan AB’s
+          Free Tabletop License.
+        </footer>
       </section>
-
-      <section>
-
-        <header>
-          <h2>Attributes</h2>
-          <p>What maketh the scoundrel</p>
-        </header>
-
-        <h3>Agility</h3>
-
-        <p>How reflexive or graceful.</p>
-
-        <h3>Cunning</h3>
-
-        <p>How inquisitive or exploratory.</p>
-
-        <h3>Might</h3>
-
-        <p>How aggressive or forceful.</p>
-
-        <h3>Wisdom</h3>
-
-        <p>How calculating or methodical.</p>
-
-        <h3>Will</h3>
-
-        <p>How persuasive or assertive.</p>
-
-      </section>
-
-      <section>
-
-        <header>
-          <h2>Playbooks</h2>
-        </header>
-
-        <h3>Brute</h3>
-
-        <h3>Knave</h3>
-
-        <h3>Knight</h3>
-
-        <h3>Sorcerer</h3>
-
-        <h3>Zealot</h3>
-
-      </section>
-
-      <section>
-
-        <header>
-          <h2>Moderation</h2>
-        </header>
-
-        <section>
-
-          <header>
-            <h3>Agendas</h3>
-          </header>
-
-          <h4>Make it exciting</h4>
-
-          <h4>Play to find out</h4>
-
-          <h4>???</h4>
-
-        </section>
-
-        <section>
-
-          <header>
-            <h3>Principles</h3>
-          </header>
-
-          <h4>Sprinkle evocative details everywhere</h4>
-
-          <h4>Make the world seem real</h4>
-
-          <h4>Build a bigger world through play</h4>
-
-          <h4>Create interesting dilemmas, not interesting plots</h4>
-
-          <h4>Address yourself to the characters, not the players</h4>
-
-          <h4>Make your move, but misdirect</h4>
-
-          <h4>Make your move, but never speak its name</h4>
-
-          <h4>Look at your NPCs and ideas through crosshairs</h4>
-
-          <h4>Name everyone, make everyone human</h4>
-
-          <h4>Ask provocative questions and build on the answers</h4>
-
-          <h4>Respond with challenging circumstances and occasional rewards</h4>
-
-          <h4>Be a fan of the players’ characters</h4>
-
-          <h4>Think offscreen, too</h4>
-
-          <h4>Sometimes, reflect a question back upon the players</h4>
-
-        </section>
-
-      </section>
-
-      <section>
-
-        <header>
-          <h3>Reactions</h3>
-        </header>
-
-        <p>Reactions are the specific things you say in any moment. There are two different cases where you use the
-          Reactions, and you use them differently in each of those cases. When the players look at you expectantly, you
-          make a regular Reaction. When a player fails a die roll (getting 6 or lower), you make a hard Reaction.</p>
-
-        <p>Regular reactions should...</p>
-
-        <ol>
-          <li>...follow logically from the fiction.</li>
-          <li>...give the player an opportunity to react.</li>
-          <li>...set you up for a future harder move.</li>
-        </ol>
-
-        <p>The Reactions are:</p>
-
-        <h4>Separate them</h4>
-
-        <h4>Put them together</h4>
-
-        <h4>Introduce a high-stakes situation</h4>
-
-        <h4>Trade harm for harm</h4>
-
-        <h4>Deal harm</h4>
-
-        <h4>Announce off-screen badness</h4>
-
-        <h4>Announce future badness</h4>
-
-        <h4>Take away one of their Things</h4>
-
-        <h4>Demonstrate one of their Things’ bad sides</h4>
-
-        <h4>Give them a difficult decision to make</h4>
-
-        <h4>Tell them the possible consequences and ask</h4>
-
-        <h4>Turn their move back on them</h4>
-
-        <h4>Make a move from one of your Threats or Fronts</h4>
-
-      </section>
-
-    </section>
-
-    <footer>
-      Version __VERSION__ © 2025 Grisly Eye Games. Grisly Eye logo symbol designed by Freepik.
-    </footer>
-  </vellum-doc>
-
-</body>
-
+    </vellum-doc>
+  </body>
 </html>
