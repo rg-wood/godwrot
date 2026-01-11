@@ -16,12 +16,15 @@
     "marked": "^17.0.1",
     "npm-watch": "^0.13.0",
     "prettier": "^3.7.4",
-    "rimraf": "^6.1.2"
+    "rimraf": "^6.1.2",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^39.0.1"
   },
   "scripts": {
     "build": "mkdir -p dist && npm run build:dist",
-    "build:dist": "mkdir -p dist && node index.js > dist/index.html && npm run build:modules",
+    "build:dist": "mkdir -p dist && node index.js > dist/index.html && npm run build:assets && npm run build:modules",
     "build:watch": "npm-watch",
+    "build:assets": "cp -r assets dist/",
     "build:modules": "mkdir -p dist/vendor && cp -r node_modules/vellum-doc dist/vendor/vellum-doc/ && cp -r node_modules/magick.css/ dist/vendor/magick.css/",
     "clean": "rm -r dist",
     "lint": "npx prettier . --check && npx htmlhint dist/**/*.html",
