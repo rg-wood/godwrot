@@ -42,7 +42,7 @@ The next stage of creating characters is to pick 3 moves. When a player picks a 
 
 ### Flaws
 
-All characters in **Wyrgüd** are broken in some way, and has a Flaw. Choose a Flaw from the list below:
+All characters in **Wyrgüd** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below:
 
 - **Reckless**
 - **Slow-witted**
@@ -53,8 +53,6 @@ All characters in **Wyrgüd** are broken in some way, and has a Flaw. Choose a F
 - **Drunk**
 - **Bumbling**
 - **Wicked**
-
-Your Flaw determines when you can use the [Steal Success](#steal-success) basic move.
 
 ### Basic Moves
 
@@ -72,17 +70,21 @@ When you **help or hinder a NPC**, roll your relationship stat with that person.
 
 Whenever you roll a highlighted attribute you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
 
-#### Steal Success
+#### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** on a roll of 10+ you can choose to fail that roll and hold 1. You may spend the hold to accidentally succeed any failed roll related to your Flaw. You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
+When you **succeed with a move related to your Flaw** on a roll of 10+ you can choose to fail that roll and hold 1. Describe how your Flaw intervenes to frustrate your goals, and make it [grubby](be-grubby)
+
+You may spend the hold to accidentally succeed any failed roll related to your Flaw. Again, describe how luck allows you succeed in spite of yourself.
+
+You do not [Mark Experience](#mark-experience) when you use this move to fail a roll, or when you use hold on a failed roll.
 
 For example:
 
-> Gregori the Reckless Brute succeeds on an attack move on a roll of 11. This is a flawed move for his flaw, Reckless. He decides to steal success and fail the attack move instead.
+> Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.
 >
 > Gregori takes becomes off-balance and takes a -1 penalty to the next Agility roll he makes and holds 1.
 >
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight, but at a crucial moment, he fails an attack move. Deciding to spend his hold, he instead succeeds accidentally. His player says, “as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line tying a…”
+> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight, but at a crucial moment, he fails an attack move. Deciding to spend his hold, he instead succeeds accidentally. His player says, “as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying a crate up. It slams into Marcus' head, blood and brains splattering everywhere.”
 
 ## Moderation
 
