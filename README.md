@@ -76,7 +76,7 @@ Whenever you roll a highlighted attribute you earn a point of Experience. Mark i
 
 #### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** on a roll of 10+ you can choose to fail that roll and hold 1. Describe how your Flaw intervenes to frustrate your goals, and make it [grubby](#be-grubby)
+When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and hold 1. Describe how your Flaw intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby)
 
 You may spend the hold to accidentally succeed any failed roll related to your Flaw. Again, describe how luck allows you succeed in spite of yourself.
 
