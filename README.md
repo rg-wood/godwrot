@@ -42,7 +42,7 @@ The next stage of creating characters is to pick 3 moves. When a player picks a 
 
 ### Flaws
 
-All characters in **Wyrgüd** are broken in some way, and has a Flaw. Choose a Flaw from the list below:
+All characters in **Wyrgüd** are broken in some way, and has a Flaw. Choose a Flaw from the list below:
 
 - **Reckless**
 - **Slow-witted**
