@@ -14,11 +14,11 @@ Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core a
 - **Wits**: calculating or methodical.
 - **Will:** persuasive or assertive.
 
-### Relationships
+### Trust
 
-Every PC in the game has a relationship stat with every other character. Assign the following relationship stat scores that their character has toward the other PCs: +2 for the one they know best, -1 for the one they know least, and +1 for all others. They will also list “NPCs: 0,” as the default is that they have a relationship score with all NPCs that starts at 0.
+Every PC in the game has a Trust stat with every other character. Assign the following Trust scores that their character has toward the other PCs: +2 for the one they know best, -1 for the one they know least, and +1 for all others. They will also list “NPCs: 0,” as the default is that they have a Trust stat with all NPCs that starts at 0.
 
-Relationship scores will go up and down over play. Characters can betray one another for a +2 bonus to a roll, but their relationship score goes down by 1. Characters can make meaningful sacrifices for someone, and their relationship score toward that person will go up by one.
+Trust scores will go up and down over play. Characters can betray one another for a +2 bonus to a roll, but their Trust score goes down by 1. Characters can make meaningful sacrifices for someone, and their Trust score toward that person will go up by one.
 
 ### Harm
 
@@ -66,9 +66,9 @@ When you take an action that risks failure or opposition, roll with one of the b
 
 #### Helping or Hindering
 
-When you **help or hinder another PC**, roll your relationship stat with that person. On a 10+, add or subtract 2 from their roll. On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
+When you **help or hinder another PC**, roll your Trust stat with that person. On a 10+, add or subtract 2 from their roll. On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
 
-When you **help or hinder a NPC**, roll your relationship stat with that person. On a 10+, they either succeed or fail - your choice. On a 7-9, the Mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
+When you **help or hinder a NPC**, roll your Trust stat with that person. On a 10+, they either succeed or fail - your choice. On a 7-9, the Mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
 #### Mark Experience
 
