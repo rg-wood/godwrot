@@ -22,7 +22,7 @@ Relationship scores will go up and down over play. Characters can betray one ano
 
 ### Harm
 
-Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the MC tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are taken out of the action
+Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the Mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are taken out of the action
 
 ### Player Moves
 
@@ -66,7 +66,7 @@ When you take an action that risks failure or opposition, roll with one of the b
 
 When you **help or hinder another PC**, roll your relationship stat with that person. On a 10+, add or subtract 2 from their roll. On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
 
-When you **help or hinder a NPC**, roll your relationship stat with that person. On a 10+, they either succeed or fail - your choice. On a 7-9, the MC will name a cost; if you accept the cost, they either succeed or fail - your choice.
+When you **help or hinder a NPC**, roll your relationship stat with that person. On a 10+, they either succeed or fail - your choice. On a 7-9, the Mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
 #### Mark Experience
 
@@ -86,7 +86,7 @@ For example:
 
 ## Moderation
 
-The Mod is responsible for running and moderating the game. In particular, The Mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The Mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the Mod should say that something isn’t possible. When the MC says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
+The Mod is responsible for running and moderating the game. In particular, The Mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The Mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the Mod should say that something isn’t possible. When the Mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
 
 Early in the first session, the Mod should juggle two responsibilities:
 
@@ -94,7 +94,7 @@ Early in the first session, the Mod should juggle two responsibilities:
 
 • Give the players a sense of what the world is like, and how it operates.
 
-Astute players will realize that these two things can sometimes be at odds with one another. MC, the way you navigate this combination of responsibilities is by honouring your [Agendas](#agendas) and your [Principles](#principles).
+Astute players will realize that these two things can sometimes be at odds with one another. Mod, the way you navigate this combination of responsibilities is by honouring your [Agendas](#agendas) and your [Principles](#principles).
 
 ### Agendas
 
@@ -198,7 +198,7 @@ At some point, the Mod will determine that something requires a roll. Actions re
 
 [Moves](#moves) and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the move should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
 
-Whenever people look at the MC expectantly, the MC should make a soft reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
+Whenever people look at the Mod expectantly, the Mod should make a soft reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
 
 ### Taken Out
 
@@ -210,8 +210,8 @@ Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the P
 
 ## Design Notes
 
-The concept of **Wyrgüd** has been bubbling around in my head for a while now. It started with an observation: that many *Powered by the Apocalypse* fantasy games tend towards the high fantasy, and that there's a gap in the hobby for a low fantasy flavour. From that, _Bleak World_ was born, a partially-completed document that went through a number of versions and iterations which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
+The concept of **Wyrgüd** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that there's a gap in the hobby for a low fantasy flavour. From that, _Bleak World_ was born, a partially-completed document that went through a number of versions and iterations which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
 
-Creating a PbtA game can be overwhelming, but *Simple World* gave me a barebones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? *Simple World* was that beginning.
+Creating a PbtA game can be overwhelming, but _Simple World_ gave me a barebones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
 
-A name change was required (*Bleak World* was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/context/), my *Troika!* hack, because this game is a spiritual successor to that one. Using the skeleton cut from *Simple World*, I began a process of continual playtesting until I achieved the document you are reading now.
+A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/context/), my *Troika!* hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest with my
