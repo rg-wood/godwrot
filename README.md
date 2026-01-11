@@ -1,6 +1,6 @@
 # Wyrgüd
 
-**Wyrgüd** is a _Powered by the Apocalypse_ grimhack inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
+**Wyrgüd** is a _Powered by the Apocalypse_ grimhack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
 ## Characters
 
@@ -104,7 +104,7 @@ Agendas are the reason you play **Wyrgüd**. They include:
 
 #### Play to find out
 
-#### ???
+#### Be grubby
 
 ### Principles
 
@@ -161,6 +161,8 @@ The Reactions are:
 #### Introduce a high-stakes situation
 
 #### Trade harm for harm
+
+As [Deal Harm](#deal-harm), but a PC is dealt harm in return.
 
 #### Deal harm
 
