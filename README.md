@@ -150,6 +150,8 @@ The Principles are things you should seek to do whenever you speak, in the game.
 
 #### Draw the characters into mystery
 
+#### Reveal corruption
+
 ### Reactions
 
 Reactions are the specific things you say in any moment. There are two
