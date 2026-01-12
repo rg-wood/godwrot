@@ -44,19 +44,20 @@ The next stage of creating characters is to pick 3 moves. When a player picks a 
 
 All characters in **Wyrgüd** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below:
 
+- Bumbling
+
+- Cowardly
+- Devious
+- Drunk
+- Faithless
+- Fanatical
+- Foolish
+- Gruff
 - Reckless
 - Slow-witted
-- Fanatical
-- Gruff
-- Devious
-- Foolish
-- Faithless
-- Drunk
-- Bumbling
-- Wicked
 - Treacherous
-- Cowardly
 - Unlucky
+- Wicked
 
 ### Basic Moves
 
