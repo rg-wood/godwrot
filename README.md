@@ -4,6 +4,8 @@
 
 ## Characters
 
+Life is hard for characters in **Wyrgüd**. Few are left untouched by the ravages of poverty, disease or war. And our characters are no exception. These are not heroes. These are not saints. They are imperfect, mortal, flawed and broken. They are scoundrels, pariahs, venal sellswords and mere commoners. All caught up in events beyond their ken.
+
 ### Attributes
 
 Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core attributes for **Wyrgüd** are:
@@ -22,11 +24,11 @@ Trust scores will go up and down over play. Characters can betray one another fo
 
 ### Harm
 
-Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the Mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are taken out of the action
+Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the Mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are [taken out](#taken-out) of the action.
 
 ### Player Moves
 
-The next stage of creating characters is to pick 3 moves. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their character sheet.
+The next stage of creating characters is to pick 3 player moves. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their character sheet.
 
 • When you do something relating to [speciality], add +1.
 
@@ -42,44 +44,50 @@ The next stage of creating characters is to pick 3 moves. When a player picks a 
 
 ### Flaws
 
-All characters in **Wyrgüd** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below:
+All characters in **Wyrgüd** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your character sheet:
 
 - Bumbling
 
 - Cowardly
 - Devious
 - Drunk
-- Faithless
 - Fanatical
-- Foolish
+- Greedy
 - Gruff
 - Reckless
-- Slow-witted
 - Treacherous
-- Unlucky
 - Wicked
 
 ### Basic Moves
 
 #### Taking Action
 
-When you take an action that risks failure or opposition, roll with one of the basic attributes. On a 10+, you succeed at your goal. As appropriate, the Mod might award you: resource points, harm dealt, or a bonus to carry forward. On a 7-9, the Mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the Mod might award you resource points, harm dealt, or a bonus to carry forward).
+When you **take an action that risks failure or opposition**, roll with one of the basic attributes.
+
+- On a 10+, you succeed at your goal. As appropriate, the Mod might award you: resource points, harm dealt, or a bonus to carry forward.
+- On a 7-9, the Mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the Mod might award you resource points, harm dealt, or a bonus to carry forward).
 
 #### Helping or Hindering
 
-When you **help or hinder another PC**, roll your Trust stat with that person. On a 10+, add or subtract 2 from their roll. On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
+When you **help or hinder another PC**, roll your Trust stat with that person.
 
-When you **help or hinder a NPC**, roll your Trust stat with that person. On a 10+, they either succeed or fail - your choice. On a 7-9, the Mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
+- On a 10+, add or subtract 2 from their roll.
+- On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
+
+When you **help or hinder a NPC**, roll your Trust stat with that person.
+
+- On a 10+, they either succeed or fail - your choice.
+- On a 7-9, the Mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
 #### Mark Experience
 
-Whenever you roll a highlighted attribute you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
+Whenever **you fail a roll** you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
 
 #### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and hold 1. Describe how your Flaw intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby)
+When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 Fortune resource point. Describe how your Flaw intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby)
 
-You may spend the hold to accidentally succeed any failed roll related to your Flaw. Again, describe how luck allows you succeed in spite of yourself.
+You may spend a point of Fortune to accidentally succeed any failed roll related to your Flaw. Again, describe how luck allows you succeed in spite of yourself.
 
 You do not [Mark Experience](#mark-experience) when you use this move to fail a roll, or when you use hold on a failed roll.
 
@@ -113,7 +121,7 @@ Agendas are the reason you play **Wyrgüd**. They include:
 
 #### Be grubby
 
-**Wyrgüd** is about grubby fantasy, a sub-genre of low fantasy idiomatic to the British old-school fantasy scene. To be grubby is to be farcical, bawdy, pessimistic, grotesque and satirical. Revel in these themes, shamelessly.
+**Wyrgüd** is about grubby fantasy, a sub-genre of low fantasy that is unique to British old-school fantasy. To be grubby is to be farcical, bawdy, pessimistic, grotesque and satirical. Revel in these themes, shamelessly.
 
 ### Principles
 
@@ -151,7 +159,7 @@ The Principles are things you should seek to do whenever you speak, in the game.
 
 #### Draw the characters into mystery
 
-#### Reveal corruption
+#### Taint everything with corruption
 
 ### Reactions
 
@@ -175,13 +183,13 @@ The Reactions are:
 
 #### Introduce a high-stakes situation
 
-#### Trade harm for harm
-
-As [Deal Harm](#deal-harm), but a PC is dealt harm in return.
-
 #### Deal harm
 
 When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. PC harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out of the action](#taken-out), but tougher NPCs might have more.
+
+#### Trade harm for harm
+
+As [Deal Harm](#deal-harm), but a PC is dealt harm in return.
 
 #### Announce offscreen badness
 
@@ -198,6 +206,8 @@ When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometim
 #### Turn their move back on them
 
 #### Make a move from one of your Threats or Fronts
+
+#### Reveal corruption
 
 ### Talking and Moves
 
@@ -219,7 +229,7 @@ Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the P
 
 ## Design Notes
 
-The concept of **Wyrgüd** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that there's a gap in the hobby for a low fantasy flavour. From that, _Bleak World_ was born, a partially completed document that went through a number of versions and iterations which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
+The concept of **Wyrgüd** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that players might want a low fantasy flavour. From that, _Bleak World_ was born, a partially completed document that went through a number of versions and iterations, all of which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
 
 Creating a PbtA game can be overwhelming, but _Simple World_ gave me a bare-bones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
 
