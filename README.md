@@ -4,7 +4,7 @@
 
 ## Characters
 
-To create a character in **Wyrgüd** follow these steps:
+To create a character in **Wyrgüd** follow these steps:
 
 1. Assign [Attributes](#attributes).
 2. Assign [Trust](#trust).
@@ -131,7 +131,7 @@ When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action)
 
 #### Fortune Points
 
-Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **Wyrgüd**. See the description of the Steal Defeat move for how Fortune Points are used.
+Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **Wyrgüd**. See the description of the Steal Defeat move for how Fortune Points are used.
 
 ## Moderation
 
@@ -253,11 +253,11 @@ A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a 
 >
 > – _Open Box X-tra’, White Dwarf 87_ by the WFRP Design Team, 1987
 
-Though fallen out of use, grubby fantasy was the term coined by the designers of _Warhammer Fantasy Roleplay_ to describe their particular flavour of fantasy. It's a distinctly British genre that stands in opposition to the glossy high fantasy of many modern fantasy games, and it's the term I use to describe my games because, well, no other words quite fits. Low fantasy is one thing,
+Though fallen out of use, grubby fantasy was the term coined by the designers of _Warhammer Fantasy Roleplay_ to describe their particular flavour of fantasy. It's a distinctly British genre that stands in opposition to the glossy high fantasy of many modern fantasy games, and it's the term I use to describe my games because, well, no other words quite fits. Low fantasy is one thing but doesn't seem narrow enough. Grimdark takes itself too seriously. Dark fantasy is too dark. So, grubby it is.
 
-My love of grubby fantasy comes out of that fetid period of creativity in the 80s that spawned _Warhammer_, *Fighting Fantasy* and _The Colour of Magic_.
+My love of grubby fantasy comes out of that fetid period of creativity in the 80s that spawned _Warhammer_, _Fighting Fantasy_ and _The Colour of Magic_.
 
-Yet, the inspiration for **Wyrgüd** more properly begins with _The Hobbit_. The Middle Earth of this early work is similarly less shiny than the one depicted in _The Lord of the Rings_. *The Hobbit* is less an epic adventure than it is a fairy tale gone wrong. Our protagonists aren't motivated by heroism, but by greed, wrath, guilt and general confusion.
+Yet, the inspiration for **Wyrgüd** more properly begins with _The Hobbit_. The Middle Earth of this early work is similarly less shiny than the one depicted in _The Lord of the Rings_. _The Hobbit_ is less an epic adventure than it is a fairy tale gone wrong. Our protagonists aren't motivated by heroism, but by greed, wrath, guilt and general confusion.
 
 ### Stealing Defeat
 
