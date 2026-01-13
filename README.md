@@ -4,7 +4,12 @@
 
 ## Characters
 
-Life is hard for characters in **Wyrgüd**. Few are left untouched by the ravages of poverty, disease or war. And our characters are no exception. These are not heroes. These are not saints. They are imperfect, mortal, flawed and broken. They are scoundrels, pariahs, venal sellswords and mere commoners. All caught up in events beyond their ken.
+To create a character in **Wyrgüd** follow these steps:
+
+1. Assign [Attributes](#attributes).
+2. Assign [Trust](#trust).
+3. Pick 3 [Player Moves](#player-moves).
+4. Choose a [Flaw](#flaws).
 
 ### Attributes
 
@@ -20,11 +25,7 @@ Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core a
 
 Every PC in the game has a Trust stat with every other character. Assign the following Trust scores that their character has toward the other PCs: +2 for the one they know best, -1 for the one they know least, and +1 for all others. They will also list “NPCs: 0,” as the default is that they have a Trust stat with all NPCs that starts at 0.
 
-Trust scores will go up and down over play. Characters can betray one another for a +2 bonus to a roll, but their Trust score goes down by 1. Characters can make meaningful sacrifices for someone, and their Trust score toward that person will go up by one.
-
-### Harm
-
-Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the Mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are [taken out](#taken-out) of the action.
+Trust scores will go up and down over play. Characters can betray one another for a +2 bonus to a roll, but their Trust score goes down by 1. Characters can make meaningful sacrifices for someone, and their Trust score toward that person will go up by 1.
 
 ### Player Moves
 
@@ -47,7 +48,6 @@ The next stage of creating characters is to pick 3 player moves. When a player p
 All characters in **Wyrgüd** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your character sheet:
 
 - Bumbling
-
 - Cowardly
 - Devious
 - Drunk
@@ -57,6 +57,16 @@ All characters in **Wyrgüd** are broken in some way. Flaws represent this and d
 - Reckless
 - Treacherous
 - Wicked
+
+## Rules
+
+The game is like a conversation. People describe what their characters do, ask questions about what’s going on, and talk in character. If someone says something that seems untrue or unreasonable, the Mod is allowed to say, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
+
+At some point, the Mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The Mod will name which [attribute](#attributes) applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.
+
+Moves and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the move should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
+
+Whenever people look at the Mod expectantly, the Mod should make a soft reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
 
 ### Basic Moves
 
@@ -81,7 +91,7 @@ When you **help or hinder a NPC**, roll your Trust stat with that person.
 
 #### Mark Experience
 
-Whenever **you fail a roll** you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
+Whenever you **fail a roll** you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
 
 #### Snatch Defeat
 
@@ -98,6 +108,22 @@ For example:
 > Gregori takes becomes off-balance and takes a -1 penalty to the next Agility roll he makes and holds 1.
 >
 > Later, Gregori is fighting Marcus, the Bandit King. It's an important fight, but at a crucial moment, he fails an attack move. Deciding to spend his hold, he instead succeeds accidentally. His player says, “as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying a crate up. It slams into Marcus' head, blood and brains splattering everywhere.”
+
+### Harm
+
+Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the Mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are [taken out](#taken-out) of the action.
+
+#### Dealing Harm
+
+When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. PC harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out of the action](#taken-out), but tougher NPCs might have more.
+
+#### Taken Out
+
+When a character has all of their harm sections filled in, they’re dead and taken out of the action. If the character was a PC, the player should create a new character.
+
+### Bonus to Carry Forward
+
+Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the PC is set up for future successes. In these cases, the Mod can award a +1 bonus that the PC can apply to their next roll. The player should mark that bonus on their character sheet.
 
 ## Moderation
 
@@ -185,11 +211,7 @@ The Reactions are:
 
 #### Deal harm
 
-When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. PC harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out of the action](#taken-out), but tougher NPCs might have more.
-
 #### Trade harm for harm
-
-As [Deal Harm](#deal-harm), but a PC is dealt harm in return.
 
 #### Announce offscreen badness
 
@@ -208,24 +230,6 @@ As [Deal Harm](#deal-harm), but a PC is dealt harm in return.
 #### Make a move from one of your Threats or Fronts
 
 #### Reveal corruption
-
-### Talking and Moves
-
-The game is like a conversation. People describe what their characters do, ask questions about what’s going on, and talk in character. If someone says something that seems untrue or unreasonable, the Mod is allowed to say, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
-
-At some point, the Mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The Mod will name which [attribute](#attributes) applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.
-
-[Moves](#moves) and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the move should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
-
-Whenever people look at the Mod expectantly, the Mod should make a soft reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
-
-### Taken Out
-
-When a character has all of their harm sections filled in, they’re dead and taken out of the action. When a character is taken out of the action. If the character was a PC, the player should create a new character.
-
-### Bonus to Carry Forward
-
-Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the PC is set up for future successes. In these cases, the Mod can award a +1 bonus that the PC can apply to their next roll. The player should mark that bonus on their character sheet.
 
 ## Design Notes
 
