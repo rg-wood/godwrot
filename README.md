@@ -74,7 +74,7 @@ Whenever people look at the Mod expectantly, the Mod should make a soft reaction
 
 When you **take an action that risks failure or opposition**, roll with one of the basic attributes.
 
-- On a 10+, you succeed at your goal. As appropriate, the Mod might award you: resource points, harm dealt, or a bonus to carry forward.
+- On a 10+, you succeed at your goal. As appropriate, the Mod might award you: [resource points](#resource-points), [harm](#harm) dealt, or a [bonus to carry forward](#bonus-to-carry-forward).
 - On a 7-9, the Mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the Mod might award you resource points, harm dealt, or a bonus to carry forward).
 
 #### Helping or Hindering
@@ -95,11 +95,11 @@ Whenever you **fail a roll** you earn a point of Experience. Mark it on the Expe
 
 #### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 Fortune resource point. Describe how your Flaw intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby)
+When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [Fortune point](#fortune-points). Describe how your [Flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby)
 
-You may spend a point of Fortune to accidentally succeed any failed roll related to your Flaw. Again, describe how luck allows you succeed in spite of yourself.
+You may spend a point of Fortune to accidentally succeed any failed roll related to your Flaw. Similarly, describe how luck allows you succeed in spite of yourself.
 
-You do not [Mark Experience](#mark-experience) when you use this move to fail a roll, or when you use hold on a failed roll.
+You do not [Mark Experience](#mark-experience) when you use this move to fail a roll, or when you use Failure Points on a failed roll.
 
 For example:
 
@@ -125,6 +125,14 @@ When a character has all of their harm sections filled in, they’re dead and ta
 
 Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the PC is set up for future successes. In these cases, the Mod can award a +1 bonus that the PC can apply to their next roll. The player should mark that bonus on their character sheet.
 
+### Resource Points
+
+When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action) roll, it’ll sometimes make sense to represent their success with a number of resource points. For example, if someone tries to read a person’s facial expressions and determine their true intent in a conversation, they might make a roll. If they get a 10+, the MC might determine that they have 3 conversation points, and they can spend those points 1-for-1 to get answers about the character’s motivations and goals during the conversation. Resource points are always given a name and function at the time they are awarded. In most cases, resource points should be temporary, lasting until the end of a scene or situation.
+
+#### Fortune Points
+
+Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **Wyrgüd**. See the description of the Steal Defeat move for how Fortune Points are used.
+
 ## Moderation
 
 The Mod is responsible for running and moderating the game. In particular, The Mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The Mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the Mod should say that something isn’t possible. When the Mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
@@ -147,7 +155,7 @@ Agendas are the reason you play **Wyrgüd**. They include:
 
 #### Be grubby
 
-**Wyrgüd** is about grubby fantasy, a sub-genre of low fantasy that is unique to British old-school fantasy. To be grubby is to be farcical, bawdy, pessimistic, grotesque and satirical. Revel in these themes, shamelessly.
+**Wyrgüd** is about [grubby fantasy](#grubby-fantasy), a sub-genre of low fantasy that is unique to British old-school fantasy. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshie and satirical. Revel in these themes, shamelessly.
 
 ### Principles
 
@@ -239,8 +247,20 @@ Creating a PbtA game can be overwhelming, but _Simple World_ gave me a bare-bone
 
 A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my _Troika!_ hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest. The result is the document you're reading now.
 
+### Grubby Fantasy
+
+> Since the game itself relies so much on atmosphere (the term “grubby fantasy” has been coined, to contrast with “shiny fantasy” which previously dominated role-playing), the world is highly necessary in order to convey that atmosphere.
+>
+> – _Open Box X-tra’, White Dwarf 87_ by the WFRP Design Team, 1987
+
+Though fallen out of use, grubby fantasy was the term coined by the designers of _Warhammer Fantasy Roleplay_ to describe their particular flavour of fantasy. It's a distinctly British genre that stands in opposition to the glossy high fantasy of many modern fantasy games, and it's the term I use to describe my games because, well, no other words quite fits. Low fantasy is one thing,
+
+My love of grubby fantasy comes out of that fetid period of creativity in the 80s that spawned _Warhammer_, *Fighting Fantasy* and _The Colour of Magic_.
+
+Yet, the inspiration for **Wyrgüd** more properly begins with _The Hobbit_. The Middle Earth of this early work is similarly less shiny than the one depicted in _The Lord of the Rings_. *The Hobbit* is less an epic adventure than it is a fairy tale gone wrong. Our protagonists aren't motivated by heroism, but by greed, wrath, guilt and general confusion.
+
 ### Stealing Defeat
 
 Too often, the systems I use to run my grubby fantasy games produce PCs that are too competent. As experience accrues, protagonists become increasingly capable, which breaks the setting. Characters in grubby fantasy are defined by their powerlessness. This game isn't about heroes, it's about wretches, twerps and other dubious figures that are, if not villains, corrupt at best.
 
-At the heart of **Wyrgüd** is the [Steal Defeat](#steal-defeat) move, which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
+At the heart of **Wyrgüd** is the [Steal Defeat](#steal-defeat) move (as in "stealing defeat from the jaws of victory"), which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
