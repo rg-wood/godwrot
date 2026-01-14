@@ -1,10 +1,10 @@
-# Wyrgüd
+# WROTGOD
 
-**Wyrgüd** is a _Powered by the Apocalypse_ grimhack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
+**WROTGOD** is a _Powered by the Apocalypse_ grimhack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
 ## Characters
 
-To create a character in **Wyrgüd** follow these steps:
+To create a character in **WROTGOD** follow these steps:
 
 1. Assign [Attributes](#attributes).
 2. Assign [Trust](#trust).
@@ -13,7 +13,7 @@ To create a character in **Wyrgüd** follow these steps:
 
 ### Attributes
 
-Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core attributes for **Wyrgüd** are:
+Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core attributes for **WROTGOD** are:
 
 - **Agility:** reflexive or graceful.
 - **Cunning**: inquisitive or exploratory.
@@ -45,7 +45,7 @@ The next stage of creating characters is to pick 3 player moves. When a player p
 
 ### Flaws
 
-All characters in **Wyrgüd** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your character sheet:
+All characters in **WROTGOD** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your character sheet:
 
 - Bumbling
 - Cowardly
@@ -131,7 +131,7 @@ When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action)
 
 #### Fortune Points
 
-Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **Wyrgüd**. See the description of the Steal Defeat move for how Fortune Points are used.
+Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **WROTGOD**. See the description of the Steal Defeat move for how Fortune Points are used.
 
 ## Moderation
 
@@ -147,13 +147,13 @@ Astute players will realize that these two things can sometimes be at odds with 
 
 ### Agendas
 
-Agendas are the reason you play **Wyrgüd**. They include:
+Agendas are the reason you play **WROTGOD**. They include:
 
 - Make it exciting
 - Play to find out
 - Make the character's lives grubby
 
-**Wyrgüd** is about grubby fantasy, a sub-genre of low fantasy that is unique to British old-school fantasy. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshie and satirical. Revel in these themes, shamelessly.
+**WROTGOD** is about grubby fantasy, a sub-genre of low fantasy that is unique to British old-school fantasy. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshie and satirical. Revel in these themes, shamelessly.
 
 ### Principles
 
