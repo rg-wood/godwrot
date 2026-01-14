@@ -66,7 +66,7 @@ At some point, the Mod will determine that something requires a roll. Actions re
 
 Moves and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the move should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
 
-Whenever people look at the Mod expectantly, the Mod should make a soft reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
+Whenever people look at the Mod expectantly, the Mod should make a regular Reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
 
 ### Basic Moves
 
@@ -186,7 +186,12 @@ Regular reactions should\...
 
 1.  \...follow logically from the fiction.
 2.  \...give the player an opportunity to react.
-3.  \...set you up for a future harder Reaction.
+3.  \...set you up for a future hard Reaction.
+
+When you make a hard Reaction...
+
+1. ...it follows logically from the fiction.
+2. ...and it’s irrevocable.
 
 The Reactions are:
 
