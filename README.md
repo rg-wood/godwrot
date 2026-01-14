@@ -1,10 +1,10 @@
 # WROTGOD
 
-**WROTGOD** is a _Powered by the Apocalypse_ grimhack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
+**WROTGOD** is a _Powered by the Apocalypse_ hack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
-## Characters
+## Protagonists
 
-To create a character in **WROTGOD** follow these steps:
+In **WROTGOD** you play as protagonists, individuals of dubious morality who are propelled into events beyond their ken. To create a protagonist in **WROTGOD** follow these steps:
 
 1. Assign [Attributes](#attributes).
 2. Assign [Trust](#trust).
@@ -23,9 +23,9 @@ Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core a
 
 ### Trust
 
-Every PC in the game has a Trust stat with every other character. Assign the following Trust scores that their character has toward the other PCs: +2 for the one they know best, -1 for the one they know least, and +1 for all others. They will also list “NPCs: 0,” as the default is that they have a Trust stat with all NPCs that starts at 0.
+Every protagonist in the game has a Trust stat with every other character. Assign the following Trust scores that their character has toward the other PCs: +2 for the one they know best, -1 for the one they know least, and +1 for all others. They will also list “NPCs: 0,” as the default is that they have a Trust stat with all NPCs that starts at 0.
 
-Trust scores will go up and down over play. Characters can betray one another for a +2 bonus to a roll, but their Trust score goes down by 1. Characters can make meaningful sacrifices for someone, and their Trust score toward that person will go up by 1.
+Trust scores will go up and down over play. Protagonist can betray one another for a +2 bonus to a roll, but their Trust score goes down by 1. Protagonist can make meaningful sacrifices for someone, and their Trust score toward that person will go up by 1.
 
 ### Player Moves
 
@@ -79,7 +79,7 @@ When you **take an action that risks failure or opposition**, roll with one of t
 
 #### Helping or Hindering
 
-When you **help or hinder another PC**, roll your Trust stat with that person.
+When you **help or hinder another protagonist**, roll your Trust stat with that person.
 
 - On a 10+, add or subtract 2 from their roll.
 - On a 7-9, the Mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
@@ -167,8 +167,8 @@ The Principles are things you should seek to do whenever you speak, in the game.
 - Name everyone, make everyone human
 - Ask provocative questions and build on the answers
 - Respond with challenging circumstances and occasional rewards
-- Make the lives of the player characters miserable
-- But also be a fan of the players' characters
+- Make the lives of the protagonists miserable
+- But also be a fan of the protagonists
 - Think offscreen, too
 - Sometimes, reflect a question back upon the players
 - Draw the characters into mystery
