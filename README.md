@@ -4,7 +4,7 @@
 
 ## Protagonists
 
-In **WROTGOD** you play as protagonists, individuals of dubious morality who are propelled into events beyond their ken. To create a protagonist in **WROTGOD** follow these steps:
+In **WROTGOD** you play as protagonists, individuals of dubious morality who are in over their heads. To create a protagonist in **WROTGOD** follow these steps:
 
 1. Assign [Attributes](#attributes).
 2. Assign [Trust](#trust).
@@ -23,13 +23,13 @@ Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core a
 
 ### Trust
 
-Every protagonist in the game has a Trust stat with every other character. Assign the following Trust scores that their character has toward the other PCs: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.
+Every protagonist in the game has a Trust stat with every other character. Assign the following Trust scores that their protagonist has toward the other protagonists: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.
 
-Trust scores will go up and down over play. Protagonist can betray one another for a +2 bonus to a roll, but their Trust score goes down by 1. Protagonist can make meaningful sacrifices for someone, and their Trust score toward that person will go up by 1.
+Trust scores will go up and down over play. A protagonist can betray another one for a +2 bonus to a roll, but their Trust score goes down by 1. A protagonist can also make meaningful sacrifices for someone, and their Trust score toward that person will go up by 1.
 
 ### Player Moves
 
-The next stage of creating characters is to pick 3 player moves. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their character sheet.
+The next stage of creating protagonists is to pick 3 player moves. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their protagonist sheet.
 
 • When you do something relating to [speciality], add +1.
 
@@ -43,9 +43,11 @@ The next stage of creating characters is to pick 3 player moves. When a player p
 
 • Add +1 to [attribute].
 
+If you pick a move that requires a speciality, come up with one speciality and reference it in the Player Move you purchase.
+
 ### Flaws
 
-All characters in **WROTGOD** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your character sheet:
+All protagonists in **WROTGOD** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your protagonist sheet:
 
 - Bumbling
 - Cowardly
@@ -60,7 +62,7 @@ All characters in **WROTGOD** are broken in some way. Flaws represent this and d
 
 ## Rules
 
-The game is like a conversation. People describe what their characters do, ask questions about what’s going on, and talk in character.
+The game is like a conversation. People describe what their protagonists do, ask questions about what’s going on, and talk in character.
 
 At some point, the Mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The Mod will name which [attribute](#attributes) applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.
 
@@ -97,15 +99,15 @@ Whenever you **fail a roll** you earn a point of Experience. Mark it on the Expe
 
 When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [Fortune point](#fortune-points). Describe how your [Flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby).
 
-You may spend a Fortune Point to accidentally succeed any failed roll related to your Flaw. Similarly, describe how luck allows you succeed in spite of yourself.
+You may spend a Fortune Point to accidentally succeed any failed roll related to your Flaw. Similarly, describe how luck allows you to succeed despite your failings.
 
 For example:
 
 > Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.
 >
-> Gregori'w player describes him becoming off-balance and the Mod determines he = takes a -1 penalty to his next Agility roll.
+> Gregori's player describes him becoming off balance and the Mod determines he = takes a -1 penalty to his next Agility roll.
 >
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight, but at a crucial moment he fails an attack move. Deciding to spend his Fortune Point, he instead succeeds accidentally. His player describes his stroke of luck, saying “as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The Mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
+> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his Fortune Point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The Mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
 You do not [Mark Experience](#mark-experience) when you use this move to fail a roll, or when you use Failure Points on a failed roll.
 
@@ -115,19 +117,19 @@ Every character has a harm clock, with six sections. When characters take harm i
 
 #### Dealing Harm
 
-When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. Protagonist harm gets marked down on the harm clock on their character sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
+When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. protagonist harm gets marked down on the harm clock on their protagonist sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
 
 #### Taken Out
 
-When a character has all of their harm sections filled in, they’re dead and taken out of the action. If the character was a PC, the player should create a new character.
+When a character has all of their harm sections filled in, they’re dead and taken out of the action. If the character was a protagonist, the player should create a new protagonist.
 
 ### Bonus to Carry Forward
 
-Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the PC is set up for future successes. In these cases, the Mod can award a +1 bonus that the PC can apply to their next roll. The player should mark that bonus on their character sheet.
+Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the protagonist is set up for future successes. In these cases, the Mod can award a +1 bonus that the protagonist can apply to their next roll. The player should mark that bonus on their protagonist sheet.
 
 ### Resource Points
 
-When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action) roll, it’ll sometimes make sense to represent their success with a number of resource points. For example, if someone tries to read a person’s facial expressions and determine their true intent in a conversation, they might make a roll. If they get a 10+, the MC might determine that they have 3 conversation points, and they can spend those points 1-for-1 to get answers about the character’s motivations and goals during the conversation. Resource points are always given a name and function at the time they are awarded. In most cases, resource points should be temporary, lasting until the end of a scene or situation.
+When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action) roll, it’ll sometimes make sense to represent their success with a number of resource points. For example, if someone tries to read a person’s facial expressions and determine their true intent in a conversation, they might make a roll. If they get a 10+, the Mod might determine that they have 3 conversation points, and they can spend those points 1-for-1 to get answers about the character’s motivations and goals during the conversation. Resource points are always given a name and function at the time they are awarded. In most cases, resource points should be temporary, lasting until the end of a scene or situation.
 
 #### Fortune Points
 
@@ -139,21 +141,21 @@ The Mod is responsible for running and moderating the game. In particular, the M
 
 Early in the first session, the Mod should juggle two responsibilities:
 
-• Follow the PCs around, and learn what they’re all about.
+• Follow the protagonists around, and learn what they’re all about.
 
 • Give the players a sense of what the world is like, and how it operates.
 
-Astute players will realize that these two things can sometimes be at odds with one another. Mod, the way you navigate this combination of responsibilities is by honouring your [Agendas](#agendas) and your [Principles](#principles).
+Astute players will realize that these two things can sometimes be at odds with one another. The way you navigate this combination of responsibilities is by honouring your [Agendas](#agendas) and your [Principles](#principles).
 
 ### Agendas
 
 Agendas are the reason you play **WROTGOD**. They include:
 
-- Make it exciting.
+- Make it grubby.
+- Keep the protagonists off balance.
 - Play to find out.
-- Make the character's lives grubby.
 
-**WROTGOD** is about grubby fantasy, a sub-genre of low fantasy that is unique to the British old-school. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshie and satirical. Revel in these themes, shamelessly.
+**WROTGOD** is about grubby fantasy, a sub-genre of low fantasy that is unique to the British old-school. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshy and satirical. Revel in these themes, shamelessly.
 
 ### Principles
 
@@ -171,7 +173,7 @@ The Principles are things you should seek to do whenever you speak, in the game.
 - But also be a fan of the protagonists.
 - Think offscreen, too.
 - Sometimes, reflect a question back upon the players.
-- Draw the characters into mystery.
+- Draw the protagonists into mystery.
 - Taint everything with corruption.
 
 ### Reactions
@@ -208,4 +210,4 @@ The Reactions are:
 - Tell them the possible consequences and ask.
 - Turn their move back on them.
 - Make them investigate.
-- Use corruption to obstruct.
+- Introduce corruption to obstruct.
