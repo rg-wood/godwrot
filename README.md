@@ -149,11 +149,9 @@ Astute players will realize that these two things can sometimes be at odds with 
 
 Agendas are the reason you play **Wyrgüd**. They include:
 
-#### Make it exciting
-
-#### Play to find out
-
-#### Be grubby
+- Make it exciting
+- Play to find out
+- Make the character's lives grubby
 
 **Wyrgüd** is about grubby fantasy, a sub-genre of low fantasy that is unique to British old-school fantasy. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshie and satirical. Revel in these themes, shamelessly.
 
@@ -161,39 +159,20 @@ Agendas are the reason you play **Wyrgüd**. They include:
 
 The Principles are things you should seek to do whenever you speak, in the game.
 
-#### Sprinkle grubby and convoluted details everywhere
-
-#### Make the world seem real
-
-#### Build a bigger world through play
-
-#### Create interesting dilemmas, not interesting plots
-
-#### Address yourself to the characters, not the players
-
-#### Make your move, but misdirect
-
-#### Make your move, but never speak its name
-
-#### Look at your NPCs and ideas through crosshairs
-
-#### Name everyone, make everyone human
-
-#### Ask provocative questions and build on the answers
-
-#### Respond with challenging circumstances and occasional rewards
-
-#### Make the lives of the player characters miserable
-
-#### But also be a fan of the players' characters
-
-#### Think offscreen, too
-
-#### Sometimes, reflect a question back upon the players
-
-#### Draw the characters into mystery
-
-#### Taint everything with corruption
+- Sprinkle grubby and convoluted details everywhere
+- Make the world seem real through (pseudo)-historicism
+- Create interesting dilemmas, not interesting plots
+- Address the characters, not the players
+- Make your [reaction](#reaction), but never speak its name
+- Name everyone, make everyone human
+- Ask provocative questions and build on the answers
+- Respond with challenging circumstances and occasional rewards
+- Make the lives of the player characters miserable
+- But also be a fan of the players' characters
+- Think offscreen, too
+- Sometimes, reflect a question back upon the players
+- Draw the characters into mystery
+- Taint everything with corruption
 
 ### Reactions
 
@@ -211,30 +190,17 @@ Regular reactions should\...
 
 The Reactions are:
 
-#### Separate them
-
-#### Put them together
-
-#### Introduce a high-stakes situation
-
-#### Deal harm
-
-#### Trade harm for harm
-
-#### Announce offscreen badness
-
-#### Announce future badness
-
-#### Take away one of their Things
-
-#### Demonstrate one of their Things' bad sides
-
-#### Give them a difficult decision to make
-
-#### Tell them the possible consequences and ask
-
-#### Turn their move back on them
-
-#### Make a move from one of your Threats or Fronts
-
-#### Reveal corruption
+- Separate them
+- Put them together
+- Introduce a high-stakes situation
+- Deal harm
+- Trade harm for harm
+- Announce offscreen badness
+- Announce future badness
+- Take away one of their Things
+- Demonstrate one of their Things' bad sides
+- Give them a difficult decision to make
+- Tell them the possible consequences and ask
+- Turn their move back on them
+- Make them investigate
+- Use corruption to obstruct
