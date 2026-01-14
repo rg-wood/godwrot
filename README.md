@@ -160,7 +160,7 @@ Agendas are the reason you play **WROTGOD**. They include:
 The Principles are things you should seek to do whenever you speak, in the game.
 
 - Sprinkle grubby and convoluted details everywhere.
-- Make the world seem real through (pseudo)-historicism.
+- Make the world seem real through (pseudo-)historicism.
 - Create interesting dilemmas, not interesting plots.
 - Address the characters, not the players.
 - Make your [reaction](#reaction), but never speak its name.
@@ -186,7 +186,7 @@ Regular reactions should\...
 
 1.  \...follow logically from the fiction.
 2.  \...give the player an opportunity to react.
-3.  \...set you up for a future harder move.
+3.  \...set you up for a future harder Reaction.
 
 The Reactions are:
 
@@ -197,8 +197,8 @@ The Reactions are:
 - Trade harm for harm.
 - Announce offscreen badness.
 - Announce future badness.
-- Take away one of their Things.
-- Demonstrate one of their Things' bad sides.
+- Take away one of their things.
+- Demonstrate one of their things' bad sides.
 - Give them a difficult decision to make.
 - Tell them the possible consequences and ask.
 - Turn their move back on them.
