@@ -25,8 +25,6 @@ Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core a
 
 Every protagonist in the game has a Trust stat with every other character. Assign the following Trust scores that their protagonist has toward the other protagonists: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.
 
-Trust scores will go up and down over play. A protagonist can betray another one for a +2 bonus to a roll, but their Trust score goes down by 1. A protagonist can also make meaningful sacrifices for someone, and their Trust score toward that person will go up by 1.
-
 ### Player Moves
 
 The next stage of creating protagonists is to pick 3 player moves. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their protagonist sheet.
@@ -91,10 +89,6 @@ When you **help or hinder a NPC**, roll your Trust stat with that person.
 - On a 10+, they either succeed or fail - your choice.
 - On a 7-9, the Mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
-#### Mark Experience
-
-Whenever you **fail a roll** you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
-
 #### Snatch Defeat
 
 When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [Fortune point](#fortune-points). Describe how your [Flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby).
@@ -110,6 +104,18 @@ For example:
 > Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his Fortune Point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The Mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
 You do not [Mark Experience](#mark-experience) when you use this move to fail a roll, or when you use Failure Points on a failed roll.
+
+#### Mark Experience
+
+Whenever you **fail a roll** you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
+
+#### Betray Trust
+
+When you **betray another character** you gain a +2 bonus to a roll, but their Trust score goes down by 1. 
+
+#### Sacrifice
+
+When you **make meaningful sacrifices for another character** your Trust score toward that person will go up by 1.
 
 ### Harm
 
