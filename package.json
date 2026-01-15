@@ -1,39 +1,48 @@
 {
-  "name": "dismas.grislyeye.com",
-  "version": "2.8.0",
-  "author": {
-    "name": "Ric Wood",
-    "email": "ric@grislyeye.com",
-    "url": "https://grislyeye.com/"
-  },
-  "scripts": {
-    "build": "npx @11ty/eleventy",
-    "clean": "rimraf _site",
-    "start": "npx @11ty/eleventy --serve --quiet",
-    "predeploy": "npm run clean && npm run build && npm run test",
-    "deploy": "gh-pages -d dist -b gh-pages -t",
-    "lint": "npx prettier . --check && npx stylelint 'assets/styles/**/*.css' && htmlhint _site/**/*.html",
-    "lint:fix": "npx prettier . --write",
-    "test": "npm run lint && npm run test:links",
-    "test:links": "npx linkinator _site/ -ro --recurse --skip '(.*\\.drivethrurpg\\.com)'"
-  },
+  "name": "godwrot",
+  "version": "0.0.0",
+  "author": "Ric Wood <ric@grislyeye.com>",
   "dependencies": {
     "@grislyeye/link-preview": "^0.0.3",
+    "magick.css": "^1.0.6",
     "normalize.css": "^8.0.1",
-    "vellum-doc": "^0.10.1",
-    "vellum-sidebar": "^0.0.1"
+    "vellum-doc": "^0.10.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@photogabble/eleventy-plugin-interlinker": "^1.1.2",
-    "cheerio": "^1.1.2",
+    "browser-sync": "^3.0.4",
     "gh-pages": "^6.3.0",
-    "htmlhint": "^1.7.1",
-    "linkinator": "^7.1.3",
-    "mime-types": "^3.0.1",
-    "prettier": "^3.6.2",
-    "rimraf": "^6.0.1",
-    "stylelint": "^16.25.0",
+    "htmlhint": "^1.8.0",
+    "linkinator": "^7.5.3",
+    "marked": "^17.0.1",
+    "npm-watch": "^0.13.0",
+    "prettier": "^3.7.4",
+    "rimraf": "^6.1.2",
+    "stylelint": "^16.26.1",
     "stylelint-config-standard": "^39.0.1"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && npm run build:dist",
+    "build:dist": "mkdir -p dist && node index.js > dist/index.html && npm run build:assets && npm run build:modules",
+    "build:watch": "npm-watch",
+    "build:assets": "cp -r assets dist/",
+    "build:modules": "mkdir -p dist/vendor && cp -r node_modules/vellum-doc dist/vendor/vellum-doc/ && cp -r node_modules/magick.css/ dist/vendor/magick.css/",
+    "clean": "rm -r dist",
+    "lint": "npx prettier . --check && npx htmlhint dist/index.html",
+    "lint:fix": "npx prettier . --write",
+    "test": "npm run lint && linkinator --check-fragments dist/index.html",
+    "start": "npm run build && npm run start:server",
+    "start:server": "browser-sync start --server --files dist --ss dist"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "**/*"
+      ],
+      "extensions": "md,html,css,liquid",
+      "ignore": [
+        "node_module",
+        "dist"
+      ]
+    }
   }
 }

@@ -1,3 +1,7 @@
 node_modules
+bower_components
+dist
 *.log
-_site
+yarn.lock
+package-lock.json
+.vscode
