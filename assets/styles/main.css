@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+vellum-doc {
+  --index-width: 250px;
+}
+
+vellum-doc::part(index) {
+  background-color: var(--bg);
+  padding-right: 1em;
+  padding-left: 1em;
+  border-right: 4px solid var(--fg);
+}
+
+@media (prefers-color-scheme: dark) {
+  vellum-doc::part(index) {
+    border-right: 4px solid var(--fg);
+  }
+}
+
+vellum-doc::part(index-h1) {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+vellum-doc::part(index-h2) {
+  font-size: 1.3em;
+}
+
+vellum-doc::part(index-h3) {
+  font-size: 1em;
+}
+
+vellum-doc::part(index-h4) {
+  font-size: 0.8em;
+}
+
+#document {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+@media (max-width: 600px) {
+  #document {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+}
+
+#document > section {
+  width: 100%;
+}
+
+#document > section:has(h4:first-child) {
+  width: 47%;
+}
+
+@media (max-width: 750px) {
+  #document > section:has(h4:first-child) {
+    width: 100%;
+  }
+}
+
+#document h1,
+#document h2,
+#document h3,
+#document h4 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+#document footer {
+  border-top: 1px solid;
+}
