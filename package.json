@@ -17,8 +17,8 @@
     "npm-watch": "^0.13.0",
     "prettier": "^3.8.0",
     "rimraf": "^6.1.2",
-    "stylelint": "^16.26.1",
-    "stylelint-config-standard": "^39.0.1"
+    "stylelint": "^17.0.0",
+    "stylelint-config-standard": "^40.0.0"
   },
   "scripts": {
     "build": "mkdir -p dist && npm run build:dist",
