@@ -7,7 +7,7 @@
 In **GODWROT** you play as protagonists, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
 1. Assign [Attributes](#attributes).
-2. Assign [Trust](#trust).
+2. Assign [Trust](#trust) scores.
 3. Pick 3 [Player Moves](#player-moves).
 4. Choose a [Flaw](#flaws).
 
@@ -41,8 +41,6 @@ The next stage of creating protagonists is to pick 3 player moves. When a player
 
 • Add +1 to [attribute].
 
-If you pick a move that requires a speciality, come up with one speciality and reference it in the Player Move you purchase.
-
 ### Flaws
 
 All protagonists in **GODWROT** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your protagonist sheet:
@@ -64,7 +62,7 @@ The game is like a conversation. People describe what their protagonists do, ask
 
 At some point, the Mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The Mod will name which [attribute](#attributes) applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.
 
-Moves and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the move should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
+Moves and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the Mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
 
 Whenever people look at the Mod expectantly, the Mod should make a regular Reaction. This should create new things for the players to react to. The Mod should then go on to say, “So, what do you do?”
 
@@ -99,7 +97,7 @@ For example:
 
 > Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.
 >
-> Gregori's player describes him becoming off balance and the Mod determines he = takes a -1 penalty to his next Agility roll.
+> Gregori's player describes him becoming off balance and the Mod determines he takes a -1 penalty to his next Agility roll.
 >
 > Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his Fortune Point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The Mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
@@ -107,7 +105,7 @@ You do not [Mark Experience](#mark-experience) when you use this move to fail a 
 
 #### Mark Experience
 
-Whenever you **fail a roll** you earn a point of Experience. Mark it on the Experience section of your sheet. When you hit 5 Experience, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
+Whenever you **fail a roll** you earn an Experience Point. Mark it on the Experience section of your sheet. When you hit 5 Experience Points, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
 
 #### Betray Trust
 
@@ -119,11 +117,13 @@ When you **make meaningful sacrifices for another character** your Trust score t
 
 ### Harm
 
-Every character has a harm clock, with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the Mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are [taken out](#taken-out) of the action.
+Every protagonist has a harm clock with six sections. When characters take harm in the game, they mark a number of sections equal to whatever amount of harm the Mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are [taken out](#taken-out) of the action.
 
 #### Dealing Harm
 
-When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. protagonist harm gets marked down on the harm clock on their protagonist sheet. NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
+When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical or mental harm that’s brought about by violence or stress. When someone does harm to someone else, the Mod will rate that harm from 1-3. protagonist harm gets marked down on the harm clock on their protagonist sheet.
+
+NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
 
 #### Taken Out
 
@@ -170,7 +170,8 @@ The Principles are things you should seek to do whenever you speak, in the game.
 - Sprinkle grubby and convoluted details everywhere.
 - Make the world seem real through (pseudo-)historicism.
 - Create interesting dilemmas, not interesting plots.
-- Address the characters, not the players.
+- Create encounters, not scenes.
+- Address the protagonists, not the players.
 - Make your [reaction](#reaction), but never speak its name.
 - Name everyone, make everyone human.
 - Ask provocative questions and build on the answers.
