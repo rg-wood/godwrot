@@ -1,10 +1,10 @@
-# WROTGOD
+# GODWROT
 
-**WROTGOD** is a _Powered by the Apocalypse_ hack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
+**GODWROT** is a _Powered by the Apocalypse_ hack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
 ## Protagonists
 
-In **WROTGOD** you play as protagonists, individuals of dubious morality who are in over their heads. To create a protagonist in **WROTGOD** follow these steps:
+In **GODWROT** you play as protagonists, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
 1. Assign [Attributes](#attributes).
 2. Assign [Trust](#trust).
@@ -13,7 +13,7 @@ In **WROTGOD** you play as protagonists, individuals of dubious morality who are
 
 ### Attributes
 
-Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core attributes for **WROTGOD** are:
+Assign the following numbers to your attributes: +2, +1, +1, 0, -1. The 5 core attributes for **GODWROT** are:
 
 - **Agility:** reflexive or graceful.
 - **Cunning**: inquisitive or exploratory.
@@ -47,7 +47,7 @@ If you pick a move that requires a speciality, come up with one speciality and r
 
 ### Flaws
 
-All protagonists in **WROTGOD** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your protagonist sheet:
+All protagonists in **GODWROT** are broken in some way. Flaws represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a Flaw from the list below and record it on your protagonist sheet:
 
 - Bumbling
 - Cowardly
@@ -133,7 +133,7 @@ When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action)
 
 #### Fortune Points
 
-Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **WROTGOD**. See the description of the Steal Defeat move for more information on how Fortune Points work.
+Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the Steal Defeat move for more information on how Fortune Points work.
 
 ## Moderation
 
@@ -149,13 +149,13 @@ Astute players will realize that these two things can sometimes be at odds with 
 
 ### Agendas
 
-Agendas are the reason you play **WROTGOD**. They include:
+Agendas are the reason you play **GODWROT**. They include:
 
 - Make it grubby.
 - Keep the protagonists off balance.
 - Play to find out.
 
-**WROTGOD** is about grubby fantasy, a sub-genre of low fantasy that is unique to the British old-school. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshy and satirical. Revel in these themes, shamelessly.
+**GODWROT** is about grubby fantasy, a sub-genre of low fantasy that is unique to the British old-school. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshy and satirical. Revel in these themes, shamelessly.
 
 ### Principles
 
