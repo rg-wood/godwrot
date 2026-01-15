@@ -111,7 +111,7 @@ Whenever you **fail a roll** you earn a point of Experience. Mark it on the Expe
 
 #### Betray Trust
 
-When you **betray another character** you gain a +2 bonus to a roll, but their Trust score goes down by 1. 
+When you **betray another character** you gain a +2 bonus to a roll, but their Trust score goes down by 1.
 
 #### Sacrifice
 
