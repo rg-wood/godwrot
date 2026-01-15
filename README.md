@@ -139,7 +139,7 @@ When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action)
 
 #### Fortune Points
 
-Fortune Points are a special kind of [resource points](#resource-points) that are the currency of the [Snatch Defeat](#snatch-defeat) basic move. They represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the Steal Defeat move for more information on how Fortune Points work.
+Fortune Points represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how Fortune Points work.
 
 ## Moderation
 
