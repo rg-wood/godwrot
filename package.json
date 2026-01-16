@@ -1,6 +1,6 @@
 {
   "name": "godwrot",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "Ric Wood <ric@grislyeye.com>",
   "dependencies": {
     "@grislyeye/link-preview": "^0.0.3",

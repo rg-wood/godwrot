@@ -89,9 +89,9 @@ When you **help or hinder a NPC**, roll your trust stat with that person.
 
 #### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [fortune point](#fortune-points). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby).
+When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [luck point](#luck). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby).
 
-You may spend a fortune point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
+You may spend a luck point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
 
 For example:
 
@@ -99,7 +99,7 @@ For example:
 >
 > Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
 >
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his fortune point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
+> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
 You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
 
@@ -137,9 +137,9 @@ Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the p
 
 When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action) roll, it’ll sometimes make sense to represent their success with a number of **resource points**. For example, if someone tries to read a person’s facial expressions and determine their true intent in a conversation, they might make a roll. If they get a 10+, the mod might determine that they have 3 conversation points, and they can spend those points 1-for-1 to get answers about the character’s motivations and goals during the conversation. Resource points are always given a name and function at the time they are awarded. In most cases, resource points should be temporary, lasting until the end of a scene or situation.
 
-#### Fortune Points
+#### Luck
 
-**Fortune points** represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how Fortune Points work.
+**Luck** are resource points that represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how Fortune Points work.
 
 ## Moderation
 
