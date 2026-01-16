@@ -89,7 +89,7 @@ When you **help or hinder a NPC**, roll your trust stat with that person.
 
 #### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [luck point](#luck). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby).
+When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [luck point](#luck). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#grubby).
 
 You may spend a luck point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
 
@@ -160,6 +160,8 @@ Astute players will realize that these two things can sometimes be at odds with 
 - Make it grubby.
 - Keep the protagonists off balance.
 - Play to find out.
+
+#### Grubby
 
 **GODWROT** is about grubby fantasy, a sub-genre of low fantasy that is unique to the British old-school. To be grubby is to be farcical, bawdy, pessimistic, grotesque, bolshy and satirical. Revel in these themes, shamelessly.
 
