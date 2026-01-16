@@ -6,10 +6,10 @@
 
 In **GODWROT** you play as **protagonists**, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
-1. Assign [Attributes](#attributes).
-2. Assign [Trust](#trust) scores.
-3. Pick 3 [Player Moves](#player-moves).
-4. Choose a [Flaw](#flaws).
+1. Assign [attributes](#attributes).
+2. Assign [trust](#trust) scores.
+3. Choose a [glaw](#flaws).
+4. Pick 3 [player moves](#player-moves).
 
 ### Attributes
 
@@ -64,34 +64,34 @@ At some point, the mod will determine that something requires a roll. Actions re
 
 Moves and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
 
-Whenever people look at the mod expectantly, the mod should make a regular Reaction. This should create new things for the players to react to. The mod should then go on to say, “So, what do you do?”
+Whenever people look at the mod expectantly, the mod should make a regular reaction. This should create new things for the players to react to. The mod should then go on to say, “So, what do you do?”
 
 ### Basic Moves
 
 #### Taking Action
 
-When you **take an action that risks failure or opposition**, roll with one of the basic attributes.
+When you **take an action that risks failure or opposition**, roll with one of the basic [attributes](#attributes).
 
 - On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt, or a [bonus to carry forward](#bonus-to-carry-forward).
 - On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
 
 #### Helping or Hindering
 
-When you **help or hinder another protagonist**, roll your Trust stat with that person.
+When you **help or hinder another protagonist**, roll your trust stat with that person.
 
 - On a 10+, add or subtract 2 from their roll.
 - On a 7-9, the mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
 
-When you **help or hinder a NPC**, roll your Trust stat with that person.
+When you **help or hinder a NPC**, roll your trust stat with that person.
 
 - On a 10+, they either succeed or fail - your choice.
 - On a 7-9, the mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
 #### Snatch Defeat
 
-When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [Fortune point](#fortune-points). Describe how your [Flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby).
+When you **succeed with a move related to your Flaw** you can choose to fail that roll instead and take 1 [fortune point](#fortune-points). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#be-grubby).
 
-You may spend a Fortune Point to accidentally succeed any failed roll related to your Flaw. Similarly, describe how luck allows you to succeed despite your failings.
+You may spend a fortune point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
 
 For example:
 
@@ -99,7 +99,7 @@ For example:
 >
 > Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
 >
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his Fortune Point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
+> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his fortune point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
 You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
 
@@ -109,11 +109,11 @@ Whenever you **fail a roll** you earn an Experience Point. Mark it on the Experi
 
 #### Betray Trust
 
-When you **betray another character** you gain a +2 bonus to a roll, but their Trust score goes down by 1.
+When you **betray another character** you gain a +2 bonus to a roll, but their trust score goes down by 1.
 
 #### Sacrifice
 
-When you **make meaningful sacrifices for another character** your Trust score toward that person will go up by 1.
+When you **make meaningful sacrifices for another character** your trust score toward that person will go up by 1.
 
 ### Harm
 
@@ -151,7 +151,7 @@ Early in the first session, the mod should juggle two responsibilities:
 
 • Give the players a sense of what the world is like, and how it operates.
 
-Astute players will realize that these two things can sometimes be at odds with one another. The way you navigate this combination of responsibilities is by honouring your [Agendas](#agendas) and your [Principles](#principles).
+Astute players will realize that these two things can sometimes be at odds with one another. The way you navigate this combination of responsibilities is by honouring your [agendas](#agendas) and your [principles](#principles).
 
 ### Agendas
 
@@ -199,8 +199,8 @@ When you **you speak**:
 **Reactions** are the specific things you say in any moment. There are two
 different cases where you use the reactions, and you use them
 differently in each of those cases. When the players look at you
-expectantly, you make a regular Reaction. When a player fails a die roll
-(getting 6 or lower), you make a hard Reaction.
+expectantly, you make a regular reaction. When a player fails a die roll
+(getting 6 or lower), you make a hard reaction.
 
 **Regular reactions** should\...
 
