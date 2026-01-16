@@ -101,7 +101,7 @@ For example:
 >
 > Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his Fortune Point, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
-You do not [Mark Experience](#mark-experience) when you use this move to fail a roll, or when you use Failure Points on a failed roll.
+You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
 
 #### Mark Experience
 
