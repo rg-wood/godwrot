@@ -8,7 +8,7 @@ In **GODWROT** you play as **protagonists**, individuals of dubious morality who
 
 1. Assign [attributes](#attributes).
 2. Assign [trust](#trust) scores.
-3. Choose a [glaw](#flaws).
+3. Choose a [flaw](#flaws).
 4. Pick 3 [player moves](#player-moves).
 
 ### Attributes
