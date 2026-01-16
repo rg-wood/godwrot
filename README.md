@@ -167,21 +167,32 @@ Agendas are the reason you play **GODWROT**. They include:
 
 The Principles are things you should seek to do whenever you speak, in the game.
 
+When you **prepare the game**:
+
+- Create interesting dilemmas, not interesting plots.
+- Create open-ended encounters, not scenes.
+
+When you **portray the world**:
+
 - Sprinkle grubby and convoluted details everywhere.
 - Make the world seem real through (pseudo-)historicism.
-- Create interesting dilemmas, not interesting plots.
-- Create encounters, not scenes.
-- Address the protagonists, not the players.
-- Make your [reaction](#reaction), but never speak its name.
 - Name everyone, make everyone human.
-- Ask provocative questions and build on the answers.
+
+When you **run the game**:
+
+- Think offscreen, too.
 - Respond with challenging circumstances and occasional rewards.
 - Make the lives of the protagonists miserable.
 - But also be a fan of the protagonists.
-- Think offscreen, too.
-- Sometimes, reflect a question back upon the players.
 - Draw the protagonists into mystery.
 - Taint everything with corruption.
+
+When you **you speak**:
+
+- Address the protagonists, not the players.
+- Make your [reaction](#reaction), but never speak its name.
+- Ask provocative questions and build on the answers.
+- Sometimes, reflect a question back upon the players.
 
 ### Reactions
 
