@@ -279,7 +279,7 @@ When you first create a intrigue, you need to determine how complicated and chal
 
 A conspiracy is at the heart of a intrigue.
 
-And, of course, uncovering a conspiracy might reveal a lead to a new intrigue.
+And, of course, uncovering a conspiracy might reveal a lead to a new, much larger intrigue.
 
 ### The Second Chamber
 
