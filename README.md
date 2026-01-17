@@ -1,6 +1,6 @@
 # GODWROT
 
-_**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)** | **[Issues](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**_
+_**[Source](https://github.com/rg-wood/godwrot)** | **[Contributors](https://github.com/rg-wood/godwrot/blob/main/CONTRIBUTING.md)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)** | **[Issues](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)** | **[Contributing](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**_
 
 **GODWROT** is a _Powered by the Apocalypse_ hack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
@@ -234,18 +234,3 @@ The reactions are:
 - Turn their move back on them.
 - Make them investigate.
 - Introduce corruption to obstruct.
-
-## Hacking
-
-### Style Guide
-
-When writing for **GODWROT** there are set of standards for language and formatting. This section details these standards. In particular, spelling should use British English.
-
-Grammatical standards:
-
-- Do not use Oxford commas.
-- Always capitalise moves, flaw names and attributes.
-
-Formatting standards:
-
-- Bold game terms when they are first introduced.
