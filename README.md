@@ -339,6 +339,6 @@ At the heart of **GODWROT** is the [Steal Defeat](#steal-defeat) move (as in "st
 
 ### Intrigue
 
-Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than exploration and treasure.
+Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than exploration and treasure. If you look at the early *Warhammer Fantasy Roleplay* books, they resemble _Call of Cthulhu_ more than _Dungeons & Dragons_. Early adventures see player characters investigating cults in cities, rather than exploring dungeons in wildernesses.
 
 For **GODWROT** these are represented by [intrigues](#intrigues), or version of Fronts and Threats.
