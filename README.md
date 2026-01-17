@@ -118,13 +118,13 @@ When you **betray another character** you gain a +2 bonus to a roll, but their t
 
 When you **make meaningful sacrifices for another character** your trust score toward that person will go up by 1.
 
-### Mystery Moves
+### intrigue Moves
 
-If you fail a mystery move, you trigger a reaction from the conspiracy. (This doesn't make sense for Interpret Evidence!)
+If you fail a intrigue move, you trigger a reaction from the conspiracy. (This doesn't make sense for Interpret Evidence!)
 
 #### Interpret Evidence
 
-When you **try to understand how evidence fits into a mystery,** roll Wits.
+When you **try to understand how evidence fits into a intrigue** roll Wits.
 
 #### Examine Scene
 
@@ -207,7 +207,7 @@ When you **run the game**:
 - Respond with challenging circumstances and occasional rewards.
 - Make the lives of the protagonists miserable.
 - But also be a fan of the protagonists.
-- Draw the protagonists into mystery.
+- Draw the protagonists into intrigue.
 - Taint everything with corruption.
 
 When you **you speak**:
@@ -253,11 +253,11 @@ The reactions are:
 - Make them investigate.
 - Introduce corruption to obstruct.
 
-### Mysteries
+### Intrigues
 
-Mysteries are the main form of conflict in **GODWROT**. Protagonists investigate **mysteries**. A mystery consists of the following elements:
+Intrigues are the main form of conflict in **GODWROT**. Protagonists investigate **intrigues**. An intrigue consists of the following elements:
 
-- The **conspiracy** is the heart of the mystery, the characters, items and locations that are hidden, and the characters involved in covering them up.
+- The **conspiracy** is the heart of the intrigue, the characters, items and locations that are hidden, and the characters involved in covering them up.
 - The **leads** are the clues that lead to other leads, and so on until the protagonists discover the conspiracy. Each lead should offer some sort of challenge to the protagonists. Types of leads include:
   - **Witnesses** are characters who have information that could direct protagonists to further leads.
   - **Evidence** is material objects or tracks. They may not be immediately obvious or require some kind of interpretation.
@@ -266,24 +266,24 @@ Mysteries are the main form of conflict in **GODWROT**. Protagonists investigate
 
 They key aspect of this system is that the protagonists are in conflict with the conspiracy. The conspiracy is working against to hide its tracks. The protagonists play a cat and mouse game, where they attempt to uncover the conspiracy, without alerting them.
 
-What mysteries are not:
+What intrigues are not:
 
 - Treasure hunts.
 - Dungeon crawls.
 
-### Creating Mysteries
+### Creating Intrigues
 
-When you first create a mystery, you need to determine how complicated and challenging its conspiracy. Conspiracies are measured with **resource** points, which determines how powerful or skill they are. Minor conspiracies (2-3 Resources) are small parts of a wider adventure, whilst a major conspiracy (5+ Resources) is an adventure, if not a campaign, in and of itself.
+When you first create a intrigue, you need to determine how complicated and challenging its conspiracy. Conspiracies are measured with **resource** points, which determines how powerful or skill they are. Minor conspiracies (2-3 Resources) are small parts of a wider adventure, whilst a major conspiracy (5+ Resources) is an adventure, if not a campaign, in and of itself.
 
 ### Conspiracies
 
-A conspiracy is at the heart of a mystery.
+A conspiracy is at the heart of a intrigue.
 
-And, of course, uncovering a conspiracy might reveal a lead to a new mystery.
+And, of course, uncovering a conspiracy might reveal a lead to a new intrigue.
 
 ### The Second Chamber
 
-The Second Chamber is an example mystery. A member of a thieves' guild has gone missing, and the protagonists are pressed into find out what happened.
+The Second Chamber is an example intrigue. A member of a thieves' guild has gone missing, and the protagonists are pressed into find out what happened.
 
 #### The Inner Guards
 
@@ -341,4 +341,4 @@ At the heart of **GODWROT** is the [Steal Defeat](#steal-defeat) move (as in "st
 
 Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than exploration and treasure.
 
-For **GODWROT** these are represented by [mysteries](#mysteries), or version of Fronts and Threats.
+For **GODWROT** these are represented by [intrigues](#intrigues), or version of Fronts and Threats.
