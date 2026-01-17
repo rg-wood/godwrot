@@ -118,6 +118,24 @@ When you **betray another character** you gain a +2 bonus to a roll, but their t
 
 When you **make meaningful sacrifices for another character** your trust score toward that person will go up by 1.
 
+### Mystery Moves
+
+If you fail a mystery move, you trigger a reaction from the conspiracy. (This doesn't make sense for Interpret Evidence!)
+
+#### Interpret Evidence
+
+When you **try to understand how evidence fits into a mystery,** roll Wits.
+
+#### Examine Scene
+
+If you **examine a scene for clues** roll Wits. On a 10+ the mod reveals a lead. On a 7-9 you still gain a lead, but you disturb the scene can no longer examine it for clues. On a 6+ the conspiracy destroys the scene.
+
+#### Question Witness
+
+When you **question a witness** play out the conversation and roll Will. If the witness is hostile or oblivious, roll -2. If the witness is suspicious or confused, roll -1. If the witness is helpful, roll +1.
+
+On a 10+ the mod reveals a lead. On a 7-9 you still gain a lead, but the witness becomes suspicious or confused. On a 6+ the conspiracy takes out the witness.
+
 ### Harm
 
 Every protagonist has a harm clock with six sections. When characters take **harm** in the game, they mark a number of sections equal to whatever amount of harm the mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are [taken out](#taken-out) of the action.
@@ -253,25 +271,7 @@ What mysteries are not:
 - Treasure hunts.
 - Dungeon crawls.
 
-## Mystery Moves
-
-If you fail a mystery move, you trigger a reaction from the conspiracy. (This doesn't make sense for Interpret Evidence!)
-
-### Interpret Evidence
-
-When you **try to understand how evidence fits into a mystery,** roll Wits.
-
-### Examine Scene
-
-If you **examine a scene for clues** roll Wits. On a 10+ the mod reveals a lead. On a 7-9 you still gain a lead, but you disturb the scene can no longer examine it for clues. On a 6+ the conspiracy destroys the scene.
-
-### Question Witness
-
-When you **question a witness** play out the conversation and roll Will. If the witness is hostile or oblivious, roll -2. If the witness is suspicious or confused, roll -1. If the witness is helpful, roll +1.
-
-On a 10+ the mod reveals a lead. On a 7-9 you still gain a lead, but the witness becomes suspicious or confused. On a 6+ the conspiracy takes out the witness.
-
-## Mysteries
+### Creating Mysteries
 
 When you first create a mystery, you need to determine how complicated and challenging its conspiracy. Conspiracies are measured with **resource** points, which determines how powerful or skill they are. Minor conspiracies (2-3 Resources) are small parts of a wider adventure, whilst a major conspiracy (5+ Resources) is an adventure, if not a campaign, in and of itself.
 
