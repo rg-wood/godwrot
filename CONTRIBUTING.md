@@ -7,7 +7,7 @@ When writing for **GODWROT** there are set of standards for language and formatt
 Grammatical standards:
 
 - Do not use Oxford commas.
-- Always capitalise moves, flaw names and attributes.
+- Always capitalize moves, flaw names and attributes.
 
 Formatting standards:
 
