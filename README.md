@@ -306,3 +306,32 @@ The Inner Guards are a small gang of sadists hiding within the city watch of Old
 - **Mouse** (oblivious, small, itchy) is being watched by the Inner Guards as a potential victim. If protagonists follow him, they will see him getting kidnapped. He wants?
 - **Ilya** (hostile, tall, ill-tempered) works in the Second Chamber, but is petrified of her employers and is extremely wary of anyone asking questions. If not handled carefully, she will report back to the Inner Guards.
 - **Otto** (confused, derelict, colourful) was a member of the city guard who threatened to expose the Inner Guards. Unfortunately, he was instead disappeared and released years later, a broken man. He rambles to himself and begs on the streets of Old Tryst.
+
+## Design Notes
+
+The concept of **WROTGOD** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that players might want a low fantasy flavour. From that, _Bleak World_ was born, a partially completed document that went through a number of versions and iterations, all of which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
+
+Creating a PbtA game can be overwhelming, but _Simple World_ gave me a bare-bones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
+
+A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my _Troika!_ hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest. The result is the document you're reading now.
+
+### Grubby Fantasy
+
+> Since the game itself relies so much on atmosphere (the term “grubby fantasy” has been coined, to contrast with “shiny fantasy” which previously dominated role-playing), the world is highly necessary in order to convey that atmosphere.
+>
+> – _Open Box X-tra’, White Dwarf 87_ by the WFRP Design Team, 1987
+
+Though fallen out of use, grubby fantasy was the term coined by the designers of early _Warhammer Fantasy Roleplay_ to describe their particular flavour of fantasy. It's a distinctly British genre that stands in opposition to the glossy high fantasy of many modern fantasy games, and it's the term I use to describe my games because, well, no other words quite fits. Low fantasy is one thing but doesn't seem narrow enough. Grimdark takes itself too seriously. Dark fantasy is too dark. So, grubby it is.
+
+### The British Old-School
+
+My love of grubby fantasy comes out of that fetid period of creativity in the 80s that spawned _Warhammer_, _Fighting Fantasy_ and _The Colour of Magic_.
+
+Yet, the inspiration for **WROTGOD** more properly begins with _The Hobbit_. The Middle Earth of this early work is less shiny than the one depicted in _The Lord of the Rings_. _The Hobbit_ is less an epic adventure than it is a fairy tale gone wrong. Our protagonists aren't motivated by heroism, but by greed, wrath, guilt and general confusion.
+
+### Stealing Defeat
+
+Too often, the systems I use to run my grubby fantasy games produce PCs that are too competent. As experience accrues, protagonists become increasingly capable, which breaks the setting. Characters in grubby fantasy are defined by their powerlessness. This game isn't about heroes, it's about wretches, twerps and other dubious figures that are, if not villains, corrupt at best.
+
+At the heart of **WROTGOD** is the [Steal Defeat](#steal-defeat) move (as in "stealing defeat from the jaws of victory"), which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
+>>>>>>> design-notes-2
