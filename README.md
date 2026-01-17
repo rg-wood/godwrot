@@ -241,12 +241,12 @@ Mysteries are the main form of conflict in **GODWROT**. Protagonists investigate
 
 - The **conspiracy** is the heart of the mystery, the characters, items and locations that are hidden, and the characters involved in covering them up.
 - The **leads** are the clues that lead to other leads, and so on until the protagonists discover the conspiracy. Each lead should offer some sort of challenge to the protagonists. Types of leads include:
-	- **Witnesses** are characters who have information that could direct protagonists to further leads.
-	- **Evidence** is material objects or tracks. They may not be immediately obvious or require some kind of interpretation.
-	- **Scenes** are physical locations where other leads might be found.
+  - **Witnesses** are characters who have information that could direct protagonists to further leads.
+  - **Evidence** is material objects or tracks. They may not be immediately obvious or require some kind of interpretation.
+  - **Scenes** are physical locations where other leads might be found.
 - The **conspiracy track** represents the steps towards the conspiracy reaching its goal. Each step includes an event that will occur without the protagonists intervention.
 
-They key aspect of this system is that the protagonists are in conflict with the conspiracy. The conspiracy is working against to hide its tracks. The protagonists play a cat and mouse game, where they attempt to uncover the conspiracy, without alerting them. 
+They key aspect of this system is that the protagonists are in conflict with the conspiracy. The conspiracy is working against to hide its tracks. The protagonists play a cat and mouse game, where they attempt to uncover the conspiracy, without alerting them.
 
 What mysteries are not:
 
@@ -286,13 +286,15 @@ And, of course, uncovering a conspiracy might reveal a lead to a new mystery.
 The Second Chamber is an example mystery. A member of a thieves' guild has gone missing, and the protagonists are pressed into find out what happened.
 
 #### The Inner Guards
-*Conspiracy*
+
+_Conspiracy_
 
 The Inner Guards are a small gang of sadists hiding within the city watch of Old Tryst. They disappear minor criminals, political enemies of their masters, and just random people and take them to The Second Chamber where they torture and brutalise them.
 
 **Resources:** 5
 
 **Reactions:**
+
 - Disappear a witness.
 - Frame the protagonists.
 - Send a guard patrol to harass the protagonists.
@@ -301,8 +303,8 @@ The Inner Guards are a small gang of sadists hiding within the city watch of Old
 
 **Scenes:**
 
-
 **Witnesses:**
+
 - **Mouse** (oblivious, small, itchy) is being watched by the Inner Guards as a potential victim. If protagonists follow him, they will see him getting kidnapped. He wants?
 - **Ilya** (hostile, tall, ill-tempered) works in the Second Chamber, but is petrified of her employers and is extremely wary of anyone asking questions. If not handled carefully, she will report back to the Inner Guards.
 - **Otto** (confused, derelict, colourful) was a member of the city guard who threatened to expose the Inner Guards. Unfortunately, he was instead disappeared and released years later, a broken man. He rambles to himself and begs on the streets of Old Tryst.
@@ -334,4 +336,3 @@ Yet, the inspiration for **WROTGOD** more properly begins with _The Hobbit_. The
 Too often, the systems I use to run my grubby fantasy games produce PCs that are too competent. As experience accrues, protagonists become increasingly capable, which breaks the setting. Characters in grubby fantasy are defined by their powerlessness. This game isn't about heroes, it's about wretches, twerps and other dubious figures that are, if not villains, corrupt at best.
 
 At the heart of **WROTGOD** is the [Steal Defeat](#steal-defeat) move (as in "stealing defeat from the jaws of victory"), which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
->>>>>>> design-notes-2
