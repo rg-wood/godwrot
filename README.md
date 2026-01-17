@@ -1,6 +1,8 @@
-# GODWROT
+New bad bad text. no groord
 
 _**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)** | **[Issues](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**_
+
+# GODWROT
 
 **GODWROT** is a _Powered by the Apocalypse_ hack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
