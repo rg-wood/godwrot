@@ -234,3 +234,75 @@ The reactions are:
 - Turn their move back on them.
 - Make them investigate.
 - Introduce corruption to obstruct.
+
+### Mysteries
+
+Mysteries are the main form of conflict in **GODWROT**. Protagonists investigate **mysteries**. A mystery consists of the following elements:
+
+- The **conspiracy** is the heart of the mystery, the characters, items and locations that are hidden, and the characters involved in covering them up.
+- The **leads** are the clues that lead to other leads, and so on until the protagonists discover the conspiracy. Each lead should offer some sort of challenge to the protagonists. Types of leads include:
+	- **Witnesses** are characters who have information that could direct protagonists to further leads.
+	- **Evidence** is material objects or tracks. They may not be immediately obvious or require some kind of interpretation.
+	- **Scenes** are physical locations where other leads might be found.
+- The **conspiracy track** represents the steps towards the conspiracy reaching its goal. Each step includes an event that will occur without the protagonists intervention.
+
+They key aspect of this system is that the protagonists are in conflict with the conspiracy. The conspiracy is working against to hide its tracks. The protagonists play a cat and mouse game, where they attempt to uncover the conspiracy, without alerting them. 
+
+What mysteries are not:
+
+- Treasure hunts.
+- Dungeon crawls.
+
+## Mystery Moves
+
+If you fail a mystery move, you trigger a reaction from the conspiracy. (This doesn't make sense for Interpret Evidence!)
+
+### Interpret Evidence
+
+When you **try to understand how evidence fits into a mystery,** roll Wits.
+
+### Examine Scene
+
+If you **examine a scene for clues** roll Wits. On a 10+ the mod reveals a lead. On a 7-9 you still gain a lead, but you disturb the scene can no longer examine it for clues. On a 6+ the conspiracy destroys the scene.
+
+### Question Witness
+
+When you **question a witness** play out the conversation and roll Will. If the witness is hostile or oblivious, roll -2. If the witness is suspicious or confused, roll -1. If the witness is helpful, roll +1.
+
+On a 10+ the mod reveals a lead. On a 7-9 you still gain a lead, but the witness becomes suspicious or confused. On a 6+ the conspiracy takes out the witness.
+
+## Mysteries
+
+When you first create a mystery, you need to determine how complicated and challenging its conspiracy. Conspiracies are measured with **resource** points, which determines how powerful or skill they are. Minor conspiracies (2-3 Resources) are small parts of a wider adventure, whilst a major conspiracy (5+ Resources) is an adventure, if not a campaign, in and of itself.
+
+### Conspiracies
+
+A conspiracy is at the heart of a mystery.
+
+And, of course, uncovering a conspiracy might reveal a lead to a new mystery.
+
+### The Second Chamber
+
+The Second Chamber is an example mystery. A member of a thieves' guild has gone missing, and the protagonists are pressed into find out what happened.
+
+#### The Inner Guards
+*Conspiracy*
+
+The Inner Guards are a small gang of sadists hiding within the city watch of Old Tryst. They disappear minor criminals, political enemies of their masters, and just random people and take them to The Second Chamber where they torture and brutalise them.
+
+**Resources:** 5
+
+**Reactions:**
+- Disappear a witness.
+- Frame the protagonists.
+- Send a guard patrol to harass the protagonists.
+
+#### Leads
+
+**Scenes:**
+
+
+**Witnesses:**
+- **Mouse** (oblivious, small, itchy) is being watched by the Inner Guards as a potential victim. If protagonists follow him, they will see him getting kidnapped. He wants?
+- **Ilya** (hostile, tall, ill-tempered) works in the Second Chamber, but is petrified of her employers and is extremely wary of anyone asking questions. If not handled carefully, she will report back to the Inner Guards.
+- **Otto** (confused, derelict, colourful) was a member of the city guard who threatened to expose the Inner Guards. Unfortunately, he was instead disappeared and released years later, a broken man. He rambles to himself and begs on the streets of Old Tryst.
