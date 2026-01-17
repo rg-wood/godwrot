@@ -118,7 +118,7 @@ When you **betray another character** you gain a +2 bonus to a roll, but their t
 
 When you **make meaningful sacrifices for another character** your trust score toward that person will go up by 1.
 
-### intrigue Moves
+### Intrigue Moves
 
 If you fail a intrigue move, you trigger a reaction from the conspiracy. (This doesn't make sense for Interpret Evidence!)
 
