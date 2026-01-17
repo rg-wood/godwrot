@@ -47,7 +47,7 @@ The next stage of creating protagonists is to pick 3 **player moves**. When a pl
 
 All protagonists in **GODWROT** are broken in some way. **Flaws** represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a flaw from the list below and record it on your protagonist sheet:
 
-- Bolshie
+- Bolshy
 - Bumbling
 - Cowardly
 - Devious
@@ -192,7 +192,7 @@ When you **run the game**:
 - Draw the protagonists into mystery.
 - Taint everything with corruption.
 
-When you **you speak**:
+When you **speak**:
 
 - Address the protagonists, not the players.
 - Make your [reaction](#reaction), but never speak its name.
