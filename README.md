@@ -106,7 +106,7 @@ You do not [Mark Experience](#mark-experience) when you use this move to fail a 
 
 #### Mark Experience
 
-Whenever you **fail a roll** you earn an Experience Point. Mark it on the Experience section of your sheet. When you hit 5 Experience Points, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
+Whenever you **fail a roll** you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new [player move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.
 
 #### Betray Trust
 
@@ -124,7 +124,7 @@ Every protagonist has a harm clock with six sections. When characters take **har
 
 When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical or mental harm that’s brought about by violence or stress. When someone does harm to someone else, the mod will rate that harm from 1-3. protagonist harm gets marked down on the harm clock on their protagonist sheet.
 
-NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
+NPC harm gets noted by the mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
 
 #### Taken Out
 
@@ -140,7 +140,7 @@ When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action)
 
 #### Luck
 
-**Luck** are resource points that represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how Fortune Points work.
+**Luck** are resource points that represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how luck work.
 
 ## Moderation
 
@@ -209,7 +209,7 @@ expectantly, you make a regular reaction. When a player fails a die roll
 
 1.  \...follow logically from the fiction.
 2.  \...give the player an opportunity to react.
-3.  \...set you up for a future hard Reaction.
+3.  \...set you up for a future hard reaction.
 
 **Hard reactions** should\...
 
