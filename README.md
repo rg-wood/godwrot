@@ -1,5 +1,7 @@
 # GODWROT
 
+_**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)** | **[Issues](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**_
+
 **GODWROT** is a _Powered by the Apocalypse_ hack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
 
 ## Protagonists
@@ -45,6 +47,7 @@ The next stage of creating protagonists is to pick 3 **player moves**. When a pl
 
 All protagonists in **GODWROT** are broken in some way. **Flaws** represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a flaw from the list below and record it on your protagonist sheet:
 
+- Bolshie
 - Bumbling
 - Cowardly
 - Devious
@@ -105,7 +108,7 @@ You do not [Mark Experience](#mark-experience) when you use this move to fail a 
 
 #### Mark Experience
 
-Whenever you **fail a roll** you earn an Experience Point. Mark it on the Experience section of your sheet. When you hit 5 Experience Points, erase all of it and take a new [Player Move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the Player Move you purchase.
+Whenever you **fail a roll** you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new [player move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.
 
 #### Betray Trust
 
@@ -123,7 +126,7 @@ Every protagonist has a harm clock with six sections. When characters take **har
 
 When someone succeeds on a [Taking Action](#taking-action) roll, it’ll sometimes make sense that they would deal harm to their opposition. [Harm](#harm) is typically physical or mental harm that’s brought about by violence or stress. When someone does harm to someone else, the mod will rate that harm from 1-3. protagonist harm gets marked down on the harm clock on their protagonist sheet.
 
-NPC harm gets noted by the Mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
+NPC harm gets noted by the mod. NPCs can typically take 2 harm before they’re [taken out](#taken-out), but tougher NPCs might have more.
 
 #### Taken Out
 
@@ -139,11 +142,11 @@ When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action)
 
 #### Luck
 
-**Luck** are resource points that represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how Fortune Points work.
+**Luck** are resource points that represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how luck work.
 
 ## Moderation
 
-The **mod** is responsible for running and moderating the game. In particular, the mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the mod should say that something isn’t possible. When the mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
+The moderator (or **mod**) is responsible for running and moderating the game. In particular, the mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the mod should say that something isn’t possible. When the mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
 
 Early in the first session, the mod should juggle two responsibilities:
 
@@ -208,7 +211,7 @@ expectantly, you make a regular reaction. When a player fails a die roll
 
 1.  \...follow logically from the fiction.
 2.  \...give the player an opportunity to react.
-3.  \...set you up for a future hard Reaction.
+3.  \...set you up for a future hard reaction.
 
 **Hard reactions** should\...
 
