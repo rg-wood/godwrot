@@ -336,3 +336,9 @@ Yet, the inspiration for **WROTGOD** more properly begins with _The Hobbit_. The
 Too often, the systems I use to run my grubby fantasy games produce PCs that are too competent. As experience accrues, protagonists become increasingly capable, which breaks the setting. Characters in grubby fantasy are defined by their powerlessness. This game isn't about heroes, it's about wretches, twerps and other dubious figures that are, if not villains, corrupt at best.
 
 At the heart of **WROTGOD** is the [Steal Defeat](#steal-defeat) move (as in "stealing defeat from the jaws of victory"), which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
+
+### Intrigue
+
+Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than  exploration and treasure.
+
+For **GODWROT** these are represented by [mysteries](#mysteries), or version of Fronts and Threats.
