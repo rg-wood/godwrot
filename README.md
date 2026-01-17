@@ -146,7 +146,7 @@ When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action)
 
 ## Moderation
 
-The moderator (or **mod**) is responsible for running and moderating the game. In particular, the mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the mod should say that something isn’t possible. When the mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
+The moderator (or **mod**) is responsible for running the game. In particular, the mod will have to make judgment calls about what requires a [Taking Action](#taking-action) roll, and what is outright impossible. The mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the mod should say that something isn’t possible. When the mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”
 
 Early in the first session, the mod should juggle two responsibilities:
 
