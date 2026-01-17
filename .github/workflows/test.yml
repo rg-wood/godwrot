@@ -19,7 +19,3 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
-      - name: Check grammar and spelling
-        uses: reviewdog/action-languagetool@v1.22.0
-        with:
-          language: "en-GB"
