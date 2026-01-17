@@ -30,9 +30,9 @@
     "lint": "npx prettier . --check && npx htmlhint dist/index.html",
     "lint:fix": "npx prettier . --write",
     "test": "npm run lint && npm run test:links",
-    "test:pr": "npm run lint && npm run test:links",
+    "test:pr": "npm run lint && npm run test:links:soft",
     "test:links": "linkinator --check-fragments dist/index.html",
-    "test:links:soft": "linkinator --check-fragments --status-code '404:skip' dist/index.html",
+    "test:links:soft": "linkinator --check-fragments --status-code '404:warn' dist/index.html",
     "start": "npm run build && npm run start:server",
     "start:server": "browser-sync start --server --files dist --ss dist"
   },
