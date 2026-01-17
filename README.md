@@ -311,11 +311,11 @@ The Inner Guards are a small gang of sadists hiding within the city watch of Old
 
 ## Design Notes
 
-The concept of **WROTGOD** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that players might want a low fantasy flavour. From that, _Bleak World_ was born, a partially completed document that went through a number of versions and iterations, all of which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
+The concept of **GODWROT** has been bubbling around in my head for a while now. It started with an observation: that many _Powered by the Apocalypse_ fantasy games tend towards the high fantasy, and that players might want a low fantasy flavour. From that, _Bleak World_ was born, a partially completed document that went through a number of versions and iterations, all of which sat on my hard drive, unloved for many years. That is, until I came across [Simple World](https://buriedwithoutceremony.com/simple-world).
 
 Creating a PbtA game can be overwhelming, but _Simple World_ gave me a bare-bones framework to iterate off. Vincent Baker [exhorts](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/) us to "make something you can try" and iterate on that, but where to begin? _Simple World_ was that beginning.
 
-A name change was required (_Bleak World_ was too dull). I chose "Wyrgüd" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my _Troika!_ hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest. The result is the document you're reading now.
+A name change was required (_Bleak World_ was too dull). I chose "GODWROT" as a riff on [Wargod!](https://grislyeye.com/products/wargod/), my _Troika!_ hack, because this game is a spiritual successor to that one. Using the skeleton cut from _Simple World_, I began a process of continual playtest. The result is the document you're reading now.
 
 ### Grubby Fantasy
 
@@ -329,16 +329,16 @@ Though fallen out of use, grubby fantasy was the term coined by the designers of
 
 My love of grubby fantasy comes out of that fetid period of creativity in the 80s that spawned _Warhammer_, _Fighting Fantasy_ and _The Colour of Magic_.
 
-Yet, the inspiration for **WROTGOD** more properly begins with _The Hobbit_. The Middle Earth of this early work is less shiny than the one depicted in _The Lord of the Rings_. _The Hobbit_ is less an epic adventure than it is a fairy tale gone wrong. Our protagonists aren't motivated by heroism, but by greed, wrath, guilt and general confusion.
+Yet, the inspiration for **GODWROT** more properly begins with _The Hobbit_. The Middle Earth of this early work is less shiny than the one depicted in _The Lord of the Rings_. _The Hobbit_ is less an epic adventure than it is a fairy tale gone wrong. Our protagonists aren't motivated by heroism, but by greed, wrath, guilt and general confusion.
 
 ### Stealing Defeat
 
 Too often, the systems I use to run my grubby fantasy games produce PCs that are too competent. As experience accrues, protagonists become increasingly capable, which breaks the setting. Characters in grubby fantasy are defined by their powerlessness. This game isn't about heroes, it's about wretches, twerps and other dubious figures that are, if not villains, corrupt at best.
 
-At the heart of **WROTGOD** is the [Steal Defeat](#steal-defeat) move (as in "stealing defeat from the jaws of victory"), which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
+At the heart of **GODWROT** is the [Steal Defeat](#steal-defeat) move (as in "stealing defeat from the jaws of victory"), which emulates the picaresque aspects of the fiction. This move can affect all aspects of play, turning heroes into fools that prosper despite themselves.
 
 ### Intrigue
 
-Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than  exploration and treasure.
+Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than exploration and treasure.
 
-For **GODWROT** these are represented by [mysteries](#mysteries), or version of Fronts and Threats.
+For **GODWROT** these are represented by [mysteries](#mysteries), or version of Fronts and Threats.
