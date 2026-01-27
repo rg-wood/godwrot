@@ -106,6 +106,20 @@ For example:
 
 You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
 
+Examples of success being undermined by your own weakness:
+
+- You hit an opponent but your weapon sticks in their armour.
+- Your fireball backfires and damages you and your allies.
+- You win the argument only to accidentally reveal something that undermines everything you said.
+- You steal treasure from powerful individuals only to brag about it in public when drunk.
+
+Examples of flaws being accidentally beneficial:
+
+- Being beneath the notice of a deadly foe.
+- Retreating from an encounter you cannot win.
+- Oblivious to insults.
+- Clumsily falling over to dodge a blow.
+
 #### Mark Experience
 
 Whenever you **fail a roll** you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new [player move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.
