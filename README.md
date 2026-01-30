@@ -75,7 +75,7 @@ Whenever people look at the mod expectantly, the mod should make a regular react
 
 When you **take an action that risks failure or opposition**, roll with one of the basic [attributes](#attributes).
 
-- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt, or a [bonus to carry forward](#bonus-to-carry-forward).
+- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward).
 - On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
 
 #### Helping or Hindering
