@@ -8,24 +8,20 @@ _**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.c
 
 In **GODWROT** you play as **protagonists**, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
-1. Assign [attributes](#attributes).
+1. Assign [stats](#stats).
 2. Assign [trust](#trust) scores.
 3. Choose a [flaw](#flaws).
 4. Pick 3 [player moves](#player-moves).
 
-### Attributes
+### Stats
 
-Assign the following numbers to your **attributes**: +2, +1, +1, 0, -1. The 5 core attributes for **GODWROT** are:
+Assign the following numbers to each of your **stats**: +2, +1, +1, 0, -1. The stats for **GODWROT** are:
 
 - **Agility:** reflexive or graceful.
 - **Cunning**: inquisitive or exploratory.
 - **Strength:** aggressive or forceful.
 - **Wits**: calculating or methodical.
 - **Will:** persuasive or assertive.
-
-### Trust
-
-Every protagonist in the game has a **trust** stat with every other character. Assign the following trust scores that their protagonist has toward the other protagonists: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.
 
 ### Player Moves
 
@@ -37,11 +33,11 @@ The next stage of creating protagonists is to pick 3 **player moves**. When a pl
 
 • You have [some passive special power that has a constant effect].
 
-• You have a [thing]. When applicable, it adds +1 to [attribute] and [attribute].
+• You have a [thing]. When applicable, it adds +1 to [stat] and [stat].
 
 • When you do [speciality], mark XP.
 
-• Add +1 to [attribute].
+• Add +1 to [stat].
 
 ### Flaws
 
@@ -63,7 +59,7 @@ All protagonists in **GODWROT** are broken in some way. **Flaws** represent this
 
 The game is like a **conversation**. People describe what their protagonists do, ask questions about what’s going on, and talk in character.
 
-At some point, the mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The mod will name which [attribute](#attributes) applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.
+At some point, the mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The mod will name which [stat](#stats) applies to the situation. The player rolls two six-sided dice and adds their stat to the sum. The effects depend on the basic move in question.
 
 Moves and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
 
@@ -73,22 +69,10 @@ Whenever people look at the mod expectantly, the mod should make a regular react
 
 #### Taking Action
 
-When you **take an action that risks failure or opposition**, roll with one of the basic [attributes](#attributes).
+When you **take an action that risks failure or opposition**, roll with one of the basic [stat](#stats).
 
 - On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt, or a [bonus to carry forward](#bonus-to-carry-forward).
 - On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
-
-#### Helping or Hindering
-
-When you **help or hinder another protagonist**, roll your trust stat with that person.
-
-- On a 10+, add or subtract 2 from their roll.
-- On a 7-9, the mod will name a cost; if you accept the cost, add or subtract 2 from their roll.
-
-When you **help or hinder a NPC**, roll your trust stat with that person.
-
-- On a 10+, they either succeed or fail - your choice.
-- On a 7-9, the mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
 #### Snatch Defeat
 
@@ -109,14 +93,6 @@ You do not [Mark Experience](#mark-experience) when you use this move to fail a 
 #### Mark Experience
 
 Whenever you **fail a roll** you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new [player move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.
-
-#### Betray Trust
-
-When you **betray another character** you gain a +2 bonus to a roll, but their trust score goes down by 1.
-
-#### Sacrifice
-
-When you **make meaningful sacrifices for another character** your trust score toward that person will go up by 1.
 
 ### Harm
 
