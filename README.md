@@ -232,5 +232,5 @@ The reactions are:
 - Give them a difficult decision to make.
 - Tell them the possible consequences and ask.
 - Turn their move back on them.
-- Make them investigate.
+- Reveal a mystery that obscures.
 - Introduce corruption to obstruct.
