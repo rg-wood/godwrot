@@ -2,7 +2,7 @@
 
 ## Style Guide
 
-When writing for **GODWROT** there are set of standards for language and formatting. This section details these standards. In particular, spelling should use British English.
+When writing for **GODWROT** there are set of standards for language and formatting that should be followed. This section details these standards. In particular, spelling should use British English.
 
 Grammatical standards:
 
