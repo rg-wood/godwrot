@@ -9,9 +9,8 @@ _**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.c
 In **GODWROT** you play as **protagonists**, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
 1. Assign [stats](#stats).
-2. Assign [trust](#trust) scores.
-3. Choose a [flaw](#flaws).
-4. Pick 3 [player moves](#player-moves).
+2. Choose a [flaw](#flaws).
+3. Pick 3 [player moves](#player-moves).
 
 ### Stats
 
