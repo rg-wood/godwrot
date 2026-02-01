@@ -43,7 +43,7 @@ All protagonists in **GODWROT** are broken in some way. **Flaws** represent this
 
 ## Rules
 
-The game is a **conversation**. 
+The game is a **conversation**.
 
 ### Basic Moves
 
