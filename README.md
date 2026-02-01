@@ -25,8 +25,6 @@ Assign the following numbers to each of your **stats**: +2, +1, +1, 0, -1. The s
 
 ### Player Moves
 
-
-
 ### Flaws
 
 All protagonists in **GODWROT** are broken in some way. **Flaws** represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a flaw from the list below and record it on your protagonist sheet:
@@ -138,5 +136,5 @@ The reactions are:
 - Give them a difficult decision to make.
 - Tell them the possible consequences and ask.
 - Turn their move back on them.
-- Make them investigate.
+- Reveal a mystery that obscures.
 - Introduce corruption to obstruct.
