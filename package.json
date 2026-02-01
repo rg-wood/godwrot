@@ -1,9 +1,14 @@
 {
   "name": "godwrot",
   "version": "0.2.0",
-  "author": "Ric Wood <ric@grislyeye.com>",
+  "author": {
+    "name": "Ric Wood",
+    "email": "ric@grislyeye.com",
+    "url": "https://grislyeye.com/"
+  },
   "dependencies": {
     "@grislyeye/link-preview": "^0.0.3",
+    "liquidjs": "^10.24.0",
     "magick.css": "^1.0.6",
     "normalize.css": "^8.0.1",
     "vellum-doc": "^0.10.1"
@@ -18,6 +23,7 @@
     "prettier": "^3.8.1",
     "rimraf": "^6.1.2",
     "stylelint": "^17.0.0",
+    "stylelint": "^17.1.0",
     "stylelint-config-standard": "^40.0.0"
   },
   "scripts": {
@@ -47,5 +53,8 @@
         "dist"
       ]
     }
+  },
+  "document": {
+    "title": "GOODWROT"
   }
 }
