@@ -22,8 +22,6 @@ Assign the following numbers to each of your **stats**: +2, +1, +1, 0, -1. The s
 - **Wits**: calculating or methodical.
 - **Will:** persuasive or assertive.
 
-### Player Moves
-
 ### Flaws
 
 All protagonists in **GODWROT** are broken in some way. **Flaws** represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a flaw from the list below and record it on your protagonist sheet:
@@ -39,6 +37,8 @@ All protagonists in **GODWROT** are broken in some way. **Flaws** represent this
 - Reckless
 - Treacherous
 - Wicked
+
+### Player Moves
 
 ## Rules
 
