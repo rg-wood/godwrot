@@ -10,7 +10,7 @@ In **GODWROT** you play as **protagonists**, individuals of dubious morality who
 
 1. Assign [stats](#stats).
 2. Choose a [flaw](#flaws).
-3. Pick 3 [player moves](#player-moves).
+3. Pick 3 [moves](#protagonist-moves).
 
 ### Stats
 
@@ -38,13 +38,15 @@ All protagonists in **GODWROT** are broken in some way. **Flaws** represent this
 - Treacherous
 - Wicked
 
-### Player Moves
+### Protagonist Moves
 
-- when you do something related to (specialty) roll for bonus
-- when you do (specialty) roll for/get hold. spend hold for bonus
-- you have the ability to (active power). it counts as base move using (stat)
-- you have (passive power with constant effect)
-- you have a (thing). when applicable it adds two bonuses
+**Protagonist moves** are custom moves that set your protagonist apart from the others. When you make your protagonist, pick three options from the below. Fill in the blanks and give the new move a name:
+
+- When you do something related to [speciality] roll for a [bonus](#bonuses).
+- When you do something related to [speciality] gain hold. Spend hold for a [bonus](#bonuses).
+- You have the ability to [active power]. It counts as base move using [stat]
+- You have [passive power with constant effect].
+- You have a [thing]. When applicable it adds two [bonuses](#bonuses).
 
 ## Rules
 
@@ -52,11 +54,11 @@ The game is a **conversation**. Somebody says something, then you reply, maybe s
 
 #### Moves
 
-Every so often, when a player describes their character doing, it triggers a **move**. Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. Follow the moves' description to see what you need to do and what happens.
+Every so often, when a player describes their protagonist doing, it triggers a **move**. Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. Follow the moves' description to see what you need to do and what happens.
 
 #### Rolling
 
-Some moves will tell you to make a **roll**. When you do this, roll 2d6 and add any modifiers and/or stats that apply.
+Some moves will tell you to make a **roll**. Roll 2d6 and add any modifiers and/or stats that apply. A roll fails on a 6-. Failure means the mod makes a [hard move](#mod-moves).
 
 #### Bonuses
 
@@ -133,13 +135,25 @@ When you **run the game**:
 When you **speak**:
 
 - Address the protagonists, not the players.
-- Make your [reaction](#reaction), but never speak its name.
+- Make your [move](#mod-moves), but never speak its name.
 - Ask provocative questions and build on the answers.
 - Sometimes, reflect a question back upon the players.
 
-### Reactions
+### Mod Moves
 
-The reactions are:
+Mods can make their own moves:
+
+- When everyone looks to you to find out what happens make a soft move.
+- When the players give you a golden opportunity make a soft move.
+- When they roll a 6- make a had move.
+
+A **soft move** is one without immediate, irrevocable consequences. That  usually means it’s something not all that bad, like revealing that  there’s more treasure if they can just find a way past the golem (offer  an opportunity with cost). It can also mean that it’s something bad, but they have time to avoid it, like having the goblin archers loose their  arrows (show signs of an approaching threat) with a chance for them to  dodge out of danger.
+
+**Hard move**, on the other hand, have immediate  consequences. Dealing damage is almost always a hard move, since it  means a loss of HP that won’t be recovered without some action from the  players.
+
+Generally when the players are just looking at you to find out what happens you make a soft move. Otherwise you make a hard move.
+
+The mod moves are:
 
 - Separate them.
 - Put them together.
