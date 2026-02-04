@@ -40,37 +40,55 @@ All protagonists in **GODWROT** are broken in some way. **Flaws** represent this
 
 ### Player Moves
 
+- when you do something related to (specialty) roll for bonus
+- when you do (specialty) roll for/get hold. spend hold for bonus
+- you have the ability to (active power). it counts as base move using (stat)
+- you have (passive power with constant effect)
+- you have a (thing). when applicable it adds two bonuses
+
 ## Rules
 
-The game is a **conversation**.
+The game is a **conversation**. Somebody says something, then you reply, maybe someone else chimes in. We talk about the fiction—the world of the characters and the things that happen around them. As we play, the rules will chime in, too. Players take turns in the natural flow of the conversation, which always has some back-and-forth. The GM says something, the players respond. The players ask questions or make statements, the mod tells them what happens next.
+
+#### Moves
+
+Every so often, when a player describes their character doing, it triggers a **move**. Moves are rules that tell you when they trigger and what effect they have. A move depends on a fictional action and always has some fictional effect. Follow the moves' description to see what you need to do and what happens.
+
+#### Rolling
+
+Some moves will tell you to make a **roll**. When you do this, roll 2d6 and add any modifiers and/or stats that apply.
+
+#### Bonuses
+
+Some [moves](#moves)...
+
+…Say “take +1 forward.” That means to take +1 to your next move roll (not damage). The bonus can be greater than +1, or even a penalty, like -1. There also might be a condition, such as “take +1 forward to hack and slash,” in which case the bonus applies only to the next time you roll hack and slash, not any other move.
+
+…Say “take +1 ongoing.” That means to take +1 to all move rolls (not damage). The bonus can be larger than +1, or it can be a penalty, like -1. There also might be a condition, such as “take +1 ongoing to volley.” An ongoing bonus also says what causes it to end, like “until you dismiss the spell” or “until you atone to your deity.”
+
+…Give you “hold.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can’t spend your hold from defend on trap expert or vice versa, for example.
 
 ### Basic Moves
 
+#### Defy Danger
+
+When you **act despite an imminent threat** or **suffer a calamity**, say how you deal with it and roll. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do, or the threat doesn’t come to bear. The mod may offer a +1 forward, +1 ongoing or hold. **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
+
 #### Snatch Defeat
 
-When you **succeed with a move related to your flaw** you can choose to fail that roll instead and take 1 [luck point](#luck). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#grubby).
+When you **succeed with a roll related to your flaw** you can choose to fail that roll instead and hold 1. Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#grubby).
 
-You may spend a luck point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
+You may spend your hold to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
 
 For example:
 
-> Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.
+> Gregori succeeds on an attack move with a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead, taking 1 hold.
 >
 > Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
 >
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
-
-You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
+> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his hold, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
 ### Harm
-
-### Bonus to Carry Forward
-
-### Resource Points
-
-#### Luck
-
-**Luck** are resource points that represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how luck work.
 
 ## Moderation
 
