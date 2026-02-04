@@ -21,4 +21,3 @@ jobs:
         with:
           github_token: ${{ secrets.github_token }}
           language: "en-GB"
-          patterns: README\.md
