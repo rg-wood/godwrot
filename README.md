@@ -9,7 +9,7 @@ _**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.c
 In **GODWROT** you play as **protagonists**, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
 1. Assign [stats](#stats).
-2. Set [harm](#harm) at 4 + Strength + Will.
+2. Set [harm](#harm) at 4 + Strength + Will.
 3. Choose a [flaw](#flaws).
 4. Pick 3 [moves](#protagonist-moves).
 
@@ -73,7 +73,7 @@ Some [moves](#moves)...
 
 #### Harm
 
-**Harm** is a measure of how much physical and mental stress a character has taken. When you're asked to deal harm, reduce the character's harm by -1 or -2, depending of the severity of the fictional damage. An average NPC has 2 harm, while stronger characters can have 3 to 4 harm.
+**Harm** is a measure of how much physical and mental stress a character has taken. When you're asked to deal harm, reduce the character's harm by -1 or -2, depending on the severity of the fictional damage. An average NPC has 2 harm, while stronger characters can have 3 to 4 harm.
 
 ### Basic Moves
 
