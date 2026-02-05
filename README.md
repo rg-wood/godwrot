@@ -93,9 +93,9 @@ When a character looses all harm they are **taken out** and leave the game someh
 
 ### Basic Moves
 
-#### Defy Danger
+#### Take Action
 
-When you **act despite an imminent threat** or **suffer a calamity**, say how you deal with it and roll. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do, or the threat doesn’t come to bear. The mod may offer a +1 forward, +1 ongoing or hold. **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
+When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a +1 forward, +1 ongoing or hold. **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
 
 #### Snatch Defeat
 
