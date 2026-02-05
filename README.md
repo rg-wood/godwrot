@@ -11,7 +11,8 @@ In **GODWROT** you play as **protagonists**, individuals of dubious morality who
 1. Assign [attributes](#attributes).
 2. Assign [trust](#trust) scores.
 3. Choose a [flaw](#flaws).
-4. Pick 3 [player moves](#player-moves).
+4. Choose your [career move](#career-moves).
+5. Pick 2 [player moves](#player-moves).
 
 ### Attributes
 
@@ -27,9 +28,21 @@ Assign the following numbers to your **attributes**: +2, +1, +1, 0, -1. The 5 co
 
 Every protagonist in the game has a **trust** stat with every other character. Assign the following trust scores that their protagonist has toward the other protagonists: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.
 
+#### Career Moves
+
+A **career move** determines what your protagonist did before they were drawn into dire events. Career moves follow this format:
+
+**[Background] [Career]:** When **you do something related to your background or career**, add +1.
+
+Your background indicates the dubious circumstances of your birth. For example, you could be a humble halfling or a street urchin. A career is some kind of profession suitable for a protagonist, such as burglar or itinerant monk.
+
+> For example:
+>
+> **Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1.
+
 ### Player Moves
 
-The next stage of creating protagonists is to pick 3 **player moves**. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their protagonist sheet.
+The next stage of creating protagonists is to pick 2 **player moves**. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their protagonist sheet.
 
 • When you do something relating to [speciality], add +1.
 
