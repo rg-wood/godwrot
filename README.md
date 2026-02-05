@@ -11,7 +11,8 @@ In **GODWROT** you play as **protagonists**, individuals of dubious morality who
 1. Assign [stats](#stats).
 2. Set [harm](#harm) at 4 + Strength + Will.
 3. Choose a [flaw](#flaws).
-4. Pick 3 [moves](#protagonist-moves).
+4. Choose your [career move](#career-moves).
+5. Pick 2 [player moves](#player-moves).
 
 ### Stats
 
@@ -39,9 +40,21 @@ All protagonists in **GODWROT** are broken in some way. **Flaws** represent this
 - Treacherous
 - Wicked
 
+#### Career Moves
+
+A **career move** determines what your protagonist did before they were drawn into dire events. Career moves follow this format:
+
+**[Background] [Career]:** When **you do something related to your background or career**, add +1.
+
+Your background indicates the dubious circumstances of your birth. For example, you could be a humble halfling or a street urchin. A career is some kind of profession suitable for a protagonist, such as burglar or itinerant monk.
+
+> For example:
+>
+> **Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1.
+
 ### Protagonist Moves
 
-**Protagonist moves** are custom moves that set your protagonist apart from the others. When you make your protagonist, pick three options from the below. Fill in the blanks and give the new move a name:
+**Protagonist moves** are custom moves that set your protagonist apart from the others. When you make your protagonist, pick two options from the below. Fill in the blanks and give the new move a name:
 
 - When you do something related to [speciality] roll for a [bonus](#bonuses).
 - When you do something related to [speciality] gain hold. Spend hold for a [bonus](#bonuses).
