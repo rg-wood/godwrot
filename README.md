@@ -9,8 +9,9 @@ _**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.c
 In **GODWROT** you play as **protagonists**, individuals of dubious morality who are in over their heads. To create a protagonist in **GODWROT** follow these steps:
 
 1. Assign [stats](#stats).
-2. Choose a [flaw](#flaws).
-3. Pick 3 [moves](#protagonist-moves).
+2. Set [harm](#harm) at 4 + Strength + Will.
+3. Choose a [flaw](#flaws).
+4. Pick 3 [moves](#protagonist-moves).
 
 ### Stats
 
@@ -70,6 +71,10 @@ Some [moves](#moves)...
 
 …Give you “hold.” Hold is currency that allows you to make some choices later on by spending the hold as the move describes. Hold is always saved up for the move that generated it; you can’t spend your hold from defend on trap expert or vice versa, for example.
 
+#### Harm
+
+**Harm** is a measure of how much physical and mental stress a character has taken. When you're asked to deal harm, reduce the character's harm by -1 or -2, depending of the severity of the fictional damage. An average NPC has 2 harm, while stronger characters can have 3 to 4 harm.
+
 ### Basic Moves
 
 #### Defy Danger
@@ -89,8 +94,6 @@ For example:
 > Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
 >
 > Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his hold, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
-
-### Harm
 
 ## Moderation
 
