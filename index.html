@@ -1,22 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
     <title>GODWROT</title>
 
-    <meta name="robots" content="index,follow" />
-    <meta name="author" content="R.G. Wood" />
-
-    <link href="assets/styles/main.css" rel="stylesheet" />
-    <link href="vendor/magick.css/magick.css" rel="stylesheet" />
+    <link href="vendor/magick.css/magick.css" rel="stylesheet">
+    <link href="assets/styles/main.css" rel="stylesheet">
 
     <script type="module">
-      import "./vendor/vellum-doc/vellum-doc.js";
+      import './vendor/vellum-doc/vellum-doc.js';
     </script>
   </head>
 
@@ -33,7 +27,8 @@
 <li>Assign <a href="#attributes">attributes</a>.</li>
 <li>Assign <a href="#trust">trust</a> scores.</li>
 <li>Choose a <a href="#flaws">flaw</a>.</li>
-<li>Pick 3 <a href="#player-moves">player moves</a>.</li>
+<li>Choose your <a href="#career-moves">career move</a>.</li>
+<li>Pick 2 <a href="#player-moves">player moves</a>.</li>
 </ol>
 <h3>Attributes</h3>
 <p>Assign the following numbers to your <strong>attributes</strong>: +2, +1, +1, 0, -1. The 5 core attributes for <strong>GODWROT</strong> are:</p>
@@ -46,8 +41,16 @@
 </ul>
 <h3>Trust</h3>
 <p>Every protagonist in the game has a <strong>trust</strong> stat with every other character. Assign the following trust scores that their protagonist has toward the other protagonists: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.</p>
+<h4>Career Moves</h4>
+<p>A <strong>career move</strong> determines what your protagonist did before they were drawn into dire events. Career moves follow this format:</p>
+<p><strong>[Background] [Career]:</strong> When <strong>you do something related to your background or career</strong>, add +1.</p>
+<p>Your background indicates the dubious circumstances of your birth. For example, you could be a humble halfling or a street urchin. A career is some kind of profession suitable for a protagonist, such as burglar or itinerant monk.</p>
+<blockquote>
+<p>For example:</p>
+<p><strong>Halfling Herbalist:</strong> When you <strong>do something related to your background as a halfling or your career as a herbalist</strong>, add +1.</p>
+</blockquote>
 <h3>Player Moves</h3>
-<p>The next stage of creating protagonists is to pick 3 <strong>player moves</strong>. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their protagonist sheet.</p>
+<p>The next stage of creating protagonists is to pick 2 <strong>player moves</strong>. When a player picks a move, they pick an option from the list below, give the move a title, and fill in the blanks. Each move gets recorded on their protagonist sheet.</p>
 <p>• When you do something relating to [speciality], add +1.</p>
 <p>• You have the ability to [do some sort of active special power]. It counts as a basic move using [stat].</p>
 <p>• You have [some passive special power that has a constant effect].</p>
@@ -78,7 +81,7 @@
 <h4>Taking Action</h4>
 <p>When you <strong>take an action that risks failure or opposition</strong>, roll with one of the basic <a href="#attributes">attributes</a>.</p>
 <ul>
-<li>On a 10+, you succeed at your goal. As appropriate, the mod might award you: <a href="#resource-points">resource points</a>, <a href="#harm">harm</a> dealt, or a <a href="#bonus-to-carry-forward">bonus to carry forward</a>.</li>
+<li>On a 10+, you succeed at your goal. As appropriate, the mod might award you: <a href="#resource-points">resource points</a>, <a href="#harm">harm</a> dealt or a <a href="#bonus-to-carry-forward">bonus to carry forward</a>.</li>
 <li>On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).</li>
 </ul>
 <h4>Helping or Hindering</h4>
@@ -93,7 +96,7 @@
 <li>On a 7-9, the mod will name a cost; if you accept the cost, they either succeed or fail - your choice.</li>
 </ul>
 <h4>Snatch Defeat</h4>
-<p>When you <strong>succeed with a move related to your Flaw</strong> you can choose to fail that roll instead and take 1 <a href="#luck">luck point</a>. Describe how your <a href="#flaws">flaw</a> intervenes to frustrate your goals and causes you to fail. Make it <a href="#grubby">grubby</a>.</p>
+<p>When you <strong>succeed with a move related to your flaw</strong> you can choose to fail that roll instead and take 1 <a href="#luck">luck point</a>. Describe how your <a href="#flaws">flaw</a> intervenes to frustrate your goals and causes you to fail. Make it <a href="#grubby">grubby</a>.</p>
 <p>You may spend a luck point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.</p>
 <p>For example:</p>
 <blockquote>
@@ -105,9 +108,9 @@
 <h4>Mark Experience</h4>
 <p>Whenever you <strong>fail a roll</strong> you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new <a href="#player-moves">player move</a>. If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.</p>
 <h4>Betray Trust</h4>
-<p>When you <strong>betray another character</strong> you gain a +2 bonus to a roll, but their trust score goes down by 1.</p>
+<p>When you <strong>betray another character</strong> you gain a +2 <a href="#bonus-to-carry-forward">bonus to carry forward</a>, but their <a href="#trust">trust</a> score goes down by 1.</p>
 <h4>Sacrifice</h4>
-<p>When you <strong>make meaningful sacrifices for another character</strong> your trust score toward that person will go up by 1.</p>
+<p>When you <strong>make meaningful sacrifices for another character</strong> your <a href="#trust">trust</a> score toward that person will go up by 1.</p>
 <h3>Harm</h3>
 <p>Every protagonist has a harm clock with six sections. When characters take <strong>harm</strong> in the game, they mark a number of sections equal to whatever amount of harm the mod tells them they take. Point out the harm clock, and explain that when it’s filled all the way up, the characters are <a href="#taken-out">taken out</a> of the action.</p>
 <h4>Dealing Harm</h4>
@@ -122,7 +125,7 @@
 <h4>Luck</h4>
 <p><strong>Luck</strong> are resource points that represent Lady Luck&#39;s favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of <strong>GODWROT</strong>. See the description of the <a href="#snatch-defeat">Snatch Defeat</a> move for more information on how luck work.</p>
 <h2>Moderation</h2>
-<p>The moderator (or <strong>mod</strong>) is responsible for running and moderating the game. In particular, the mod will have to make judgment calls about what requires a <a href="#taking-action">Taking Action</a> roll, and what is outright impossible. The mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the mod should say that something isn’t possible. When the mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”</p>
+<p>The moderator (or <strong>mod</strong>) is responsible for running the game. In particular, the mod will have to make judgment calls about what requires a <a href="#taking-action">Taking Action</a> roll, and what is outright impossible. The mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the mod should say that something isn’t possible. When the mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”</p>
 <p>Early in the first session, the mod should juggle two responsibilities:</p>
 <p>• Follow the protagonists around, and learn what they’re all about.</p>
 <p>• Give the players a sense of what the world is like, and how it operates.</p>
@@ -196,20 +199,21 @@ expectantly, you make a regular reaction. When a player fails a die roll
 <li>Give them a difficult decision to make.</li>
 <li>Tell them the possible consequences and ask.</li>
 <li>Turn their move back on them.</li>
-<li>Make them investigate.</li>
+<li>Reveal a mystery that obscures.</li>
 <li>Introduce corruption to obstruct.</li>
 </ul>
 
 
           <footer>
-            Version 0.1.1 copyright &copy; 2025-2026
-            <a href="https://grislyeye.com">Ric Wood</a>. GODWROT is based on
-            <a href="https://buriedwithoutceremony.com/simple-world"
-              >Simple World</a
-            >
-            by Avery Adler, and the
-            <em>Powered by the Apocalypse World</em> engine by D. Vincent Baker
-            and Meguey Baker.
+            <p>
+              GODWROT
+              0.2.0 &copy; 2026 <a href="https://grislyeye.com/">Ric Wood</a>.
+              GODWROT is based on
+              <a href="https://buriedwithoutceremony.com/simple-world">Simple World</a>
+              by Avery Adler, and the
+              <em>Powered by the Apocalypse World</em>
+              engine by D. Vincent Baker and Meguey Baker.
+            </p>
           </footer>
         </section>
       </vellum-doc>
