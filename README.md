@@ -56,8 +56,9 @@ Your background indicates the dubious circumstances of your birth. For example, 
 
 **Protagonist moves** are custom moves that set your protagonist apart from the others. When you make your protagonist, pick two options from the below. Fill in the blanks and give the new move a name:
 
-- When you do something related to [speciality] roll for a [bonus](#bonuses).
-- When you do something related to [speciality] gain hold. Spend hold for a [bonus](#bonuses).
+- When you do something related to [speciality], add +1.
+- When you do something related to [speciality], roll for a [bonus](#bonuses).
+- When you do something related to [speciality], gain hold. Spend hold for a [bonus](#bonuses).
 - You have the ability to [active power]. It counts as base move using [stat]
 - You have [passive power with constant effect].
 - You have a [thing]. When applicable it adds two [bonuses](#bonuses).
