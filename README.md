@@ -75,6 +75,8 @@ Some [moves](#moves)...
 
 **Harm** is a measure of how much physical and mental stress a character has taken. When you're asked to deal harm, reduce the character's harm by -1 or -2, depending on the severity of the fictional damage. An average NPC has 2 harm, while stronger characters can have 3 to 4 harm.
 
+When a character looses all harm they are **taken out** and leave the game somehow, perhaps simply dying or perhaps running off into the darkness in abject fear, or something else altogether. For protagonists, the player gets to decide what happens to their character. For NPCs, the mod decides what happens, usually something short for average NPCs.
+
 ### Basic Moves
 
 #### Defy Danger
