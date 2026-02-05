@@ -51,7 +51,7 @@ All protagonists in **GODWROT** are broken in some way. **Flaws** represent this
 
 ## Rules
 
-The game is a **conversation**. Somebody says something, then you reply, maybe someone else chimes in. We talk about the fiction—the world of the characters and the things that happen around them. As we play, the rules will chime in, too. Players take turns in the natural flow of the conversation, which always has some back-and-forth. The GM says something, the players respond. The players ask questions or make statements, the mod tells them what happens next.
+The game is a **conversation**. Somebody says something, someone else replies, and maybe someone else chimes in. Players talk about the fiction—the world of the characters and the things that happen around them. As they play, the rules will chime in, too. Players take turns in the natural flow of the conversation, which always has some back-and-forth. The mod says something, the players respond. The players ask questions or make statements, the mod tells them what happens next.
 
 #### Moves
 
