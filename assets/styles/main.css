@@ -8,7 +8,7 @@ body {
 }
 
 body main {
-  max-width: unset;
+  margin: unset;
 }
 
 vellum-doc {
@@ -45,22 +45,6 @@ vellum-doc::part(index-h4) {
   font-size: 0.8em;
 }
 
-#document {
-  padding-left: 5em;
-  padding-right: 5em;
-}
-
-@media (max-width: 850px) {
-  #document {
-    padding-left: 2em;
-    padding-right: 1em;
-  }
-}
-
-#document > section {
-  width: 100%;
-}
-
 #document > section:has(h4:first-child) {
   width: 47%;
 }
@@ -81,4 +65,5 @@ vellum-doc::part(index-h4) {
 
 #document footer {
   border-top: 1px solid;
+  font-size: small;
 }
