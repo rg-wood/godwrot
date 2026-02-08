@@ -103,7 +103,7 @@ When you **help or hinder a NPC**, roll your trust stat with that person.
 - On a 10+, they either succeed or fail - your choice.
 - On a 7-9, the mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
 
-#### Snatch Defeat
+#### Snatching Defeat
 
 When you **succeed with a move related to your flaw** you can choose to fail that roll instead and take 1 [luck point](#luck). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#grubby).
 
