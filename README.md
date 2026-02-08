@@ -119,9 +119,7 @@ For example:
 
 You do not [Mark Experience](#mark-experience) when you use this move to fail a roll.
 
-#### Mark Experience
-
-Whenever you **fail a roll** you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new [player move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.
+### Trust Moves
 
 #### Betray Trust
 
@@ -130,6 +128,12 @@ When you **betray another character** you gain a +2 [bonus to carry forward](#bo
 #### Sacrifice
 
 When you **make meaningful sacrifices for another character** your [trust](#trust) score toward that person will go up by 1.
+
+### Other Moves
+
+#### Mark Experience
+
+Whenever you **fail a roll** you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new [player move](#player-moves). If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.
 
 ### Harm
 
