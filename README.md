@@ -248,4 +248,4 @@ The reactions are:
 - Reveal a mystery that obscures.
 - Introduce corruption to obstruct.
 
-[^1]: When creating your own flaws, bear in mind playability. The flaws we list here have been selected to be engaging and group-friendly. Flaws that discourage roleplaying (like Taciturn) or 
+[^1]: When creating your own flaws, bear in mind playability. The flaws we list here have been selected to be engaging and group-friendly. Flaws that discourage roleplaying (like Shy) or risk player conflict (such as Kleptomania) should be avoided.
