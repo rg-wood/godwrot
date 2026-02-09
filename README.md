@@ -2,7 +2,7 @@
 
 _**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)** | **[Issues](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**_
 
-**GODWROT** is a narrative game of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school. It is based on [Simple World](https://buriedwithoutceremony.com/simple-world) by Avery Adler, and the *Powered by the Apocalypse World* engine by D. Vincent Baker and Meguey Baker.
+**GODWROT** is a narrative game of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school. It is based on [Simple World](https://buriedwithoutceremony.com/simple-world) by Avery Adler, and the _Powered by the Apocalypse World_ engine by D. Vincent Baker and Meguey Baker.
 
 ## Protagonists
 
