@@ -10,7 +10,6 @@ marked.use({
 });
 
 const markdown = fs.readFileSync("README.md", "utf8");
-
 const html = marked.use(markedFootnote()).parse(markdown);
 
 engine
