@@ -28,7 +28,7 @@ Assign the following numbers to your **attributes**: +2, +1, +1, 0, -1. The 5 co
 
 Every protagonist in the game has a **trust** stat with every other character. Assign the following trust scores that their protagonist has toward the other protagonists: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.
 
-#### Career Moves
+### Career Moves
 
 A **career move** determines what your protagonist did before they were drawn into dire events. Career moves follow this format:
 
