@@ -255,6 +255,8 @@ The reactions are:
 
 ### Intrigues
 
+After the first session it's time to draw the protagonists into their first intrigue.
+
 Intrigues are the main form of conflict in **GODWROT**. Protagonists investigate **intrigues**. An intrigue consists of the following elements:
 
 - The **conspiracy** is the heart of the intrigue, the characters, items and locations that are hidden, and the characters involved in covering them up.
@@ -339,6 +341,6 @@ At the heart of **GODWROT** is the [Steal Defeat](#steal-defeat) move (as in "st
 
 ### Intrigue
 
-Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than exploration and treasure. If you look at the early *Warhammer Fantasy Roleplay* books, they resemble _Call of Cthulhu_ more than _Dungeons & Dragons_. Early adventures see player characters investigating cults in cities, rather than exploring dungeons in wildernesses.
+Unlike other forms of old-school fantasy, grubby fantasy focuses more on intrigue than exploration and treasure. If you look at the early _Warhammer Fantasy Roleplay_ books, they resemble _Call of Cthulhu_ more than _Dungeons & Dragons_. Early adventures see player characters investigating cults in cities, rather than exploring dungeons in wildernesses.
 
 For **GODWROT** these are represented by [intrigues](#intrigues), or version of Fronts and Threats.
