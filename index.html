@@ -6,6 +6,7 @@
 
     <title>GODWROT</title>
 
+    <link href="vendor/normalize.css/normalize.css" rel="stylesheet">
     <link href="vendor/magick.css/magick.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
 
@@ -15,12 +16,13 @@
   </head>
 
   <body>
-    <main>
-      <vellum-doc anchors>
+    <vellum-doc anchors>
+      <main>
         <section id="document">
+          
           <h1>GODWROT</h1>
 <p><em><strong><a href="https://github.com/rg-wood/godwrot">Source</a></strong> | <strong><a href="https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement">Roadmap</a></strong> | <strong><a href="https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug">Issues</a></strong></em></p>
-<p><strong>GODWROT</strong> is a <em>Powered by the Apocalypse</em> hack of grubby fantasy inspired by <em>Warhammer</em>, <em>Terry Pratchett</em> and the British old-school.</p>
+<p><strong>GODWROT</strong> is a narrative game of grubby fantasy inspired by <em>Warhammer</em>, <em>Terry Pratchett</em> and the British old-school. It is based on <a href="https://buriedwithoutceremony.com/simple-world">Simple World</a> by Avery Adler, and the <em>Powered by the Apocalypse World</em> engine by D. Vincent Baker and Meguey Baker.</p>
 <h2>Protagonists</h2>
 <p>In <strong>GODWROT</strong> you play as <strong>protagonists</strong>, individuals of dubious morality who are in over their heads. To create a protagonist in <strong>GODWROT</strong> follow these steps:</p>
 <ol>
@@ -41,7 +43,7 @@
 </ul>
 <h3>Trust</h3>
 <p>Every protagonist in the game has a <strong>trust</strong> stat with every other character. Assign the following trust scores that their protagonist has toward the other protagonists: +2 for the one they know best, -1 for the one they know least, and +1 for all others. Trust with all NPCs starts at 0.</p>
-<h4>Career Moves</h4>
+<h3>Career Moves</h3>
 <p>A <strong>career move</strong> determines what your protagonist did before they were drawn into dire events. Career moves follow this format:</p>
 <p><strong>[Background] [Career]:</strong> When <strong>you do something related to your background or career</strong>, add +1.</p>
 <p>Your background indicates the dubious circumstances of your birth. For example, you could be a humble halfling or a street urchin. A career is some kind of profession suitable for a protagonist, such as burglar or itinerant monk.</p>
@@ -58,7 +60,12 @@
 <p>• When you do [speciality], mark XP.</p>
 <p>• Add +1 to [attribute].</p>
 <h3>Flaws</h3>
-<p>All protagonists in <strong>GODWROT</strong> are broken in some way. <strong>Flaws</strong> represent this and determine when you can use the <a href="#snatch-defeat">Snatch Defeat</a> basic move. Choose a flaw from the list below and record it on your protagonist sheet:</p>
+<p>All protagonists in <strong>GODWROT</strong> are broken in some way. <strong>Flaws</strong>
+        <span class="sidenote-anchor"></span>
+        <span class="sidenote">
+You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided.
+</span>
+       represent this and determine when you can use the <a href="#snatch-defeat">Snatch Defeat</a> basic move. Choose a flaw from the list below and record it on your protagonist sheet:</p>
 <ul>
 <li>Bolshy</li>
 <li>Bumbling</li>
@@ -73,16 +80,40 @@
 <li>Wicked</li>
 </ul>
 <h2>Rules</h2>
-<p>The game is like a <strong>conversation</strong>. People describe what their protagonists do, ask questions about what’s going on, and talk in character.</p>
-<p>At some point, the mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a <a href="#basic-moves">basic move</a>. The mod will name which <a href="#attributes">attribute</a> applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.</p>
-<p>Moves and <a href="#reactions">reactions</a> should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a <a href="#basic-moves">basic move</a>, the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.</p>
+<p>The game is like a <strong>conversation</strong>. People describe what their protagonists do, ask questions about what’s going on, and talk in character. Sometimes, the conversation will trigger <a href="#basic-moves">moves</a> and <a href="#reactions">reactions</a>, which should continually propel the game forward in interesting ways.</p>
 <p>Whenever people look at the mod expectantly, the mod should make a regular reaction. This should create new things for the players to react to. The mod should then go on to say, “So, what do you do?”</p>
+<h3>Rolling</h3>
+<p>At some point, the mod will determine that something has triggered a <a href="#basic-moves">move</a>&nbsp;and requires a roll. The player rolls two six-sided dice and adds whatever modifiers apply to the sum. The effects depend on the move in question.</p>
+<ul>
+<li>When a player succeeds on a move, their success should be interesting and introduce new opportunities for them.</li>
+<li>When a player gets a 7-9 on a <a href="#basic-moves">basic move</a>, the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.</li>
+<li>When a player fails on a basic move, the mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.</li>
+</ul>
+<h3>Mea Culpa</h3>
+<p>When you succeed on a <a href="#basic-moves">move</a> related to your <a href="#flaw">flaw</a> you can choose to take a <strong>mea culpa</strong> instead. A mea culpa is something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of <strong>GODWROT</strong>.</p>
+<p>When you take a mea culpa:</p>
+<ul>
+<li>Describe how your <a href="#flaws">flaw</a> intervenes to frustrate your goals and causes you to fail.</li>
+<li>Devise a suitable <a href="#reactions">hard reaction</a> with the mod.</li>
+<li>Make it <a href="#grubby">grubby</a>.</li>
+<li>It's not all bad: you get to hold <a href="#luck">luck</a>.</li>
+</ul>
+<h4>Luck</h4>
+<p>When you take a <a href="#mea-culpa">mea culpa</a> Lady Luck takes pity on your foibles and you hold <strong>luck</strong>. You may spend luck to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it <a href="#grubby">grubby</a>. The mod will then offer you a hard bargain or a cost.</p>
+<p>For example:</p>
+<blockquote>
+<p>Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.</p>
+<p>Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.</p>
+<p>Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.</p>
+</blockquote>
+<p>You either do or do not hold luck. It doesn't stack and once you've used it you must take a mea culpa to hold it again.</p>
 <h3>Basic Moves</h3>
 <h4>Taking Action</h4>
-<p>When you <strong>take an action that risks failure or opposition</strong>, roll with one of the basic <a href="#attributes">attributes</a>.</p>
+<p>When you <strong>take an action that risks failure or opposition</strong>, the mod tells you which of your <a href="#attributes">attributes</a>&nbsp;is relevant and add that you roll.</p>
 <ul>
-<li>On a 10+, you succeed at your goal. As appropriate, the mod might award you: <a href="#resource-points">resource points</a>, <a href="#harm">harm</a> dealt or a <a href="#bonus-to-carry-forward">bonus to carry forward</a>.</li>
+<li>On a 10+, you succeed at your goal. As appropriate, the mod might award you: <a href="#resource-points">resource points</a>, <a href="#harm">harm</a> dealt or a <a href="#bonus-to-carry-forward">bonus to carry forward</a>. If the <strong>action is related to your flaw</strong> you can take a <a href="#mea-culpa">mea culpa</a> instead and hold <a href="#luck">luck</a>.</li>
 <li>On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).</li>
+<li>On a -6 you fail with a <a href="#reactions">hard reaction</a>. You can choose to spend luck to succeed as though you had rolled a 7-9 instead.</li>
 </ul>
 <h4>Helping or Hindering</h4>
 <p>When you <strong>help or hinder another protagonist</strong>, roll your trust stat with that person.</p>
@@ -95,18 +126,7 @@
 <li>On a 10+, they either succeed or fail - your choice.</li>
 <li>On a 7-9, the mod will name a cost; if you accept the cost, they either succeed or fail - your choice.</li>
 </ul>
-<h4>Snatch Defeat</h4>
-<p>When you <strong>succeed with a move related to your flaw</strong> you can choose to fail that roll instead and take 1 <a href="#luck">luck point</a>. Describe how your <a href="#flaws">flaw</a> intervenes to frustrate your goals and causes you to fail. Make it <a href="#grubby">grubby</a>.</p>
-<p>You may spend a luck point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.</p>
-<p>For example:</p>
-<blockquote>
-<p>Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.</p>
-<p>Gregori&#39;s player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.</p>
-<p>Later, Gregori is fighting Marcus, the Bandit King. It&#39;s an important fight but he fails an attack move at a crucial moment. Deciding to spend luck, he somehow succeeds instead. His player describes his stroke of luck, saying &quot;as I blindly attack, my broadsword swings wild, missing Marcus&#39; head and instead slamming into a line of rope tying up a crate.&quot; The mod determines the crate slams into Marcus&#39; head, blood and brains splattering everywhere.</p>
-</blockquote>
-<p>You do not <a href="#mark-experience">Mark Experience</a> when you use this move to fail a roll.</p>
-<h4>Mark Experience</h4>
-<p>Whenever you <strong>fail a roll</strong> you earn an experience point. Mark it on the Experience section of your sheet. When you hit 5 experience points, erase all of it and take a new <a href="#player-moves">player move</a>. If you’ve already got at least one move that references each of your specialities, you may create a new speciality and reference it in the player move you purchase.</p>
+<h3>Trust Moves</h3>
 <h4>Betray Trust</h4>
 <p>When you <strong>betray another character</strong> you gain a +2 <a href="#bonus-to-carry-forward">bonus to carry forward</a>, but their <a href="#trust">trust</a> score goes down by 1.</p>
 <h4>Sacrifice</h4>
@@ -122,8 +142,6 @@
 <p>Sometimes, succeeding on a <a href="#taking-action">Taking Action</a> roll means that the protagonist is set up for future successes. In these cases, the mod can award a <strong>+1 bonus</strong> that the protagonist can apply to their next roll. The player should mark that bonus on their protagonist sheet.</p>
 <h3>Resource Points</h3>
 <p>When someone succeeds (with a 10+ or a 7-9) on a <a href="#taking-action">Taking Action</a> roll, it’ll sometimes make sense to represent their success with a number of <strong>resource points</strong>. For example, if someone tries to read a person’s facial expressions and determine their true intent in a conversation, they might make a roll. If they get a 10+, the mod might determine that they have 3 conversation points, and they can spend those points 1-for-1 to get answers about the character’s motivations and goals during the conversation. Resource points are always given a name and function at the time they are awarded. In most cases, resource points should be temporary, lasting until the end of a scene or situation.</p>
-<h4>Luck</h4>
-<p><strong>Luck</strong> are resource points that represent Lady Luck&#39;s favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of <strong>GODWROT</strong>. See the description of the <a href="#snatch-defeat">Snatch Defeat</a> move for more information on how luck work.</p>
 <h2>Moderation</h2>
 <p>The moderator (or <strong>mod</strong>) is responsible for running the game. In particular, the mod will have to make judgment calls about what requires a <a href="#taking-action">Taking Action</a> roll, and what is outright impossible. The mod should use their veto right judiciously and sparingly. If someone wants to take an action that subverts the genre, that’s good! It’s only when they want to take an action that is impossible or nonsensical for a given genre that the mod should say that something isn’t possible. When the mod says this, they should use the line, “I don’t think that’s possible, but you could instead [make some other interesting choice], if you’d like.”</p>
 <p>Early in the first session, the mod should juggle two responsibilities:</p>
@@ -195,7 +213,7 @@ expectantly, you make a regular reaction. When a player fails a die roll
 <li>Announce offscreen badness.</li>
 <li>Announce future badness.</li>
 <li>Take away one of their things.</li>
-<li>Demonstrate one of their things&#39; bad sides.</li>
+<li>Demonstrate one of their things' bad sides.</li>
 <li>Give them a difficult decision to make.</li>
 <li>Tell them the possible consequences and ask.</li>
 <li>Turn their move back on them.</li>
@@ -207,17 +225,12 @@ expectantly, you make a regular reaction. When a player fails a die roll
           <footer>
             <p>
               GODWROT
-              0.2.0 &copy; 2026 <a href="https://grislyeye.com/">Ric Wood</a>.
-              GODWROT is based on
-              <a href="https://buriedwithoutceremony.com/simple-world">Simple World</a>
-              by Avery Adler, and the
-              <em>Powered by the Apocalypse World</em>
-              engine by D. Vincent Baker and Meguey Baker.
+              0.3.0 &copy; 2026 <a href="https://grislyeye.com/">Ric Wood</a>.
             </p>
           </footer>
         </section>
-      </vellum-doc>
-    </main>
+      </main>
+    </vellum-doc>
   </body>
 </html>
 

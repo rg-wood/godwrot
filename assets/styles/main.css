@@ -7,10 +7,6 @@ body {
   padding: 0;
 }
 
-body main {
-  max-width: unset;
-}
-
 vellum-doc {
   --index-width: 250px;
 }
@@ -45,40 +41,10 @@ vellum-doc::part(index-h4) {
   font-size: 0.8em;
 }
 
-#document {
-  padding-left: 5em;
-  padding-right: 5em;
-}
-
-@media (max-width: 850px) {
-  #document {
-    padding-left: 2em;
-    padding-right: 1em;
-  }
-}
-
-#document > section {
-  width: 100%;
-}
-
-#document > section:has(h4:first-child) {
-  width: 47%;
-}
-
-@media (max-width: 750px) {
-  #document > section:has(h4:first-child) {
-    width: 100%;
-  }
-}
-
 #document h1,
 #document h2,
 #document h3,
 #document h4 {
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-
-#document footer {
-  border-top: 1px solid;
+  margin: 1.4rem 0 0.7rem;
+  padding: 1.4rem 0 0.7rem;
 }
