@@ -74,13 +74,17 @@ All protagonists in **GODWROT** are broken in some way. **Flaws**[^1] represent 
 
 ## Rules
 
-The game is like a **conversation**. People describe what their protagonists do, ask questions about what’s going on, and talk in character.
-
-At some point, the mod will determine that something requires a roll. Actions require a roll when they are opposed by other characters or run the risk of interesting failure. When one of these conditions is met, the player needs to roll for a [basic move](#basic-moves). The mod will name which [attribute](#attributes) applies to the situation. The player rolls two six-sided dice and adds their attribute to the sum. The effects depend on the basic move in question.
-
-Moves and [reactions](#reactions) should continually propel the game forward in interesting ways. When a player succeeds on a move, their success should be interesting and introduce new opportunities for them. When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions. When a player fails on a basic move, the mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
+The game is like a **conversation**. People describe what their protagonists do, ask questions about what’s going on, and talk in character. Sometimes, the conversation will trigger [moves](#basic-moves) and [reactions](#reactions), which should continually propel the game forward in interesting ways.
 
 Whenever people look at the mod expectantly, the mod should make a regular reaction. This should create new things for the players to react to. The mod should then go on to say, “So, what do you do?”
+
+### Rolling
+
+At some point, the mod will determine that something has triggered a [move](#basic-moves) and requires a roll. The player rolls two six-sided dice and adds whatever modifiers apply to the sum. The effects depend on the move in question.
+
+- When a player succeeds on a move, their success should be interesting and introduce new opportunities for them.
+- When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.
+- When a player fails on a basic move, the mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
 
 ### Mea Culpa
 
@@ -111,9 +115,9 @@ You either hold or do not have luck. It doesn't collect and once you've used luc
 
 #### Taking Action
 
-When you **take an action that risks failure or opposition**, roll with one of the basic [attributes](#attributes).
+When you **take an action that risks failure or opposition**, the mod tells you which of your [attributes](#attributes) is relevant and add that you roll.
 
-- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward). If the **action is related to your flaw** you can take a [mea culpa](#mea-culpa) instead and hold [luck](#luck).
+- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward). If the **action is related to your flaw** you can take a [mea culpa](#mea-culpa) instead and hold [luck](#luck).
 - On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
 - On a -6 you fail with a [hard reaction](#reactions). You can choose to spend luck to succeed as though you had rolled a 7-9 instead.
 
