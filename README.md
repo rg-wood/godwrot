@@ -1,6 +1,6 @@
 # GODWROT
 
-_**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)** | **[Issues](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**_
+_**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)**
 
 **GODWROT** is a narrative game of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school. It is based on [Simple World](https://buriedwithoutceremony.com/simple-world) by Avery Adler, and the _Powered by the Apocalypse World_ engine by D. Vincent Baker and Meguey Baker.
 
@@ -80,7 +80,7 @@ Whenever people look at the mod expectantly, the mod should make a regular react
 
 ### Rolling
 
-At some point, the mod will determine that something has triggered a [move](#basic-moves) and requires a roll. The player rolls two six-sided dice and adds whatever modifiers apply to the sum. The effects depend on the move in question.
+At some point, the mod will determine that something has triggered a [move](#basic-moves) and requires a roll. The player rolls two six-sided dice and adds whatever modifiers apply to the sum. The effects depend on the move in question.
 
 - When a player succeeds on a move, their success should be interesting and introduce new opportunities for them.
 - When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.
@@ -115,7 +115,7 @@ You either do or do not hold luck. It doesn't stack and once you've used it you 
 
 #### Taking Action
 
-When you **take an action that risks failure or opposition**, the mod tells you which of your [attributes](#attributes) is relevant and add that you roll.
+When you **take an action that risks failure or opposition**, the mod tells you which of your [attributes](#attributes) is relevant and add that you roll.
 
 - On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward). If the **action is related to your flaw** you can take a [mea culpa](#mea-culpa) instead and hold [luck](#luck).
 - On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
