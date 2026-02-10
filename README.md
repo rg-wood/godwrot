@@ -256,4 +256,4 @@ The reactions are:
 - Reveal a mystery that obscures.
 - Introduce corruption to obstruct.
 
-[^1]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania), rather than between protagonists, should be avoided.
+[^1]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided.
