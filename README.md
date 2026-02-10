@@ -109,7 +109,7 @@ For example:
 >
 > Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
-You either hold or do not have luck. It doesn't collect and once you've used luck you must take a mea culpa to hold it again.
+You either do or do not hold luck. It doesn't stack and once you've used it you must take a mea culpa to hold it again.
 
 ### Basic Moves
 
