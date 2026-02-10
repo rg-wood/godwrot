@@ -1,17 +1,21 @@
-const fs = require("fs");
-const { marked } = require("marked");
-const markedFootnote = require("marked-magickcss-sidenote");
-const package = JSON.parse(fs.readFileSync("package.json", "utf8"));
-const { Liquid } = require("liquidjs");
+import { marked } from "marked";
+import markedFootnote from "marked-magickcss-sidenote";
+import project from "./package.json" with { type: "json" };
+import { Liquid } from "liquidjs";
+import { JSDOM } from "jsdom";
+import DOMPurify from "dompurify";
+
+const window = new JSDOM("").window;
+const purify = DOMPurify(window);
 const engine = new Liquid();
 
 marked.use({
   gfm: true,
 });
 
-const markdown = fs.readFileSync("README.md", "utf8");
-const html = marked.use(markedFootnote()).parse(markdown);
+const parser = marked.use(markedFootnote());
 
-engine
-  .renderFile("index.liquid", { content: html, project: package })
-  .then(console.log);
+engine.registerFilter("markdown", parser.parse);
+engine.registerFilter("safe", purify.sanitize);
+
+engine.renderFile("index.liquid", { project: project }).then(console.log);
