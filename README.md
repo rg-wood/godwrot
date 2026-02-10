@@ -82,14 +82,40 @@ Moves and [reactions](#reactions) should continually propel the game forward in 
 
 Whenever people look at the mod expectantly, the mod should make a regular reaction. This should create new things for the players to react to. The mod should then go on to say, “So, what do you do?”
 
+### Mea Culpa
+
+When you succeed on a [move](#basic-moves) related to your [flaw](#flaw) you can choose take a **mea culpa** instead. A mea culpa is something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**.
+
+When you take a mea culpa:
+
+- Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail.
+- Devise a suitable [hard reaction](#reactions) with the mod.
+- Make it [grubby](#grubby).
+- It's not all bad: you get to hold [luck](#luck).
+
+#### Luck
+
+When you take a [mea culpa](#mea-culpa) Lady Luck takes pity on your foibles and you hold **luck**. You may spend luck to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it [grubby](#grubby). The mod will then offer you a hard bargain or a cost.
+
+For example:
+
+> Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.
+>
+> Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
+>
+> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
+
+You either hold or do not have luck. It doesn't collect and once you've used luck you must take a mea culpa to hold it again.
+
 ### Basic Moves
 
 #### Taking Action
 
 When you **take an action that risks failure or opposition**, roll with one of the basic [attributes](#attributes).
 
-- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward).
+- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward). If the **action is related to your flaw** you can take a [mea culpa](#mea-culpa) instead and hold [luck](#luck).
 - On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
+- On a -6 you fail with a [hard reaction](#reactions). You can choose to spend luck to succeed as though you had rolled a 7-9 instead.
 
 #### Helping or Hindering
 
@@ -102,20 +128,6 @@ When you **help or hinder a NPC**, roll your trust stat with that person.
 
 - On a 10+, they either succeed or fail - your choice.
 - On a 7-9, the mod will name a cost; if you accept the cost, they either succeed or fail - your choice.
-
-#### Snatching Defeat
-
-When you **succeed with a move related to your flaw** you can choose to fail that roll instead and take 1 [luck point](#luck). Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#grubby).
-
-You may spend a luck point to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
-
-For example:
-
-> Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead.
->
-> Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
->
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
 ### Trust Moves
 
@@ -148,10 +160,6 @@ Sometimes, succeeding on a [Taking Action](#taking-action) roll means that the p
 ### Resource Points
 
 When someone succeeds (with a 10+ or a 7-9) on a [Taking Action](#taking-action) roll, it’ll sometimes make sense to represent their success with a number of **resource points**. For example, if someone tries to read a person’s facial expressions and determine their true intent in a conversation, they might make a roll. If they get a 10+, the mod might determine that they have 3 conversation points, and they can spend those points 1-for-1 to get answers about the character’s motivations and goals during the conversation. Resource points are always given a name and function at the time they are awarded. In most cases, resource points should be temporary, lasting until the end of a scene or situation.
-
-#### Luck
-
-**Luck** are resource points that represent Lady Luck's favour, and are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**. See the description of the [Snatch Defeat](#snatch-defeat) move for more information on how luck work.
 
 ## Moderation
 
