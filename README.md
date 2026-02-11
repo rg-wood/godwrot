@@ -84,7 +84,7 @@ At some point, the mod will determine that something has triggered a [move](#bas
 
 - When a player succeeds on a move, their success should be interesting and introduce new opportunities for them.
 - When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.
-- When a player fails on a basic move, the mod should respond with a hard reaction that fundamentally changes the situation and demands new kinds of action.
+- When a player fails on a basic move, the mod should respond with a [hard reaction](#reactions) that fundamentally changes the situation and demands new kinds of action.
 
 ### Mea Culpa
 
