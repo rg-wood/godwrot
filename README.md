@@ -2,7 +2,7 @@
 
 **[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)**
 
-**GODWROT** is a narrative game of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school. It is based on [Simple World](https://buriedwithoutceremony.com/simple-world) by Avery Adler, and the _Powered by the Apocalypse World_ engine by D. Vincent Baker and Meguey Baker.
+**GODWROT** is a narrative game of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school. It is based on [Simple World](https://buriedwithoutceremony.com/simple-world) by Avery Adler, and the _Powered by the Apocalypse World_ engine by D. Vincent Baker and Meguey Baker.[^1]
 
 ## Protagonists
 
@@ -58,7 +58,7 @@ The next stage of creating protagonists is to pick 2 **player moves**. When a pl
 
 ### Flaws
 
-All protagonists in **GODWROT** are broken in some way. **Flaws**[^1] represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a flaw from the list below and record it on your protagonist sheet:
+All protagonists in **GODWROT** are broken in some way. **Flaws**[^2] represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a flaw from the list below and record it on your protagonist sheet:
 
 - Bolshy
 - Bumbling
@@ -258,4 +258,6 @@ The reactions are:
 - Reveal a mystery that obscures.
 - Introduce corruption to obstruct.
 
-[^1]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided.
+[^1]: With thanks to Morgan and Kat Rebelo as fond friends, and for their conscientious playtesting and generous feedback.
+
+[^2]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided.
