@@ -258,6 +258,6 @@ The reactions are:
 - Reveal a mystery that obscures.
 - Introduce corruption to obstruct.
 
-[^1]: With thanks to Morgan and Kat Rebelo as fond friends, and for their conscientious playtesting and generous feedback.
+[^1]: With thanks to Morgan and Kat Rebelo for their conscientious playtesting and generous feedback.
 
 [^2]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided.
