@@ -36,8 +36,8 @@ A **career move** determines what your protagonist did before they were drawn in
 
 Your background indicates the dubious circumstances of your birth. For example, you could be a humble halfling or a street urchin. A career is some kind of profession suitable for a protagonist, such as burglar or itinerant monk.
 
-> For example:
->
+For example:
+
 > **Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1.
 
 ### Player Moves
