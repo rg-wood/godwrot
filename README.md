@@ -88,7 +88,9 @@ At some point, the mod will determine that something has triggered a [move](#bas
 
 ### Mea Culpa
 
-When you succeed on a [move](#basic-moves) related to your [flaw](#flaw) you can choose to take a **mea culpa** instead. A mea culpa is something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**.
+When you succeed on a [move](#basic-moves) related to your [flaw](#flaw) you can choose to take a **mea culpa** instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue.
+
+Rules-wise, a mea culpa is something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**.
 
 When you take a mea culpa:
 
