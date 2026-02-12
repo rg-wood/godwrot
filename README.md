@@ -82,9 +82,9 @@ Whenever people look at the mod expectantly, the mod should make a regular react
 
 At some point, the mod will determine that something has triggered a [move](#basic-moves) and requires a roll. The player rolls two six-sided dice and adds whatever modifiers apply to the sum. The effects depend on the move in question.
 
-- When a player succeeds on a move, their success should be interesting and introduce new opportunities for them.
+- When a player succeeds on a move (rolls 10+) , their success should be interesting and introduce new opportunities for them.
 - When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.
-- When a player fails on a basic move, the mod should respond with a [hard reaction](#reactions) that fundamentally changes the situation and demands new kinds of action.
+- When a player fails on a basic move (6 or less), the mod should respond with a [hard reaction](#reactions) that fundamentally changes the situation and demands new kinds of action.
 
 ### Mea Culpa
 
