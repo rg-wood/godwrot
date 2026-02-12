@@ -38,7 +38,7 @@ Your background indicates the dubious circumstances of your birth. For example, 
 
 For example:
 
-> **Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1.
+_**Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1._
 
 ### Player Moves
 
@@ -105,11 +105,11 @@ When you take a [mea culpa](#mea-culpa) Lady Luck takes pity on your foibles and
 
 For example:
 
-> Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to take a mea culpa and fail the attack move instead, and hold luck.
->
-> Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
->
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
+_Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to take a mea culpa and fail the attack move instead, and hold luck._
+
+_Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll._
+
+_Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere._
 
 You either do or do not hold luck. It doesn't stack and once you've used it you must take a mea culpa to hold it again.
 
