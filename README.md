@@ -1,8 +1,8 @@
 # GODWROT
 
-_**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)** | **[Issues](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug)**_
+**[Source](https://github.com/rg-wood/godwrot)** | **[Roadmap](https://github.com/rg-wood/godwrot/issues?q=is%3Aissue%20state%3Aopen%20label%3Aenhancement)**
 
-**GODWROT** is a _Powered by the Apocalypse_ hack of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school.
+**GODWROT** is a narrative game of grubby fantasy inspired by _Warhammer_, _Terry Pratchett_ and the British old-school. It is based on _Skeleton World_ by Patrick Barry , _Dungeon World_ and the _Powered by the Apocalypse World_ engine by D. Vincent Baker and Meguey Baker.[^1]
 
 ## Protagonists
 
@@ -12,7 +12,7 @@ In **GODWROT** you play as **protagonists**, individuals of dubious morality who
 2. Set [harm](#harm) at 4 + Strength + Will.
 3. Choose a [flaw](#flaws).
 4. Choose your [career move](#career-moves).
-5. Pick 2 [player moves](#player-moves).
+5. Pick 2 [protagonist moves](#protagonist-moves).
 
 ### Stats
 
@@ -26,13 +26,13 @@ Assign the following numbers to each of your **stats**: +2, +1, +1, 0, -1. The s
 
 ### Flaws
 
-All protagonists in **GODWROT** are broken in some way. **Flaws** represent this and determine when you can use the [Snatch Defeat](#snatch-defeat) basic move. Choose a flaw from the list below and record it on your protagonist sheet:
+All protagonists in **GODWROT** are broken in some way. **Flaws**[^2] represent this and determine when you can takea [mea culpa](#mea-culpa). Choose a flaw from the list below and record it on your protagonist sheet:
 
 - Bolshy
 - Bumbling
 - Cowardly
 - Devious
-- Drunk
+- Drunkard
 - Fanatical
 - Greedy
 - Gruff
@@ -48,9 +48,9 @@ A **career move** determines what your protagonist did before they were drawn in
 
 Your background indicates the dubious circumstances of your birth. For example, you could be a humble halfling or a street urchin. A career is some kind of profession suitable for a protagonist, such as burglar or itinerant monk.
 
-> For example:
->
-> **Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1.
+For example:
+
+_**Halfling Herbalist:** When you **do something related to your background as a halfling or your career as a herbalist**, add +1._
 
 ### Protagonist Moves
 
@@ -91,25 +91,46 @@ Some [moves](#moves)...
 
 When a character looses all harm they are **taken out** and leave the game somehow, perhaps simply dying or perhaps running off into the darkness in abject fear, or something else altogether. For protagonists, the player gets to decide what happens to their character. For NPCs, the mod decides what happens, usually something short for average NPCs.
 
+### Rolling
+
+At some point, the mod will determine that something has triggered a [move](#basic-moves) and requires a roll. The player rolls two six-sided dice and adds whatever modifiers apply to the sum. The effects depend on the move in question.
+
+- When a player succeeds on a move (rolls 10+) , their success should be interesting and introduce new opportunities for them.
+- When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.
+- When a player fails on a basic move (6 or less), the mod should respond with a [hard move](#mod-moves) that fundamentally changes the situation and demands new kinds of action.
+
+### Mea Culpa
+
+When you succeed on a [move](#basic-moves) related to your [flaw](#flaws) you can choose to take a **mea culpa** instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue.
+
+Rules-wise, a mea culpa is something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**.
+
+When you take a mea culpa:
+
+- Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail.
+- Devise a suitable [hard move](#mod-moves) with the mod.
+- Make it [grubby](#grubby).
+- It's not all bad: you get to hold [luck](#luck).
+
+#### Luck
+
+When you take a [mea culpa](#mea-culpa) Lady Luck takes pity on your foibles and you hold **luck**. You may spend luck to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it [grubby](#grubby). The mod will then offer you a hard bargain or a cost.
+
+For example:
+
+_Gregori succeeds on an attack move on a roll of 11. This move is related to his flaw, Reckless. He decides to take a mea culpa and fail the attack move instead, and hold luck._
+
+_Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll._
+
+_Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere._
+
+You either do or do not hold luck. It doesn't stack and once you've used it you must take a mea culpa to hold it again.
+
 ### Basic Moves
 
 #### Take Action
 
 When you **attempt to do something risky or uncertain**, roll a stat. The mod lets you know which of your [stats](#stats) you roll with. **On a 10+**, you do what you set out to do. The mod may offer a +1 forward, +1 ongoing or hold. **On a 7–9**, you stumble, hesitate, or flinch: the mod will offer you a worse outcome, hard bargain or ugly choice.
-
-#### Snatch Defeat
-
-When you **succeed with a roll related to your flaw** you can choose to fail that roll instead and hold 1. Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail. Make it [grubby](#grubby).
-
-You may spend your hold to accidentally succeed any failed roll related to your flaw. Similarly, describe how luck allows you to succeed despite your failings.
-
-For example:
-
-> Gregori succeeds on an attack move with a roll of 11. This move is related to his flaw, Reckless. He decides to Snatch Defeat and fail the attack move instead, taking 1 hold.
->
-> Gregori's player describes him becoming off balance and the mod determines he takes a -1 penalty to his next Agility roll.
->
-> Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his hold, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere.
 
 ## Moderation
 
@@ -188,3 +209,7 @@ The mod moves are:
 - Turn their move back on them.
 - Reveal a mystery that obscures.
 - Introduce corruption to obstruct.
+
+[^1]: With thanks to Morgan and Kat Rebelo for their conscientious playtesting and generous feedback.
+
+[^2]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided. Flaws as temporary conditions (such as Drunk) should also be avoided.

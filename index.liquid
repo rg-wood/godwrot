@@ -6,6 +6,7 @@
 
     <title>{{ project.document.title }}</title>
 
+    <link href="vendor/normalize.css/normalize.css" rel="stylesheet">
     <link href="vendor/magick.css/magick.css" rel="stylesheet">
     <link href="assets/styles/main.css" rel="stylesheet">
 
@@ -15,25 +16,23 @@
   </head>
 
   <body>
-    <main>
-      <vellum-doc anchors>
+    <vellum-doc anchors>
+      <main>
         <section id="document">
-          {{ content }}
+          {% capture document %}{% render "README.md" %}{% endcapture %}
+          {{ document | markdown | safe }}
 
           <footer>
             <p>
               {{ project.document.title }}
               {{ project.version }} &copy; 2026 <a href="{{ project.author.url }}">{{ project.author.name }}</a>.
-              reative Commons Attribution 3.0 Unported License. To view a copy of this license, visit
+              Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit
               <a href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a> or
               send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
-              GODWROT is based on <em>Skeleton World</em> by Patrick Barry , <em>Dungeon World</em> and
-              <em>Powered by the Apocalypse World</em>
-              engine by D. Vincent Baker and Meguey Baker.
             </p>
           </footer>
         </section>
-      </vellum-doc>
-    </main>
+      </main>
+    </vellum-doc>
   </body>
 </html>
