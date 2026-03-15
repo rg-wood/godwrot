@@ -20,7 +20,7 @@
     "@shopify/prettier-plugin-liquid": "^1.10.0",
     "browser-sync": "^3.0.4",
     "concurrently": "^9.2.1",
-    "dompurify": "^3.3.1",
+    "dompurify": "^3.3.2",
     "gh-pages": "^6.3.0",
     "htmlhint": "^1.9.1",
     "jsdom": "^28.1.0",
