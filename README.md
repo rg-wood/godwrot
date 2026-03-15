@@ -86,22 +86,21 @@ At some point, the mod will determine that something has triggered a [move](#bas
 - When a player gets a 7-9 on a [basic move](#basic-moves), the dilemma and hard bargain should create compelling drama, and either choice should be interesting and take the story in new directions.
 - When a player fails on a basic move (6 or less), the mod should respond with a [hard reaction](#reactions) that fundamentally changes the situation and demands new kinds of action.
 
-### Mea Culpa
+### Basic Moves
 
-When you succeed on a [move](#basic-moves) related to your [flaw](#flaws) you can choose to take a **mea culpa** instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue.
+#### Taking Action
 
-Rules-wise, a mea culpa is something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of **GODWROT**.
+When you **take an action that risks failure or opposition**, the mod tells you which of your [stats](#stats) is relevant and add that you roll.
 
-When you take a mea culpa:
+- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward). If the **action is related to your flaw** you can take a [mea culpa](#mea-culpa) instead and hold [luck](#luck).
+- On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
+- On a -6 you fail with a [hard reaction](#reactions). You can choose to spend luck to succeed as though you had rolled a 7-9 instead.
 
-- Describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail.
-- Devise a suitable [hard reaction](#reactions) with the mod.
-- Make it [grubby](#grubby).
-- It's not all bad: you get to hold [luck](#luck).
+#### Mea Culpa
 
-#### Luck
+When you **succeed on a move related to your [flaw](#flaws)** you can choose to take a **mea culpa** instead. When you do so, you snatch defeat from the jaws of victory, allowing your flaw to overcome your virtue. Hold luck and describe how your [flaw](#flaws) intervenes to frustrate your goals and causes you to fail and devise a suitable [hard reaction](#reactions) with the mod.
 
-When you take a [mea culpa](#mea-culpa) Lady Luck takes pity on your foibles and you hold **luck**. You may spend luck to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it [grubby](#grubby). The mod will then offer you a hard bargain or a cost.
+You may spend **luck** to accidentally succeed on any failed roll as though you had rolled a 7-9. Describe how fortune intervenes and allows you to succeed despite your failings. As always, make it [grubby](#grubby). The mod will then offer you a hard bargain or a cost.
 
 For example:
 
@@ -112,16 +111,6 @@ _Gregori's player describes him becoming off balance and the mod determines he t
 _Later, Gregori is fighting Marcus, the Bandit King. It's an important fight but he fails an attack move at a crucial moment. Deciding to spend his luck, he somehow succeeds instead. His player describes his stroke of luck, saying "as I blindly attack, my broadsword swings wild, missing Marcus' head and instead slamming into a line of rope tying up a crate." The mod determines the crate slams into Marcus' head, blood and brains splattering everywhere._
 
 You either do or do not hold luck. It doesn't stack and once you've used it you must take a mea culpa to hold it again.
-
-### Basic Moves
-
-#### Taking Action
-
-When you **take an action that risks failure or opposition**, the mod tells you which of your [stats](#stats) is relevant and add that you roll.
-
-- On a 10+, you succeed at your goal. As appropriate, the mod might award you: [resource points](#resource-points), [harm](#harm) dealt or a [bonus to carry forward](#bonus-to-carry-forward). If the **action is related to your flaw** you can take a [mea culpa](#mea-culpa) instead and hold [luck](#luck).
-- On a 7-9, the mod will offer you a hard bargain or a cost. If you agree to that hard bargain or cost, you succeed at your goal (and as appropriate, the mod might award you resource points, harm dealt, or a bonus to carry forward).
-- On a -6 you fail with a [hard reaction](#reactions). You can choose to spend luck to succeed as though you had rolled a 7-9 instead.
 
 #### Helping or Hindering
 
