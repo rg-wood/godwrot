@@ -20,6 +20,7 @@
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.10.0",
     "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
     "dompurify": "^3.3.1",
     "gh-pages": "^6.3.0",
     "htmlhint": "^1.9.1",
@@ -47,7 +48,7 @@
     "test": "npm run lint && npm run test:links",
     "test:pr": "npm run lint && npm run test:links:soft --skip example.com",
     "test:links": "linkinator --check-fragments dist/index.html --skip example.com",
-    "start": "npm run build && npm run start:server",
+    "start": "npm run build && concurrently 'npm run start:server' 'npm run build:watch'",
     "start:server": "browser-sync start --server --files dist --ss dist"
   },
   "watch": {

@@ -19,17 +19,12 @@
     <vellum-doc anchors>
       <main>
         <section id="document">
-          {% capture document %}{% render "README.md" %}{% endcapture %}
+          {% capture document %}{% include "README.md" %}{% endcapture %}
           {{ document | markdown | safe }}
 
           <footer>
-            <p>
-              {{ project.document.title }}
-              {{ project.version }} &copy; 2026
-              <a href="{{ project.author.url }}">{{ project.author.name }}</a>
-              is licensed under
-              <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 30</a>.
-            </p>
+            {% capture footer %}{% include "includes/footer.md" %}{% endcapture %}
+            {{ footer | markdown | safe }}
           </footer>
         </section>
       </main>
