@@ -95,8 +95,8 @@ When a character looses all harm they are **taken out** and leave the game someh
 
 The basic moves you can make are:
 
-- When you succeed on a move related to your [flaw](#flaws) make the **[Fuck Up](#fuck-up)** move.
-- When you attempt to do something risky or uncertain make the **[Take Action](#take-action)** move.
+- When you succeed on a move related to your [flaw](#flaws) make the **[Fuck Up](#fuck-up)** move.
+- When you attempt to do something risky or uncertain make the **[Take Action](#take-action)** move.
 
 ### Fuck Up
 
