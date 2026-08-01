@@ -198,4 +198,4 @@ The mod moves are:
 
 [^2]: You can come up with your own flaws, but some care should be taken. Unplayable flaws that discourage roleplaying (like Shy), or risk conflict between players (such as Kleptomania) should be avoided. Flaws as temporary conditions (such as Drunk) should also be avoided.
 
-[^3]: The Fuck Up move presents something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. They are key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of GODWROT.
+[^3]: The Fuck Up move presents something of a hard bargain: you decide to fail a roll now so that you can succeed on another roll later. It is key to the see-saw mechanic of self-sabotage and unlikely luck that is core to the fiction of GODWROT.
