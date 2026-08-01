@@ -1,12 +1,22 @@
-const fs = require("fs");
-const { marked } = require("marked");
-const package = JSON.parse(fs.readFileSync("package.json", "utf8"));
+import { marked } from "marked";
+import markedFootnote from "marked-magickcss-sidenote";
+import { gfmHeadingId } from "marked-gfm-heading-id";
+import project from "./package.json" with { type: "json" };
+import { Liquid } from "liquidjs";
+import { JSDOM } from "jsdom";
+import DOMPurify from "dompurify";
 
-const markdown = fs.readFileSync("README.md", "utf8");
-const template = fs.readFileSync("index.html", "utf8");
-const html = marked.parse(markdown);
-const compiled = template
-  .replace(/\_\_MARKDOWN\_\_/g, html)
-  .replace(/\_\_VERSION\_\_/g, package.version);
+const window = new JSDOM("").window;
+const purify = DOMPurify(window);
+const engine = new Liquid();
 
-console.log(compiled);
+marked.use({
+  gfm: true,
+});
+
+const parser = marked.use(markedFootnote()).use(gfmHeadingId());
+
+engine.registerFilter("markdown", parser.parse);
+engine.registerFilter("safe", purify.sanitize);
+
+engine.renderFile("index.liquid", { project: project }).then(console.log);

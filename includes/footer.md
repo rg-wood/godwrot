@@ -1,0 +1,1 @@
+{{ project.document.title }} {{ project.version }} &copy; 2024 by [{{ project.author.name }}]({{ project.author.url }}) is licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 30</a>.

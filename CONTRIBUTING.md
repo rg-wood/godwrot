@@ -2,7 +2,7 @@
 
 ## Style Guide
 
-When writing for **GODWROT** there are set of standards for language and formatting that should be followed, as well as tings you need to consider. 
+When writing for **GODWROT** there are set of standards for language and formatting that should be followed, as well as tings you need to consider.
 
 ### Spelling and Grammar
 
