@@ -21,7 +21,7 @@
     "browser-sync": "^3.0.4",
     "@shopify/prettier-plugin-liquid": "^1.11.0",
     "concurrently": "^10.0.4",
-    "dompurify": "^3.4.12",
+    "dompurify": "^3.4.13",
     "gh-pages": "^6.3.0",
     "htmlhint": "^1.9.2",
     "jsdom": "^30.0.1",
